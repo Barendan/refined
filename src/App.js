@@ -6,7 +6,7 @@ import PrivateRoute from './PrivateRoute';
 
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
-import SignUp from './components/SignUp/SignUp';
+import Register from './components/Register/Register';
 // import Dashboard from './Dashboard';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
 		    <div className="App">
 			    <PrivateRoute exact path="/" component={Home} />
 			    <Route exact path="/login" component={Login} />
-			    <Route exact path="/signup" component={SignUp} />
+			    <Route exact path="/register" component={Register} />
 		    </div>
 		</Router>
   	</AuthProvider>

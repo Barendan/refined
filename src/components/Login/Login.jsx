@@ -41,8 +41,8 @@ const Login = ({ history }) => {
 					<input name="password" type="password" placeholder="Password" />
 				</label>
 				<button type="submit">Log in</button>
-				<Link to="/signup">
-					<button type="button">Sign up</button>
+				<Link to="/register">
+					<button type="button">Register</button>
 				</Link>
 			</form>
 		</div>
