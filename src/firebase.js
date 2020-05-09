@@ -1,5 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore';
+import 'firebase/auth';
 
 
 // Your web app's Firebase configuration
@@ -13,6 +14,7 @@ var firebaseConfig = {
   appId: "1:265302517003:web:c42219ec087e2c5ad66e0e",
   measurementId: "G-691PRR65HD"
 };
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 

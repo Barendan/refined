@@ -1,18 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { AuthProvider } from './Auth';
+import PrivateRoute from './PrivateRoute';
 
-import ContactList from './components/contacts';
-import AddContactForm from './components/addcontactform';
-
+import Home from './components/Home/Home';
+import Login from './components/Login/Login';
+import SignUp from './components/SignUp/SignUp';
+// import Dashboard from './Dashboard';
 
 function App() {
   return (
-    <div className="App">
-      <h1> Refined </h1>
-      <ContactList />
-      <AddContactForm />
-    </div>
+  	<AuthProvider>
+	  	<Router>
+		    <div className="App">
+			    <PrivateRoute exact path="/" component={Home} />
+			    <Route exact path="/login" component={Login} />
+			    <Route exact path="/signup" component={SignUp} />
+		    </div>
+		</Router>
+  	</AuthProvider>
   );
 }
 
