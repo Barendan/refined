@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import firebase from '../../firebase';
 
 import ContactList from './contacts';
 import AddContactForm from './addcontactform';
+
+
 
 const Home = () => {
 	return (
@@ -12,8 +14,8 @@ const Home = () => {
 			<hr />
 
 			<h1> Refined </h1>
-			<ContactList />
 			<AddContactForm />
+			<ContactList />
 		</div>
 	)
 }

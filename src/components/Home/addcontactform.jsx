@@ -1,18 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import firebase from '../../firebase';
+
+import { AuthContext } from '../../Auth';
+
 
 const AddContactForm = () => {
 	const [FirstName, setFirstName] = useState('')
 	const [LastName, setLastName] = useState('')
 	const [age, setAge] = useState('')
 
+	const user = useContext(AuthContext)
+	const userId = user.currentUser.uid
+
 	function onSubmit(e) {
 		e.preventDefault()
+		const db = firebase.database();
+		const newContactKey = db.ref().child('contacts').push().key;
 
-		firebase
-			.firestore()
-			.collection('contact_List')
-			.add({
+		db
+			.ref('users/' + userId)
+			.child('contactList/' + newContactKey)
+			.update({
 				FirstName,
 				LastName,
 				age
@@ -28,6 +36,7 @@ const AddContactForm = () => {
 	return (
 		<form onSubmit={onSubmit}>
 			<h4>Add Contact</h4>
+			{console.log(userId)}
 			<div>
 				<label>First Name</label>
 				<input type="text" value={FirstName} onChange={e => setFirstName(e.currentTarget.value)}/>

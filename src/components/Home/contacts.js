@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-
-import firebase from '../../firebase';
+import React, { useState, useEffect, useContext } from 'react'
+import { AuthContext } from '../../Auth'
+import firebase from '../../firebase'
 
 const SORT_OPTIONS = {
 	'FirstName_ASC': {column: 'FirstName', direction: 'asc'},
@@ -12,23 +12,39 @@ const SORT_OPTIONS = {
 
 function useContacts(sortBy = 'FirstName_ASC') {
 	const [contacts, setContacts] = useState([])
+	const user = useContext(AuthContext)
+	const userId = user.currentUser.uid
+	const contactArray = []
 
 	useEffect(()=> {
+		console.log("hello")
 		const unsubscribe = firebase
-			.firestore()
-			.collection('contact_List')
-			.orderBy(SORT_OPTIONS[sortBy].column, SORT_OPTIONS[sortBy].direction)
-			.onSnapshot((snapshot) => {
-				const newContacts = snapshot.docs.map((doc) => ({
-					id: doc.id,
-					...doc.data()
+			.database()
+			.ref('users/' + userId )
+			// .child('contactList/')
+			.on('value', (snapshot) => {
+				console.log("docs", snapshot)
+				console.log("val", snapshot.val())
+
+				snapshot.child('contactList').forEach(function(childSnapshot) {
+					contactArray.push({
+						id: childSnapshot.key,
+						info: childSnapshot.val()
+					})
+					// console.log("key", childSnapshot.key)
+					// console.log("val", childSnapshot.val())
+				})
+				const newContacts = contactArray.map((contact) => ({
+					id: contact.id,
+					...contact.info
 				}))
 
 				setContacts(newContacts)
+
 			})
 
 		return () => unsubscribe()
-	}, [sortBy])
+	}, [])
 
 	return contacts
 }
