@@ -10,48 +10,48 @@ const SORT_OPTIONS = {
 	'LastName_DESC': {column: 'LastName', direction: 'desc'},
 }
 
-function useContacts(sortBy = 'FirstName_ASC') {
+function useContacts() {
 	const [contacts, setContacts] = useState([])
 	const user = useContext(AuthContext)
 	const userId = user.currentUser.uid
-	const contactArray = []
 
 	useEffect(()=> {
-		console.log("hello")
-		const unsubscribe = firebase
+		firebase
 			.database()
 			.ref('users/' + userId )
-			// .child('contactList/')
 			.on('value', (snapshot) => {
-				console.log("docs", snapshot)
-				console.log("val", snapshot.val())
-
+				const contactArray = []
 				snapshot.child('contactList').forEach(function(childSnapshot) {
 					contactArray.push({
 						id: childSnapshot.key,
 						info: childSnapshot.val()
 					})
-					// console.log("key", childSnapshot.key)
-					// console.log("val", childSnapshot.val())
 				})
 				const newContacts = contactArray.map((contact) => ({
 					id: contact.id,
 					...contact.info
 				}))
-
 				setContacts(newContacts)
-
 			})
-
-		return () => unsubscribe()
 	}, [])
 
 	return contacts
 }
 
+
 const ContactList = () => {
 	const [sortBy, setSortBy] = useState('FirstName_ASC')
-	const contacts = useContacts(sortBy)
+	const contacts = useContacts()
+	const user = useContext(AuthContext)
+	const userId = user.currentUser.uid
+
+	const removeContact = (uid) => {
+		firebase.database().ref('users/' + userId).child('contactList').on('value', (snap) => {
+			snap.forEach( (itemSnap) => {
+				snap.ref.child(uid).remove()
+			})
+		})
+	}
 
 	return (
 		<div className="container">
@@ -69,7 +69,7 @@ const ContactList = () => {
 			</div>
 			<ol>
 				{contacts.map((contact) =>
-					<li key={contact.id}>
+					<li key={contact.id} onClick={ () => removeContact(contact.id)}>
 						<div className="contact-entry">
 							{contact.FirstName} {contact.LastName}
 							<code className="age">{contact.age}</code>

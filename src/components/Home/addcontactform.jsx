@@ -36,7 +36,6 @@ const AddContactForm = () => {
 	return (
 		<form onSubmit={onSubmit}>
 			<h4>Add Contact</h4>
-			{console.log(userId)}
 			<div>
 				<label>First Name</label>
 				<input type="text" value={FirstName} onChange={e => setFirstName(e.currentTarget.value)}/>
