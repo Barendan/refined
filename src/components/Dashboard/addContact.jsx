@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
-import firebase from '../../firebase';
+import { AuthContext } from '../Firebase/Auth';
+import firebase from '../Firebase/firebase'
 
-import { AuthContext } from '../../Auth';
 
 
 const AddContactForm = () => {
@@ -34,7 +34,7 @@ const AddContactForm = () => {
 
 
 	return (
-		<form onSubmit={onSubmit}>
+		<form className="d-none" onSubmit={onSubmit}>
 			<h4>Add Contact</h4>
 			<div>
 				<label>First Name</label>
@@ -43,6 +43,18 @@ const AddContactForm = () => {
 			<div>
 				<label>Last Name</label>
 				<input type="text" value={LastName} onChange={e => setLastName(e.currentTarget.value)}/>
+			</div>
+			<div>
+				<label>Age</label>
+				<input type="number" value={age} onChange={e => setAge(e.currentTarget.value)}/>
+			</div>
+			<div>
+				<label>Age</label>
+				<input type="number" value={age} onChange={e => setAge(e.currentTarget.value)}/>
+			</div>
+			<div>
+				<label>Age</label>
+				<input type="number" value={age} onChange={e => setAge(e.currentTarget.value)}/>
 			</div>
 			<div>
 				<label>Age</label>

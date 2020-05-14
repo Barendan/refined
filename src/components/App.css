@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Foundry";
+    src: url("/fonts/FoundryGridnik_Regular.otf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gateway {
+    font-family: "Foundry";
+    background: #152b36;
+    color: #007985;
+    width: 100vw;
+    height: 100vh;
+}
+
+form {
+    background: #152b36;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 4px #ddd;
+}
+
+.arrowsub {
+    background: transparent;
+    color: #007985;
+    font-size: 50px;
+    border: 0;
+}
+.arrowsub:active, .arrowsub:focus {
+    border: 0;
+    outline: 0;
+}
+.arrowsub:hover {
+    color: #fff;
+}
+
+.linkregister {
+    background: transparent;
+    color: #007985 !important;
+    border: 0;
+}
+.linkregister:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

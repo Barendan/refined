@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react'
-import { AuthContext } from '../../Auth'
-import firebase from '../../firebase'
+import { AuthContext } from '../Firebase/Auth'
+import firebase from '../Firebase/firebase'
 
 const SORT_OPTIONS = {
 	'FirstName_ASC': {column: 'FirstName', direction: 'asc'},
@@ -54,7 +54,7 @@ const ContactList = () => {
 	}
 
 	return (
-		<div className="container">
+		<div className="container d-none">
 			<h2> Contacts List </h2>
 			<div className="row">
 				<label> Sort By: </label>
