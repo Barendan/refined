@@ -1,14 +1,13 @@
 .dashboard {
     font-family: "Foundry";
-    background: #152b36;
-    color: #007985;
+    background: #152b36; /* darkest blue */
+    color: #007985; /* middle blue */
     width: 100vw;
     height: 100vh;
     padding: 1rem;
 }
 
 .displaycontact {
-	/*height: 90vh;*/
 	border: 1px solid #007985;
 	padding: 1rem;
 	margin: 0 !important;
@@ -16,43 +15,68 @@
 
 .basic {
 	font-size:22px;
-	/*text-transform: uppercase;*/
+	color: #5eadb5; /* lightest blue */
 }
 
 .profile {
-    position: absolute;
-    top: -1.3rem;
-    width: 100%;
-    height: 140%;
+    width: 120%;
+    opacity: 0.8;
 }
 
-#hexagon {
-  width: 140px;
-  height: 70px;
-  background: black;
-  position: relative;
+.img-container {
+	overflow:hidden;
+	height: 100%;
 }
-#hexagon:before {
-  content: "";
+
+
+.bb, .bb::before, .bb::after {
   position: absolute;
-  top: -40px;
+  top: 0;
+  bottom: 0;
   left: 0;
-  width: 0;
-  height: 0;
-  border-left: 72px solid transparent;
-  border-right: 68px solid transparent;
-  border-bottom: 40px solid black;
+  right: 0;
 }
-#hexagon:after {
-  content: "";
-  position: absolute;
-  bottom: -40px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 72px solid transparent;
-  border-right: 68px solid transparent;
-  border-top: 40px solid black;
+.bb {
+  width: 164px;
+  height: 164px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  /*background: url("//blog.codepen.io/wp-content/uploads/2012/06/Button-White-Large.png") no-repeat 50%/70% rgba(0, 0, 0, 0.1);*/
+  color: #5eadb5;
+  box-shadow: inset 0 0 0 1px #007985;
+}
+.bb::before, .bb::after {
+  content: '';
+  z-index: -1;
+  margin: -5%;
+  box-shadow: inset 0 0 0 2px;
+  animation: clipMe 8s linear infinite;
+  z-index: 10;
+}
+.bb::before {
+  animation-delay: -4s;
+}
+.bb:hover::after, .bb:hover::before {
+  background-color: rgba(5, 83, 92, 0.3);
+}
+
+@keyframes clipMe {
+  0%, 100% {
+    clip: rect(0px, 180px, 2px, 0px);
+  }
+  25% {
+    clip: rect(0px, 2px, 180px, 0px);
+  }
+  50% {
+    clip: rect(178px, 180px, 180px, 0px);
+  }
+  75% {
+    clip: rect(0px, 180px, 180px, 178px);
+  }
+}
+
+.quote-text {
+	font-size: 10px;
 }
 
 
@@ -113,7 +137,6 @@
 
 
 
-
 .matrix {
 
 }
@@ -153,17 +176,30 @@
 
 
 
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
 
 
 
 
+
+
+
+
+.contact-list {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.contact-list .list-group-item {
+	background: rgba(255, 255, 255, 0.1);
+	color: #5eadb5;
+}
 
 
 
 .contact-entry {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
+	background: transparent;
 }
 
 .age {

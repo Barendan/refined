@@ -34,7 +34,7 @@ const AddContactForm = () => {
 
 
 	return (
-		<form className="d-none" onSubmit={onSubmit}>
+		<form className="w-75 d-inline-block" onSubmit={onSubmit}>
 			<h4>Add Contact</h4>
 			<div>
 				<label>First Name</label>
@@ -43,18 +43,6 @@ const AddContactForm = () => {
 			<div>
 				<label>Last Name</label>
 				<input type="text" value={LastName} onChange={e => setLastName(e.currentTarget.value)}/>
-			</div>
-			<div>
-				<label>Age</label>
-				<input type="number" value={age} onChange={e => setAge(e.currentTarget.value)}/>
-			</div>
-			<div>
-				<label>Age</label>
-				<input type="number" value={age} onChange={e => setAge(e.currentTarget.value)}/>
-			</div>
-			<div>
-				<label>Age</label>
-				<input type="number" value={age} onChange={e => setAge(e.currentTarget.value)}/>
 			</div>
 			<div>
 				<label>Age</label>

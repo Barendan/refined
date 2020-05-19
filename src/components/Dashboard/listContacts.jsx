@@ -10,6 +10,63 @@ const SORT_OPTIONS = {
 	'LastName_DESC': {column: 'LastName', direction: 'desc'},
 }
 
+const DEMO_CONTACTS = [
+	{
+		"FirstName": "Alec",
+		"LastName": "Baldwin",
+		"age": 18,
+		"id":1
+	},
+	{
+		"FirstName": "Baily",
+		"LastName": "Mando",
+		"age": 23,
+		"id":2
+	},
+	{
+		"FirstName": "Casey",
+		"LastName": "Keene",
+		"age": 23,
+		"id":3
+	},
+	{
+		"FirstName": "Danny",
+		"LastName": "Cohen",
+		"age": 23,
+		"id":4
+	},
+	{
+		"FirstName": "Eduardo",
+		"LastName": "Parke",
+		"age": 23,
+		"id":5
+	},
+	{
+		"FirstName": "Frank",
+		"LastName": "Restrepo",
+		"age": 23,
+		"id":6
+	},
+	{
+		"FirstName": "Gary",
+		"LastName": "Nandez",
+		"age": 23,
+		"id":7
+	},
+	{
+		"FirstName": "Ignacio",
+		"LastName": "Secchio",
+		"age": 23,
+		"id":8
+	},
+	{
+		"FirstName": "James",
+		"LastName": "Dean",
+		"age": 23,
+		"id":9
+	}
+]
+
 function useContacts() {
 	const [contacts, setContacts] = useState([])
 	const user = useContext(AuthContext)
@@ -31,9 +88,15 @@ function useContacts() {
 					id: contact.id,
 					...contact.info
 				}))
+				// console.log("demo",newContacts)
 				setContacts(newContacts)
 			})
 	}, [])
+
+	if (contacts.length < 1) {
+		// console.log('empty');
+		setContacts(DEMO_CONTACTS);
+	}
 
 	return contacts
 }
@@ -54,9 +117,10 @@ const ContactList = () => {
 	}
 
 	return (
-		<div className="container d-none">
-			<h2> Contacts List </h2>
-			<div className="row">
+		<div className="contact-list container w-25 d-none">
+			<h2 className="p-2"> Contact List </h2>
+			
+			<div className="row d-none">
 				<label> Sort By: </label>
 				<select value={sortBy} onChange={e => setSortBy(e.currentTarget.value)}>
 					<option value="FirstName_ASC">First Name (Asc)</option>
@@ -67,16 +131,20 @@ const ContactList = () => {
 					<option>Added (oldest)</option>
 				</select>
 			</div>
-			<ol>
+
+			<ul className="list-group">
 				{contacts.map((contact) =>
-					<li key={contact.id} onClick={ () => removeContact(contact.id)}>
+					<li className="list-group-item list-group-item-action"
+						key={contact.id} 
+						onClick={ () => removeContact(contact.id)}>
 						<div className="contact-entry">
 							{contact.FirstName} {contact.LastName}
 							<code className="age">{contact.age}</code>
 						</div>
 					</li>
 				)}
-			</ol>
+			</ul>
+
 		</div>
 	)
 }
