@@ -7,8 +7,47 @@
     padding: 1rem;
 }
 
+.browser-icons {
+	position: relative;
+	background: rgba(5, 83, 92, 0.1);
+	height: 1.5rem;
+	border: 1px solid rgba(5, 83, 92, 0.5);
+	overflow: hidden;
+  	box-shadow: 0 0.25em 0.9em -0.1em rgba(0,0,0,.3);
+}
+
+.browser-icons .icon {
+	display: inline-block;
+	background: rgba(255, 255, 255,.05);
+	color: #5eadb5;
+	width: 24px;
+	height: 100%;
+	margin: 0rem 0.1rem;
+	text-align: center;
+	cursor: pointer;
+}
+
+.browser-icons .icon:hover {
+	background: rgba(255, 255, 255,0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .displaycontact {
-	border: 1px solid #007985;
+	border: 1px solid rgba(5, 83, 92, 0.5);
 	padding: 1rem;
 	margin: 0 !important;
 }
@@ -41,7 +80,6 @@
   height: 164px;
   margin: auto;
   background: rgba(0, 0, 0, 0.5);
-  /*background: url("//blog.codepen.io/wp-content/uploads/2012/06/Button-White-Large.png") no-repeat 50%/70% rgba(0, 0, 0, 0.1);*/
   color: #5eadb5;
   box-shadow: inset 0 0 0 1px #007985;
 }
@@ -160,10 +198,12 @@
 
 .matrix-item::before {
 	content: "<";
+	cursor: pointer;
 	font-weight: bold;
 }
 .matrix-item::after {
 	content: ">";
+	cursor: pointer;
 	font-weight: bold;
 }
 
