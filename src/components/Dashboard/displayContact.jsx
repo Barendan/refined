@@ -11,7 +11,8 @@ const DisplayContact = () => {
 
 	return (
 		<Row className="displaycontact justify-content-around h-100" >
-			<Col className="col-5 m-1 h-50">
+			
+			<Col className="prime col-5 m-1 h-50">
 				<h2 className="text-warning">Quinto [Fernandez]</h2>
 				<Row className="align-items-end">
 					<Col className="basic col-5 pt-5 pl-4">
@@ -27,48 +28,99 @@ const DisplayContact = () => {
 				</Row>
 			</Col>
 
-			<Col className="col-6 m-1 h-50 overflow-hidden">
-				<h4 className="">Behavior Protocols</h4>
-				<Row className="justify-content-around h-50">
-					<Col className="col-12 pb-5 border-round">
-						<div className="featured h-100">
-							Featured
+			<Col className="behavior col-6 m-1 h-50 overflow-hidden">
+				<h4 className="d-flex justify-content-end">Behavior Protocols</h4>
+				<Row className="h-50">
+					<Col className="featured d-flex justify-content-end rounded col-12 mb-5">
+						<div className="vertical-text">Paranoia</div>
+						<div className="w-75 p-3">
+							'5G is most likely what is causing this corona virus epidemic. As soon as those towers went up, we got problems.'
 						</div>
 					</Col>
 				</Row>
 				<Row className="h-50">
 					<Col className="col-4 card border-right-0 border-bottom-0">
-						<div className="card-title">
-							One
+						<div id="topmask"></div>
+						<div id="leftmask"></div>
+						<div className="card-title font-weight-bold">
+							Violence
 						</div>
-						<div className="">
-							some content currently written in here
-						</div>
-					</Col>
-					<Col className="col-4 card border-right-0 border-bottom-0">
-						<div className="card-title">
-							Two
-						</div>
-						<div className="">
-							some content currently written in here
+						<div className="smaller-font ">
+							Certain tendencies for violence arise when faced with challenges to the ego or made the victim of distrust.
 						</div>
 					</Col>
 					<Col className="col-4 card border-right-0 border-bottom-0">
-						<div className="card-title">
-							Three
+						<div id="topmask"></div>
+						<div id="leftmask"></div>
+
+						<div className="card-title font-weight-bold">
+							Lust
 						</div>
-						<div className="">
-							some content currently written in here
+						<div className="smaller-font ">
+							Strong desire for women, even at the cost of sabotaging relationships. Borderline addiction to sex, whether passionate or not.
+						</div>
+					</Col>
+					<Col className="col-4 card border-right-0 border-bottom-0">
+						<div id="topmask"></div>
+						<div id="leftmask"></div>
+
+						<div className="card-title font-weight-bold">
+							Religion
+						</div>
+						<div className="smaller-font ">
+							Believes in Christianity and worships God. Goes to church and prays every sunday. Holds bible to be sacred.
 						</div>
 					</Col>
 				</Row>
 			</Col>
 
-			<Col className="col-5 m-1 bg-light h-50">
-				<h5>Converse</h5>
+			<Col className="matrix col-5 m-1 h-50">
+				<h5>SW-Matrix</h5>
+				<ul className="list-group py-3 justify-content-around">
+					<li className="matrix-item active d-flex justify-content-between">
+						Boxing
+					</li>
+					<li className="matrix-item d-flex justify-content-between">
+						Messy
+					</li>
+					<li className="matrix-item d-flex justify-content-between">
+						Dirty
+					</li>
+					<li className="matrix-item d-flex justify-content-between active">
+						Thoughtful
+					</li>
+					<li className="matrix-item d-flex justify-content-between">
+						Mindful
+					</li>
+					<li className="matrix-item d-flex justify-content-between active">
+						Responsible
+					</li>
+					<li className="matrix-item d-flex justify-content-between">
+						Fearful
+					</li>
+					<li className="matrix-item d-flex justify-content-between active">
+						Determined
+					</li>
+					<li className="matrix-item d-flex justify-content-between">
+						Hesitant
+					</li>
+					<li className="matrix-item d-flex justify-content-between">
+						Night-Owl
+					</li>
+					<li className="matrix-item d-flex justify-content-between">
+						Hesitant
+					</li>
+					<li className="matrix-item d-flex justify-content-between">
+						Loyal
+					</li>
+					<li className="matrix-item d-flex justify-content-between active">
+						Egotist
+					</li>
+				</ul>
 			</Col>
+			
 			<Col className="col-6 m-1 bg-light h-50">
-				<h7>SwMatrix</h7>
+				Converse
 			</Col>
 		</Row>
 	)

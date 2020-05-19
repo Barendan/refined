@@ -58,21 +58,96 @@
 
 
 .featured {
-	background-color: rgba(255, 255, 255, 0.1)
+	background-color: rgba(255, 255, 255, 0.03);
+	font-size: 1.2rem;
+	text-align: right;
+}
+
+.vertical-text{
+/*	width:1px;
+	word-wrap: break-word;
+	white-space:pre-wrap;
+	line-height: 1rem;*/
+
+	transform: rotate(-90deg);
+	font-weight: bold;
+	font-size: 1.7rem;
 }
 
 .card {
 	background: transparent !important;
-	border-color: #007985 !important;
+	border-color: #003f45 !important;
+}
+
+.card-title {
+	position: absolute;
+	top: -1rem;
+	left: 2.5rem;
+	font-size: 20px;
+}
+
+.smaller-font {
+	margin-top: 1rem;
+	font-size: 12px;
+	line-height: 0.9rem;
+}
+
+#topmask {
+    position: absolute;
+    top: -1px;
+    right: 1px;
+    width: 85%;
+    height: 1px;
+    background-color: #152b36;
+}
+
+#leftmask {
+	position: absolute;
+    bottom: -1px;
+    left: -1px;
+    height: 45%;
+    width: 1px;
+    background-color: #152b36;
 }
 
 
 
 
 
+.matrix {
 
+}
 
+.matrix .list-group {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
 
+.matrix .matrix-item {
+	background: transparent;
+	width: 27%;
+	padding: 0.3rem 0.15rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	font-size: 14px;
+	color: #003f45;
+	border: 1px solid #003f45;
+	list-style: none;
+}
+
+.matrix-item::before {
+	content: "<";
+	font-weight: bold;
+}
+.matrix-item::after {
+	content: ">";
+	font-weight: bold;
+}
+
+.matrix .active {
+	color: #5eadb5;
+	border-color: #007985;
+}
 
 
 
