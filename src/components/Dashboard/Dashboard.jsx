@@ -30,13 +30,13 @@ const Navigation = () => {
 
 const Dashboard = () => {
 	return (
-		<Container fluid className="dashboard">
+		<Container fluid className="app">
 			<Navigation />
-
-			<ListContacts />
-			<DisplayContact />
-
-			<AddContact />
+			<Row className="dashboard">
+				<ListContacts />
+				<DisplayContact />
+				<AddContact />
+			</Row>
 		</Container>
 	)
 }

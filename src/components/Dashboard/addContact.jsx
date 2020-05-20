@@ -34,22 +34,37 @@ const AddContactForm = () => {
 
 
 	return (
-		<form className="w-75 d-inline-block" onSubmit={onSubmit}>
-			<h4>Add Contact</h4>
-			<div>
-				<label>First Name</label>
-				<input type="text" value={FirstName} onChange={e => setFirstName(e.currentTarget.value)}/>
-			</div>
-			<div>
-				<label>Last Name</label>
-				<input type="text" value={LastName} onChange={e => setLastName(e.currentTarget.value)}/>
-			</div>
-			<div>
-				<label>Age</label>
-				<input type="number" value={age} onChange={e => setAge(e.currentTarget.value)}/>
-			</div>
-			<button>Add Contact</button>
-		</form>
+		<div className="mx-auto px-5">
+			<h2 className="display-3">Add Contact</h2>
+			
+			<form className="addcontact" onSubmit={onSubmit}>
+				
+				<div className="form-row">
+					<div className="col">
+						<input className="form-control" type="text" value={FirstName} onChange={e => setFirstName(e.currentTarget.value)}/>
+						<label>First Name</label>
+					</div>
+					<div className="col">
+						<input className="form-control" type="text" value={LastName} onChange={e => setLastName(e.currentTarget.value)}/>
+						<label>Last Name</label>
+					</div>
+				</div>
+
+				<div className="form-row">
+					<div className="col">
+						<input className="form-control" type="number" value={age} onChange={e => setAge(e.currentTarget.value)}/>
+						<label>Age</label>
+					</div>
+					<div className="col">
+						<input className="form-control" type="text" value={LastName} onChange={e => setLastName(e.currentTarget.value)}/>
+						<label>Gender</label>
+					</div>
+				</div>
+				<button className="btn btn-light mt-3">Add Contact</button>
+				
+			</form>
+		
+		</div>
 	)
 }
 

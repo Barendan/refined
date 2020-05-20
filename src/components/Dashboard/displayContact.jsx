@@ -10,7 +10,7 @@ const DisplayContact = () => {
 
 
 	return (
-		<Row className="displaycontact justify-content-around h-100" >
+		<Row className="displaycontact justify-content-around d-none">
 			
 			<Col className="prime col-5 m-3">
 				<h2 className="text-warning">Quinto [Fernandez]</h2>
