@@ -1,0 +1,33 @@
+name: Smart Comms
+
+on:
+  schedule:
+    - cron: '47 13 * * *'  # Runs at a random time daily
+  workflow_dispatch:  # Allows manual execution
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate a real-looking update
+        run: |
+          FILES=("dev_notes.md" "project_log.md" "research_links.txt" "random_code.py")
+          CHOSEN_FILE=${FILES[$RANDOM % ${#FILES[@]}]}
+          
+          # Add actual content updates
+          echo "$(date) - Updated insights on ${CHOSEN_FILE}" >> $CHOSEN_FILE
+          echo "$(shuf -n 1 /usr/share/dict/words)" >> $CHOSEN_FILE  # Adds a random word
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "barendan"
+          git config --global user.email "barendan@gmail.com"
+          
+          git add .
+          COMMIT_MESSAGES=("Refining some details" "Small update" "Tweaking things" "Added some notes" "General improvements")
+          git commit -m "${COMMIT_MESSAGES[$RANDOM % ${#COMMIT_MESSAGES[@]}]}"
+          git push
