@@ -2,8 +2,14 @@ name: Smart Comms
 
 on:
   schedule:
-    - cron: '47 13 * * *'  # Runs at a random time daily
-  workflow_dispatch:  # Allows manual execution
+    - cron: '5 8 * * *'
+    - cron: '27 10 * * *'
+    - cron: '46 13 * * *'
+    - cron: '15 16 * * *'
+    - cron: '33 19 * * *'
+    - cron: '50 22 * * *'
+    - cron: '12 23 * * *'
+  workflow_dispatch:
 
 jobs:
   commit:
@@ -13,14 +19,41 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate a real-looking update
+      - name: Decide Commit Type
         run: |
-          FILES=("dev_notes.md" "project_log.md" "research_links.txt" "random_code.py")
+          SKIP_CHANCE=$((RANDOM % 3))  
+          if [[ $SKIP_CHANCE -eq 0 ]]; then
+            echo "No major update today, adding a small change instead."
+            echo "$(date) - Minor formatting update" >> README.md
+            echo "COMMIT_TYPE=small" >> $GITHUB_ENV
+          else
+            echo "COMMIT_TYPE=full" >> $GITHUB_ENV
+          fi
+
+      - name: Generate a real-looking update
+        if: env.COMMIT_TYPE == 'full'
+        run: |
+          FILES=("dev_notes.md" "project_log.md" "random_code.py" "utility_script.ts")
           CHOSEN_FILE=${FILES[$RANDOM % ${#FILES[@]}]}
-          
-          # Add actual content updates
-          echo "$(date) - Updated insights on ${CHOSEN_FILE}" >> $CHOSEN_FILE
-          echo "$(shuf -n 1 /usr/share/dict/words)" >> $CHOSEN_FILE  # Adds a random word
+
+          if [[ "$CHOSEN_FILE" == *.md ]]; then
+            echo "$(date) - Added project insights" >> $CHOSEN_FILE
+          elif [[ "$CHOSEN_FILE" == *.py ]]; then
+            echo "# TODO: Optimize this function" >> $CHOSEN_FILE
+          elif [[ "$CHOSEN_FILE" == *.ts ]]; then
+            echo "// TypeScript enhancement" >> $CHOSEN_FILE
+          fi
+
+      - name: Insert a Real Code Snippet
+        if: env.COMMIT_TYPE == 'full'
+        run: |
+          FILE_TYPE=$(basename $CHOSEN_FILE | awk -F. '{print $NF}')
+          if [[ "$FILE_TYPE" == "py" ]]; then
+            CHOSEN_SNIPPET=$(shuf -n 1 snippets/python_snippets.txt)
+          elif [[ "$FILE_TYPE" == "ts" ]]; then
+            CHOSEN_SNIPPET=$(shuf -n 1 snippets/typescript_snippets.txt)
+          fi
+          echo "$CHOSEN_SNIPPET" >> $CHOSEN_FILE
 
       - name: Commit and Push
         run: |
@@ -28,6 +61,6 @@ jobs:
           git config --global user.email "barendan@gmail.com"
           
           git add .
-          COMMIT_MESSAGES=("Refining some details" "Small update" "Tweaking things" "Added some notes" "General improvements")
+          COMMIT_MESSAGES=("Refining some details" "Tweaking things" "Bug fix" "Added a new feature" "Code cleanup")
           git commit -m "${COMMIT_MESSAGES[$RANDOM % ${#COMMIT_MESSAGES[@]}]}"
           git push

@@ -1,0 +1,48 @@
+# Python snippets
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+# Optimize a sorting algorithm
+def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quicksort(left) + middle + quicksort(right)
+
+
+
+# JS snippets
+function isPrime(num) {
+    for(let i = 2; i < num; i++) {
+        if(num % i === 0) return false;
+    }
+    return num > 1;
+}
+
+# TypeScript utility function
+function isEven(num: number): boolean {
+    return num % 2 === 0;
+}
+
+# Debounce function for optimizing API calls
+function debounce(func: Function, delay: number) {
+    let timer: NodeJS.Timeout;
+    return function (...args: any[]) {
+        clearTimeout(timer);
+        timer = setTimeout(() => func(...args), delay);
+    };
+}
+
+
+
+
+
+# Markdown notes
+- Remember to optimize the database queries for performance.
+- Try to implement caching in the API.
