@@ -19,48 +19,63 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Decide Commit Type
+      - name: Choose a Valid File
         run: |
-          SKIP_CHANCE=$((RANDOM % 3))  
-          if [[ $SKIP_CHANCE -eq 0 ]]; then
-            echo "No major update today, adding a small change instead."
-            echo "$(date) - Minor formatting update" >> README.md
-            echo "COMMIT_TYPE=small" >> $GITHUB_ENV
-          else
-            echo "COMMIT_TYPE=full" >> $GITHUB_ENV
+          FILES=(
+            "src/components/App.js"
+            "src/components/Dashboard/Dashboard.jsx"
+            "src/components/Dashboard/displayContact.jsx"
+            "src/components/Dashboard/listContacts.jsx"
+            "src/utils/helpers.js"
+            "src/hooks/useFetch.js"
+          )
+
+          # Find non-empty files
+          NON_EMPTY_FILES=()
+          for file in "${FILES[@]}"; do
+            if [ -s "$file" ]; then
+              NON_EMPTY_FILES+=("$file")
+            fi
+          done
+
+          # If all files are empty, exit without committing
+          if [ ${#NON_EMPTY_FILES[@]} -eq 0 ]; then
+            echo "No valid files found. Skipping commit."
+            exit 0
           fi
 
-      - name: Generate a real-looking update
-        if: env.COMMIT_TYPE == 'full'
+          CHOSEN_FILE=${NON_EMPTY_FILES[$RANDOM % ${#NON_EMPTY_FILES[@]}]}
+          echo "Chosen file: $CHOSEN_FILE"
+          echo "CHOSEN_FILE=$CHOSEN_FILE" >> $GITHUB_ENV
+
+      - name: Decide Number of Commits for Today
         run: |
-          FILES=("dev_notes.md" "project_log.md" "random_code.py" "utility_script.ts")
-          CHOSEN_FILE=${FILES[$RANDOM % ${#FILES[@]}]}
+          COMMITS_TODAY=$((3 + RANDOM % 5))  # 3 to 7 commits per run
+          echo "COMMITS_TODAY=$COMMITS_TODAY" >> $GITHUB_ENV
+          echo "Will make $COMMITS_TODAY commits today."
 
-          if [[ "$CHOSEN_FILE" == *.md ]]; then
-            echo "$(date) - Added project insights" >> $CHOSEN_FILE
-          elif [[ "$CHOSEN_FILE" == *.py ]]; then
-            echo "# TODO: Optimize this function" >> $CHOSEN_FILE
-          elif [[ "$CHOSEN_FILE" == *.ts ]]; then
-            echo "// TypeScript enhancement" >> $CHOSEN_FILE
-          fi
-
-      - name: Insert a Real Code Snippet
-        if: env.COMMIT_TYPE == 'full'
+      - name: Generate Real-Looking Updates
         run: |
-          FILE_TYPE=$(basename $CHOSEN_FILE | awk -F. '{print $NF}')
-          if [[ "$FILE_TYPE" == "py" ]]; then
-            CHOSEN_SNIPPET=$(shuf -n 1 snippets/python_snippets.txt)
-          elif [[ "$FILE_TYPE" == "ts" ]]; then
-            CHOSEN_SNIPPET=$(shuf -n 1 snippets/typescript_snippets.txt)
-          fi
-          echo "$CHOSEN_SNIPPET" >> $CHOSEN_FILE
+          for ((i=1; i<=$COMMITS_TODAY; i++)); do
+            FILE_TYPE="${CHOSEN_FILE##*.}"  # Extract file extension
+            
+            if [[ "$FILE_TYPE" == "js" || "$FILE_TYPE" == "jsx" ]]; then
+              echo "// TODO: Improve component performance" >> "$CHOSEN_FILE"
+            elif [[ "$FILE_TYPE" == "ts" ]]; then
+              echo "// TypeScript optimization needed" >> "$CHOSEN_FILE"
+            else
+              echo "# Refactored logic for better efficiency" >> "$CHOSEN_FILE"
+            fi
 
-      - name: Commit and Push
+            git add "$CHOSEN_FILE"
+            COMMIT_MESSAGES=("Refactoring logic" "Improving performance" "Minor tweaks" "Code cleanup" "Enhancing readability")
+            git commit -m "${COMMIT_MESSAGES[$RANDOM % ${#COMMIT_MESSAGES[@]}]}"
+
+            sleep $((RANDOM % 900))  # Wait up to 15 min between commits
+          done
+
+      - name: Push All Commits at Once
         run: |
           git config --global user.name "barendan"
           git config --global user.email "barendan@gmail.com"
-          
-          git add .
-          COMMIT_MESSAGES=("Refining some details" "Tweaking things" "Bug fix" "Added a new feature" "Code cleanup")
-          git commit -m "${COMMIT_MESSAGES[$RANDOM % ${#COMMIT_MESSAGES[@]}]}"
           git push
