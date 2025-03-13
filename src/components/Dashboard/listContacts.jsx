@@ -149,4 +149,4 @@ const ContactList = () => {
 	)
 }
 
-export default ContactList
+export default ContactList// TODO: Improve component performance
