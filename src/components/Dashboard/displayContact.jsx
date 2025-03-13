@@ -139,4 +139,4 @@ const DisplayContact = () => {
 	)
 }
 
-export default DisplayContact;
+export default DisplayContact;// TODO: Improve component performance
