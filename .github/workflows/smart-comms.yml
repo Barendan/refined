@@ -19,6 +19,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Configure Git User
+        run: |
+          git config --global user.name "barendan"
+          git config --global user.email "barendan@gmail.com"
+
       - name: Choose a Valid File
         run: |
           FILES=(
@@ -76,6 +81,4 @@ jobs:
 
       - name: Push All Commits at Once
         run: |
-          git config --global user.name "barendan"
-          git config --global user.email "barendan@gmail.com"
           git push
