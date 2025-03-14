@@ -151,3 +151,4 @@ export default DisplayContact;// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+// TODO: Improve component performance
