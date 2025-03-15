@@ -53,31 +53,49 @@ jobs:
           echo "Chosen file: $CHOSEN_FILE"
           echo "CHOSEN_FILE=$CHOSEN_FILE" >> $GITHUB_ENV
 
-      - name: Decide Number of Commits for Today
-        run: |
-          COMMITS_TODAY=$((3 + RANDOM % 5))  # 3 to 7 commits per run
-          echo "COMMITS_TODAY=$COMMITS_TODAY" >> $GITHUB_ENV
-          echo "Will make $COMMITS_TODAY commits today."
 
       - name: Generate Real-Looking Updates
         run: |
-          for ((i=1; i<=$COMMITS_TODAY; i++)); do
-            FILE_TYPE="${CHOSEN_FILE##*.}"  # Extract file extension
-            
-            if [[ "$FILE_TYPE" == "js" || "$FILE_TYPE" == "jsx" ]]; then
-              echo "// TODO: Improve component performance" >> "$CHOSEN_FILE"
-            elif [[ "$FILE_TYPE" == "ts" ]]; then
-              echo "// TypeScript optimization needed" >> "$CHOSEN_FILE"
-            else
-              echo "# Refactored logic for better efficiency" >> "$CHOSEN_FILE"
+            SNIPPET_FILE="snippets.txt"
+  
+            if [ ! -f "$SNIPPET_FILE" ]; then
+              echo "No snippets file found! Exiting..."
+              exit 0
             fi
-
+  
+            # Read snippets and randomly select one
+            IFS=$'\n' read -d '' -r -a SNIPPETS < <(awk '/===/{print "---"} !/===/' "$SNIPPET_FILE" | awk 'BEGIN{RS="---"} {print}' | shuf -n 1)
+  
+            CHOSEN_SNIPPET="${SNIPPETS[@]}"
+            echo "Selected snippet: $CHOSEN_SNIPPET"
+  
+            # Insert snippet at a random line in the chosen file
+            TOTAL_LINES=$(wc -l < "$CHOSEN_FILE")
+            RANDOM_LINE=$((RANDOM % TOTAL_LINES + 1))
+  
+            sed -i "${RANDOM_LINE}i $CHOSEN_SNIPPET" "$CHOSEN_FILE"
+  
             git add "$CHOSEN_FILE"
-            COMMIT_MESSAGES=("Refactoring logic" "Improving performance" "Minor tweaks" "Code cleanup" "Enhancing readability")
+  
+            # Generate a random task number
+            TASK_NUMBER="TASK-$((100 + RANDOM % 900))"
+  
+            # More detailed commit messages
+            COMMIT_MESSAGES=(
+              "$TASK_NUMBER - Refactored logic for better performance and maintainability."
+              "$TASK_NUMBER - Optimized function to reduce execution time and improve efficiency."
+              "$TASK_NUMBER - Added missing error handling to enhance system stability."
+              "$TASK_NUMBER - Cleaned up redundant code and improved readability."
+              "$TASK_NUMBER - Implemented a helper function for reusability across components."
+              "$TASK_NUMBER - Fixed minor performance bottleneck affecting large data processing."
+              "$TASK_NUMBER - Enhanced logging for better debugging and monitoring."
+            )
+  
             git commit -m "${COMMIT_MESSAGES[$RANDOM % ${#COMMIT_MESSAGES[@]}]}"
-
-            sleep $((RANDOM % 900))  # Wait up to 15 min between commits
-          done
+  
+            # Random delay between commits (1 to 20 min)
+            sleep $((60 + RANDOM % 1200))
+  
 
       - name: Push All Commits at Once
         run: |
