@@ -144,4 +144,5 @@ jobs:
 
       - name: Push All Commits at Once
         run: |
-          git push
+            git pull --rebase origin master
+            git push
