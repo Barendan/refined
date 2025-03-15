@@ -63,7 +63,7 @@ jobs:
 
       - name: Generate Real-Looking Updates
         run: |
-          SNIPPET_FILE="snippets.txt"
+          SNIPPET_FILE="src/components/snippets.txt"
 
           if [ ! -f "$SNIPPET_FILE" ]; then
             echo "No snippets file found! Exiting..."
