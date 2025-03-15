@@ -173,3 +173,4 @@ export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+// TODO: Improve component performance
