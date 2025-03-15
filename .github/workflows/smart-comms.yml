@@ -18,14 +18,35 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch all history for proper checks
 
       - name: Configure Git User
         run: |
           git config --global user.name "barendan"
           git config --global user.email "barendan@gmail.com"
 
-      - name: Choose a Valid File
+      - name: Check for Recent Commits
+        id: check_commits
         run: |
+          # Check if there have been commits in the last 2 hours
+          LAST_COMMIT_TIME=$(git log -1 --format=%ct)
+          CURRENT_TIME=$(date +%s)
+          TIME_DIFF=$((CURRENT_TIME - LAST_COMMIT_TIME))
+          
+          if [ $TIME_DIFF -lt 7200 ]; then
+            echo "Recent commit found, skipping automated changes"
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "No recent commits, proceeding with changes"
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Choose Valid Files
+        if: steps.check_commits.outputs.skip != 'true'
+        id: choose_files
+        run: |
+          # Define potential files to modify
           FILES=(
             "src/components/App.js"
             "src/components/Dashboard/Dashboard.jsx"
@@ -38,42 +59,81 @@ jobs:
             "package.json"
           )
 
-          # Find non-empty files
-          NON_EMPTY_FILES=()
+          # Find non-empty files that exist
+          VALID_FILES=()
           for file in "${FILES[@]}"; do
             if [ -s "$file" ]; then
-              NON_EMPTY_FILES+=("$file")
+              VALID_FILES+=("$file")
             fi
           done
 
-          if [ ${#NON_EMPTY_FILES[@]} -eq 0 ]; then
+          # Exit if no valid files
+          if [ ${#VALID_FILES[@]} -eq 0 ]; then
             echo "No valid files found. Skipping commit."
+            echo "valid_files_found=false" >> $GITHUB_OUTPUT
             exit 0
           fi
-
+          
+          echo "valid_files_found=true" >> $GITHUB_OUTPUT
+          
           # Decide how many files to modify (1-3)
           NUM_FILES=$((1 + RANDOM % 3))
-          CHOSEN_FILES=()
-          for i in $(seq 1 $NUM_FILES); do
-            CHOSEN_FILES+=("${NON_EMPTY_FILES[$RANDOM % ${#NON_EMPTY_FILES[@]}]}")
+          if [ $NUM_FILES -gt ${#VALID_FILES[@]} ]; then
+            NUM_FILES=${#VALID_FILES[@]}
+          fi
+          
+          # Create a temporary file to store chosen files
+          touch chosen_files.txt
+          
+          # Select random files
+          SHUFFLED=($(printf "%s\n" "${VALID_FILES[@]}" | shuf))
+          for i in $(seq 0 $((NUM_FILES-1))); do
+            echo "${SHUFFLED[$i]}" >> chosen_files.txt
           done
-
-          echo "Chosen files: ${CHOSEN_FILES[@]}"
-          echo "CHOSEN_FILES=${CHOSEN_FILES[@]}" >> $GITHUB_ENV
+          
+          echo "Selected $(wc -l < chosen_files.txt) files for modification"
 
       - name: Generate Real-Looking Updates
+        if: steps.check_commits.outputs.skip != 'true' && steps.choose_files.outputs.valid_files_found == 'true'
+        id: generate_updates
         run: |
           SNIPPET_FILE="src/components/snippets.txt"
-
+          
+          # Create default snippets file if it doesn't exist
           if [ ! -f "$SNIPPET_FILE" ]; then
-            echo "No snippets file found! Exiting..."
-            exit 0
+            mkdir -p "$(dirname "$SNIPPET_FILE")"
+            cat > "$SNIPPET_FILE" << EOL
+            // TODO: Optimize this for better performance
+            ===
+            // Added error handling for edge cases
+            ===
+            // Updated to meet new requirements
+            ===
+            /* 
+             * Refactored for better maintainability
+             * See documentation for more details
+             */
+            ===
+            // Fixed potential memory leak
+            EOL
+            echo "Created default snippets file"
           fi
-
-          CHANGED_FILES=()
-          for FILE in $CHOSEN_FILES; do
+          
+          # Day of week adjustment for commit frequency
+          DAY_OF_WEEK=$(date +%u)  # 1 (Monday) to 7 (Sunday)
+          if [[ "$DAY_OF_WEEK" -ge 6 ]]; then
+              COMMITS_TODAY=$((1 + RANDOM % 2))  # Fewer commits on weekends
+          else
+              COMMITS_TODAY=$((1 + RANDOM % 4))  # More commits on weekdays
+          fi
+          
+          # Track which files get debug statements for later removal
+          touch debug_files.txt
+          
+          # Process each chosen file
+          while IFS= read -r FILE; do
             FILE_TYPE="${FILE##*.}"
-
+            
             if [[ "$FILE_TYPE" == "js" || "$FILE_TYPE" == "jsx" ]]; then
               CATEGORY="Code Update"
             elif [[ "$FILE" == "README.md" ]]; then
@@ -85,26 +145,40 @@ jobs:
             else
               CATEGORY="General Improvement"
             fi
-
+            
+            # Get a random snippet
             IFS=$'\n' read -d '' -r -a SNIPPETS < <(awk '/===/{print "---"} !/===/' "$SNIPPET_FILE" | awk 'BEGIN{RS="---"} {print}' | shuf -n 1)
             CHOSEN_SNIPPET="${SNIPPETS[@]}"
-
-            TOTAL_LINES=$(wc -l < "$FILE")
-            RANDOM_LINE=$((RANDOM % TOTAL_LINES + 1))
-            sed -i "${RANDOM_LINE}i $CHOSEN_SNIPPET" "$FILE"
-
-            CHANGED_FILES+=("$FILE")
-
-            # 20% chance to add a bug
-            if [[ $((RANDOM % 5)) -eq 0 ]]; then
-              echo "console.log('DEBUG: This will be removed');" >> "$FILE"
-              echo "Bug introduced in $FILE"
+            
+            # Insert snippet at random location
+            if [ -f "$FILE" ]; then
+              TOTAL_LINES=$(wc -l < "$FILE")
+              if [ $TOTAL_LINES -gt 0 ]; then
+                RANDOM_LINE=$((RANDOM % TOTAL_LINES + 1))
+                sed -i "${RANDOM_LINE}i $CHOSEN_SNIPPET" "$FILE"
+                
+                # 20% chance to add a bug
+                if [[ $((RANDOM % 5)) -eq 0 ]]; then
+                  echo "console.log('DEBUG: This will be removed');" >> "$FILE"
+                  echo "$FILE" >> debug_files.txt
+                  echo "Bug introduced in $FILE"
+                fi
+                
+                git add "$FILE"
+              fi
             fi
-          done
-
-          git add "${CHANGED_FILES[@]}"
-
-          # Randomized commit message with task numbers
+          done < chosen_files.txt
+          
+          # Check if any files were modified
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes made to any files."
+            echo "changes_made=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          echo "changes_made=true" >> $GITHUB_OUTPUT
+          
+          # Create commit with randomized message
           TASK_NUMBER="TASK-$((100 + RANDOM % 900))"
           COMMIT_MESSAGES=(
             "$TASK_NUMBER - Refactored logic for better performance and maintainability."
@@ -118,32 +192,62 @@ jobs:
             "$TASK_NUMBER - Adjusted $CATEGORY settings for production readiness."
             "$TASK_NUMBER - Removed deprecated code and replaced with newer implementation."
           )
-
+          
           COMMIT_MSG="${COMMIT_MESSAGES[$RANDOM % ${#COMMIT_MESSAGES[@]}]}"
           git commit -m "$COMMIT_MSG"
-
-          # 40% chance to push a quick fix later
-          if [[ $((RANDOM % 5)) -lt 2 ]]; then
-            sleep $((300 + RANDOM % 600))
-            sed -i '/DEBUG:/d' "$FILE"
-            git add "$FILE"
-            git commit -m "TASK-$((100 + RANDOM % 900)) - Removed unnecessary debug logs."
-          fi
-
-      - name: Adjust Commit Frequency by Day
-        run: |
-          DAY_OF_WEEK=$(date +%u)  # 1 (Monday) to 7 (Sunday)
-
-          if [[ "$DAY_OF_WEEK" -ge 6 ]]; then
-              COMMITS_TODAY=$((1 + RANDOM % 2))  # Fewer commits on weekends
+          
+          # Determine if we should do a debug fix later
+          if [ -s debug_files.txt ]; then
+            if [[ $((RANDOM % 5)) -lt 2 ]]; then
+              echo "debug_fix=true" >> $GITHUB_OUTPUT
+            else
+              echo "debug_fix=false" >> $GITHUB_OUTPUT
+            fi
           else
-              COMMITS_TODAY=$((1 + RANDOM % 4))  # More commits on weekdays
+            echo "debug_fix=false" >> $GITHUB_OUTPUT
           fi
 
-          echo "Commits planned for today: $COMMITS_TODAY"
+      - name: Push Changes
+        if: steps.generate_updates.outputs.changes_made == 'true'
+        run: |
+          # Try to push changes safely
+          git pull --rebase origin master
+          git push
+          
+          # If push fails due to conflicts, try again with updated code
+          if [ $? -ne 0 ]; then
+            echo "Push failed, trying to recover..."
+            git reset --hard origin/master
+            
+            # Re-apply our changes to the latest code
+            git apply --reject --whitespace=fix $(git format-patch -1 HEAD)
+            
+            # Commit and push again
+            git add .
+            git commit -m "$(git log -1 --pretty=%B)"
+            git push
+          fi
 
-      - name: Push All Commits at Once (Force Push If Needed)
-        run: |  
-            git pull --rebase origin master || git reset --hard origin/master
-            git push --force
-  
+      - name: Fix Debug Logs (if needed)
+        if: steps.generate_updates.outputs.debug_fix == 'true'
+        run: |
+          # Wait a random amount of time (5-10 minutes)
+          sleep $((300 + RANDOM % 300))
+          
+          # Remove debug statements from each file that had them
+          while IFS= read -r DEBUG_FILE; do
+            if [ -f "$DEBUG_FILE" ]; then
+              sed -i '/DEBUG: This will be removed/d' "$DEBUG_FILE"
+              git add "$DEBUG_FILE"
+            fi
+          done < debug_files.txt
+          
+          # Create a new commit for the debug fix
+          if [ -n "$(git status --porcelain)" ]; then
+            TASK_NUMBER="TASK-$((100 + RANDOM % 900))"
+            git commit -m "$TASK_NUMBER - Removed unnecessary debug logs."
+            
+            # Push the fix
+            git pull --rebase origin master
+            git push
+          fi
