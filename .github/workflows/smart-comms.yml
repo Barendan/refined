@@ -33,6 +33,9 @@ jobs:
             "src/components/Dashboard/listContacts.jsx"
             "src/utils/helpers.js"
             "src/hooks/useFetch.js"
+            "README.md"
+            ".env"
+            "package.json"
           )
 
           # Find non-empty files
@@ -43,59 +46,101 @@ jobs:
             fi
           done
 
-          # If all files are empty, exit without committing
           if [ ${#NON_EMPTY_FILES[@]} -eq 0 ]; then
             echo "No valid files found. Skipping commit."
             exit 0
           fi
 
-          CHOSEN_FILE=${NON_EMPTY_FILES[$RANDOM % ${#NON_EMPTY_FILES[@]}]}
-          echo "Chosen file: $CHOSEN_FILE"
-          echo "CHOSEN_FILE=$CHOSEN_FILE" >> $GITHUB_ENV
+          # Decide how many files to modify (1-3)
+          NUM_FILES=$((1 + RANDOM % 3))
+          CHOSEN_FILES=()
+          for i in $(seq 1 $NUM_FILES); do
+            CHOSEN_FILES+=("${NON_EMPTY_FILES[$RANDOM % ${#NON_EMPTY_FILES[@]}]}")
+          done
 
+          echo "Chosen files: ${CHOSEN_FILES[@]}"
+          echo "CHOSEN_FILES=${CHOSEN_FILES[@]}" >> $GITHUB_ENV
 
       - name: Generate Real-Looking Updates
         run: |
-            SNIPPET_FILE="snippets.txt"
-  
-            if [ ! -f "$SNIPPET_FILE" ]; then
-              echo "No snippets file found! Exiting..."
-              exit 0
+          SNIPPET_FILE="snippets.txt"
+
+          if [ ! -f "$SNIPPET_FILE" ]; then
+            echo "No snippets file found! Exiting..."
+            exit 0
+          fi
+
+          CHANGED_FILES=()
+          for FILE in $CHOSEN_FILES; do
+            FILE_TYPE="${FILE##*.}"
+
+            if [[ "$FILE_TYPE" == "js" || "$FILE_TYPE" == "jsx" ]]; then
+              CATEGORY="Code Update"
+            elif [[ "$FILE" == "README.md" ]]; then
+              CATEGORY="Docs Update"
+            elif [[ "$FILE" == "package.json" ]]; then
+              CATEGORY="Dependency Update"
+            elif [[ "$FILE" == ".env" ]]; then
+              CATEGORY="Config Change"
+            else
+              CATEGORY="General Improvement"
             fi
-  
-            # Read snippets and randomly select one
+
             IFS=$'\n' read -d '' -r -a SNIPPETS < <(awk '/===/{print "---"} !/===/' "$SNIPPET_FILE" | awk 'BEGIN{RS="---"} {print}' | shuf -n 1)
-  
             CHOSEN_SNIPPET="${SNIPPETS[@]}"
-            echo "Selected snippet: $CHOSEN_SNIPPET"
-  
-            # Insert snippet at a random line in the chosen file
-            TOTAL_LINES=$(wc -l < "$CHOSEN_FILE")
+
+            TOTAL_LINES=$(wc -l < "$FILE")
             RANDOM_LINE=$((RANDOM % TOTAL_LINES + 1))
-  
-            sed -i "${RANDOM_LINE}i $CHOSEN_SNIPPET" "$CHOSEN_FILE"
-  
-            git add "$CHOSEN_FILE"
-  
-            # Generate a random task number
-            TASK_NUMBER="TASK-$((100 + RANDOM % 900))"
-  
-            # More detailed commit messages
-            COMMIT_MESSAGES=(
-              "$TASK_NUMBER - Refactored logic for better performance and maintainability."
-              "$TASK_NUMBER - Optimized function to reduce execution time and improve efficiency."
-              "$TASK_NUMBER - Added missing error handling to enhance system stability."
-              "$TASK_NUMBER - Cleaned up redundant code and improved readability."
-              "$TASK_NUMBER - Implemented a helper function for reusability across components."
-              "$TASK_NUMBER - Fixed minor performance bottleneck affecting large data processing."
-              "$TASK_NUMBER - Enhanced logging for better debugging and monitoring."
-            )
-  
-            git commit -m "${COMMIT_MESSAGES[$RANDOM % ${#COMMIT_MESSAGES[@]}]}"
-  
-            # Random delay between commits (1 to 20 min)
-            sleep $((60 + RANDOM % 1200))
-  
+            sed -i "${RANDOM_LINE}i $CHOSEN_SNIPPET" "$FILE"
+
+            CHANGED_FILES+=("$FILE")
+
+            # 20% chance to add a bug
+            if [[ $((RANDOM % 5)) -eq 0 ]]; then
+              echo "console.log('DEBUG: This will be removed');" >> "$FILE"
+              echo "Bug introduced in $FILE"
+            fi
+          done
+
+          git add "${CHANGED_FILES[@]}"
+
+          # Randomized commit message with task numbers
+          TASK_NUMBER="TASK-$((100 + RANDOM % 900))"
+          COMMIT_MESSAGES=(
+            "$TASK_NUMBER - Refactored logic for better performance and maintainability."
+            "$TASK_NUMBER - Optimized function to reduce execution time and improve efficiency."
+            "$TASK_NUMBER - Added missing error handling to enhance system stability."
+            "$TASK_NUMBER - Cleaned up redundant code and improved readability."
+            "$TASK_NUMBER - Implemented a helper function for reusability across components."
+            "$TASK_NUMBER - Fixed minor performance bottleneck affecting large data processing."
+            "$TASK_NUMBER - Enhanced logging for better debugging and monitoring."
+            "$TASK_NUMBER - Updated $CATEGORY with necessary changes."
+            "$TASK_NUMBER - Adjusted $CATEGORY settings for production readiness."
+            "$TASK_NUMBER - Removed deprecated code and replaced with newer implementation."
+          )
+
+          COMMIT_MSG="${COMMIT_MESSAGES[$RANDOM % ${#COMMIT_MESSAGES[@]}]}"
+          git commit -m "$COMMIT_MSG"
+
+          # 40% chance to push a quick fix later
+          if [[ $((RANDOM % 5)) -lt 2 ]]; then
+            sleep $((300 + RANDOM % 600))
+            sed -i '/DEBUG:/d' "$FILE"
+            git add "$FILE"
+            git commit -m "TASK-$((100 + RANDOM % 900)) - Removed unnecessary debug logs."
+          fi
+
+      - name: Adjust Commit Frequency by Day
+        run: |
+          DAY_OF_WEEK=$(date +%u)  # 1 (Monday) to 7 (Sunday)
+
+          if [[ "$DAY_OF_WEEK" -ge 6 ]]; then
+              COMMITS_TODAY=$((1 + RANDOM % 2))  # Fewer commits on weekends
+          else
+              COMMITS_TODAY=$((1 + RANDOM % 4))  # More commits on weekdays
+          fi
+
+          echo "Commits planned for today: $COMMITS_TODAY"
 
       - name: Push All Commits at Once
         run: |
