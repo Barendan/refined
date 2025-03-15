@@ -46,7 +46,7 @@ jobs:
         if: steps.check_commits.outputs.skip != 'true'
         id: choose_files
         run: |
-          # Define potential files to modify
+          # Define potential files to modify (excluding README.md)
           FILES=(
             "src/components/App.js"
             "src/components/Dashboard/Dashboard.jsx"
@@ -97,7 +97,27 @@ jobs:
         id: generate_updates
         run: |
           SNIPPET_FILE="src/components/snippets.txt"
-
+          
+          # Create default snippets file if it doesn't exist
+          if [ ! -f "$SNIPPET_FILE" ]; then
+            mkdir -p "$(dirname "$SNIPPET_FILE")"
+            cat > "$SNIPPET_FILE" << EOL
+            // TODO: Optimize this for better performance
+            ===
+            // Added error handling for edge cases
+            ===
+            // Updated to meet new requirements
+            ===
+            /* 
+             * Refactored for better maintainability
+             * See documentation for more details
+             */
+            ===
+            // Fixed potential memory leak
+            EOL
+            echo "Created default snippets file"
+          fi
+          
           # Day of week adjustment for commit frequency
           DAY_OF_WEEK=$(date +%u)  # 1 (Monday) to 7 (Sunday)
           if [[ "$DAY_OF_WEEK" -ge 6 ]]; then
@@ -105,6 +125,8 @@ jobs:
           else
               COMMITS_TODAY=$((1 + RANDOM % 4))  # More commits on weekdays
           fi
+          
+          # Track which files get debug statements for later removal
           touch debug_files.txt
           
           # Process each chosen file
