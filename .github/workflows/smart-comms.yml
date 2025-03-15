@@ -142,7 +142,8 @@ jobs:
 
           echo "Commits planned for today: $COMMITS_TODAY"
 
-      - name: Push All Commits at Once
-        run: |
-            git pull --rebase origin master
-            git push
+      - name: Push All Commits at Once (Force Push If Needed)
+        run: |  
+            git pull --rebase origin master || git reset --hard origin/master
+            git push --force
+  
