@@ -96,30 +96,39 @@ jobs:
         if: steps.check_commits.outputs.skip != 'true' && steps.choose_files.outputs.valid_files_found == 'true'
         id: generate_updates
         run: |
+          echo "Starting script..."
           SNIPPET_FILE="src/components/snippets.txt"
 
-          # Check if snippets file exists without trying to create it
+          # Debug: Check if file exists and can be read
+          echo "Checking for snippets file at: $SNIPPET_FILE"
           if [ ! -f "$SNIPPET_FILE" ]; then
-            echo "No snippets file found! Exiting..."
+            echo "ERROR: No snippets file found at $SNIPPET_FILE"
+            ls -la src/components/
             exit 1
           fi
+          echo "Snippets file exists"
 
-          # Convert space-separated CHOSEN_FILES to array
-          IFS=' ' read -ra FILES_ARRAY <<< "$CHOSEN_FILES"
+          # Debug: Check chosen files
+          echo "CHOSEN_FILES value: '$CHOSEN_FILES'"
           CHANGED_FILES=()
-          DEBUG_FILES=()
 
-          # Process each chosen file
-          for FILE in "${FILES_ARRAY[@]}"; do
+          for FILE in $CHOSEN_FILES; do
+            echo "Processing file: $FILE"
+            
+            # Debug: Check if file exists and can be read
             if [ ! -f "$FILE" ]; then
-              echo "File $FILE doesn't exist, skipping..."
+              echo "ERROR: File $FILE doesn't exist"
               continue
             fi
-
+            echo "File exists"
+            
             FILE_TYPE="${FILE##*.}"
+            echo "File type: $FILE_TYPE"
             
             if [[ "$FILE_TYPE" == "js" || "$FILE_TYPE" == "jsx" ]]; then
               CATEGORY="Code Update"
+            elif [[ "$FILE" == "README.md" ]]; then
+              CATEGORY="Docs Update"
             elif [[ "$FILE" == "package.json" ]]; then
               CATEGORY="Dependency Update"
             elif [[ "$FILE" == ".env" ]]; then
@@ -127,34 +136,48 @@ jobs:
             else
               CATEGORY="General Improvement"
             fi
+            echo "Category: $CATEGORY"
             
-            # Get a random snippet
-            IFS=$'\n' read -d '' -r -a SNIPPETS < <(awk '/===/{print "---"} !/===/' "$SNIPPET_FILE" | awk 'BEGIN{RS="---"} {print}' | shuf -n 1)
-            CHOSEN_SNIPPET="${SNIPPETS[@]}"
+            # Debug: Check snippet extraction
+            echo "Extracting snippet from $SNIPPET_FILE"
+            SNIPPETS=$(awk '/===/{print "---"} !/===/' "$SNIPPET_FILE" | awk 'BEGIN{RS="---"} {print}' | shuf -n 1)
+            echo "Extracted snippet: $SNIPPETS"
             
-            # Insert snippet at random location
+            # Debug: Check line count
+            echo "Counting lines in $FILE"
+            if [ ! -s "$FILE" ]; then
+              echo "ERROR: File $FILE is empty"
+              continue
+            fi
             TOTAL_LINES=$(wc -l < "$FILE")
-            if [ $TOTAL_LINES -gt 0 ]; then
-              RANDOM_LINE=$((RANDOM % TOTAL_LINES + 1))
-              sed -i "${RANDOM_LINE}i $CHOSEN_SNIPPET" "$FILE"
-              
-              CHANGED_FILES+=("$FILE")
-              
-              # 20% chance to add a bug
-              if [[ $((RANDOM % 5)) -eq 0 ]]; then
-                echo "console.log('DEBUG: This will be removed');" >> "$FILE"
-                DEBUG_FILES+=("$FILE")
-                echo "Bug introduced in $FILE"
-              fi
+            echo "Total lines: $TOTAL_LINES"
+            
+            RANDOM_LINE=$((RANDOM % TOTAL_LINES + 1))
+            echo "Selected line: $RANDOM_LINE"
+            
+            # Using quotes to handle spaces in snippet
+            echo "Inserting snippet at line $RANDOM_LINE"
+            sed -i "${RANDOM_LINE}i\\${SNIPPETS}" "$FILE"
+            
+            CHANGED_FILES+=("$FILE")
+            echo "Added file to changed files list"
+            
+            # 20% chance to add a bug
+            if [[ $((RANDOM % 5)) -eq 0 ]]; then
+              echo "Adding debug statement to $FILE"
+              echo "console.log('DEBUG: This will be removed');" >> "$FILE"
+              echo "Bug introduced in $FILE"
             fi
           done
 
-          # Only proceed if we have changes
+          # Debug: Check if any files were changed
+          echo "Number of changed files: ${#CHANGED_FILES[@]}"
           if [ ${#CHANGED_FILES[@]} -eq 0 ]; then
-            echo "No files were modified. Exiting."
-            exit 0
+            echo "ERROR: No files were modified. Exiting."
+            exit 1
           fi
 
+          echo "Adding files to git: ${CHANGED_FILES[@]}"
           git add "${CHANGED_FILES[@]}"
 
           # Randomized commit message with task numbers
@@ -173,22 +196,25 @@ jobs:
           )
 
           COMMIT_MSG="${COMMIT_MESSAGES[$RANDOM % ${#COMMIT_MESSAGES[@]}]}"
+          echo "Committing with message: $COMMIT_MSG"
           git commit -m "$COMMIT_MSG"
 
-          # 40% chance to push a quick fix later if we added debug statements
-          if [[ ${#DEBUG_FILES[@]} -gt 0 && $((RANDOM % 5)) -lt 2 ]]; then
-            echo "Will do a debug fix later..."
-            sleep $((300 + RANDOM % 600))
+          # 40% chance to push a quick fix later
+          if [[ $((RANDOM % 5)) -lt 2 ]]; then
+            echo "Will fix debug logs later"
+            sleep $((10 + RANDOM % 20))  # Shortened for testing
             
-            # Remove debug statements from all files that had them
-            for DEBUG_FILE in "${DEBUG_FILES[@]}"; do
+            echo "Removing debug statements"
+            for DEBUG_FILE in "${CHANGED_FILES[@]}"; do
               sed -i '/DEBUG: This will be removed/d' "$DEBUG_FILE"
               git add "$DEBUG_FILE"
             done
             
             git commit -m "TASK-$((100 + RANDOM % 900)) - Removed unnecessary debug logs."
-            git push
+            echo "Debug fix committed"
           fi
+
+          echo "Script completed successfully"
 
       - name: Push Changes
         if: steps.generate_updates.outputs.changes_made == 'true'
