@@ -97,40 +97,25 @@ jobs:
         id: generate_updates
         run: |
           SNIPPET_FILE="src/components/snippets.txt"
-          
-          # Create default snippets file if it doesn't exist
+
+          # Check if snippets file exists without trying to create it
           if [ ! -f "$SNIPPET_FILE" ]; then
-            mkdir -p "$(dirname "$SNIPPET_FILE")"
-            cat > "$SNIPPET_FILE" << EOL
-            // TODO: Optimize this for better performance
-            ===
-            // Added error handling for edge cases
-            ===
-            // Updated to meet new requirements
-            ===
-            /* 
-             * Refactored for better maintainability
-             * See documentation for more details
-             */
-            ===
-            // Fixed potential memory leak
-            EOL
-            echo "Created default snippets file"
+            echo "No snippets file found! Exiting..."
+            exit 1
           fi
-          
-          # Day of week adjustment for commit frequency
-          DAY_OF_WEEK=$(date +%u)  # 1 (Monday) to 7 (Sunday)
-          if [[ "$DAY_OF_WEEK" -ge 6 ]]; then
-              COMMITS_TODAY=$((1 + RANDOM % 2))  # Fewer commits on weekends
-          else
-              COMMITS_TODAY=$((1 + RANDOM % 4))  # More commits on weekdays
-          fi
-          
-          # Track which files get debug statements for later removal
-          touch debug_files.txt
-          
+
+          # Convert space-separated CHOSEN_FILES to array
+          IFS=' ' read -ra FILES_ARRAY <<< "$CHOSEN_FILES"
+          CHANGED_FILES=()
+          DEBUG_FILES=()
+
           # Process each chosen file
-          while IFS= read -r FILE; do
+          for FILE in "${FILES_ARRAY[@]}"; do
+            if [ ! -f "$FILE" ]; then
+              echo "File $FILE doesn't exist, skipping..."
+              continue
+            fi
+
             FILE_TYPE="${FILE##*.}"
             
             if [[ "$FILE_TYPE" == "js" || "$FILE_TYPE" == "jsx" ]]; then
@@ -148,34 +133,31 @@ jobs:
             CHOSEN_SNIPPET="${SNIPPETS[@]}"
             
             # Insert snippet at random location
-            if [ -f "$FILE" ]; then
-              TOTAL_LINES=$(wc -l < "$FILE")
-              if [ $TOTAL_LINES -gt 0 ]; then
-                RANDOM_LINE=$((RANDOM % TOTAL_LINES + 1))
-                sed -i "${RANDOM_LINE}i $CHOSEN_SNIPPET" "$FILE"
-                
-                # 20% chance to add a bug
-                if [[ $((RANDOM % 5)) -eq 0 ]]; then
-                  echo "console.log('DEBUG: This will be removed');" >> "$FILE"
-                  echo "$FILE" >> debug_files.txt
-                  echo "Bug introduced in $FILE"
-                fi
-                
-                git add "$FILE"
+            TOTAL_LINES=$(wc -l < "$FILE")
+            if [ $TOTAL_LINES -gt 0 ]; then
+              RANDOM_LINE=$((RANDOM % TOTAL_LINES + 1))
+              sed -i "${RANDOM_LINE}i $CHOSEN_SNIPPET" "$FILE"
+              
+              CHANGED_FILES+=("$FILE")
+              
+              # 20% chance to add a bug
+              if [[ $((RANDOM % 5)) -eq 0 ]]; then
+                echo "console.log('DEBUG: This will be removed');" >> "$FILE"
+                DEBUG_FILES+=("$FILE")
+                echo "Bug introduced in $FILE"
               fi
             fi
-          done < chosen_files.txt
-          
-          # Check if any files were modified
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "No changes made to any files."
-            echo "changes_made=false" >> $GITHUB_OUTPUT
+          done
+
+          # Only proceed if we have changes
+          if [ ${#CHANGED_FILES[@]} -eq 0 ]; then
+            echo "No files were modified. Exiting."
             exit 0
           fi
-          
-          echo "changes_made=true" >> $GITHUB_OUTPUT
-          
-          # Create commit with randomized message
+
+          git add "${CHANGED_FILES[@]}"
+
+          # Randomized commit message with task numbers
           TASK_NUMBER="TASK-$((100 + RANDOM % 900))"
           COMMIT_MESSAGES=(
             "$TASK_NUMBER - Refactored logic for better performance and maintainability."
@@ -185,23 +167,27 @@ jobs:
             "$TASK_NUMBER - Implemented a helper function for reusability across components."
             "$TASK_NUMBER - Fixed minor performance bottleneck affecting large data processing."
             "$TASK_NUMBER - Enhanced logging for better debugging and monitoring."
-            "$TASK_NUMBER - Updated $CATEGORY with necessary changes."
+            "$TASK_NUMBER - Updated with necessary $CATEGORY changes."
             "$TASK_NUMBER - Adjusted $CATEGORY settings for production readiness."
             "$TASK_NUMBER - Removed deprecated code and replaced with newer implementation."
           )
-          
+
           COMMIT_MSG="${COMMIT_MESSAGES[$RANDOM % ${#COMMIT_MESSAGES[@]}]}"
           git commit -m "$COMMIT_MSG"
-          
-          # Determine if we should do a debug fix later
-          if [ -s debug_files.txt ]; then
-            if [[ $((RANDOM % 5)) -lt 2 ]]; then
-              echo "debug_fix=true" >> $GITHUB_OUTPUT
-            else
-              echo "debug_fix=false" >> $GITHUB_OUTPUT
-            fi
-          else
-            echo "debug_fix=false" >> $GITHUB_OUTPUT
+
+          # 40% chance to push a quick fix later if we added debug statements
+          if [[ ${#DEBUG_FILES[@]} -gt 0 && $((RANDOM % 5)) -lt 2 ]]; then
+            echo "Will do a debug fix later..."
+            sleep $((300 + RANDOM % 600))
+            
+            # Remove debug statements from all files that had them
+            for DEBUG_FILE in "${DEBUG_FILES[@]}"; do
+              sed -i '/DEBUG: This will be removed/d' "$DEBUG_FILE"
+              git add "$DEBUG_FILE"
+            done
+            
+            git commit -m "TASK-$((100 + RANDOM % 900)) - Removed unnecessary debug logs."
+            git push
           fi
 
       - name: Push Changes
