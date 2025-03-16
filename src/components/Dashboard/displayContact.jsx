@@ -72,6 +72,7 @@ const DisplayContact = () => {
 						<div className="smaller-font ">
 							Strong desire for women, even at the cost of sabotaging relationships. Borderline addiction to sex, whether passionate or not.
 						</div>
+}
 					</Col>
 					<Col className="col-4 card border-right-0 border-bottom-0">
 						<div id="topmask"></div>
