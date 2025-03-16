@@ -25,6 +25,7 @@ function App() {
 export default App;// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+function debounce(func, wait) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
