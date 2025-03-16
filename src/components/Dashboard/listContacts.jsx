@@ -52,6 +52,7 @@ const DEMO_CONTACTS = [
 		"LastName": "Nandez",
 		"age": 23,
 		"id":7
+- Remember to optimize the database queries for performance.
 	},
 	{
 		"FirstName": "Ignacio",
