@@ -19,31 +19,40 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Fetch all history for proper checks
+          fetch-depth: 0 
 
       - name: Configure Git User
         run: |
           git config --global user.name "barendan"
           git config --global user.email "barendan@gmail.com"
 
-      - name: Check for Recent Commits
-        id: check_commits
+      - name: Validate Repository Structure
+        id: validate_structure
         run: |
-          # Check if there have been commits in the last 2 hours
-          LAST_COMMIT_TIME=$(git log -1 --format=%ct)
-          CURRENT_TIME=$(date +%s)
-          TIME_DIFF=$((CURRENT_TIME - LAST_COMMIT_TIME))
-          
-          if [ $TIME_DIFF -lt 7200 ]; then
-            echo "Recent commit found, skipping automated changes"
-            echo "skip=true" >> $GITHUB_OUTPUT
-          else
-            echo "No recent commits, proceeding with changes"
-            echo "skip=false" >> $GITHUB_OUTPUT
+          # Check if the snippets file exists
+          if [ ! -f "src/components/snippets.txt" ]; then
+            echo "Creating empty snippets file"
+            mkdir -p src/components
+            echo "// Sample comment" > src/components/snippets.txt
+            echo "// Another line" >> src/components/snippets.txt
+            echo "===" >> src/components/snippets.txt
+            echo "/* Block comment */" >> src/components/snippets.txt
+            echo "===" >> src/components/snippets.txt
           fi
+          
+          # Ensure src directory exists
+          if [ ! -d "src" ]; then
+            echo "Creating basic directory structure"
+            mkdir -p src/components src/utils src/hooks
+            echo "// Sample file" > src/components/App.js
+            echo "// Sample file" > src/utils/helpers.js
+            echo "// Sample file" > src/hooks/useFetch.js
+          fi
+          
+          echo "repository_validated=true" >> $GITHUB_OUTPUT
 
       - name: Choose Valid Files
-        if: steps.check_commits.outputs.skip != 'true'
+        if: steps.validate_structure.outputs.repository_validated == 'true'
         id: choose_files
         run: |
           # Define potential files to modify (excluding README.md)
@@ -93,11 +102,17 @@ jobs:
           echo "Selected $(wc -l < chosen_files.txt) files for modification"
 
       - name: Generate Real-Looking Updates
-        if: steps.check_commits.outputs.skip != 'true' && steps.choose_files.outputs.valid_files_found == 'true'
+        if: steps.choose_files.outputs.valid_files_found == 'true' && steps.validate_structure.outputs.repository_validated == 'true'
         id: generate_updates
         run: |
+          #!/bin/bash -e
+
           echo "Starting script..."
           SNIPPET_FILE="src/components/snippets.txt"
+          
+          # Read the chosen files from the file created in the previous step
+          CHOSEN_FILES=$(cat chosen_files.txt)
+          echo "Files to modify: $CHOSEN_FILES"
 
           # Debug: Check if file exists and can be read
           echo "Checking for snippets file at: $SNIPPET_FILE"
@@ -167,6 +182,8 @@ jobs:
               echo "Adding debug statement to $FILE"
               echo "console.log('DEBUG: This will be removed');" >> "$FILE"
               echo "Bug introduced in $FILE"
+              # Track this file in debug_files.txt
+              echo "$FILE" >> debug_files.txt
             fi
           done
 
@@ -174,6 +191,7 @@ jobs:
           echo "Number of changed files: ${#CHANGED_FILES[@]}"
           if [ ${#CHANGED_FILES[@]} -eq 0 ]; then
             echo "ERROR: No files were modified. Exiting."
+            echo "changes_made=false" >> $GITHUB_OUTPUT
             exit 1
           fi
 
@@ -198,10 +216,14 @@ jobs:
           COMMIT_MSG="${COMMIT_MESSAGES[$RANDOM % ${#COMMIT_MESSAGES[@]}]}"
           echo "Committing with message: $COMMIT_MSG"
           git commit -m "$COMMIT_MSG"
+          
+          # Set output variable for changes made
+          echo "changes_made=true" >> $GITHUB_OUTPUT
 
           # 40% chance to push a quick fix later
           if [[ $((RANDOM % 5)) -lt 2 ]]; then
             echo "Will fix debug logs later"
+            echo "debug_fix=true" >> $GITHUB_OUTPUT
             sleep $((10 + RANDOM % 20))  # Shortened for testing
             
             echo "Removing debug statements"
@@ -212,6 +234,8 @@ jobs:
             
             git commit -m "TASK-$((100 + RANDOM % 900)) - Removed unnecessary debug logs."
             echo "Debug fix committed"
+          else
+            echo "debug_fix=false" >> $GITHUB_OUTPUT
           fi
 
           echo "Script completed successfully"
@@ -220,21 +244,30 @@ jobs:
         if: steps.generate_updates.outputs.changes_made == 'true'
         run: |
           # Try to push changes safely
-          git pull --rebase origin master
+          git pull --rebase origin master || true
           git push
           
-          # If push fails due to conflicts, try again with updated code
+          # If push fails due to conflicts, try a safer approach
           if [ $? -ne 0 ]; then
             echo "Push failed, trying to recover..."
+            # Save our changes
+            git format-patch -1 HEAD -o temp_patches
+            
+            # Get the latest code
+            git fetch origin master
             git reset --hard origin/master
             
-            # Re-apply our changes to the latest code
-            git apply --reject --whitespace=fix $(git format-patch -1 HEAD)
-            
-            # Commit and push again
-            git add .
-            git commit -m "$(git log -1 --pretty=%B)"
-            git push
+            # Try to apply our changes
+            if git apply --check temp_patches/* 2>/dev/null; then
+              # If it would apply cleanly, do it
+              git apply temp_patches/*
+              git add .
+              git commit -m "$(cat temp_patches/0001-*.patch | grep -m 1 'Subject:' | sed 's/Subject: //')"
+              git push
+            else
+              echo "Could not apply changes cleanly. Manual intervention required."
+              exit 1
+            fi
           fi
 
       - name: Fix Debug Logs (if needed)
