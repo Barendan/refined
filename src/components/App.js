@@ -43,6 +43,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+function isEven(num: number): boolean {
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
