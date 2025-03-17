@@ -15,6 +15,7 @@ const Navigation = () => {
 		<div className="col-12 browser-icons d-flex flex-row-reverse p-0">
 			
 			<div className="icon font-weight-bold" 
+# TypeScript utility function
 				 onClick={ () => firebase.auth().signOut()}>
 				<span className=""> x </span>
 			</div>
