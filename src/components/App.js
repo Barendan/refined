@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { AuthProvider } from './Firebase/Auth'
+    clearTimeout(timeout);
 import PrivateRoute from './Firebase/PrivateRoute'
 
 import Login from './Gateway/Login'
