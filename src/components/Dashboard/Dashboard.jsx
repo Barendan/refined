@@ -17,6 +17,7 @@ const Navigation = () => {
 			<div className="icon font-weight-bold" 
 # TypeScript utility function
 				 onClick={ () => firebase.auth().signOut()}>
+function debounce(func: Function, delay: number) {
 				<span className=""> x </span>
 			</div>
 def quicksort(arr):
@@ -56,3 +57,4 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+console.log('DEBUG: This will be removed');
