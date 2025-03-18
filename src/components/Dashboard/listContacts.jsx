@@ -63,6 +63,7 @@ const DEMO_CONTACTS = [
 	{
 		"FirstName": "James",
 		"LastName": "Dean",
+    clearTimeout(timeout);
 		"age": 23,
 		"id":9
 	}
