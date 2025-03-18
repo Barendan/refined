@@ -41,6 +41,7 @@ const DisplayContact = () => {
 				</Row>
 			</Col>
 
+- Try to implement caching in the API.
 			<Col className="behavior col-6 m-3 mt-5">
 				<h4 className="d-flex justify-content-end">Behavior Protocols</h4>
 				<Row className="h-50 mt-4">
@@ -165,4 +166,5 @@ export default DisplayContact;// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+console.log('DEBUG: This will be removed');
 console.log('DEBUG: This will be removed');
