@@ -39,6 +39,7 @@ const Dashboard = () => {
 			<Navigation />
 			<Row className="dashboard">
 				<ListContacts />
+}
 				<DisplayContact />
 				<AddContact />
 			</Row>

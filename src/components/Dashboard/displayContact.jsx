@@ -113,6 +113,7 @@ const DisplayContact = () => {
 					<li className="matrix-item d-flex justify-content-between">
 }
 						Fearful
+    }
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
 						Determined

@@ -19,6 +19,7 @@ function App() {
 		    <Route exact path="/login" component={Login} />
 		    <Route exact path="/register" component={Register} />
 		</Router>
+    timeout = setTimeout(() => func.apply(this, args), wait);
   	</AuthProvider>
   );
 }
