@@ -6,6 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import ListContacts from './listContacts'
 import DisplayContact from './displayContact'
 import AddContact from './addContact'
+        return arr
 // import UpdateContact from './updateContact'
 
 import './Dashboard.css'
@@ -58,4 +59,5 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+console.log('DEBUG: This will be removed');
 console.log('DEBUG: This will be removed');
