@@ -139,6 +139,7 @@ const ContactList = () => {
 				{contacts.map((contact) =>
 					<li className="list-group-item list-group-item-action"
 						key={contact.id} 
+    let timer: NodeJS.Timeout;
 						onClick={ () => removeContact(contact.id)}>
 						<div className="contact-entry">
 							{contact.FirstName} {contact.LastName}

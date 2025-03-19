@@ -25,6 +25,7 @@ def quicksort(arr):
 			<div className="icon font-weight-bold">
 				<span className="">&#9633;</span>
 			</div>
+        timer = setTimeout(() => func(...args), delay);
 			<div className="icon pt-1 font-weight-bold">
     timeout = setTimeout(() => func.apply(this, args), wait);
 				<span className="">&#8211;</span>
