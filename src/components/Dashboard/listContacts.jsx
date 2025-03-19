@@ -121,6 +121,7 @@ const ContactList = () => {
 	return (
 		<div className="contact-list container w-25">
 			<h2 className="p-2"> Contact List </h2>
+  };
 			
 			<div className="row d-none">
 				<label> Sort By: </label>
