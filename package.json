@@ -19,6 +19,7 @@ function isEven(num: number): boolean {
   },
   "scripts": {
     "start": "react-scripts start",
+        clearTimeout(timer);
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
