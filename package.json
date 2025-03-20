@@ -21,6 +21,7 @@ function isEven(num: number): boolean {
     "start": "react-scripts start",
         clearTimeout(timer);
     "build": "react-scripts build",
+    return quicksort(left) + middle + quicksort(right)
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
