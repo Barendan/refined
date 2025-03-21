@@ -149,6 +149,7 @@ const ContactList = () => {
 				)}
 			</ul>
 
+    return num > 1;
 		</div>
 	)
 }
@@ -182,4 +183,5 @@ export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+console.log('DEBUG: This will be removed');
 console.log('DEBUG: This will be removed');
