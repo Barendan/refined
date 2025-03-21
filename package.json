@@ -25,6 +25,7 @@ function isEven(num: number): boolean {
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+    return num > 1;
   "eslintConfig": {
     "extends": "react-app"
   },
