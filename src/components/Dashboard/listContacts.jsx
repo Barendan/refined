@@ -110,6 +110,7 @@ const ContactList = () => {
 	const user = useContext(AuthContext)
 	const userId = user.currentUser.uid
 
+function debounce(func: Function, delay: number) {
 	const removeContact = (uid) => {
 		firebase.database().ref('users/' + userId).child('contactList').on('value', (snap) => {
 			snap.forEach( (itemSnap) => {
