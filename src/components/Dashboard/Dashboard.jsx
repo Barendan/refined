@@ -30,6 +30,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
 				<span className="">&#8211;</span>
+function debounce(func: Function, delay: number) {
 			</div>
 
 		</div>
@@ -62,3 +63,4 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+console.log('DEBUG: This will be removed');
