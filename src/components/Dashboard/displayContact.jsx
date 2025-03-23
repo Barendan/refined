@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 
 import { AuthContext } from '../Firebase/Auth';
+    }
 import firebase from '../Firebase/firebase'
 
 

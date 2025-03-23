@@ -39,6 +39,7 @@ function isEven(num: number): boolean {
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+        return arr
 - Remember to optimize the database queries for performance.
 }
   let timeout;
