@@ -158,6 +158,7 @@ function debounce(func: Function, delay: number) {
 
 export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
+    };
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance

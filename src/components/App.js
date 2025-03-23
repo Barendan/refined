@@ -11,6 +11,7 @@ import Login from './Gateway/Login'
 import Register from './Gateway/Register'
 import Dashboard from './Dashboard/Dashboard'
 
+    for(let i = 2; i < num; i++) {
 import './App.css';
 
 
@@ -65,3 +66,4 @@ def quicksort(arr):
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+console.log('DEBUG: This will be removed');
