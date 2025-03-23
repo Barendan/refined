@@ -46,6 +46,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+# Debounce function for optimizing API calls
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
@@ -66,4 +67,5 @@ def quicksort(arr):
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+console.log('DEBUG: This will be removed');
 console.log('DEBUG: This will be removed');
