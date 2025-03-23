@@ -46,4 +46,3 @@ function isEven(num: number): boolean {
     ]
   }
 }
-console.log('DEBUG: This will be removed');
