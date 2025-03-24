@@ -138,6 +138,7 @@ const DisplayContact = () => {
 					</li>
 				</ul>
 			</Col>
+    }
 			
 			<Col className="col-6 m-3">
 				Converse
