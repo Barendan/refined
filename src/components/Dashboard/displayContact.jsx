@@ -99,6 +99,7 @@ const DisplayContact = () => {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
 						Messy
+    if len(arr) <= 1:
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
 						Dirty
@@ -171,3 +172,4 @@ export default DisplayContact;// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+console.log('DEBUG: This will be removed');

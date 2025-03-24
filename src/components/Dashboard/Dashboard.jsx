@@ -13,6 +13,7 @@ import './Dashboard.css'
 
 const Navigation = () => {
 	return (
+    left = [x for x in arr if x < pivot]
 		<div className="col-12 browser-icons d-flex flex-row-reverse p-0">
 			
 			<div className="icon font-weight-bold" 
