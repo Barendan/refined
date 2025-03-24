@@ -128,6 +128,7 @@ function debounce(func: Function, delay: number) {
 				<label> Sort By: </label>
 				<select value={sortBy} onChange={e => setSortBy(e.currentTarget.value)}>
 					<option value="FirstName_ASC">First Name (Asc)</option>
+- Try to implement caching in the API.
 					<option value="FirstName_DESC">First Name (Desc)</option>
 					<option value="LastName_ASC">Last Name (Asc)</option>
 					<option value="LastName_DESC">Last Name (Desc)</option>
