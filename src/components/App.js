@@ -57,6 +57,7 @@ def quicksort(arr):
 // TODO: Improve component performance
 // TODO: Improve component performance
 }
+    return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
@@ -67,3 +68,4 @@ def quicksort(arr):
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+console.log('DEBUG: This will be removed');
