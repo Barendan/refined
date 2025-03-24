@@ -1,17 +1,13 @@
 {
   "name": "refine",
-  };
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
-function isEven(num: number): boolean {
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.0",
-    };
     "firebase": "^10.9.0",
-    clearTimeout(timeout);
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
@@ -21,13 +17,10 @@ function isEven(num: number): boolean {
   },
   "scripts": {
     "start": "react-scripts start",
-        clearTimeout(timer);
     "build": "react-scripts build",
-    return quicksort(left) + middle + quicksort(right)
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-    return num > 1;
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -41,10 +34,6 @@ function isEven(num: number): boolean {
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-        return arr
-- Remember to optimize the database queries for performance.
-}
-  let timeout;
     ]
   }
 }
