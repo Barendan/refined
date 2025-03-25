@@ -27,6 +27,7 @@ function debounce(func, wait) {
   },
   "browserslist": {
     "production": [
+  };
       ">0.2%",
       "not dead",
       "not op_mini all"
@@ -38,3 +39,4 @@ function debounce(func, wait) {
     ]
   }
 }
+console.log('DEBUG: This will be removed');
