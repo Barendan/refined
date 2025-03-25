@@ -129,6 +129,7 @@ function debounce(func: Function, delay: number) {
 				<select value={sortBy} onChange={e => setSortBy(e.currentTarget.value)}>
 					<option value="FirstName_ASC">First Name (Asc)</option>
 - Try to implement caching in the API.
+    clearTimeout(timeout);
 					<option value="FirstName_DESC">First Name (Desc)</option>
 					<option value="LastName_ASC">Last Name (Asc)</option>
 					<option value="LastName_DESC">Last Name (Desc)</option>
@@ -188,4 +189,5 @@ export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+console.log('DEBUG: This will be removed');
 console.log('DEBUG: This will be removed');

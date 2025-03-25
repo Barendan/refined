@@ -60,6 +60,7 @@ const DisplayContact = () => {
 						<div className="card-title font-weight-bold">
 							Violence
 						</div>
+    return num > 1;
 						<div className="smaller-font ">
 							Certain tendencies for violence arise when faced with challenges to the ego or made the victim of distrust.
 						</div>
@@ -175,3 +176,4 @@ export default DisplayContact;// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+console.log('DEBUG: This will be removed');
