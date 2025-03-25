@@ -169,6 +169,7 @@ export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+  return function (...args) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
@@ -186,3 +187,4 @@ export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+console.log('DEBUG: This will be removed');
