@@ -132,6 +132,7 @@ const DisplayContact = () => {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
 						Loyal
+}
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
 						Egotist
