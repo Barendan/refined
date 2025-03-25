@@ -56,6 +56,7 @@ def quicksort(arr):
 - Remember to optimize the database queries for performance.
 // TODO: Improve component performance
 // TODO: Improve component performance
+    return num > 1;
 // TODO: Improve component performance
 }
     return quicksort(left) + middle + quicksort(right)
