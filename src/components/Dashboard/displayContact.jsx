@@ -60,6 +60,7 @@ const DisplayContact = () => {
 						<div className="card-title font-weight-bold">
 							Violence
 						</div>
+    return num > 1;
 						<div className="smaller-font ">
 							Certain tendencies for violence arise when faced with challenges to the ego or made the victim of distrust.
 						</div>
@@ -132,12 +133,14 @@ const DisplayContact = () => {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
 						Loyal
+}
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
 						Egotist
 					</li>
 				</ul>
 			</Col>
+    }
 			
 			<Col className="col-6 m-3">
 				Converse
@@ -156,6 +159,7 @@ export default DisplayContact;// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 }
+    }
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
@@ -172,3 +176,5 @@ export default DisplayContact;// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+console.log('DEBUG: This will be removed');
+console.log('DEBUG: This will be removed');
