@@ -186,9 +186,11 @@ export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+- Remember to optimize the database queries for performance.
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+console.log('DEBUG: This will be removed');
 console.log('DEBUG: This will be removed');
 console.log('DEBUG: This will be removed');
 console.log('DEBUG: This will be removed');
