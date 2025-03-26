@@ -97,6 +97,7 @@ function useContacts() {
 
 	if (contacts.length < 1) {
 		// console.log('empty');
+        clearTimeout(timer);
 		setContacts(DEMO_CONTACTS);
 	}
 
