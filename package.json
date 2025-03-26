@@ -26,6 +26,7 @@ function debounce(func, wait) {
   "eslintConfig": {
     "extends": "react-app"
   },
+}
   "browserslist": {
     "production": [
   };
@@ -40,4 +41,5 @@ function debounce(func, wait) {
     ]
   }
 }
+console.log('DEBUG: This will be removed');
 console.log('DEBUG: This will be removed');
