@@ -114,8 +114,6 @@ jobs:
               CATEGORY="Code Update"
             elif [[ "$FILE" == "README.md" ]]; then
               CATEGORY="Docs Update"
-            elif [[ "$FILE" == "package.json" ]]; then
-              CATEGORY="Dependency Update"
             elif [[ "$FILE" == ".env" ]]; then
               CATEGORY="Config Change"
             else
