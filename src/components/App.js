@@ -67,6 +67,7 @@ def quicksort(arr):
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+- Try to implement caching in the API.
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
