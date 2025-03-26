@@ -29,18 +29,6 @@ jobs:
       - name: Validate Repository Structure
         id: validate_structure
         run: |
-          # Check if the snippets file exists
-          if [ ! -f "src/components/snippets.txt" ]; then
-            echo "Creating empty snippets file"
-            mkdir -p src/components
-            echo "// Sample comment" > src/components/snippets.txt
-            echo "// Another line" >> src/components/snippets.txt
-            echo "===" >> src/components/snippets.txt
-            echo "/* Block comment */" >> src/components/snippets.txt
-            echo "===" >> src/components/snippets.txt
-          fi
-          
-          # Ensure src directory exists
           if [ ! -d "src" ]; then
             echo "Creating basic directory structure"
             mkdir -p src/components src/utils src/hooks
@@ -49,13 +37,17 @@ jobs:
             echo "// Sample file" > src/hooks/useFetch.js
           fi
           
+          if [ ! -f "src/components/snippets.txt" ]; then
+            echo "ERROR: snippets.txt file not found. Please ensure it exists at src/components/snippets.txt"
+            exit 1
+          fi
+          
           echo "repository_validated=true" >> $GITHUB_OUTPUT
 
       - name: Choose Valid Files
         if: steps.validate_structure.outputs.repository_validated == 'true'
         id: choose_files
         run: |
-          # Define potential files to modify (excluding README.md)
           FILES=(
             "src/components/App.js"
             "src/components/Dashboard/Dashboard.jsx"
@@ -64,10 +56,8 @@ jobs:
             "src/utils/helpers.js"
             "src/hooks/useFetch.js"
             ".env"
-            "package.json"
           )
 
-          # Find non-empty files that exist
           VALID_FILES=()
           for file in "${FILES[@]}"; do
             if [ -s "$file" ]; then
@@ -75,7 +65,6 @@ jobs:
             fi
           done
 
-          # Exit if no valid files
           if [ ${#VALID_FILES[@]} -eq 0 ]; then
             echo "No valid files found. Skipping commit."
             echo "valid_files_found=false" >> $GITHUB_OUTPUT
@@ -90,16 +79,13 @@ jobs:
             NUM_FILES=${#VALID_FILES[@]}
           fi
           
-          # Create a temporary file to store chosen files
-          touch chosen_files.txt
-          
-          # Select random files
           SHUFFLED=($(printf "%s\n" "${VALID_FILES[@]}" | shuf))
-          for i in $(seq 0 $((NUM_FILES-1))); do
-            echo "${SHUFFLED[$i]}" >> chosen_files.txt
-          done
+          SELECTED_FILES=${SHUFFLED[@]:0:$NUM_FILES}
           
-          echo "Selected $(wc -l < chosen_files.txt) files for modification"
+          echo "SELECTED_FILES=${SELECTED_FILES}" >> $GITHUB_ENV
+          echo "Selected $NUM_FILES files for modification"
+          
+          echo "Selected $NUM_FILES files for modification"
 
       - name: Generate Real-Looking Updates
         if: steps.choose_files.outputs.valid_files_found == 'true' && steps.validate_structure.outputs.repository_validated == 'true'
@@ -110,35 +96,19 @@ jobs:
           echo "Starting script..."
           SNIPPET_FILE="src/components/snippets.txt"
           
-          # Read the chosen files from the file created in the previous step
-          CHOSEN_FILES=$(cat chosen_files.txt)
-          echo "Files to modify: $CHOSEN_FILES"
-
-          # Debug: Check if file exists and can be read
-          echo "Checking for snippets file at: $SNIPPET_FILE"
-          if [ ! -f "$SNIPPET_FILE" ]; then
-            echo "ERROR: No snippets file found at $SNIPPET_FILE"
-            ls -la src/components/
-            exit 1
-          fi
-          echo "Snippets file exists"
-
-          # Debug: Check chosen files
-          echo "CHOSEN_FILES value: '$CHOSEN_FILES'"
+          # Use the selected files from environment variable
           CHANGED_FILES=()
+          DEBUG_FIX=$((RANDOM % 5 < 2))  # 40% chance for debug fix
 
-          for FILE in $CHOSEN_FILES; do
+          for FILE in $SELECTED_FILES; do
             echo "Processing file: $FILE"
             
-            # Debug: Check if file exists and can be read
             if [ ! -f "$FILE" ]; then
               echo "ERROR: File $FILE doesn't exist"
               continue
             fi
-            echo "File exists"
             
             FILE_TYPE="${FILE##*.}"
-            echo "File type: $FILE_TYPE"
             
             if [[ "$FILE_TYPE" == "js" || "$FILE_TYPE" == "jsx" ]]; then
               CATEGORY="Code Update"
@@ -151,94 +121,46 @@ jobs:
             else
               CATEGORY="General Improvement"
             fi
-            echo "Category: $CATEGORY"
             
-            # Debug: Check snippet extraction
-            echo "Extracting snippet from $SNIPPET_FILE"
+            # Get random snippet
             SNIPPETS=$(awk '/===/{print "---"} !/===/' "$SNIPPET_FILE" | awk 'BEGIN{RS="---"} {print}' | shuf -n 1)
-            echo "Extracted snippet: $SNIPPETS"
             
-            # Debug: Check line count
-            echo "Counting lines in $FILE"
-            if [ ! -s "$FILE" ]; then
-              echo "ERROR: File $FILE is empty"
-              continue
-            fi
             TOTAL_LINES=$(wc -l < "$FILE")
-            echo "Total lines: $TOTAL_LINES"
-            
             RANDOM_LINE=$((RANDOM % TOTAL_LINES + 1))
-            echo "Selected line: $RANDOM_LINE"
             
-            # Using quotes to handle spaces in snippet
-            echo "Inserting snippet at line $RANDOM_LINE"
+            # Insert snippet
             sed -i "${RANDOM_LINE}i\\${SNIPPETS}" "$FILE"
-            
             CHANGED_FILES+=("$FILE")
-            echo "Added file to changed files list"
             
-            # 20% chance to add a bug
+            # 20% chance to add a debug statement
             if [[ $((RANDOM % 5)) -eq 0 ]]; then
-              echo "Adding debug statement to $FILE"
-              echo "console.log('DEBUG: This will be removed');" >> "$FILE"
-              echo "Bug introduced in $FILE"
-              # Track this file in debug_files.txt
-              echo "$FILE" >> debug_files.txt
+              echo "console.log('DEBUG: Temporary statement');" >> "$FILE"
+              DEBUG_FIX=1
             fi
           done
 
-          # Debug: Check if any files were changed
-          echo "Number of changed files: ${#CHANGED_FILES[@]}"
           if [ ${#CHANGED_FILES[@]} -eq 0 ]; then
-            echo "ERROR: No files were modified. Exiting."
+            echo "No files were modified"
             echo "changes_made=false" >> $GITHUB_OUTPUT
-            exit 1
+            exit 0
           fi
 
-          echo "Adding files to git: ${CHANGED_FILES[@]}"
           git add "${CHANGED_FILES[@]}"
 
-          # Randomized commit message with task numbers
+          # Commit message
           TASK_NUMBER="TASK-$((100 + RANDOM % 900))"
-          COMMIT_MESSAGES=(
-            "$TASK_NUMBER - Refactored logic for better performance and maintainability."
-            "$TASK_NUMBER - Optimized function to reduce execution time and improve efficiency."
-            "$TASK_NUMBER - Added missing error handling to enhance system stability."
-            "$TASK_NUMBER - Cleaned up redundant code and improved readability."
-            "$TASK_NUMBER - Implemented a helper function for reusability across components."
-            "$TASK_NUMBER - Fixed minor performance bottleneck affecting large data processing."
-            "$TASK_NUMBER - Enhanced logging for better debugging and monitoring."
-            "$TASK_NUMBER - Updated with necessary $CATEGORY changes."
-            "$TASK_NUMBER - Adjusted $CATEGORY settings for production readiness."
-            "$TASK_NUMBER - Removed deprecated code and replaced with newer implementation."
-          )
+          COMMIT_MSG="$TASK_NUMBER - ${CATEGORY}: "
+          case $((RANDOM % 5)) in
+            0) COMMIT_MSG+="Refactored for better performance";;
+            1) COMMIT_MSG+="Fixed edge case handling";;
+            2) COMMIT_MSG+="Improved code readability";;
+            3) COMMIT_MSG+="Updated configuration";;
+            4) COMMIT_MSG+="Optimized existing implementation";;
+          esac
 
-          COMMIT_MSG="${COMMIT_MESSAGES[$RANDOM % ${#COMMIT_MESSAGES[@]}]}"
-          echo "Committing with message: $COMMIT_MSG"
           git commit -m "$COMMIT_MSG"
-          
-          # Set output variable for changes made
           echo "changes_made=true" >> $GITHUB_OUTPUT
-
-          # 40% chance to push a quick fix later
-          if [[ $((RANDOM % 5)) -lt 2 ]]; then
-            echo "Will fix debug logs later"
-            echo "debug_fix=true" >> $GITHUB_OUTPUT
-            sleep $((10 + RANDOM % 20))  # Shortened for testing
-            
-            echo "Removing debug statements"
-            for DEBUG_FILE in "${CHANGED_FILES[@]}"; do
-              sed -i '/DEBUG: This will be removed/d' "$DEBUG_FILE"
-              git add "$DEBUG_FILE"
-            done
-            
-            git commit -m "TASK-$((100 + RANDOM % 900)) - Removed unnecessary debug logs."
-            echo "Debug fix committed"
-          else
-            echo "debug_fix=false" >> $GITHUB_OUTPUT
-          fi
-
-          echo "Script completed successfully"
+          echo "debug_fix=$DEBUG_FIX" >> $GITHUB_OUTPUT
 
       - name: Push Changes
         if: steps.generate_updates.outputs.changes_made == 'true'
@@ -271,25 +193,22 @@ jobs:
           fi
 
       - name: Fix Debug Logs (if needed)
-        if: steps.generate_updates.outputs.debug_fix == 'true'
+        if: steps.generate_updates.outputs.debug_fix == '1'
         run: |
-          # Wait a random amount of time (5-10 minutes)
-          sleep $((300 + RANDOM % 300))
+          sleep $((60 + RANDOM % 120))  # Wait 1-3 minutes
           
-          # Remove debug statements from each file that had them
-          while IFS= read -r DEBUG_FILE; do
-            if [ -f "$DEBUG_FILE" ]; then
-              sed -i '/DEBUG: This will be removed/d' "$DEBUG_FILE"
-              git add "$DEBUG_FILE"
+          # Find and remove debug statements in all changed files
+          for FILE in $SELECTED_FILES; do
+            if [ -f "$FILE" ]; then
+              sed -i "/DEBUG: Temporary statement/d" "$FILE"
             fi
-          done < debug_files.txt
+          done
           
-          # Create a new commit for the debug fix
-          if [ -n "$(git status --porcelain)" ]; then
-            TASK_NUMBER="TASK-$((100 + RANDOM % 900))"
-            git commit -m "$TASK_NUMBER - Removed unnecessary debug logs."
-            
-            # Push the fix
-            git pull --rebase origin master
+          if [ -n "$(git diff)" ]; then
+            git add .
+            git commit -m "TASK-$((100 + RANDOM % 900)) - Removed debug statements"
+            git pull --rebase
             git push
           fi
+
+
