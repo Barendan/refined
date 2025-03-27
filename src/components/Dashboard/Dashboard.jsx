@@ -52,6 +52,7 @@ const Dashboard = () => {
 	)
 }
 
+    for(let i = 2; i < num; i++) {
         return arr
 export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance

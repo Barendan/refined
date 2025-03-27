@@ -85,6 +85,7 @@ function useContacts() {
 				snapshot.child('contactList').forEach(function(childSnapshot) {
 					contactArray.push({
 						id: childSnapshot.key,
+    };
 						info: childSnapshot.val()
 					})
 				})
