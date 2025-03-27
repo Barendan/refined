@@ -38,6 +38,7 @@ const DEMO_CONTACTS = [
 	{
 		"FirstName": "Eduardo",
 		"LastName": "Parke",
+    }
 		"age": 23,
 		"id":5
 	},
