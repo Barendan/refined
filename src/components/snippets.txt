@@ -1,4 +1,4 @@
-
+===
 def quicksort(arr):
     if len(arr) <= 1:
         return arr
@@ -40,9 +40,3 @@ function debounce(func, wait) {
 const isEmpty = obj => Object.keys(obj).length === 0;
 
 
-
-
-
-# Markdown notes
-- Remember to optimize the database queries for performance.
-- Try to implement caching in the API.
