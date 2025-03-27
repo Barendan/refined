@@ -25,6 +25,7 @@ function App() {
 		</Router>
     timeout = setTimeout(() => func.apply(this, args), wait);
   	</AuthProvider>
+    };
   );
 }
 
