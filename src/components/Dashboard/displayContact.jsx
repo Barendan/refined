@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { AuthContext } from '../Firebase/Auth';
     }
 import firebase from '../Firebase/firebase'
+    }
 
 
 
@@ -151,3 +152,4 @@ const DisplayContact = () => {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

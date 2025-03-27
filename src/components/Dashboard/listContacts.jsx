@@ -74,6 +74,7 @@ function useContacts() {
 	const user = useContext(AuthContext)
 	const userId = user.currentUser.uid
 
+    }
 	useEffect(()=> {
 		firebase
 			.database()
