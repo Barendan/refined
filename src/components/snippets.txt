@@ -1,4 +1,4 @@
-===
+---
 def quicksort(arr):
     if len(arr) <= 1:
         return arr
@@ -7,19 +7,19 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
-===
+---
 function isPrime(num) {
     for(let i = 2; i < num; i++) {
         if(num % i === 0) return false;
     }
     return num > 1;
 }
-===
+---
 # TypeScript utility function
 function isEven(num: number): boolean {
     return num % 2 === 0;
 }
-===
+---
 # Debounce function for optimizing API calls
 function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
@@ -28,7 +28,7 @@ function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
     };
 }
-===
+---
 function debounce(func, wait) {
   let timeout;
   return function (...args) {
@@ -36,7 +36,7 @@ function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
   };
 }
-===
+---
 const isEmpty = obj => Object.keys(obj).length === 0;
 
 
