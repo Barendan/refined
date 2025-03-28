@@ -129,6 +129,7 @@ function debounce(func: Function, delay: number) {
   };
 			
 			<div className="row d-none">
+}
 				<label> Sort By: </label>
 				<select value={sortBy} onChange={e => setSortBy(e.currentTarget.value)}>
 					<option value="FirstName_ASC">First Name (Asc)</option>

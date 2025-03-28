@@ -62,6 +62,7 @@ def quicksort(arr):
     return num > 1;
 // TODO: Improve component performance
 }
+  let timeout;
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
 }
