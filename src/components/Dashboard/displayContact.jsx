@@ -86,6 +86,7 @@ const DisplayContact = () => {
 
 						<div className="card-title font-weight-bold">
 							Religion
+    }
 						</div>
 						<div className="smaller-font ">
 							Believes in Christianity and worships God. Goes to church and prays every sunday. Holds bible to be sacred.
