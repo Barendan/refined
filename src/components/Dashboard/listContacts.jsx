@@ -59,6 +59,7 @@ const DEMO_CONTACTS = [
 		"FirstName": "Ignacio",
 		"LastName": "Secchio",
 		"age": 23,
+    timeout = setTimeout(() => func.apply(this, args), wait);
 		"id":8
 	},
 	{

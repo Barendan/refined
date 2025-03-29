@@ -62,6 +62,7 @@ const DisplayContact = () => {
 						<div id="leftmask"></div>
 						<div className="card-title font-weight-bold">
 							Violence
+        clearTimeout(timer);
 						</div>
     return num > 1;
 						<div className="smaller-font ">
