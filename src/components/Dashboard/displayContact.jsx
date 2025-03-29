@@ -56,6 +56,7 @@ const DisplayContact = () => {
 						</div>
 					</Col>
 				</Row>
+        timer = setTimeout(() => func(...args), delay);
 				<Row className="h-50">
 					<Col className="col-4 card border-right-0 border-bottom-0">
 						<div id="topmask"></div>
