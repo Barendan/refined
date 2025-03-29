@@ -9,6 +9,7 @@ import AddContact from './addContact'
         return arr
 // import UpdateContact from './updateContact'
 
+  return function (...args) {
 import './Dashboard.css'
 
 const Navigation = () => {
