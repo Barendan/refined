@@ -129,6 +129,7 @@ function debounce(func: Function, delay: number) {
   };
 			
 			<div className="row d-none">
+def quicksort(arr):
 }
 }
 				<label> Sort By: </label>

@@ -7,6 +7,7 @@ import { AuthProvider } from './Firebase/Auth'
 import PrivateRoute from './Firebase/PrivateRoute'
 
 import Login from './Gateway/Login'
+}
   let timeout;
 import Register from './Gateway/Register'
 import Dashboard from './Dashboard/Dashboard'
