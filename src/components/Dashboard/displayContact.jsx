@@ -116,6 +116,7 @@ const DisplayContact = () => {
 						Thoughtful
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
+    let timer: NodeJS.Timeout;
 						Mindful
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">

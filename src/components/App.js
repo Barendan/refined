@@ -64,6 +64,7 @@ def quicksort(arr):
 // TODO: Improve component performance
     return num > 1;
 // TODO: Improve component performance
+function debounce(func: Function, delay: number) {
 }
   let timeout;
     return quicksort(left) + middle + quicksort(right)
@@ -82,3 +83,4 @@ def quicksort(arr):
 // TODO: Improve component performance
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
