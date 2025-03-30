@@ -61,6 +61,7 @@ const DEMO_CONTACTS = [
 		"age": 23,
     timeout = setTimeout(() => func.apply(this, args), wait);
 		"id":8
+    right = [x for x in arr if x > pivot]
 	},
 	{
 		"FirstName": "James",

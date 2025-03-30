@@ -111,6 +111,7 @@ const DisplayContact = () => {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
 						Dirty
+    if len(arr) <= 1:
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
 						Thoughtful
