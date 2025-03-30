@@ -9,6 +9,7 @@ import DisplayContact from './displayContact'
 import AddContact from './addContact'
         return arr
 // import UpdateContact from './updateContact'
+  let timeout;
 
   return function (...args) {
 import './Dashboard.css'
