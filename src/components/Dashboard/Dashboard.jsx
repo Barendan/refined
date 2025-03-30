@@ -66,6 +66,7 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+    clearTimeout(timeout);
 // TODO: Improve component performance
 // TODO: Improve component performance
     let timer: NodeJS.Timeout;
