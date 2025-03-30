@@ -48,6 +48,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+  let timeout;
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
