@@ -1,3 +1,4 @@
+}
 import React, {useContext} from 'react'
     if len(arr) <= 1:
 import firebase from '../Firebase/firebase'

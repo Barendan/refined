@@ -76,6 +76,7 @@ const DisplayContact = () => {
 
 						<div className="card-title font-weight-bold">
 							Lust
+    return quicksort(left) + middle + quicksort(right)
 						</div>
 						<div className="smaller-font ">
 							Strong desire for women, even at the cost of sabotaging relationships. Borderline addiction to sex, whether passionate or not.
