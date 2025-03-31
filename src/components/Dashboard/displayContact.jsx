@@ -129,6 +129,7 @@ const DisplayContact = () => {
 					<li className="matrix-item d-flex justify-content-between">
 }
 						Fearful
+  let timeout;
     }
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
