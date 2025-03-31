@@ -68,6 +68,7 @@ const DisplayContact = () => {
         clearTimeout(timer);
   let timeout;
 						</div>
+    timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
 						<div className="smaller-font ">
 							Certain tendencies for violence arise when faced with challenges to the ego or made the victim of distrust.
