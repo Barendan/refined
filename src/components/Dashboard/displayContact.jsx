@@ -161,4 +161,3 @@ const DisplayContact = () => {
 }
 
 export default DisplayContact;
-console.log('DEBUG: Temporary statement');
