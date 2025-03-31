@@ -44,6 +44,7 @@ const DisplayContact = () => {
 						</div>
 					</Col>
 				</Row>
+}
 			</Col>
 
 - Try to implement caching in the API.
