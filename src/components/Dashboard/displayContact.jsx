@@ -8,6 +8,7 @@ import firebase from '../Firebase/firebase'
 
 
 
+  };
 const DisplayContact = () => {
 
 
@@ -160,3 +161,4 @@ const DisplayContact = () => {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

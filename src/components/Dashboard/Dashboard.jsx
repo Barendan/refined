@@ -14,6 +14,7 @@ import AddContact from './addContact'
   return function (...args) {
 import './Dashboard.css'
 
+        return arr
 const Navigation = () => {
     }
 	return (
@@ -72,3 +73,4 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
     let timer: NodeJS.Timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
