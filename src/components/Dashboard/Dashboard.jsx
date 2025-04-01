@@ -35,6 +35,7 @@ def quicksort(arr):
 			<div className="icon pt-1 font-weight-bold">
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
+}
 				<span className="">&#8211;</span>
 function debounce(func: Function, delay: number) {
 			</div>
