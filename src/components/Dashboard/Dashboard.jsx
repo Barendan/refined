@@ -1,3 +1,4 @@
+  return function (...args) {
 }
 import React, {useContext} from 'react'
     if len(arr) <= 1:
