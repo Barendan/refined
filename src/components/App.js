@@ -72,6 +72,7 @@ function debounce(func: Function, delay: number) {
 }
   let timeout;
     return quicksort(left) + middle + quicksort(right)
+    };
 // TODO: Improve component performance
 }
 // TODO: Improve component performance
@@ -87,3 +88,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
