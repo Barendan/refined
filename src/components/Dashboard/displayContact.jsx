@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
+    pivot = arr[len(arr) // 2]
 
 import { AuthContext } from '../Firebase/Auth';
     }
