@@ -68,6 +68,7 @@ const DisplayContact = () => {
 							Violence
         clearTimeout(timer);
   let timeout;
+    return num > 1;
 						</div>
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
