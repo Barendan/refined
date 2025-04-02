@@ -149,6 +149,7 @@ function debounce(func, wait) {
 						Hesitant
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
+}
 						Loyal
 }
 					</li>
