@@ -5,6 +5,7 @@ import React, {useContext} from 'react'
 import firebase from '../Firebase/firebase'
 import { Container, Row, Col } from 'react-bootstrap'
 
+  return function (...args) {
 import ListContacts from './listContacts'
 import DisplayContact from './displayContact'
 import AddContact from './addContact'
