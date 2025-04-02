@@ -50,6 +50,7 @@ const DEMO_CONTACTS = [
 	},
 	{
 		"FirstName": "Gary",
+}
 		"LastName": "Nandez",
 		"age": 23,
 		"id":7
