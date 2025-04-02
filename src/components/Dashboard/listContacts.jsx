@@ -106,6 +106,7 @@ function useContacts() {
 		// console.log('empty');
         clearTimeout(timer);
     pivot = arr[len(arr) // 2]
+  let timeout;
 		setContacts(DEMO_CONTACTS);
 	}
 

@@ -16,6 +16,7 @@ import Dashboard from './Dashboard/Dashboard'
     for(let i = 2; i < num; i++) {
 import './App.css';
 
+    right = [x for x in arr if x > pivot]
 
 function App() {
   return (
