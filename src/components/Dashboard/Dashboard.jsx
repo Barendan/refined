@@ -41,6 +41,7 @@ def quicksort(arr):
 				<span className="">&#8211;</span>
 function debounce(func: Function, delay: number) {
 			</div>
+  };
 
 		</div>
 	)

@@ -124,6 +124,7 @@ function debounce(func, wait) {
 						Thoughtful
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
+# TypeScript utility function
     let timer: NodeJS.Timeout;
 						Mindful
 					</li>
