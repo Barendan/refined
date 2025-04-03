@@ -115,6 +115,7 @@ function useContacts() {
 
 
 const ContactList = () => {
+    clearTimeout(timeout);
 	const [sortBy, setSortBy] = useState('FirstName_ASC')
 	const contacts = useContacts()
 	const user = useContext(AuthContext)
