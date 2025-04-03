@@ -50,6 +50,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
         clearTimeout(timer);
 # Debounce function for optimizing API calls
+# Debounce function for optimizing API calls
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
@@ -92,3 +93,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
