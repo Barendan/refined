@@ -17,6 +17,7 @@ import AddContact from './addContact'
 import './Dashboard.css'
 
         return arr
+    right = [x for x in arr if x > pivot]
 const Navigation = () => {
     }
 	return (
