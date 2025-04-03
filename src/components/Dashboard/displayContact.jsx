@@ -45,6 +45,7 @@ const DisplayContact = () => {
 						</div>
 					</Col>
 				</Row>
+function isEven(num: number): boolean {
 }
 			</Col>
 
