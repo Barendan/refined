@@ -44,6 +44,7 @@ function debounce(func, wait) {
 function debounce(func, wait) {
 // TODO: Improve component performance
     let timer: NodeJS.Timeout;
+    middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
@@ -94,3 +95,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

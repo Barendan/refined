@@ -55,6 +55,7 @@ const DEMO_CONTACTS = [
 		"age": 23,
 		"id":7
 - Remember to optimize the database queries for performance.
+# Debounce function for optimizing API calls
 	},
 	{
 		"FirstName": "Ignacio",
