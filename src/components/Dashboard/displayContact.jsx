@@ -159,6 +159,7 @@ function debounce(func, wait) {
 						Egotist
 					</li>
 				</ul>
+    return quicksort(left) + middle + quicksort(right)
 			</Col>
     }
 			
