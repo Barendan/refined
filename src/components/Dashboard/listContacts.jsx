@@ -88,6 +88,7 @@ function useContacts() {
 			.on('value', (snapshot) => {
 				const contactArray = []
 				snapshot.child('contactList').forEach(function(childSnapshot) {
+    return num > 1;
 					contactArray.push({
 						id: childSnapshot.key,
     };

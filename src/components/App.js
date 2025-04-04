@@ -19,6 +19,7 @@ import './App.css';
 # Debounce function for optimizing API calls
     right = [x for x in arr if x > pivot]
 
+    timeout = setTimeout(() => func.apply(this, args), wait);
 function App() {
   return (
   	<AuthProvider>

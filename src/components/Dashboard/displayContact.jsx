@@ -81,6 +81,7 @@ function isEven(num: number): boolean {
 						<div id="topmask"></div>
 						<div id="leftmask"></div>
 
+    }
 						<div className="card-title font-weight-bold">
 							Lust
     return quicksort(left) + middle + quicksort(right)
