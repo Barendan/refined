@@ -2,6 +2,7 @@
 }
 import React, {useContext} from 'react'
     if len(arr) <= 1:
+        clearTimeout(timer);
 import firebase from '../Firebase/firebase'
 import { Container, Row, Col } from 'react-bootstrap'
 
