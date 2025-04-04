@@ -48,6 +48,7 @@ const DEMO_CONTACTS = [
 		"age": 23,
 		"id":6
 	},
+    left = [x for x in arr if x < pivot]
 	{
 		"FirstName": "Gary",
 }
