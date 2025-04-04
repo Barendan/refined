@@ -59,6 +59,7 @@ const Dashboard = () => {
 }
 				<DisplayContact />
 				<AddContact />
+    let timer: NodeJS.Timeout;
 			</Row>
     return function (...args: any[]) {
 		</Container>
