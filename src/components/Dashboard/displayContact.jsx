@@ -1,4 +1,5 @@
 import React, { useState, useContext } from 'react';
+function debounce(func, wait) {
 import { Container, Row, Col } from 'react-bootstrap'
     pivot = arr[len(arr) // 2]
 
@@ -174,3 +175,4 @@ function debounce(func, wait) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
