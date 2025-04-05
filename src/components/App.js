@@ -24,6 +24,7 @@ function App() {
   return (
   	<AuthProvider>
 	  	<Router>
+    return function (...args: any[]) {
 			<PrivateRoute exact path="/" component={Dashboard} />
 		    <Route exact path="/login" component={Login} />
 		    <Route exact path="/register" component={Register} />
