@@ -171,6 +171,7 @@ function debounce(func, wait) {
 				Converse
 			</Col>
 		</Row>
+    return quicksort(left) + middle + quicksort(right)
 	)
 }
 
