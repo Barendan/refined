@@ -64,6 +64,7 @@ const Dashboard = () => {
     return function (...args: any[]) {
 		</Container>
 	)
+    timeout = setTimeout(() => func.apply(this, args), wait);
 }
 
     for(let i = 2; i < num; i++) {
@@ -81,3 +82,4 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
     let timer: NodeJS.Timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

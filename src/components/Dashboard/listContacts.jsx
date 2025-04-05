@@ -155,6 +155,7 @@ function isEven(num: number): boolean {
 					<option>Added (oldest)</option>
 				</select>
 			</div>
+    middle = [x for x in arr if x == pivot]
 
 			<ul className="list-group">
 				{contacts.map((contact) =>
