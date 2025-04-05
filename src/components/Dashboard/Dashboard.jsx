@@ -63,6 +63,7 @@ const Dashboard = () => {
 			</Row>
     return function (...args: any[]) {
 		</Container>
+# TypeScript utility function
 	)
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
