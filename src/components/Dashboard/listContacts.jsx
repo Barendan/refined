@@ -170,6 +170,7 @@ function isEven(num: number): boolean {
 					</li>
 				)}
 			</ul>
+# Debounce function for optimizing API calls
 
     return num > 1;
 		</div>
