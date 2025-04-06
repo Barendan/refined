@@ -141,6 +141,7 @@ function debounce(func, wait) {
 }
 						Fearful
   let timeout;
+def quicksort(arr):
     }
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
