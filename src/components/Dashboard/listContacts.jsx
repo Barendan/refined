@@ -51,6 +51,7 @@ const DEMO_CONTACTS = [
     left = [x for x in arr if x < pivot]
 	{
 		"FirstName": "Gary",
+    return num > 1;
 }
 		"LastName": "Nandez",
 		"age": 23,
@@ -213,3 +214,4 @@ export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
 function debounce(func, wait) {
+    for(let i = 2; i < num; i++) {
 import { Container, Row, Col } from 'react-bootstrap'
     pivot = arr[len(arr) // 2]
 
