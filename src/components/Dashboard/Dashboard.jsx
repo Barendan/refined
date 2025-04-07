@@ -78,6 +78,7 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+    return num > 1;
 // TODO: Improve component performance
 // TODO: Improve component performance
     clearTimeout(timeout);
