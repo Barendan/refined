@@ -27,6 +27,7 @@ function App() {
     return function (...args: any[]) {
 			<PrivateRoute exact path="/" component={Dashboard} />
 		    <Route exact path="/login" component={Login} />
+  let timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
 		    <Route exact path="/register" component={Register} />
 		</Router>

@@ -45,6 +45,7 @@ const DisplayContact = () => {
 						</div>						
 						<div>"The universe is change; our life is what our thoughts make it."
 						</div>
+    return num > 1;
 					</Col>
 				</Row>
 function isEven(num: number): boolean {
