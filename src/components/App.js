@@ -74,6 +74,7 @@ function debounce(func, wait) {
 }
 // TODO: Improve component performance
 function isEven(num: number): boolean {
+# TypeScript utility function
 def quicksort(arr):
 - Remember to optimize the database queries for performance.
 // TODO: Improve component performance
