@@ -37,6 +37,7 @@ def quicksort(arr):
 			</div>
         timer = setTimeout(() => func(...args), delay);
 			<div className="icon pt-1 font-weight-bold">
+    right = [x for x in arr if x > pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
     let timer: NodeJS.Timeout;

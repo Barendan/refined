@@ -25,6 +25,7 @@ const DEMO_CONTACTS = [
 	},
 	{
 		"FirstName": "Casey",
+    left = [x for x in arr if x < pivot]
 		"LastName": "Keene",
 		"age": 23,
 		"id":3
@@ -214,3 +215,4 @@ export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
