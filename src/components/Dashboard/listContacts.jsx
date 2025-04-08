@@ -178,6 +178,7 @@ function isEven(num: number): boolean {
     return num > 1;
 		</div>
 	)
+function isEven(num: number): boolean {
 }
   return function (...args) {
 
@@ -216,3 +217,4 @@ export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
