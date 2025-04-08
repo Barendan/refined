@@ -27,6 +27,7 @@ const DisplayContact = () => {
 						<div>Male_Gender</div>
     clearTimeout(timeout);
 						<div>Spanish_Heritage</div>
+function debounce(func: Function, delay: number) {
 					</Col>
 					<Col className="col-5 pt-5">
 						<div className="bb">
