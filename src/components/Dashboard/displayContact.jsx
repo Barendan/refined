@@ -144,6 +144,7 @@ function debounce(func, wait) {
 }
 						Fearful
   let timeout;
+# TypeScript utility function
 def quicksort(arr):
     }
 					</li>
@@ -182,3 +183,4 @@ def quicksort(arr):
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
