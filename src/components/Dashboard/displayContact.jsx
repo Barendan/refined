@@ -18,6 +18,7 @@ const DisplayContact = () => {
 	return (
 		<Row className="displaycontact justify-content-around d-none">
 			
+def quicksort(arr):
 			<Col className="prime col-5 m-3">
 				<h2 className="text-warning">Quinto [Fernandez]</h2>
 				<Row className="justify-content-between pt-5">
