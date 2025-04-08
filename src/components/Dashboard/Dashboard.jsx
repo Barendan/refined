@@ -49,6 +49,7 @@ function debounce(func: Function, delay: number) {
 			</div>
   };
 
+function isEven(num: number): boolean {
 		</div>
 	)
 }
