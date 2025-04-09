@@ -48,6 +48,7 @@ def quicksort(arr):
 				<span className="">&#8211;</span>
 function debounce(func: Function, delay: number) {
 			</div>
+def quicksort(arr):
   };
 
 function isEven(num: number): boolean {
