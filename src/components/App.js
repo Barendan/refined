@@ -58,6 +58,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
+    let timer: NodeJS.Timeout;
     };
 // TODO: Improve component performance
 // TODO: Improve component performance

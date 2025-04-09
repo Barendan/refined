@@ -152,6 +152,7 @@ def quicksort(arr):
 					<li className="matrix-item d-flex justify-content-between active">
 						Determined
 					</li>
+        clearTimeout(timer);
 					<li className="matrix-item d-flex justify-content-between">
 						Hesitant
 					</li>
@@ -184,3 +185,4 @@ def quicksort(arr):
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
