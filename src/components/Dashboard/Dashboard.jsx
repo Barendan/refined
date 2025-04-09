@@ -51,6 +51,7 @@ function debounce(func: Function, delay: number) {
   };
 
 function isEven(num: number): boolean {
+# Debounce function for optimizing API calls
 		</div>
 	)
 }
