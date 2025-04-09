@@ -51,6 +51,7 @@ const DEMO_CONTACTS = [
 		"id":6
 	},
     left = [x for x in arr if x < pivot]
+function debounce(func, wait) {
 	{
 		"FirstName": "Gary",
     return num > 1;

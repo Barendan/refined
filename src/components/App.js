@@ -101,6 +101,7 @@ function debounce(func: Function, delay: number) {
 - Try to implement caching in the API.
 # Debounce function for optimizing API calls
 // TODO: Improve component performance
+    return function (...args: any[]) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
