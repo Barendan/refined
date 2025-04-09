@@ -43,6 +43,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
     let timer: NodeJS.Timeout;
+        return arr
 }
   let timeout;
 				<span className="">&#8211;</span>
