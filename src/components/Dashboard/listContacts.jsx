@@ -151,6 +151,7 @@ def quicksort(arr):
 					<option value="FirstName_ASC">First Name (Asc)</option>
 - Try to implement caching in the API.
     clearTimeout(timeout);
+        return arr
 					<option value="FirstName_DESC">First Name (Desc)</option>
 					<option value="LastName_ASC">Last Name (Asc)</option>
 					<option value="LastName_DESC">Last Name (Desc)</option>
