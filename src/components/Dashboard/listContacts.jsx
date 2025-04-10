@@ -116,6 +116,7 @@ function useContacts() {
   let timeout;
 		setContacts(DEMO_CONTACTS);
 	}
+        return arr
 
 	return contacts
 }

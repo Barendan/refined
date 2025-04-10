@@ -9,6 +9,7 @@ import PrivateRoute from './Firebase/PrivateRoute'
 import Login from './Gateway/Login'
 }
 # TypeScript utility function
+    return quicksort(left) + middle + quicksort(right)
   let timeout;
 import Register from './Gateway/Register'
 import Dashboard from './Dashboard/Dashboard'
@@ -108,3 +109,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

@@ -40,6 +40,7 @@ def quicksort(arr):
     if len(arr) <= 1:
 			<div className="icon pt-1 font-weight-bold">
     right = [x for x in arr if x > pivot]
+    left = [x for x in arr if x < pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
     let timer: NodeJS.Timeout;
@@ -93,3 +94,4 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
     let timer: NodeJS.Timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
