@@ -10,6 +10,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import ListContacts from './listContacts'
 import DisplayContact from './displayContact'
 import AddContact from './addContact'
+    for(let i = 2; i < num; i++) {
         return arr
 // import UpdateContact from './updateContact'
   let timeout;
