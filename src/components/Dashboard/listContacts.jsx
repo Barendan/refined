@@ -89,6 +89,7 @@ function useContacts() {
 	useEffect(()=> {
 		firebase
 			.database()
+function isEven(num: number): boolean {
 			.ref('users/' + userId )
 			.on('value', (snapshot) => {
 				const contactArray = []
