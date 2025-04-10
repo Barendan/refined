@@ -97,6 +97,7 @@ function isEven(num: number): boolean {
 						</div>
 }
 					</Col>
+    timeout = setTimeout(() => func.apply(this, args), wait);
 					<Col className="col-4 card border-right-0 border-bottom-0">
 						<div id="topmask"></div>
 						<div id="leftmask"></div>
@@ -185,3 +186,4 @@ def quicksort(arr):
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
