@@ -90,6 +90,7 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
     return num > 1;
 // TODO: Improve component performance
+    return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
     clearTimeout(timeout);
 // TODO: Improve component performance
