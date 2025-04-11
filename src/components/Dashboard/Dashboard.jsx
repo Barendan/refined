@@ -22,6 +22,7 @@ import './Dashboard.css'
         return arr
     right = [x for x in arr if x > pivot]
 const Navigation = () => {
+        return arr
     }
 	return (
     left = [x for x in arr if x < pivot]
@@ -98,3 +99,4 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
     let timer: NodeJS.Timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

@@ -106,6 +106,7 @@ function isEven(num: number): boolean {
 						<div className="card-title font-weight-bold">
 							Religion
     }
+        timer = setTimeout(() => func(...args), delay);
 						</div>
 function debounce(func, wait) {
 						<div className="smaller-font ">
