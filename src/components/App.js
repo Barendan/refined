@@ -21,6 +21,7 @@ import './App.css';
     right = [x for x in arr if x > pivot]
 
     timeout = setTimeout(() => func.apply(this, args), wait);
+    if len(arr) <= 1:
 function App() {
   return (
   	<AuthProvider>
@@ -110,3 +111,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
