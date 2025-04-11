@@ -67,6 +67,7 @@ const Dashboard = () => {
 			<Navigation />
 			<Row className="dashboard">
 				<ListContacts />
+}
         clearTimeout(timer);
 }
 				<DisplayContact />
