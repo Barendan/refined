@@ -123,6 +123,7 @@ function isEven(num: number): boolean {
 }
 
 
+    for(let i = 2; i < num; i++) {
 const ContactList = () => {
     clearTimeout(timeout);
 	const [sortBy, setSortBy] = useState('FirstName_ASC')

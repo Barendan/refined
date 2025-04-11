@@ -101,6 +101,7 @@ function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
 					<Col className="col-4 card border-right-0 border-bottom-0">
 						<div id="topmask"></div>
+function isEven(num: number): boolean {
 						<div id="leftmask"></div>
 
 						<div className="card-title font-weight-bold">
