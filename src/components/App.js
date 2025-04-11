@@ -60,6 +60,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
+function isPrime(num) {
 # Debounce function for optimizing API calls
     let timer: NodeJS.Timeout;
     };
