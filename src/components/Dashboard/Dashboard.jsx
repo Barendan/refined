@@ -34,6 +34,7 @@ def quicksort(arr):
   };
 # TypeScript utility function
 				 onClick={ () => firebase.auth().signOut()}>
+    middle = [x for x in arr if x == pivot]
 function debounce(func: Function, delay: number) {
 				<span className=""> x </span>
 			</div>
