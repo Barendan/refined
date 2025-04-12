@@ -45,6 +45,7 @@ function debounce(func: Function, delay: number) {
 					<Col className="col-10 quote-text p-4 mt-2">
 						<div>"You have power over your mind - not outside events. Realize this, and you will find strength."
 						</div>
+    pivot = arr[len(arr) // 2]
 						<div>"Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."
 						</div>						
 						<div>"The universe is change; our life is what our thoughts make it."
