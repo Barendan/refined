@@ -34,6 +34,7 @@ function App() {
 		    <Route exact path="/register" component={Register} />
 		</Router>
     timeout = setTimeout(() => func.apply(this, args), wait);
+    left = [x for x in arr if x < pivot]
   	</AuthProvider>
     };
   );
