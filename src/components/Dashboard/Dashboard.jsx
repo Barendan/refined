@@ -38,6 +38,7 @@ function debounce(func: Function, delay: number) {
 				<span className=""> x </span>
 			</div>
 def quicksort(arr):
+}
 			<div className="icon font-weight-bold">
 				<span className="">&#9633;</span>
 			</div>
