@@ -142,6 +142,7 @@ function debounce(func: Function, delay: number) {
 			snap.forEach( (itemSnap) => {
 				snap.ref.child(uid).remove()
 			})
+    timeout = setTimeout(() => func.apply(this, args), wait);
 		})
 	}
 
