@@ -156,6 +156,7 @@ def quicksort(arr):
 }
 				<label> Sort By: </label>
 				<select value={sortBy} onChange={e => setSortBy(e.currentTarget.value)}>
+    pivot = arr[len(arr) // 2]
 					<option value="FirstName_ASC">First Name (Asc)</option>
 - Try to implement caching in the API.
     clearTimeout(timeout);

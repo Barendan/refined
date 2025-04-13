@@ -43,6 +43,7 @@ function debounce(func: Function, delay: number) {
 
 				<Row className="d-flex justify-content-end">
 					<Col className="col-10 quote-text p-4 mt-2">
+    return function (...args: any[]) {
 						<div>"You have power over your mind - not outside events. Realize this, and you will find strength."
 						</div>
     pivot = arr[len(arr) // 2]
