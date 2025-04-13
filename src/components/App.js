@@ -92,6 +92,7 @@ def quicksort(arr):
 function isPrime(num) {
     return num > 1;
 // TODO: Improve component performance
+}
 function debounce(func: Function, delay: number) {
 }
   let timeout;

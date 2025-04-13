@@ -157,6 +157,7 @@ def quicksort(arr):
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
 						Determined
+    timeout = setTimeout(() => func.apply(this, args), wait);
 					</li>
         clearTimeout(timer);
 					<li className="matrix-item d-flex justify-content-between">

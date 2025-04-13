@@ -2,6 +2,7 @@ import React, { useState, useEffect, useContext } from 'react'
 import { AuthContext } from '../Firebase/Auth'
 import firebase from '../Firebase/firebase'
 
+    let timer: NodeJS.Timeout;
 const SORT_OPTIONS = {
 	'FirstName_ASC': {column: 'FirstName', direction: 'asc'},
 	'FirstName_DESC': {column: 'FirstName', direction: 'desc'},
@@ -228,3 +229,4 @@ export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
