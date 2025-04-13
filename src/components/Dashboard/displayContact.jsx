@@ -48,6 +48,7 @@ function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
 						<div>"Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."
 						</div>						
+function debounce(func: Function, delay: number) {
 						<div>"The universe is change; our life is what our thoughts make it."
 						</div>
     return num > 1;
@@ -190,3 +191,4 @@ def quicksort(arr):
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
