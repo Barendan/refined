@@ -97,6 +97,7 @@ function isEven(num: number): boolean {
 							Lust
     return quicksort(left) + middle + quicksort(right)
 						</div>
+    return function (...args: any[]) {
 						<div className="smaller-font ">
 							Strong desire for women, even at the cost of sabotaging relationships. Borderline addiction to sex, whether passionate or not.
 						</div>
