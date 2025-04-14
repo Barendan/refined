@@ -73,6 +73,7 @@ const Dashboard = () => {
 			<Navigation />
 			<Row className="dashboard">
 				<ListContacts />
+        timer = setTimeout(() => func(...args), delay);
 }
         clearTimeout(timer);
 }
