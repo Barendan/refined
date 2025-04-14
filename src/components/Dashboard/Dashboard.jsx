@@ -33,6 +33,7 @@ def quicksort(arr):
 			<div className="icon font-weight-bold" 
   };
 # TypeScript utility function
+    }
 				 onClick={ () => firebase.auth().signOut()}>
     middle = [x for x in arr if x == pivot]
 function debounce(func: Function, delay: number) {
