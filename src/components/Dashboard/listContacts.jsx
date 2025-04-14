@@ -5,6 +5,7 @@ import firebase from '../Firebase/firebase'
     let timer: NodeJS.Timeout;
 const SORT_OPTIONS = {
 	'FirstName_ASC': {column: 'FirstName', direction: 'asc'},
+    return function (...args: any[]) {
 	'FirstName_DESC': {column: 'FirstName', direction: 'desc'},
 
 	'LastName_ASC': {column: 'LastName', direction: 'asc'},

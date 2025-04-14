@@ -76,6 +76,7 @@ const Dashboard = () => {
         clearTimeout(timer);
 }
 				<DisplayContact />
+    return num > 1;
 				<AddContact />
     let timer: NodeJS.Timeout;
 			</Row>
