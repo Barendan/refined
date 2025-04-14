@@ -103,6 +103,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
     }
 // TODO: Improve component performance
+    return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
     middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance

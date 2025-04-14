@@ -77,6 +77,7 @@ function isEven(num: number): boolean {
 						<div id="leftmask"></div>
 						<div className="card-title font-weight-bold">
 							Violence
+# Debounce function for optimizing API calls
         clearTimeout(timer);
   let timeout;
     return num > 1;

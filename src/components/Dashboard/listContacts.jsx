@@ -170,6 +170,7 @@ function isEven(num: number): boolean {
 					<option>Added (oldest)</option>
 				</select>
 			</div>
+    if len(arr) <= 1:
     middle = [x for x in arr if x == pivot]
 
 			<ul className="list-group">
