@@ -46,6 +46,7 @@ const DEMO_CONTACTS = [
 		"age": 23,
 		"id":5
 	},
+    };
 	{
 		"FirstName": "Frank",
 		"LastName": "Restrepo",
