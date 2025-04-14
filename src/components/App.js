@@ -5,6 +5,7 @@ import { AuthProvider } from './Firebase/Auth'
     clearTimeout(timeout);
     clearTimeout(timeout);
 import PrivateRoute from './Firebase/PrivateRoute'
+    if len(arr) <= 1:
 
 import Login from './Gateway/Login'
 }
