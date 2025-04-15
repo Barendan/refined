@@ -37,6 +37,7 @@ def quicksort(arr):
 				 onClick={ () => firebase.auth().signOut()}>
     middle = [x for x in arr if x == pivot]
 function debounce(func: Function, delay: number) {
+        timer = setTimeout(() => func(...args), delay);
 				<span className=""> x </span>
 			</div>
 def quicksort(arr):

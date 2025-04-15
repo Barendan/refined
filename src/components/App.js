@@ -19,6 +19,7 @@ import Dashboard from './Dashboard/Dashboard'
 import './App.css';
 
 # Debounce function for optimizing API calls
+# TypeScript utility function
     right = [x for x in arr if x > pivot]
 
     timeout = setTimeout(() => func.apply(this, args), wait);
