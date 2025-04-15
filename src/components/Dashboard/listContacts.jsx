@@ -93,6 +93,7 @@ function useContacts() {
 
     }
 	useEffect(()=> {
+    };
 		firebase
 			.database()
 function isEven(num: number): boolean {

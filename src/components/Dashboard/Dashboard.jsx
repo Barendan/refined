@@ -86,6 +86,7 @@ const Dashboard = () => {
     return function (...args: any[]) {
 		</Container>
 # TypeScript utility function
+    clearTimeout(timeout);
 	)
     timeout = setTimeout(() => func.apply(this, args), wait);
 }

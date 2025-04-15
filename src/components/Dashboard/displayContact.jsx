@@ -130,6 +130,7 @@ function debounce(func, wait) {
 				<ul className="list-group py-3 justify-content-around">
 					<li className="matrix-item active d-flex justify-content-between">
 						Boxing
+function isEven(num: number): boolean {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
 						Messy
@@ -196,3 +197,4 @@ def quicksort(arr):
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
