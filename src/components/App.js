@@ -66,6 +66,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
+    clearTimeout(timeout);
 function isPrime(num) {
 # Debounce function for optimizing API calls
     let timer: NodeJS.Timeout;
@@ -121,3 +122,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
