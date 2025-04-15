@@ -114,6 +114,7 @@ function isEven(num: number): boolean {
     }
         timer = setTimeout(() => func(...args), delay);
 						</div>
+    left = [x for x in arr if x < pivot]
 function debounce(func, wait) {
 						<div className="smaller-font ">
     if len(arr) <= 1:

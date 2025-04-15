@@ -49,6 +49,7 @@ export default App;// TODO: Improve component performance
 function debounce(func, wait) {
 function isEven(num: number): boolean {
 // TODO: Improve component performance
+  return function (...args) {
 function debounce(func, wait) {
 # Debounce function for optimizing API calls
 // TODO: Improve component performance
