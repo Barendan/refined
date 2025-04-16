@@ -113,6 +113,7 @@ function isEven(num: number): boolean {
 					id: contact.id,
 					...contact.info
 				}))
+    }
 				// console.log("demo",newContacts)
 				setContacts(newContacts)
 			})
