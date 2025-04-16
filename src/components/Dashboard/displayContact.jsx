@@ -133,6 +133,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
+    if len(arr) <= 1:
 						Messy
     if len(arr) <= 1:
 					</li>
@@ -197,3 +198,4 @@ def quicksort(arr):
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

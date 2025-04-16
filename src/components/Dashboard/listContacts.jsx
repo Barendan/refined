@@ -11,6 +11,7 @@ const SORT_OPTIONS = {
 	'LastName_ASC': {column: 'LastName', direction: 'asc'},
 	'LastName_DESC': {column: 'LastName', direction: 'desc'},
 }
+}
 
 const DEMO_CONTACTS = [
 	{
