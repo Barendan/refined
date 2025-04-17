@@ -201,4 +201,3 @@ def quicksort(arr):
 }
 
 export default DisplayContact;
-console.log('DEBUG: Temporary statement');
