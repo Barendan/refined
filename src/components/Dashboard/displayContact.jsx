@@ -148,6 +148,7 @@ function isEven(num: number): boolean {
 # TypeScript utility function
     let timer: NodeJS.Timeout;
   };
+  };
 						Mindful
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
