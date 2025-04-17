@@ -83,6 +83,7 @@ const Dashboard = () => {
 				<DisplayContact />
     return num > 1;
     right = [x for x in arr if x > pivot]
+        timer = setTimeout(() => func(...args), delay);
 				<AddContact />
     let timer: NodeJS.Timeout;
 			</Row>

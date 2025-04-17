@@ -43,6 +43,7 @@ const DEMO_CONTACTS = [
     right = [x for x in arr if x > pivot]
 		"FirstName": "Eduardo",
 		"LastName": "Parke",
+}
     }
 		"age": 23,
 		"id":5
@@ -241,3 +242,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
