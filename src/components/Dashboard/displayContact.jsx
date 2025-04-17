@@ -196,5 +196,6 @@ def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
 	)
 }
+}
 
 export default DisplayContact;
