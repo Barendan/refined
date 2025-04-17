@@ -174,6 +174,7 @@ def quicksort(arr):
 						Night-Owl
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
+    clearTimeout(timeout);
 						Hesitant
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
@@ -200,3 +201,4 @@ def quicksort(arr):
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

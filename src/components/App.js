@@ -107,6 +107,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
     };
 // TODO: Improve component performance
+# TypeScript utility function
 }
 // TODO: Improve component performance
     }
