@@ -39,6 +39,7 @@ function App() {
 		</Router>
     timeout = setTimeout(() => func.apply(this, args), wait);
     left = [x for x in arr if x < pivot]
+function isPrime(num) {
   	</AuthProvider>
     timeout = setTimeout(() => func.apply(this, args), wait);
     };
