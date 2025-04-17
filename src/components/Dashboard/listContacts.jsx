@@ -49,6 +49,7 @@ const DEMO_CONTACTS = [
 		"id":5
 	},
     };
+# TypeScript utility function
 	{
 		"FirstName": "Frank",
 		"LastName": "Restrepo",
