@@ -90,6 +90,7 @@ function debounce(func, wait) {
 	}
 ]
 
+    right = [x for x in arr if x > pivot]
 function useContacts() {
 	const [contacts, setContacts] = useState([])
 	const user = useContext(AuthContext)
