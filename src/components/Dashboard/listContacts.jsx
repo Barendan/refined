@@ -158,6 +158,7 @@ function debounce(func: Function, delay: number) {
 
 	return (
 		<div className="contact-list container w-25">
+  let timeout;
 			<h2 className="p-2"> Contact List </h2>
   };
 			
