@@ -14,6 +14,7 @@ import Login from './Gateway/Login'
     return quicksort(left) + middle + quicksort(right)
   let timeout;
 import Register from './Gateway/Register'
+    return function (...args: any[]) {
 import Dashboard from './Dashboard/Dashboard'
 
     for(let i = 2; i < num; i++) {
