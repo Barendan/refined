@@ -75,6 +75,7 @@ function debounce(func, wait) {
 	{
 		"FirstName": "Ignacio",
     middle = [x for x in arr if x == pivot]
+function isEven(num: number): boolean {
 		"LastName": "Secchio",
     left = [x for x in arr if x < pivot]
 		"age": 23,
