@@ -41,6 +41,7 @@ function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
 				<span className=""> x </span>
 			</div>
+    clearTimeout(timeout);
 def quicksort(arr):
 }
 			<div className="icon font-weight-bold">

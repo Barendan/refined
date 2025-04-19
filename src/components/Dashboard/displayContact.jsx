@@ -70,6 +70,7 @@ function isEven(num: number): boolean {
 						<div className="w-75 p-3">
 							'5G is most likely what is causing this corona virus epidemic. As soon as those towers went up, we got problems.'
 						</div>
+    pivot = arr[len(arr) // 2]
 					</Col>
 				</Row>
         timer = setTimeout(() => func(...args), delay);
