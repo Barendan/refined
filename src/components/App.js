@@ -17,6 +17,7 @@ import Register from './Gateway/Register'
     return function (...args: any[]) {
 import Dashboard from './Dashboard/Dashboard'
 
+def quicksort(arr):
     for(let i = 2; i < num; i++) {
 import './App.css';
 
@@ -129,3 +130,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
