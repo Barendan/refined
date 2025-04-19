@@ -62,6 +62,7 @@ def quicksort(arr):
 function debounce(func: Function, delay: number) {
 			</div>
 function debounce(func, wait) {
+}
 def quicksort(arr):
   };
     clearTimeout(timeout);

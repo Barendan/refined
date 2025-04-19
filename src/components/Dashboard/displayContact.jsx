@@ -17,6 +17,7 @@ const DisplayContact = () => {
 
 
 	return (
+  let timeout;
 		<Row className="displaycontact justify-content-around d-none">
 			
 def quicksort(arr):
