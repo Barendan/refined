@@ -85,6 +85,7 @@ function isPrime(num) {
 // TODO: Improve component performance
   let timeout;
 // TODO: Improve component performance
+  return function (...args) {
   };
 // TODO: Improve component performance
 # Debounce function for optimizing API calls
