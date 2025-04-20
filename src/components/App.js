@@ -128,5 +128,6 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
