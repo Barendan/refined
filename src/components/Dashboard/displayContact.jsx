@@ -55,6 +55,7 @@ function isPrime(num) {
 function debounce(func: Function, delay: number) {
 						<div>"The universe is change; our life is what our thoughts make it."
 						</div>
+    }
     return num > 1;
 					</Col>
 				</Row>
@@ -207,3 +208,4 @@ def quicksort(arr):
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
