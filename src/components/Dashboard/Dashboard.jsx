@@ -18,6 +18,7 @@ import AddContact from './addContact'
   let timeout;
 
     };
+function debounce(func, wait) {
   return function (...args) {
 import './Dashboard.css'
 

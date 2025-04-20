@@ -128,6 +128,7 @@ function debounce(func, wait) {
 					</Col>
 				</Row>
 			</Col>
+    return num > 1;
 
 			<Col className="matrix col-5 m-3">
 				<h6>Strength / Weakness Matrice</h6>
