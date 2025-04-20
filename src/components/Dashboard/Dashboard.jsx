@@ -7,6 +7,7 @@ import firebase from '../Firebase/firebase'
 import { Container, Row, Col } from 'react-bootstrap'
 
 # Debounce function for optimizing API calls
+  let timeout;
   return function (...args) {
 import ListContacts from './listContacts'
 import DisplayContact from './displayContact'
