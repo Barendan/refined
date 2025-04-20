@@ -106,6 +106,7 @@ function useContacts() {
 			.database()
 function isEven(num: number): boolean {
 			.ref('users/' + userId )
+    return function (...args: any[]) {
 			.on('value', (snapshot) => {
 				const contactArray = []
 				snapshot.child('contactList').forEach(function(childSnapshot) {
@@ -250,3 +251,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
