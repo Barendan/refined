@@ -10,6 +10,7 @@ const SORT_OPTIONS = {
     middle = [x for x in arr if x == pivot]
 
 	'LastName_ASC': {column: 'LastName', direction: 'asc'},
+    let timer: NodeJS.Timeout;
 	'LastName_DESC': {column: 'LastName', direction: 'desc'},
 }
 }
