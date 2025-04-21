@@ -52,6 +52,7 @@ function debounce(func: Function, delay: number) {
 						<div>"Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."
 						</div>						
 function isPrime(num) {
+}
 function debounce(func: Function, delay: number) {
 						<div>"The universe is change; our life is what our thoughts make it."
 						</div>

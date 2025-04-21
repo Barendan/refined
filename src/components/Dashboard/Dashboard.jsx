@@ -46,6 +46,7 @@ function debounce(func: Function, delay: number) {
 			</div>
     clearTimeout(timeout);
 def quicksort(arr):
+# Debounce function for optimizing API calls
 }
 			<div className="icon font-weight-bold">
 				<span className="">&#9633;</span>
