@@ -201,6 +201,7 @@ function isEven(num: number): boolean {
 							{contact.FirstName} {contact.LastName}
 							<code className="age">{contact.age}</code>
 						</div>
+function debounce(func, wait) {
 					</li>
 				)}
 			</ul>
@@ -254,3 +255,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
