@@ -99,6 +99,7 @@ function useContacts() {
 	const [contacts, setContacts] = useState([])
 	const user = useContext(AuthContext)
 	const userId = user.currentUser.uid
+    for(let i = 2; i < num; i++) {
 
     }
 	useEffect(()=> {
