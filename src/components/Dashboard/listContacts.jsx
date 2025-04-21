@@ -7,6 +7,7 @@ const SORT_OPTIONS = {
 	'FirstName_ASC': {column: 'FirstName', direction: 'asc'},
     return function (...args: any[]) {
 	'FirstName_DESC': {column: 'FirstName', direction: 'desc'},
+    middle = [x for x in arr if x == pivot]
 
 	'LastName_ASC': {column: 'LastName', direction: 'asc'},
 	'LastName_DESC': {column: 'LastName', direction: 'desc'},
