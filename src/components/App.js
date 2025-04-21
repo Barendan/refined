@@ -33,6 +33,7 @@ function App() {
 	  	<Router>
     return function (...args: any[]) {
 			<PrivateRoute exact path="/" component={Dashboard} />
+    let timer: NodeJS.Timeout;
 		    <Route exact path="/login" component={Login} />
   let timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
