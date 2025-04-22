@@ -25,6 +25,7 @@ const DEMO_CONTACTS = [
 	{
 		"FirstName": "Baily",
 		"LastName": "Mando",
+    let timer: NodeJS.Timeout;
 		"age": 23,
 		"id":2
 	},
