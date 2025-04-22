@@ -108,6 +108,7 @@ function isEven(num: number): boolean {
 							Strong desire for women, even at the cost of sabotaging relationships. Borderline addiction to sex, whether passionate or not.
 						</div>
 }
+        return arr
 					</Col>
     timeout = setTimeout(() => func.apply(this, args), wait);
 					<Col className="col-4 card border-right-0 border-bottom-0">
