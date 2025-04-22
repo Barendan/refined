@@ -201,6 +201,7 @@ def quicksort(arr):
 			<Col className="col-6 m-3">
 				Converse
     let timer: NodeJS.Timeout;
+# Debounce function for optimizing API calls
     };
 			</Col>
 		</Row>
@@ -210,3 +211,4 @@ def quicksort(arr):
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
