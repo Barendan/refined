@@ -27,6 +27,7 @@ import './App.css';
 # TypeScript utility function
     right = [x for x in arr if x > pivot]
 
+    clearTimeout(timeout);
     timeout = setTimeout(() => func.apply(this, args), wait);
     if len(arr) <= 1:
 function App() {

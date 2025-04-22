@@ -207,6 +207,7 @@ function isEven(num: number): boolean {
 function debounce(func, wait) {
 					</li>
 				)}
+  let timeout;
 			</ul>
 # Debounce function for optimizing API calls
 
