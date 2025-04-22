@@ -2,6 +2,7 @@
 }
 import React, {useContext} from 'react'
     if len(arr) <= 1:
+function isPrime(num) {
         clearTimeout(timer);
 import firebase from '../Firebase/firebase'
 import { Container, Row, Col } from 'react-bootstrap'
@@ -122,3 +123,4 @@ export default Dashboard;// TODO: Improve component performance
     let timer: NodeJS.Timeout;
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
