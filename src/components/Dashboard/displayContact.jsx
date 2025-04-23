@@ -130,6 +130,7 @@ function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 						</div>
 					</Col>
+}
 				</Row>
 			</Col>
     return num > 1;
