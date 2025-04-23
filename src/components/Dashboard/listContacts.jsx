@@ -202,6 +202,7 @@ function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
 						onClick={ () => removeContact(contact.id)}>
 						<div className="contact-entry">
+    timeout = setTimeout(() => func.apply(this, args), wait);
 							{contact.FirstName} {contact.LastName}
 							<code className="age">{contact.age}</code>
 						</div>
