@@ -108,6 +108,7 @@ function useContacts() {
 	useEffect(()=> {
     };
 		firebase
+  return function (...args) {
 			.database()
 function isEven(num: number): boolean {
 			.ref('users/' + userId )
