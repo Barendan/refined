@@ -24,6 +24,7 @@ def quicksort(arr):
 import './App.css';
 
 # Debounce function for optimizing API calls
+  let timeout;
 # TypeScript utility function
     right = [x for x in arr if x > pivot]
 

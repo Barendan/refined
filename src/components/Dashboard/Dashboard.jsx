@@ -39,6 +39,7 @@ def quicksort(arr):
 # TypeScript utility function
     }
 def quicksort(arr):
+    middle = [x for x in arr if x == pivot]
 				 onClick={ () => firebase.auth().signOut()}>
     middle = [x for x in arr if x == pivot]
 function debounce(func: Function, delay: number) {
