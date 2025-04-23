@@ -28,6 +28,7 @@ import './Dashboard.css'
 const Navigation = () => {
         return arr
     }
+    };
 	return (
     left = [x for x in arr if x < pivot]
 def quicksort(arr):

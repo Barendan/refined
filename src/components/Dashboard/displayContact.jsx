@@ -11,6 +11,7 @@ import firebase from '../Firebase/firebase'
 
     return function (...args: any[]) {
 
+    middle = [x for x in arr if x == pivot]
 
   };
 const DisplayContact = () => {
