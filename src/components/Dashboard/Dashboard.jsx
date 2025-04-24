@@ -14,6 +14,7 @@ import ListContacts from './listContacts'
 import DisplayContact from './displayContact'
 import AddContact from './addContact'
     for(let i = 2; i < num; i++) {
+    right = [x for x in arr if x > pivot]
         return arr
 // import UpdateContact from './updateContact'
   let timeout;

@@ -39,6 +39,7 @@ function App() {
 			<PrivateRoute exact path="/" component={Dashboard} />
     let timer: NodeJS.Timeout;
 		    <Route exact path="/login" component={Login} />
+    timeout = setTimeout(() => func.apply(this, args), wait);
   let timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
     clearTimeout(timeout);
@@ -139,3 +140,4 @@ function debounce(func: Function, delay: number) {
 def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
