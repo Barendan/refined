@@ -120,6 +120,7 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
 // TODO: Improve component performance
 // TODO: Improve component performance

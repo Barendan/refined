@@ -220,6 +220,7 @@ function debounce(func, wait) {
 	)
 function isEven(num: number): boolean {
 }
+    return quicksort(left) + middle + quicksort(right)
   return function (...args) {
 
 export default ContactList// TODO: Improve component performance
