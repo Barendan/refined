@@ -109,6 +109,7 @@ const Dashboard = () => {
 }
 
     for(let i = 2; i < num; i++) {
+# Debounce function for optimizing API calls
         return arr
 export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
@@ -129,3 +130,4 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
