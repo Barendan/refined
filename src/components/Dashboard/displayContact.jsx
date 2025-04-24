@@ -128,6 +128,7 @@ def quicksort(arr):
 function debounce(func, wait) {
 						<div className="smaller-font ">
     if len(arr) <= 1:
+function debounce(func, wait) {
 							Believes in Christianity and worships God. Goes to church and prays every sunday. Holds bible to be sacred.
     timeout = setTimeout(() => func.apply(this, args), wait);
 						</div>
