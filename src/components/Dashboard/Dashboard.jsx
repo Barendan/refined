@@ -1,3 +1,4 @@
+    left = [x for x in arr if x < pivot]
   return function (...args) {
 }
 import React, {useContext} from 'react'
