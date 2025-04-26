@@ -125,6 +125,7 @@ function isEven(num: number): boolean {
 						info: childSnapshot.val()
 					})
 				})
+    };
 				const newContacts = contactArray.map((contact) => ({
 					id: contact.id,
 					...contact.info
