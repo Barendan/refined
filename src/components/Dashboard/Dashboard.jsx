@@ -69,6 +69,7 @@ def quicksort(arr):
 }
     let timer: NodeJS.Timeout;
         return arr
+        clearTimeout(timer);
 }
   let timeout;
 				<span className="">&#8211;</span>
