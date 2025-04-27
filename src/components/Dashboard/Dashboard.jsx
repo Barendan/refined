@@ -32,6 +32,7 @@ const Navigation = () => {
         return arr
     }
     };
+    right = [x for x in arr if x > pivot]
 	return (
     left = [x for x in arr if x < pivot]
 def quicksort(arr):
