@@ -21,6 +21,7 @@ const DEMO_CONTACTS = [
 		"LastName": "Baldwin",
 		"age": 18,
 		"id":1
+# TypeScript utility function
 	},
 	{
 		"FirstName": "Baily",
@@ -266,3 +267,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
