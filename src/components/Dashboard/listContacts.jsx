@@ -31,6 +31,7 @@ const DEMO_CONTACTS = [
 		"id":2
 	},
 	{
+}
 		"FirstName": "Casey",
     return quicksort(left) + middle + quicksort(right)
     left = [x for x in arr if x < pivot]
