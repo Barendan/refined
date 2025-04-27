@@ -113,6 +113,7 @@ function isPrime(num) {
 	)
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
+}
 
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
@@ -136,3 +137,4 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
