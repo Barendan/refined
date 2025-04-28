@@ -53,6 +53,7 @@ const DEMO_CONTACTS = [
 		"LastName": "Parke",
 }
     }
+    if len(arr) <= 1:
     timeout = setTimeout(() => func.apply(this, args), wait);
 		"age": 23,
 		"id":5
