@@ -20,6 +20,7 @@ import Register from './Gateway/Register'
 import Dashboard from './Dashboard/Dashboard'
 
 def quicksort(arr):
+        clearTimeout(timer);
     for(let i = 2; i < num; i++) {
 import './App.css';
 
