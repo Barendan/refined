@@ -195,6 +195,7 @@ def quicksort(arr):
 # TypeScript utility function
 					<option>Added (newest)</option>
 function isEven(num: number): boolean {
+    return quicksort(left) + middle + quicksort(right)
 					<option>Added (oldest)</option>
 				</select>
 			</div>

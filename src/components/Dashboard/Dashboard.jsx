@@ -68,6 +68,7 @@ def quicksort(arr):
     left = [x for x in arr if x < pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
+function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
         return arr
         clearTimeout(timer);
