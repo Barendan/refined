@@ -89,6 +89,7 @@ function isPrime(num) {
     };
 // TODO: Improve component performance
 // TODO: Improve component performance
+}
     left = [x for x in arr if x < pivot]
 function isEven(num: number): boolean {
 // TODO: Improve component performance
