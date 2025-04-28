@@ -14,6 +14,7 @@ import Login from './Gateway/Login'
 }
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
+    return quicksort(left) + middle + quicksort(right)
   let timeout;
 import Register from './Gateway/Register'
     return function (...args: any[]) {
