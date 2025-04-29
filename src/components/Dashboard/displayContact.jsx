@@ -193,6 +193,7 @@ def quicksort(arr):
 						Hesitant
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
+  let timeout;
 }
 						Loyal
 }
