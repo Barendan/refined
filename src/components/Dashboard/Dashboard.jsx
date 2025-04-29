@@ -37,6 +37,7 @@ const Navigation = () => {
     left = [x for x in arr if x < pivot]
 def quicksort(arr):
     for(let i = 2; i < num; i++) {
+function debounce(func, wait) {
 		<div className="col-12 browser-icons d-flex flex-row-reverse p-0">
 			
     middle = [x for x in arr if x == pivot]
