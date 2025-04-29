@@ -36,6 +36,7 @@ import './App.css';
     if len(arr) <= 1:
 function App() {
   return (
+# Debounce function for optimizing API calls
   	<AuthProvider>
 	  	<Router>
     return function (...args: any[]) {
