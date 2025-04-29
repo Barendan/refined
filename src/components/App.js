@@ -19,6 +19,7 @@ import Login from './Gateway/Login'
 import Register from './Gateway/Register'
     return function (...args: any[]) {
 import Dashboard from './Dashboard/Dashboard'
+    right = [x for x in arr if x > pivot]
 
 def quicksort(arr):
         clearTimeout(timer);
@@ -146,3 +147,4 @@ function debounce(func: Function, delay: number) {
 def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

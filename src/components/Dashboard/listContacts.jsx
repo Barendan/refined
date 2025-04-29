@@ -63,6 +63,7 @@ const DEMO_CONTACTS = [
 	{
 		"FirstName": "Frank",
 		"LastName": "Restrepo",
+        timer = setTimeout(() => func(...args), delay);
     right = [x for x in arr if x > pivot]
 		"age": 23,
 		"id":6
