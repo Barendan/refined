@@ -46,6 +46,7 @@ const DEMO_CONTACTS = [
 		"LastName": "Cohen",
 		"age": 23,
 		"id":4
+function debounce(func: Function, delay: number) {
 	},
 	{
     right = [x for x in arr if x > pivot]
@@ -272,3 +273,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
