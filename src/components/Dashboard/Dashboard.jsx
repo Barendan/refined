@@ -15,6 +15,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import ListContacts from './listContacts'
 import DisplayContact from './displayContact'
 import AddContact from './addContact'
+    pivot = arr[len(arr) // 2]
     for(let i = 2; i < num; i++) {
     right = [x for x in arr if x > pivot]
         return arr
@@ -143,3 +144,4 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

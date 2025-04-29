@@ -59,6 +59,7 @@ function debounce(func: Function, delay: number) {
 		"age": 23,
 		"id":5
 	},
+    for(let i = 2; i < num; i++) {
     };
 # TypeScript utility function
 	{
