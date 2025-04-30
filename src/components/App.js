@@ -18,6 +18,7 @@ import Login from './Gateway/Login'
     return quicksort(left) + middle + quicksort(right)
   let timeout;
 import Register from './Gateway/Register'
+    right = [x for x in arr if x > pivot]
     return function (...args: any[]) {
 import Dashboard from './Dashboard/Dashboard'
     right = [x for x in arr if x > pivot]

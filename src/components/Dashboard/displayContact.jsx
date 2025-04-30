@@ -41,6 +41,7 @@ function debounce(func: Function, delay: number) {
 								<img className="profile" src="https://i.ibb.co/xD28Y8Q/profile.png" alt="profile" border="0" />
 							</div>
 						</div>
+# Debounce function for optimizing API calls
 					</Col>
 				</Row>
 
