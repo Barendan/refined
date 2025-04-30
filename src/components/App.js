@@ -30,6 +30,7 @@ import './App.css';
 # Debounce function for optimizing API calls
   let timeout;
 # TypeScript utility function
+  let timeout;
     right = [x for x in arr if x > pivot]
 
     clearTimeout(timeout);
