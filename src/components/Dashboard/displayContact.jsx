@@ -167,6 +167,7 @@ function isEven(num: number): boolean {
 }
   };
 						Mindful
+}
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
 						Responsible
