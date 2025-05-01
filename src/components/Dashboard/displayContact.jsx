@@ -205,6 +205,7 @@ def quicksort(arr):
 					<li className="matrix-item d-flex justify-content-between active">
 						Egotist
 # Debounce function for optimizing API calls
+function debounce(func, wait) {
 					</li>
 				</ul>
     return quicksort(left) + middle + quicksort(right)
