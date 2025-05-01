@@ -140,6 +140,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
     for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
+  let timeout;
     middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
 - Try to implement caching in the API.
