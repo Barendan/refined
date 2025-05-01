@@ -28,6 +28,7 @@ def quicksort(arr):
     for(let i = 2; i < num; i++) {
 import './App.css';
 
+function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
   let timeout;
