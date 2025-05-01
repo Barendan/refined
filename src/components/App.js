@@ -121,6 +121,7 @@ def quicksort(arr):
 // TODO: Improve component performance
 // TODO: Improve component performance
 function isPrime(num) {
+    }
     return num > 1;
 // TODO: Improve component performance
 }
