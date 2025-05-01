@@ -148,6 +148,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
 // TODO: Improve component performance
     return function (...args: any[]) {
+    if len(arr) <= 1:
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
