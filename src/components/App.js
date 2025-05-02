@@ -16,6 +16,7 @@ import Login from './Gateway/Login'
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
     return quicksort(left) + middle + quicksort(right)
+    return function (...args: any[]) {
   let timeout;
 import Register from './Gateway/Register'
     right = [x for x in arr if x > pivot]
@@ -157,3 +158,4 @@ function debounce(func: Function, delay: number) {
 def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

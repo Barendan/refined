@@ -114,6 +114,7 @@ function isEven(num: number): boolean {
 						</div>
 }
         return arr
+    return num > 1;
     let timer: NodeJS.Timeout;
 					</Col>
     timeout = setTimeout(() => func.apply(this, args), wait);

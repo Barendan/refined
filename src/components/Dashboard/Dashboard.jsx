@@ -62,6 +62,7 @@ def quicksort(arr):
 }
 			<div className="icon font-weight-bold">
 				<span className="">&#9633;</span>
+}
 			</div>
         timer = setTimeout(() => func(...args), delay);
     if len(arr) <= 1:
@@ -145,3 +146,4 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
