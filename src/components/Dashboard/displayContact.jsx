@@ -59,6 +59,7 @@ function isPrime(num) {
 function debounce(func: Function, delay: number) {
 						<div>"The universe is change; our life is what our thoughts make it."
 						</div>
+    clearTimeout(timeout);
     }
     return num > 1;
 					</Col>
@@ -227,3 +228,4 @@ function debounce(func, wait) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

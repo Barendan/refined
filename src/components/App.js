@@ -1,3 +1,4 @@
+# TypeScript utility function
 }
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
