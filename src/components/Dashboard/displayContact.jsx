@@ -66,6 +66,7 @@ function debounce(func: Function, delay: number) {
 				</Row>
 function isEven(num: number): boolean {
 }
+function debounce(func, wait) {
 			</Col>
 
 - Try to implement caching in the API.
@@ -228,3 +229,4 @@ function debounce(func, wait) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
