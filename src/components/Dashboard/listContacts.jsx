@@ -200,6 +200,7 @@ def quicksort(arr):
 					<option value="LastName_DESC">Last Name (Desc)</option>
 # TypeScript utility function
 					<option>Added (newest)</option>
+        return arr
 function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
 					<option>Added (oldest)</option>

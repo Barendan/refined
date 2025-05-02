@@ -187,6 +187,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 					</li>
         clearTimeout(timer);
+    timeout = setTimeout(() => func.apply(this, args), wait);
 					<li className="matrix-item d-flex justify-content-between">
 						Hesitant
 					</li>
@@ -226,3 +227,4 @@ function debounce(func, wait) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
