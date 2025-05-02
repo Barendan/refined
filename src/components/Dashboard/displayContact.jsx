@@ -229,4 +229,3 @@ function debounce(func, wait) {
 }
 
 export default DisplayContact;
-console.log('DEBUG: Temporary statement');
