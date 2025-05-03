@@ -163,6 +163,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
+    pivot = arr[len(arr) // 2]
 						Thoughtful
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
