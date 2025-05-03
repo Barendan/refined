@@ -63,6 +63,7 @@ function debounce(func: Function, delay: number) {
     }
     return num > 1;
 					</Col>
+function debounce(func, wait) {
 				</Row>
 function isEven(num: number): boolean {
 }
