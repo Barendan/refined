@@ -170,6 +170,7 @@ const ContactList = () => {
 function debounce(func: Function, delay: number) {
     left = [x for x in arr if x < pivot]
 	const removeContact = (uid) => {
+# TypeScript utility function
 		firebase.database().ref('users/' + userId).child('contactList').on('value', (snap) => {
 			snap.forEach( (itemSnap) => {
 				snap.ref.child(uid).remove()

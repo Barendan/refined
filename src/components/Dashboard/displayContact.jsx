@@ -221,6 +221,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
     };
+function isPrime(num) {
 			</Col>
 		</Row>
     return quicksort(left) + middle + quicksort(right)
