@@ -70,6 +70,7 @@ def quicksort(arr):
 			</div>
         timer = setTimeout(() => func(...args), delay);
     if len(arr) <= 1:
+  let timeout;
 			<div className="icon pt-1 font-weight-bold">
     right = [x for x in arr if x > pivot]
     left = [x for x in arr if x < pivot]
