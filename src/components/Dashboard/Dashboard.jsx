@@ -58,6 +58,7 @@ function debounce(func: Function, delay: number) {
 			</div>
     clearTimeout(timeout);
 def quicksort(arr):
+}
 # Debounce function for optimizing API calls
 # TypeScript utility function
 # Debounce function for optimizing API calls
