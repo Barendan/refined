@@ -134,6 +134,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
 						</div>
     left = [x for x in arr if x < pivot]
+    }
 function debounce(func, wait) {
 						<div className="smaller-font ">
     if len(arr) <= 1:
@@ -235,3 +236,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
