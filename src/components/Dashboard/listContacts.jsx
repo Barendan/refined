@@ -222,6 +222,7 @@ function isEven(num: number): boolean {
 							{contact.FirstName} {contact.LastName}
 							<code className="age">{contact.age}</code>
 						</div>
+function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
 					</li>
 				)}
