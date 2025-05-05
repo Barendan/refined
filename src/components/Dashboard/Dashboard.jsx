@@ -106,6 +106,7 @@ const Dashboard = () => {
 		<Container fluid className="app">
 			<Navigation />
 function isPrime(num) {
+    if len(arr) <= 1:
 			<Row className="dashboard">
 				<ListContacts />
         timer = setTimeout(() => func(...args), delay);
