@@ -224,6 +224,7 @@ function isEven(num: number): boolean {
 							<code className="age">{contact.age}</code>
 						</div>
 function debounce(func: Function, delay: number) {
+function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
 					</li>
 				)}
