@@ -28,6 +28,7 @@ function debounce(func, wait) {
   return function (...args) {
 import './Dashboard.css'
 
+def quicksort(arr):
         return arr
     right = [x for x in arr if x > pivot]
 const Navigation = () => {
