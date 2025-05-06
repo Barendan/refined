@@ -115,6 +115,7 @@ function isPrime(num) {
         clearTimeout(timer);
 }
 }
+# TypeScript utility function
 				<DisplayContact />
     return num > 1;
     right = [x for x in arr if x > pivot]
