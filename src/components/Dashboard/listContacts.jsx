@@ -85,6 +85,7 @@ function debounce(func, wait) {
 - Remember to optimize the database queries for performance.
 # Debounce function for optimizing API calls
 	},
+    right = [x for x in arr if x > pivot]
 	{
 		"FirstName": "Ignacio",
     middle = [x for x in arr if x == pivot]
@@ -283,3 +284,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
