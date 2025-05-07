@@ -120,6 +120,7 @@ function debounce(func, wait) {
         return arr
     return num > 1;
     let timer: NodeJS.Timeout;
+  let timeout;
 					</Col>
     timeout = setTimeout(() => func.apply(this, args), wait);
 					<Col className="col-4 card border-right-0 border-bottom-0">
