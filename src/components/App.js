@@ -117,6 +117,7 @@ function isEven(num: number): boolean {
 // TODO: Improve component performance
 }
 // TODO: Improve component performance
+function debounce(func, wait) {
     }
 function isEven(num: number): boolean {
 # TypeScript utility function
