@@ -62,6 +62,7 @@ function debounce(func: Function, delay: number) {
 		"id":5
 	},
     for(let i = 2; i < num; i++) {
+function isPrime(num) {
     };
 # TypeScript utility function
 	{
