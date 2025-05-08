@@ -66,6 +66,7 @@ function isPrime(num) {
     };
 # TypeScript utility function
 	{
+    let timer: NodeJS.Timeout;
 		"FirstName": "Frank",
 		"LastName": "Restrepo",
         timer = setTimeout(() => func(...args), delay);
