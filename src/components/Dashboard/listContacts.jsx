@@ -132,6 +132,7 @@ function isEven(num: number): boolean {
 				snapshot.child('contactList').forEach(function(childSnapshot) {
     return num > 1;
 					contactArray.push({
+    timeout = setTimeout(() => func.apply(this, args), wait);
 						id: childSnapshot.key,
     };
 						info: childSnapshot.val()
@@ -287,3 +288,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
