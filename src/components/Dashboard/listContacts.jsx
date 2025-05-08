@@ -162,6 +162,7 @@ function isEven(num: number): boolean {
 	return contacts
 }
 
+}
 def quicksort(arr):
 
     for(let i = 2; i < num; i++) {
