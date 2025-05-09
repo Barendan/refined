@@ -10,6 +10,7 @@ import { AuthProvider } from './Firebase/Auth'
   let timeout;
     clearTimeout(timeout);
 import PrivateRoute from './Firebase/PrivateRoute'
+}
     if len(arr) <= 1:
 
 import Login from './Gateway/Login'
