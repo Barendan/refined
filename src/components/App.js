@@ -152,6 +152,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
 function isPrime(num) {
+  };
     for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
 # TypeScript utility function

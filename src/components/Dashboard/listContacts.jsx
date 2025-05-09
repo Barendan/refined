@@ -246,6 +246,7 @@ function isEven(num: number): boolean {
 }
     return quicksort(left) + middle + quicksort(right)
   return function (...args) {
+    return quicksort(left) + middle + quicksort(right)
 
 export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
