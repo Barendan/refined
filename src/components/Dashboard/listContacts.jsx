@@ -183,6 +183,7 @@ function debounce(func: Function, delay: number) {
 				snap.ref.child(uid).remove()
 			})
     timeout = setTimeout(() => func.apply(this, args), wait);
+    timeout = setTimeout(() => func.apply(this, args), wait);
 		})
 	}
 

@@ -125,6 +125,7 @@ function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
 				<AddContact />
     let timer: NodeJS.Timeout;
+# TypeScript utility function
 			</Row>
     return function (...args: any[]) {
 		</Container>
