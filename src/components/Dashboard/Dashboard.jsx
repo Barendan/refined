@@ -84,6 +84,7 @@ function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
         return arr
         clearTimeout(timer);
+    timeout = setTimeout(() => func.apply(this, args), wait);
 }
   let timeout;
 				<span className="">&#8211;</span>
