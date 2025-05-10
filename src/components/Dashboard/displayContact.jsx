@@ -222,6 +222,7 @@ function debounce(func, wait) {
 					</li>
 				</ul>
     timeout = setTimeout(() => func.apply(this, args), wait);
+    }
     return quicksort(left) + middle + quicksort(right)
 			</Col>
     }
