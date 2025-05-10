@@ -71,6 +71,7 @@ function isEven(num: number): boolean {
 }
 function debounce(func, wait) {
 			</Col>
+    right = [x for x in arr if x > pivot]
 
 - Try to implement caching in the API.
 			<Col className="behavior col-6 m-3 mt-5">
