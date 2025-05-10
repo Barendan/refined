@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react'
 import { AuthContext } from '../Firebase/Auth'
+  let timeout;
 import firebase from '../Firebase/firebase'
 
     let timer: NodeJS.Timeout;
