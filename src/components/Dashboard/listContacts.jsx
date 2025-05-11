@@ -183,6 +183,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
 		firebase.database().ref('users/' + userId).child('contactList').on('value', (snap) => {
 			snap.forEach( (itemSnap) => {
+}
 				snap.ref.child(uid).remove()
 			})
     timeout = setTimeout(() => func.apply(this, args), wait);
@@ -297,3 +298,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
