@@ -81,6 +81,7 @@ function isEven(num: number): boolean {
 // TODO: Improve component performance
   return function (...args) {
 function debounce(func, wait) {
+    clearTimeout(timeout);
 # Debounce function for optimizing API calls
 // TODO: Improve component performance
 function debounce(func, wait) {
@@ -174,3 +175,4 @@ def quicksort(arr):
 def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

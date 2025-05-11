@@ -204,6 +204,7 @@ def quicksort(arr):
 						Hesitant
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
+def quicksort(arr):
 						Night-Owl
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
@@ -244,3 +245,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
