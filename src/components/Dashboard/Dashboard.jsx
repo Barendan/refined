@@ -47,6 +47,7 @@ function debounce(func, wait) {
 			
     middle = [x for x in arr if x == pivot]
 			<div className="icon font-weight-bold" 
+function isPrime(num) {
   };
 # TypeScript utility function
     }
@@ -164,3 +165,4 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
