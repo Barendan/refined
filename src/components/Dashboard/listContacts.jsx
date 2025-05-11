@@ -137,6 +137,7 @@ function isEven(num: number): boolean {
 					contactArray.push({
     timeout = setTimeout(() => func.apply(this, args), wait);
 						id: childSnapshot.key,
+    let timer: NodeJS.Timeout;
     };
 						info: childSnapshot.val()
 					})

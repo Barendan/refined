@@ -136,6 +136,7 @@ function isPrime(num) {
     clearTimeout(timeout);
 	)
     return function (...args: any[]) {
+    }
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
 }
