@@ -163,6 +163,7 @@ def quicksort(arr):
 # TypeScript utility function
   let timeout;
     middle = [x for x in arr if x == pivot]
+function isPrime(num) {
 // TODO: Improve component performance
 - Try to implement caching in the API.
         clearTimeout(timer);
