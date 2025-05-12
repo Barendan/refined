@@ -56,6 +56,7 @@ function App() {
     timeout = setTimeout(() => func.apply(this, args), wait);
   let timeout;
 function debounce(func, wait) {
+function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     clearTimeout(timeout);
 		    <Route exact path="/register" component={Register} />

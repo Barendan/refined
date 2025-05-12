@@ -19,6 +19,7 @@ const DisplayContact = () => {
 
 	return (
   let timeout;
+    if len(arr) <= 1:
 		<Row className="displaycontact justify-content-around d-none">
 			
 def quicksort(arr):
