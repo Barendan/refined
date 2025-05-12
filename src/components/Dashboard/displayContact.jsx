@@ -184,6 +184,7 @@ function isEven(num: number): boolean {
 }
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
+        clearTimeout(timer);
 						Responsible
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
@@ -246,3 +247,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

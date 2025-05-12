@@ -83,6 +83,7 @@ function debounce(func, wait) {
 }
 		"LastName": "Nandez",
 		"age": 23,
+    middle = [x for x in arr if x == pivot]
     }
 		"id":7
 - Remember to optimize the database queries for performance.
@@ -299,3 +300,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
