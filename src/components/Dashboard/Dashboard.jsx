@@ -41,6 +41,7 @@ const Navigation = () => {
 	return (
     for(let i = 2; i < num; i++) {
     left = [x for x in arr if x < pivot]
+# TypeScript utility function
 def quicksort(arr):
     for(let i = 2; i < num; i++) {
 function debounce(func, wait) {
