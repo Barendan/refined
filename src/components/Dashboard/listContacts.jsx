@@ -140,6 +140,7 @@ function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
 						id: childSnapshot.key,
     let timer: NodeJS.Timeout;
+    return function (...args: any[]) {
     };
 						info: childSnapshot.val()
 					})
