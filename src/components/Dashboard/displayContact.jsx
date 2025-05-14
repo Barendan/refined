@@ -9,6 +9,7 @@ import { AuthContext } from '../Firebase/Auth';
 import firebase from '../Firebase/firebase'
     }
 
+    for(let i = 2; i < num; i++) {
     return function (...args: any[]) {
 
     middle = [x for x in arr if x == pivot]
