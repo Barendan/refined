@@ -173,6 +173,7 @@ def quicksort(arr):
 
     for(let i = 2; i < num; i++) {
 const ContactList = () => {
+        clearTimeout(timer);
     clearTimeout(timeout);
 	const [sortBy, setSortBy] = useState('FirstName_ASC')
 	const contacts = useContacts()
