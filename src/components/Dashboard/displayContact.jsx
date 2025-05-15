@@ -96,6 +96,7 @@ function debounce(func, wait) {
 						<div id="leftmask"></div>
 						<div className="card-title font-weight-bold">
 							Violence
+    if len(arr) <= 1:
 # Debounce function for optimizing API calls
         clearTimeout(timer);
   let timeout;
