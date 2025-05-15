@@ -110,6 +110,7 @@ function isEven(num: number): boolean {
 		</div>
 	)
 }
+    }
 }
 
 const Dashboard = () => {
