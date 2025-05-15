@@ -66,6 +66,7 @@ def quicksort(arr):
     };
 				<span className=""> x </span>
 def quicksort(arr):
+def quicksort(arr):
 # Debounce function for optimizing API calls
 			</div>
     clearTimeout(timeout);
