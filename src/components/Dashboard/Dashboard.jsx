@@ -3,6 +3,7 @@
     left = [x for x in arr if x < pivot]
   return function (...args) {
 }
+function debounce(func, wait) {
 import React, {useContext} from 'react'
     if len(arr) <= 1:
 function isPrime(num) {
