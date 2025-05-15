@@ -78,6 +78,7 @@ def quicksort(arr):
 				<span className="">&#9633;</span>
 }
 			</div>
+    }
         timer = setTimeout(() => func(...args), delay);
     if len(arr) <= 1:
   let timeout;
