@@ -108,6 +108,7 @@ function debounce(func, wait) {
 							Certain tendencies for violence arise when faced with challenges to the ego or made the victim of distrust.
 						</div>
 					</Col>
+    return num > 1;
 # TypeScript utility function
 					<Col className="col-4 card border-right-0 border-bottom-0">
 						<div id="topmask"></div>
