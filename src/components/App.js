@@ -96,6 +96,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+  return function (...args) {
         return arr
         clearTimeout(timer);
   };

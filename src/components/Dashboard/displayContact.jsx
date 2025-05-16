@@ -36,6 +36,7 @@ def quicksort(arr):
     clearTimeout(timeout);
 						<div>Spanish_Heritage</div>
 function debounce(func: Function, delay: number) {
+}
 					</Col>
 					<Col className="col-5 pt-5">
     return function (...args: any[]) {
