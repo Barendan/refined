@@ -76,6 +76,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
 # TypeScript utility function
 # Debounce function for optimizing API calls
+    return quicksort(left) + middle + quicksort(right)
 }
 			<div className="icon font-weight-bold">
 				<span className="">&#9633;</span>
