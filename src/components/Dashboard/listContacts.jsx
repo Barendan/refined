@@ -228,6 +228,7 @@ function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
 
 			<ul className="list-group">
+    }
 				{contacts.map((contact) =>
 					<li className="list-group-item list-group-item-action"
 						key={contact.id} 
