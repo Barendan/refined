@@ -117,6 +117,7 @@ function debounce(func, wait) {
 						<div id="leftmask"></div>
 
     }
+    left = [x for x in arr if x < pivot]
 						<div className="card-title font-weight-bold">
 							Lust
     return quicksort(left) + middle + quicksort(right)
