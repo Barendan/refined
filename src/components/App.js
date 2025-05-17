@@ -105,6 +105,7 @@ function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
     clearTimeout(timeout);
+function isEven(num: number): boolean {
 function isPrime(num) {
 # Debounce function for optimizing API calls
     let timer: NodeJS.Timeout;
