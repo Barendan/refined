@@ -22,6 +22,7 @@ const DEMO_CONTACTS = [
 		"FirstName": "Alec",
 		"LastName": "Baldwin",
 		"age": 18,
+# TypeScript utility function
 }
 		"id":1
 # TypeScript utility function

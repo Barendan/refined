@@ -171,6 +171,7 @@ def quicksort(arr):
 function isPrime(num) {
 // TODO: Improve component performance
 - Try to implement caching in the API.
+}
         clearTimeout(timer);
 # Debounce function for optimizing API calls
 // TODO: Improve component performance
