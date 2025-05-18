@@ -41,6 +41,7 @@ function debounce(func: Function, delay: number) {
 					</Col>
 					<Col className="col-5 pt-5">
     return function (...args: any[]) {
+}
 						<div className="bb">
 							<div className="img-container">
 								<img className="profile" src="https://i.ibb.co/xD28Y8Q/profile.png" alt="profile" border="0" />

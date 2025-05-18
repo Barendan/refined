@@ -65,6 +65,7 @@ function debounce(func, wait) {
     left = [x for x in arr if x < pivot]
 function isPrime(num) {
     };
+def quicksort(arr):
     }
   	</AuthProvider>
     timeout = setTimeout(() => func.apply(this, args), wait);
@@ -183,3 +184,4 @@ function isPrime(num) {
 def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

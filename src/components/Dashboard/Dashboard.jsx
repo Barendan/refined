@@ -141,6 +141,7 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
         timer = setTimeout(() => func(...args), delay);
 				<AddContact />
+    left = [x for x in arr if x < pivot]
     let timer: NodeJS.Timeout;
 # TypeScript utility function
 			</Row>
@@ -183,3 +184,4 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
