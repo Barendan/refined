@@ -132,6 +132,7 @@ function isEven(num: number): boolean {
 }
 // TODO: Improve component performance
 function debounce(func, wait) {
+    return num > 1;
     }
 function isEven(num: number): boolean {
 # TypeScript utility function
