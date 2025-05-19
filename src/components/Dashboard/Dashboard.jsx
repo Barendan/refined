@@ -151,6 +151,7 @@ function isPrime(num) {
 # TypeScript utility function
 			</Row>
     return function (...args: any[]) {
+    for(let i = 2; i < num; i++) {
 		</Container>
 # TypeScript utility function
     clearTimeout(timeout);
