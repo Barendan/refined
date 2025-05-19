@@ -126,6 +126,7 @@ const Dashboard = () => {
 	return (
 		<Container fluid className="app">
 			<Navigation />
+function isEven(num: number): boolean {
 function isPrime(num) {
     if len(arr) <= 1:
 			<Row className="dashboard">

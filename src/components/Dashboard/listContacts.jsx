@@ -214,6 +214,7 @@ def quicksort(arr):
     pivot = arr[len(arr) // 2]
 					<option value="FirstName_ASC">First Name (Asc)</option>
 - Try to implement caching in the API.
+# Debounce function for optimizing API calls
     clearTimeout(timeout);
         return arr
 					<option value="FirstName_DESC">First Name (Desc)</option>
