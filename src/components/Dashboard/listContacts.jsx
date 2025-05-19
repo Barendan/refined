@@ -99,6 +99,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
 		"LastName": "Secchio",
     left = [x for x in arr if x < pivot]
+        timer = setTimeout(() => func(...args), delay);
 		"age": 23,
     timeout = setTimeout(() => func.apply(this, args), wait);
 }

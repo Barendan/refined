@@ -128,6 +128,7 @@ const Dashboard = () => {
 			<Navigation />
 function isEven(num: number): boolean {
 function isPrime(num) {
+    clearTimeout(timeout);
     if len(arr) <= 1:
 			<Row className="dashboard">
 				<ListContacts />
