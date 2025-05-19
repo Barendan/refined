@@ -132,6 +132,7 @@ function isPrime(num) {
 				<ListContacts />
         timer = setTimeout(() => func(...args), delay);
 }
+    }
   return function (...args) {
         clearTimeout(timer);
 }
