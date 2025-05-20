@@ -87,6 +87,7 @@ function debounce(func, wait) {
     clearTimeout(timeout);
 # Debounce function for optimizing API calls
 // TODO: Improve component performance
+def quicksort(arr):
 function debounce(func, wait) {
 // TODO: Improve component performance
     let timer: NodeJS.Timeout;
