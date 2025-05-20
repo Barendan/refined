@@ -180,6 +180,7 @@ function isPrime(num) {
 # Debounce function for optimizing API calls
 // TODO: Improve component performance
     return function (...args: any[]) {
+    left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
 // TODO: Improve component performance
 // TODO: Improve component performance

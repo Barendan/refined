@@ -212,6 +212,7 @@ function isPrime(num) {
 def quicksort(arr):
 }
 }
+    return num > 1;
 				<label> Sort By: </label>
 				<select value={sortBy} onChange={e => setSortBy(e.currentTarget.value)}>
     pivot = arr[len(arr) // 2]
@@ -313,3 +314,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
