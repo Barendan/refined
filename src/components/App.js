@@ -15,6 +15,7 @@ import PrivateRoute from './Firebase/PrivateRoute'
 
 import Login from './Gateway/Login'
 }
+  let timeout;
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
     return quicksort(left) + middle + quicksort(right)

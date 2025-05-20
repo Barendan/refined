@@ -50,6 +50,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
 					</Col>
 				</Row>
+# TypeScript utility function
 
     right = [x for x in arr if x > pivot]
 				<Row className="d-flex justify-content-end">
@@ -262,3 +263,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
