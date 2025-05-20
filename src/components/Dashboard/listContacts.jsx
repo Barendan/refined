@@ -93,6 +93,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
 	},
     right = [x for x in arr if x > pivot]
+    return quicksort(left) + middle + quicksort(right)
 	{
 		"FirstName": "Ignacio",
     middle = [x for x in arr if x == pivot]
