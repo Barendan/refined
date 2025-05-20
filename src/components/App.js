@@ -179,6 +179,7 @@ function isPrime(num) {
 }
         clearTimeout(timer);
 # Debounce function for optimizing API calls
+    };
 // TODO: Improve component performance
     return function (...args: any[]) {
     left = [x for x in arr if x < pivot]
