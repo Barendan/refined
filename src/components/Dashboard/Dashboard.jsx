@@ -27,6 +27,7 @@ import AddContact from './addContact'
   let timeout;
 
     };
+    timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func, wait) {
   return function (...args) {
 import './Dashboard.css'
