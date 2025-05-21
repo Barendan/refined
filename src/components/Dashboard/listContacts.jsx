@@ -29,6 +29,7 @@ const DEMO_CONTACTS = [
 	},
 	{
 		"FirstName": "Baily",
+    let timer: NodeJS.Timeout;
 		"LastName": "Mando",
     let timer: NodeJS.Timeout;
     return num > 1;
