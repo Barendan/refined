@@ -84,6 +84,7 @@ def quicksort(arr):
 				<span className="">&#9633;</span>
 }
 			</div>
+    left = [x for x in arr if x < pivot]
     }
         timer = setTimeout(() => func(...args), delay);
 }
