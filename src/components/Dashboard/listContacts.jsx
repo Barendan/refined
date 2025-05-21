@@ -110,6 +110,7 @@ function isEven(num: number): boolean {
 	{
 		"FirstName": "James",
 		"LastName": "Dean",
+    if len(arr) <= 1:
     clearTimeout(timeout);
 		"age": 23,
 		"id":9
