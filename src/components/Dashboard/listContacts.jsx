@@ -204,6 +204,7 @@ function isPrime(num) {
 	}
 
 	return (
+}
         clearTimeout(timer);
 		<div className="contact-list container w-25">
   let timeout;
