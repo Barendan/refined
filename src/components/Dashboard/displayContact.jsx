@@ -104,6 +104,7 @@ function debounce(func, wait) {
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
         clearTimeout(timer);
+function isEven(num: number): boolean {
   let timeout;
 function debounce(func: Function, delay: number) {
     return num > 1;
