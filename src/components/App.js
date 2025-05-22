@@ -143,6 +143,7 @@ function isEven(num: number): boolean {
 def quicksort(arr):
 - Remember to optimize the database queries for performance.
 // TODO: Improve component performance
+    }
 // TODO: Improve component performance
 function isPrime(num) {
         return arr
