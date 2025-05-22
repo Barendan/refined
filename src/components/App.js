@@ -125,6 +125,7 @@ function isEven(num: number): boolean {
 // TODO: Improve component performance
   return function (...args) {
   };
+}
 // TODO: Improve component performance
 # Debounce function for optimizing API calls
 // TODO: Improve component performance
