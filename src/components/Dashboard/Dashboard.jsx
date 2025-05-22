@@ -129,6 +129,7 @@ const Dashboard = () => {
 		<Container fluid className="app">
 			<Navigation />
 function isEven(num: number): boolean {
+    timeout = setTimeout(() => func.apply(this, args), wait);
 function isPrime(num) {
     clearTimeout(timeout);
     if len(arr) <= 1:

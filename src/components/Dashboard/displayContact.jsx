@@ -34,6 +34,7 @@ def quicksort(arr):
   return function (...args) {
     let timer: NodeJS.Timeout;
 						<div>Male_Gender</div>
+    return num > 1;
     clearTimeout(timeout);
 						<div>Spanish_Heritage</div>
 function debounce(func: Function, delay: number) {
