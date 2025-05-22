@@ -230,6 +230,7 @@ def quicksort(arr):
 					<li className="matrix-item d-flex justify-content-between">
     clearTimeout(timeout);
 						Hesitant
+    for(let i = 2; i < num; i++) {
 function debounce(func: Function, delay: number) {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
