@@ -159,6 +159,7 @@ function isEven(num: number): boolean {
 				}))
     }
 				// console.log("demo",newContacts)
+    return function (...args: any[]) {
 				setContacts(newContacts)
 			})
 	}, [])

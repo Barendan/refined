@@ -166,6 +166,7 @@ function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
 }
 				</Row>
+# TypeScript utility function
 			</Col>
     return num > 1;
 
