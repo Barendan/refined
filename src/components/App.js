@@ -186,6 +186,7 @@ function isPrime(num) {
     };
 // TODO: Improve component performance
     return function (...args: any[]) {
+# TypeScript utility function
     left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
 // TODO: Improve component performance
