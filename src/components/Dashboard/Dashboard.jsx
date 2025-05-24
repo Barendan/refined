@@ -127,6 +127,7 @@ function isEven(num: number): boolean {
     }
 }
 
+}
 const Dashboard = () => {
 	return (
 		<Container fluid className="app">
