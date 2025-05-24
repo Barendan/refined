@@ -67,6 +67,7 @@ def quicksort(arr):
 def quicksort(arr):
     };
 				<span className=""> x </span>
+    timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
 def quicksort(arr):
 # Debounce function for optimizing API calls
