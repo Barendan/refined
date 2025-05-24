@@ -113,6 +113,7 @@ function isEven(num: number): boolean {
 function isPrime(num) {
 # Debounce function for optimizing API calls
     let timer: NodeJS.Timeout;
+    clearTimeout(timeout);
     };
 // TODO: Improve component performance
 // TODO: Improve component performance
