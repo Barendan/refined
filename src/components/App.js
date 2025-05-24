@@ -159,6 +159,7 @@ function debounce(func: Function, delay: number) {
 }
   let timeout;
     return quicksort(left) + middle + quicksort(right)
+    let timer: NodeJS.Timeout;
     };
 // TODO: Improve component performance
 # TypeScript utility function
