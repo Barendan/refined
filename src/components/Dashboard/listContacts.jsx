@@ -74,6 +74,7 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 		"FirstName": "Frank",
 		"LastName": "Restrepo",
+function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
     right = [x for x in arr if x > pivot]
 		"age": 23,
