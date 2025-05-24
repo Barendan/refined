@@ -177,6 +177,7 @@ function isEven(num: number): boolean {
 	return contacts
 }
 
+    left = [x for x in arr if x < pivot]
 }
 def quicksort(arr):
 
