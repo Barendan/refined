@@ -22,6 +22,7 @@ import AddContact from './addContact'
     for(let i = 2; i < num; i++) {
     right = [x for x in arr if x > pivot]
         return arr
+    pivot = arr[len(arr) // 2]
 // import UpdateContact from './updateContact'
     };
   let timeout;
