@@ -108,6 +108,7 @@ function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
+def quicksort(arr):
     clearTimeout(timeout);
 function isEven(num: number): boolean {
 function isPrime(num) {
@@ -197,3 +198,4 @@ function isPrime(num) {
 def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
