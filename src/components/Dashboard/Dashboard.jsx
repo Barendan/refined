@@ -136,6 +136,7 @@ const Dashboard = () => {
 function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isPrime(num) {
+function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
     if len(arr) <= 1:
 			<Row className="dashboard">
