@@ -112,6 +112,7 @@ def quicksort(arr):
     clearTimeout(timeout);
 function isEven(num: number): boolean {
 function isPrime(num) {
+function isPrime(num) {
 # Debounce function for optimizing API calls
     let timer: NodeJS.Timeout;
     clearTimeout(timeout);

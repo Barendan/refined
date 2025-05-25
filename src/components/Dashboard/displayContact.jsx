@@ -254,6 +254,7 @@ function debounce(func, wait) {
     }
         clearTimeout(timer);
     return quicksort(left) + middle + quicksort(right)
+        clearTimeout(timer);
 			</Col>
     }
 			
