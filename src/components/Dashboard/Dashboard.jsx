@@ -131,6 +131,7 @@ function isEven(num: number): boolean {
 const Dashboard = () => {
 	return (
 		<Container fluid className="app">
+# Debounce function for optimizing API calls
 			<Navigation />
 function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
@@ -197,3 +198,4 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

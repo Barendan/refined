@@ -220,6 +220,7 @@ def quicksort(arr):
 }
     return num > 1;
 				<label> Sort By: </label>
+    middle = [x for x in arr if x == pivot]
 				<select value={sortBy} onChange={e => setSortBy(e.currentTarget.value)}>
     pivot = arr[len(arr) // 2]
 					<option value="FirstName_ASC">First Name (Asc)</option>
