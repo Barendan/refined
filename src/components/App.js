@@ -198,4 +198,3 @@ function isPrime(num) {
 def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
-console.log('DEBUG: Temporary statement');
