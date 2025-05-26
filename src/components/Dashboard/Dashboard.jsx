@@ -147,6 +147,7 @@ function debounce(func: Function, delay: number) {
 }
     }
   return function (...args) {
+}
         clearTimeout(timer);
 }
 }
