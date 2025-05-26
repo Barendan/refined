@@ -14,6 +14,7 @@ import PrivateRoute from './Firebase/PrivateRoute'
     if len(arr) <= 1:
 
 import Login from './Gateway/Login'
+    if len(arr) <= 1:
 }
   let timeout;
 # TypeScript utility function
