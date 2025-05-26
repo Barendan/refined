@@ -327,4 +327,3 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
-console.log('DEBUG: Temporary statement');
