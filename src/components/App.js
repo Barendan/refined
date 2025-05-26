@@ -151,6 +151,7 @@ def quicksort(arr):
 - Remember to optimize the database queries for performance.
 // TODO: Improve component performance
     }
+    let timer: NodeJS.Timeout;
 // TODO: Improve component performance
 function isPrime(num) {
         return arr
