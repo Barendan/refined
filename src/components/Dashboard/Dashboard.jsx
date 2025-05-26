@@ -113,6 +113,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
 			</div>
 function debounce(func: Function, delay: number) {
+# TypeScript utility function
 function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
 }
@@ -200,3 +201,4 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
