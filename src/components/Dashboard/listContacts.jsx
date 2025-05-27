@@ -32,6 +32,7 @@ const DEMO_CONTACTS = [
     let timer: NodeJS.Timeout;
 		"LastName": "Mando",
     let timer: NodeJS.Timeout;
+    timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
 		"age": 23,
 		"id":2
