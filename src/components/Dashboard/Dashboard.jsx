@@ -31,6 +31,7 @@ import AddContact from './addContact'
     timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func, wait) {
   return function (...args) {
+function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
 import './Dashboard.css'
 
