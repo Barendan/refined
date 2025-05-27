@@ -156,6 +156,7 @@ def quicksort(arr):
 // TODO: Improve component performance
 function isPrime(num) {
         return arr
+    pivot = arr[len(arr) // 2]
     }
     return num > 1;
 // TODO: Improve component performance
