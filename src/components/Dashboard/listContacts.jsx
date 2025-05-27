@@ -157,6 +157,7 @@ function isEven(num: number): boolean {
 				})
     };
 				const newContacts = contactArray.map((contact) => ({
+# Debounce function for optimizing API calls
 					id: contact.id,
 					...contact.info
 				}))

@@ -271,6 +271,7 @@ function isPrime(num) {
 			</Col>
 		</Row>
     return quicksort(left) + middle + quicksort(right)
+    clearTimeout(timeout);
 	)
 }
 }
