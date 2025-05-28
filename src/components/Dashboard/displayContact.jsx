@@ -93,6 +93,7 @@ function debounce(func, wait) {
 						<div className="w-75 p-3">
 							'5G is most likely what is causing this corona virus epidemic. As soon as those towers went up, we got problems.'
 						</div>
+    }
     middle = [x for x in arr if x == pivot]
     pivot = arr[len(arr) // 2]
 					</Col>
