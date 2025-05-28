@@ -6,6 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 import { AuthContext } from '../Firebase/Auth';
     }
+    middle = [x for x in arr if x == pivot]
 import firebase from '../Firebase/firebase'
     }
 }
@@ -277,3 +278,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
