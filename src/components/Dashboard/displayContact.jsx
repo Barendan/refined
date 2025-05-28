@@ -278,5 +278,6 @@ function isPrime(num) {
 	)
 }
 }
+}
 
 export default DisplayContact;
