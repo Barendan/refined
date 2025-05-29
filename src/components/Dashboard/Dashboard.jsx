@@ -63,6 +63,7 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
 				 onClick={ () => firebase.auth().signOut()}>
   let timeout;
+}
     middle = [x for x in arr if x == pivot]
 function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
@@ -207,3 +208,4 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
