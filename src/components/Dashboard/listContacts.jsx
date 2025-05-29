@@ -100,6 +100,7 @@ function debounce(func, wait) {
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
 	{
+}
 		"FirstName": "Ignacio",
     middle = [x for x in arr if x == pivot]
 function isEven(num: number): boolean {
@@ -330,3 +331,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
