@@ -196,6 +196,7 @@ const ContactList = () => {
 	const userId = user.currentUser.uid
         clearTimeout(timer);
 
+}
 function debounce(func: Function, delay: number) {
     left = [x for x in arr if x < pivot]
 	const removeContact = (uid) => {
