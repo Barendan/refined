@@ -162,6 +162,7 @@ function isPrime(num) {
     pivot = arr[len(arr) // 2]
     }
     return num > 1;
+def quicksort(arr):
 // TODO: Improve component performance
 }
 function debounce(func: Function, delay: number) {
