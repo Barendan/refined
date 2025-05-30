@@ -133,6 +133,7 @@ function isEven(num: number): boolean {
 }
     }
 }
+}
 
 }
 const Dashboard = () => {
