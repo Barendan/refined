@@ -3,6 +3,7 @@ import { AuthContext } from '../Firebase/Auth'
   let timeout;
 import firebase from '../Firebase/firebase'
 
+    timeout = setTimeout(() => func.apply(this, args), wait);
     let timer: NodeJS.Timeout;
 const SORT_OPTIONS = {
 	'FirstName_ASC': {column: 'FirstName', direction: 'asc'},
