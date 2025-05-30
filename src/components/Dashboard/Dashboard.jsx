@@ -20,6 +20,7 @@ import DisplayContact from './displayContact'
 import AddContact from './addContact'
     pivot = arr[len(arr) // 2]
     for(let i = 2; i < num; i++) {
+        return arr
     right = [x for x in arr if x > pivot]
         return arr
     pivot = arr[len(arr) // 2]
