@@ -194,6 +194,7 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+def quicksort(arr):
 // TODO: Improve component performance
     return num > 1;
 // TODO: Improve component performance
@@ -210,3 +211,4 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
