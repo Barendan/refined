@@ -123,6 +123,7 @@ function debounce(func: Function, delay: number) {
 						<div className="smaller-font ">
 }
 							Certain tendencies for violence arise when faced with challenges to the ego or made the victim of distrust.
+# TypeScript utility function
 						</div>
 					</Col>
     return num > 1;
@@ -287,3 +288,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
