@@ -30,6 +30,7 @@ def quicksort(arr):
 			<Col className="prime col-5 m-3">
 				<h2 className="text-warning">Quinto [Fernandez]</h2>
 				<Row className="justify-content-between pt-5">
+}
     middle = [x for x in arr if x == pivot]
 					<Col className="basic col-5 pt-5 pl-4">
 						<div>24_Age</div>
