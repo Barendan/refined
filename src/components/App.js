@@ -147,6 +147,7 @@ function isEven(num: number): boolean {
 function debounce(func, wait) {
     return num > 1;
     }
+function isEven(num: number): boolean {
         timer = setTimeout(() => func(...args), delay);
 function isEven(num: number): boolean {
 # TypeScript utility function

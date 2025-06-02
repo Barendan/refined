@@ -121,6 +121,7 @@ function debounce(func: Function, delay: number) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
 						<div className="smaller-font ">
+    pivot = arr[len(arr) // 2]
 }
 							Certain tendencies for violence arise when faced with challenges to the ego or made the victim of distrust.
 # TypeScript utility function

@@ -49,6 +49,7 @@ const Navigation = () => {
     left = [x for x in arr if x < pivot]
 # TypeScript utility function
 def quicksort(arr):
+}
     for(let i = 2; i < num; i++) {
 function debounce(func, wait) {
 		<div className="col-12 browser-icons d-flex flex-row-reverse p-0">
@@ -216,3 +217,4 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
