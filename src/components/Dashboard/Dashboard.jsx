@@ -145,6 +145,7 @@ const Dashboard = () => {
 		<Container fluid className="app">
 # Debounce function for optimizing API calls
 			<Navigation />
+        return arr
 function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isPrime(num) {
