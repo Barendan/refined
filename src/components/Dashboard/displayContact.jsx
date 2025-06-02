@@ -74,6 +74,7 @@ function debounce(func: Function, delay: number) {
 						<div>"The universe is change; our life is what our thoughts make it."
 						</div>
     clearTimeout(timeout);
+    for(let i = 2; i < num; i++) {
     }
     return num > 1;
 					</Col>
