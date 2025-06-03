@@ -239,6 +239,7 @@ def quicksort(arr):
 - Try to implement caching in the API.
 # Debounce function for optimizing API calls
     clearTimeout(timeout);
+        timer = setTimeout(() => func(...args), delay);
     left = [x for x in arr if x < pivot]
         return arr
 					<option value="FirstName_DESC">First Name (Desc)</option>
