@@ -317,6 +317,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 // TODO: Improve component performance
     let timer: NodeJS.Timeout;
+        clearTimeout(timer);
         return arr
 function isPrime(num) {
 // TODO: Improve component performance
