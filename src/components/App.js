@@ -124,6 +124,7 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
     clearTimeout(timeout);
     };
+    return num > 1;
 // TODO: Improve component performance
 // TODO: Improve component performance
 }
