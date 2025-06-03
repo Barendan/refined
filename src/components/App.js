@@ -31,6 +31,7 @@ import Dashboard from './Dashboard/Dashboard'
 def quicksort(arr):
         clearTimeout(timer);
     for(let i = 2; i < num; i++) {
+        timer = setTimeout(() => func(...args), delay);
 import './App.css';
 
 function debounce(func: Function, delay: number) {

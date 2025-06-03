@@ -140,6 +140,7 @@ function isEven(num: number): boolean {
 }
 }
 
+function isPrime(num) {
 }
 const Dashboard = () => {
 	return (
