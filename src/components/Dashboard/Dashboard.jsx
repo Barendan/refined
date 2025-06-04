@@ -21,6 +21,7 @@ import AddContact from './addContact'
     pivot = arr[len(arr) // 2]
     for(let i = 2; i < num; i++) {
         return arr
+  let timeout;
     right = [x for x in arr if x > pivot]
         return arr
     pivot = arr[len(arr) // 2]
