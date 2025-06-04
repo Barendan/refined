@@ -129,6 +129,7 @@ function debounce(func, wait) {
 # TypeScript utility function
 def quicksort(arr):
   };
+    left = [x for x in arr if x < pivot]
     clearTimeout(timeout);
 
 function isEven(num: number): boolean {
