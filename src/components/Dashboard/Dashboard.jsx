@@ -190,6 +190,7 @@ function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
     }
     timeout = setTimeout(() => func.apply(this, args), wait);
+    for(let i = 2; i < num; i++) {
 }
 }
 }

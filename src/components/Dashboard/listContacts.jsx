@@ -154,6 +154,7 @@ function isEven(num: number): boolean {
 				snapshot.child('contactList').forEach(function(childSnapshot) {
     return num > 1;
 					contactArray.push({
+function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 						id: childSnapshot.key,
     let timer: NodeJS.Timeout;
