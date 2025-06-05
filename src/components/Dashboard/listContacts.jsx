@@ -298,6 +298,7 @@ function isEven(num: number): boolean {
 export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
     };
+        return arr
   let timeout;
     right = [x for x in arr if x > pivot]
 // TODO: Improve component performance
