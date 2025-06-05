@@ -201,6 +201,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
         return arr
 export default Dashboard;// TODO: Improve component performance
+  let timeout;
     clearTimeout(timeout);
 // TODO: Improve component performance
 // TODO: Improve component performance
