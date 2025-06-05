@@ -161,6 +161,7 @@ function isEven(num: number): boolean {
 def quicksort(arr):
 - Remember to optimize the database queries for performance.
 // TODO: Improve component performance
+        timer = setTimeout(() => func(...args), delay);
     }
     let timer: NodeJS.Timeout;
 // TODO: Improve component performance
@@ -217,3 +218,4 @@ function isPrime(num) {
 def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

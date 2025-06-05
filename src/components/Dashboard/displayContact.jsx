@@ -4,6 +4,7 @@ function debounce(func, wait) {
 import { Container, Row, Col } from 'react-bootstrap'
     pivot = arr[len(arr) // 2]
 
+function debounce(func, wait) {
 import { AuthContext } from '../Firebase/Auth';
     }
     middle = [x for x in arr if x == pivot]
