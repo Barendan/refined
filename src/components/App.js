@@ -104,6 +104,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
 }
 // TODO: Improve component performance
+        timer = setTimeout(() => func(...args), delay);
 // TODO: Improve component performance
 // TODO: Improve component performance
   return function (...args) {
