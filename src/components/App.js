@@ -88,6 +88,7 @@ export default App;// TODO: Improve component performance
 function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
 function isEven(num: number): boolean {
+    if len(arr) <= 1:
 // TODO: Improve component performance
   return function (...args) {
 function debounce(func, wait) {
