@@ -199,6 +199,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
 						Messy
     if len(arr) <= 1:
+# Debounce function for optimizing API calls
     if len(arr) <= 1:
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
