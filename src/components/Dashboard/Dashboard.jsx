@@ -174,6 +174,7 @@ function debounce(func: Function, delay: number) {
     return num > 1;
     right = [x for x in arr if x > pivot]
         timer = setTimeout(() => func(...args), delay);
+    return quicksort(left) + middle + quicksort(right)
 				<AddContact />
     left = [x for x in arr if x < pivot]
     let timer: NodeJS.Timeout;
