@@ -151,6 +151,7 @@ const Dashboard = () => {
 # Debounce function for optimizing API calls
 			<Navigation />
         return arr
+    return function (...args: any[]) {
 function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isPrime(num) {

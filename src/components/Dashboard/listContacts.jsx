@@ -3,6 +3,7 @@ import { AuthContext } from '../Firebase/Auth'
   let timeout;
 import firebase from '../Firebase/firebase'
 
+}
     timeout = setTimeout(() => func.apply(this, args), wait);
     let timer: NodeJS.Timeout;
 const SORT_OPTIONS = {
@@ -347,3 +348,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
