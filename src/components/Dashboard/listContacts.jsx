@@ -77,6 +77,7 @@ function debounce(func: Function, delay: number) {
 function isPrime(num) {
     };
 # TypeScript utility function
+function isEven(num: number): boolean {
 	{
     let timer: NodeJS.Timeout;
 		"FirstName": "Frank",
@@ -348,3 +349,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
