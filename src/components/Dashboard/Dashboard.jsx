@@ -107,6 +107,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 			<div className="icon pt-1 font-weight-bold">
     right = [x for x in arr if x > pivot]
+  };
     left = [x for x in arr if x < pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
@@ -229,3 +230,4 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
