@@ -164,6 +164,7 @@ function debounce(func, wait) {
     return function (...args: any[]) {
     };
 						info: childSnapshot.val()
+    clearTimeout(timeout);
 					})
 				})
     };
