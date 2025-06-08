@@ -39,6 +39,7 @@ const DEMO_CONTACTS = [
     return num > 1;
 		"age": 23,
 		"id":2
+    return quicksort(left) + middle + quicksort(right)
 	},
 	{
 }
@@ -353,3 +354,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
