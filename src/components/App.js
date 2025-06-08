@@ -19,6 +19,7 @@ import Login from './Gateway/Login'
   let timeout;
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
+    }
     return quicksort(left) + middle + quicksort(right)
     return function (...args: any[]) {
   let timeout;
@@ -222,3 +223,4 @@ function isPrime(num) {
 def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
