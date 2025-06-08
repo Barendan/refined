@@ -68,6 +68,7 @@ def quicksort(arr):
   let timeout;
 }
     middle = [x for x in arr if x == pivot]
+        return arr
 function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
 def quicksort(arr):
@@ -230,3 +231,4 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

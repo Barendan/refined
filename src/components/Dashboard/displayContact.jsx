@@ -116,6 +116,7 @@ function debounce(func, wait) {
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
         clearTimeout(timer);
+    pivot = arr[len(arr) // 2]
 function isEven(num: number): boolean {
   let timeout;
 def quicksort(arr):
@@ -295,3 +296,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
