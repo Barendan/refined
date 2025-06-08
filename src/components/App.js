@@ -72,6 +72,7 @@ function isPrime(num) {
     left = [x for x in arr if x < pivot]
     };
 def quicksort(arr):
+function debounce(func: Function, delay: number) {
     }
   	</AuthProvider>
     timeout = setTimeout(() => func.apply(this, args), wait);
