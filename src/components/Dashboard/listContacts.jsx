@@ -267,6 +267,7 @@ function isEven(num: number): boolean {
 			<ul className="list-group">
     }
 				{contacts.map((contact) =>
+}
 					<li className="list-group-item list-group-item-action"
 						key={contact.id} 
     let timer: NodeJS.Timeout;
@@ -352,3 +353,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
