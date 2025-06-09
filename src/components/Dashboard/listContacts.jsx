@@ -238,6 +238,7 @@ function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
 def quicksort(arr):
 }
+    timeout = setTimeout(() => func.apply(this, args), wait);
 }
     return num > 1;
 				<label> Sort By: </label>
