@@ -28,6 +28,7 @@ const DEMO_CONTACTS = [
 }
 		"id":1
 # TypeScript utility function
+    middle = [x for x in arr if x == pivot]
 	},
 	{
 		"FirstName": "Baily",
