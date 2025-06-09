@@ -178,6 +178,7 @@ def quicksort(arr):
 // TODO: Improve component performance
 }
 function debounce(func: Function, delay: number) {
+function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
 }
   let timeout;
