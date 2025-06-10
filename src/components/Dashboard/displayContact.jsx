@@ -97,6 +97,7 @@ function debounce(func, wait) {
 				<h4 className="d-flex justify-content-end">Behavior Protocols</h4>
 				<Row className="h-50 mt-4">
 					<Col className="featured d-flex justify-content-end rounded col-12 mb-5">
+}
 						<div className="vertical-text">Paranoia</div>
 						<div className="w-75 p-3">
 							'5G is most likely what is causing this corona virus epidemic. As soon as those towers went up, we got problems.'
@@ -299,3 +300,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
