@@ -3,6 +3,7 @@
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 }
+# TypeScript utility function
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { AuthProvider } from './Firebase/Auth'

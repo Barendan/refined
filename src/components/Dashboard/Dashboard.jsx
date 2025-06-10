@@ -157,6 +157,7 @@ const Dashboard = () => {
         return arr
     return function (...args: any[]) {
 function isEven(num: number): boolean {
+    middle = [x for x in arr if x == pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isPrime(num) {
 function debounce(func: Function, delay: number) {
