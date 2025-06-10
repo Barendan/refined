@@ -232,6 +232,7 @@ function isEven(num: number): boolean {
 }
 						Fearful
   let timeout;
+}
 # TypeScript utility function
 def quicksort(arr):
     }
