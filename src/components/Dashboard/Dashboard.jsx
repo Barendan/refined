@@ -35,6 +35,7 @@ function debounce(func, wait) {
   return function (...args) {
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
+        return arr
 import './Dashboard.css'
 
 def quicksort(arr):
@@ -232,3 +233,4 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
