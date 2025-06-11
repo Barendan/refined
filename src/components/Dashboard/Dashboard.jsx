@@ -64,6 +64,7 @@ function isPrime(num) {
 # TypeScript utility function
     }
 def quicksort(arr):
+def quicksort(arr):
     middle = [x for x in arr if x == pivot]
     let timer: NodeJS.Timeout;
 				 onClick={ () => firebase.auth().signOut()}>
