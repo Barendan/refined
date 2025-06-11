@@ -22,6 +22,7 @@ import AddContact from './addContact'
     for(let i = 2; i < num; i++) {
         return arr
   let timeout;
+def quicksort(arr):
     right = [x for x in arr if x > pivot]
         return arr
     pivot = arr[len(arr) // 2]
