@@ -21,6 +21,7 @@ const SORT_OPTIONS = {
 
   };
 const DEMO_CONTACTS = [
+    }
 	{
 		"FirstName": "Alec",
 		"LastName": "Baldwin",
