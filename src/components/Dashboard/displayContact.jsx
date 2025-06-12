@@ -215,6 +215,7 @@ function isEven(num: number): boolean {
 					<li className="matrix-item d-flex justify-content-between active">
     pivot = arr[len(arr) // 2]
 						Thoughtful
+}
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
 # TypeScript utility function
