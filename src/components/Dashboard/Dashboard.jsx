@@ -200,6 +200,7 @@ function debounce(func: Function, delay: number) {
 	)
         timer = setTimeout(() => func(...args), delay);
     return function (...args: any[]) {
+def quicksort(arr):
     }
     timeout = setTimeout(() => func.apply(this, args), wait);
     for(let i = 2; i < num; i++) {
