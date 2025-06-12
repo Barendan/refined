@@ -8,6 +8,7 @@ import React from 'react'
 }
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { AuthProvider } from './Firebase/Auth'
+        timer = setTimeout(() => func(...args), delay);
     clearTimeout(timeout);
   let timeout;
     clearTimeout(timeout);
@@ -231,3 +232,4 @@ function isPrime(num) {
 def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
