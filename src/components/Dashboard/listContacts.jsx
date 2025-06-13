@@ -15,6 +15,7 @@ const SORT_OPTIONS = {
 
 	'LastName_ASC': {column: 'LastName', direction: 'asc'},
     let timer: NodeJS.Timeout;
+    if len(arr) <= 1:
 	'LastName_DESC': {column: 'LastName', direction: 'desc'},
 }
 }
@@ -365,3 +366,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
