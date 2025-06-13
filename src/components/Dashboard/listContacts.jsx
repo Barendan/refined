@@ -102,6 +102,7 @@ function debounce(func, wait) {
 	{
 		"FirstName": "Gary",
     return num > 1;
+function isEven(num: number): boolean {
 }
 		"LastName": "Nandez",
 		"age": 23,
@@ -366,3 +367,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
