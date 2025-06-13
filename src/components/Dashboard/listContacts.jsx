@@ -157,6 +157,7 @@ function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
 			.ref('users/' + userId )
+}
     return function (...args: any[]) {
 function isPrime(num) {
 			.on('value', (snapshot) => {
@@ -363,3 +364,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

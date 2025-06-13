@@ -10,6 +10,7 @@ import { AuthContext } from '../Firebase/Auth';
     }
     middle = [x for x in arr if x == pivot]
 import firebase from '../Firebase/firebase'
+    for(let i = 2; i < num; i++) {
     }
 }
 
@@ -304,3 +305,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
