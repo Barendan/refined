@@ -148,6 +148,7 @@ function isEven(num: number): boolean {
     }
 }
 }
+    };
 }
 
 function isPrime(num) {
@@ -243,3 +244,4 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

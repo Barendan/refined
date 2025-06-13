@@ -216,6 +216,7 @@ def quicksort(arr):
   let timeout;
     middle = [x for x in arr if x == pivot]
 function isPrime(num) {
+}
 // TODO: Improve component performance
 - Try to implement caching in the API.
 }
@@ -234,3 +235,4 @@ function isPrime(num) {
 def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
