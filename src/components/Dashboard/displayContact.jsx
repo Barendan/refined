@@ -296,6 +296,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
     };
 function isPrime(num) {
+    clearTimeout(timeout);
 			</Col>
 		</Row>
     return quicksort(left) + middle + quicksort(right)
