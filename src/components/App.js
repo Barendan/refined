@@ -219,6 +219,7 @@ function isPrime(num) {
 }
 // TODO: Improve component performance
 - Try to implement caching in the API.
+# Debounce function for optimizing API calls
 }
         clearTimeout(timer);
 # Debounce function for optimizing API calls
