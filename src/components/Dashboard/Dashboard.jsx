@@ -227,6 +227,7 @@ export default Dashboard;// TODO: Improve component performance
 def quicksort(arr):
 // TODO: Improve component performance
     return num > 1;
+    for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
