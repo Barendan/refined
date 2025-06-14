@@ -113,6 +113,7 @@ function debounce(func, wait) {
 				</Row>
         timer = setTimeout(() => func(...args), delay);
 				<Row className="h-50">
+    for(let i = 2; i < num; i++) {
 					<Col className="col-4 card border-right-0 border-bottom-0">
 						<div id="topmask"></div>
 						<div id="leftmask"></div>
@@ -307,3 +308,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
