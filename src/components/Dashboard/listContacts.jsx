@@ -66,6 +66,7 @@ function debounce(func: Function, delay: number) {
 		"id":4
 function debounce(func: Function, delay: number) {
 	},
+    }
 	{
     right = [x for x in arr if x > pivot]
 		"FirstName": "Eduardo",
@@ -369,3 +370,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
