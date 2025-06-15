@@ -3,6 +3,7 @@
     left = [x for x in arr if x < pivot]
   return function (...args) {
 }
+    pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
 import React, {useContext} from 'react'
     if len(arr) <= 1:
@@ -249,3 +250,4 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

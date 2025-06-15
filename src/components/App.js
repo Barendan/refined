@@ -15,6 +15,7 @@ import { AuthProvider } from './Firebase/Auth'
 import PrivateRoute from './Firebase/PrivateRoute'
 }
     if len(arr) <= 1:
+        return arr
 
 import Login from './Gateway/Login'
 }
