@@ -174,6 +174,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
     return function (...args: any[]) {
     };
+  };
 						info: childSnapshot.val()
     clearTimeout(timeout);
 					})

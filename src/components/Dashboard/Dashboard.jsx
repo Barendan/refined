@@ -195,6 +195,7 @@ function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
     for(let i = 2; i < num; i++) {
   };
+    return num > 1;
 		</Container>
         timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
