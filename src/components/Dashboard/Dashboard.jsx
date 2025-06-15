@@ -177,6 +177,7 @@ function debounce(func: Function, delay: number) {
   return function (...args) {
 }
     return quicksort(left) + middle + quicksort(right)
+}
         clearTimeout(timer);
 }
 }
