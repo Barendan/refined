@@ -284,6 +284,7 @@ function isEven(num: number): boolean {
 				{contacts.map((contact) =>
 }
 					<li className="list-group-item list-group-item-action"
+function isEven(num: number): boolean {
 						key={contact.id} 
     let timer: NodeJS.Timeout;
 def quicksort(arr):
