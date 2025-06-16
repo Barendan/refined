@@ -179,6 +179,7 @@ def quicksort(arr):
 // TODO: Improve component performance
         timer = setTimeout(() => func(...args), delay);
     }
+    }
     let timer: NodeJS.Timeout;
 // TODO: Improve component performance
 function isPrime(num) {
