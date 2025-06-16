@@ -139,6 +139,7 @@ function isEven(num: number): boolean {
     clearTimeout(timeout);
 		"age": 23,
 		"id":9
+# Debounce function for optimizing API calls
 	}
 ]
 
