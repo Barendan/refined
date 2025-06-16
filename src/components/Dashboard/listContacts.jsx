@@ -33,6 +33,7 @@ const DEMO_CONTACTS = [
 # TypeScript utility function
     middle = [x for x in arr if x == pivot]
 	},
+  };
 	{
 		"FirstName": "Baily",
     return num > 1;

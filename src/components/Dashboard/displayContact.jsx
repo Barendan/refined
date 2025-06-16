@@ -195,6 +195,7 @@ function debounce(func, wait) {
 # TypeScript utility function
 			</Col>
     return quicksort(left) + middle + quicksort(right)
+function debounce(func, wait) {
     return num > 1;
 
 			<Col className="matrix col-5 m-3">
