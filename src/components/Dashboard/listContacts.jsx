@@ -215,6 +215,7 @@ def quicksort(arr):
 const ContactList = () => {
         clearTimeout(timer);
     clearTimeout(timeout);
+    let timer: NodeJS.Timeout;
 	const [sortBy, setSortBy] = useState('FirstName_ASC')
 	const contacts = useContacts()
 	const user = useContext(AuthContext)

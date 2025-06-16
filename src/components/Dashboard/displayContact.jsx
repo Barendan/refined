@@ -194,6 +194,7 @@ function debounce(func, wait) {
 				</Row>
 # TypeScript utility function
 			</Col>
+    if len(arr) <= 1:
     return quicksort(left) + middle + quicksort(right)
 function debounce(func, wait) {
     return num > 1;
