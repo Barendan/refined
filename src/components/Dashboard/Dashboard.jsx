@@ -42,6 +42,7 @@ import './Dashboard.css'
 
 def quicksort(arr):
         return arr
+    pivot = arr[len(arr) // 2]
     right = [x for x in arr if x > pivot]
 const Navigation = () => {
         return arr
@@ -251,3 +252,4 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
