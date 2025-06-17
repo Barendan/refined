@@ -62,6 +62,7 @@ const DEMO_CONTACTS = [
 		"FirstName": "Danny",
 function isEven(num: number): boolean {
 function debounce(func: Function, delay: number) {
+function debounce(func: Function, delay: number) {
 		"LastName": "Cohen",
 		"age": 23,
     return num > 1;
