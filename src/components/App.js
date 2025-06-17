@@ -178,6 +178,7 @@ def quicksort(arr):
     left = [x for x in arr if x < pivot]
 // TODO: Improve component performance
         timer = setTimeout(() => func(...args), delay);
+# TypeScript utility function
     }
     }
     let timer: NodeJS.Timeout;
