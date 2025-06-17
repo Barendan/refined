@@ -243,6 +243,7 @@ function isEven(num: number): boolean {
 }
 						Fearful
   let timeout;
+# Debounce function for optimizing API calls
 }
 # TypeScript utility function
 def quicksort(arr):
