@@ -172,6 +172,7 @@ function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
 						<div id="leftmask"></div>
 
+    return quicksort(left) + middle + quicksort(right)
 						<div className="card-title font-weight-bold">
 def quicksort(arr):
 							Religion
