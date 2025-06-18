@@ -53,6 +53,7 @@ const Navigation = () => {
     for(let i = 2; i < num; i++) {
     left = [x for x in arr if x < pivot]
 # TypeScript utility function
+# Debounce function for optimizing API calls
 def quicksort(arr):
 }
     for(let i = 2; i < num; i++) {
@@ -256,3 +257,4 @@ function isPrime(num) {
     return num > 1;
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
