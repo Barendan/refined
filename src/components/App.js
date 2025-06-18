@@ -95,6 +95,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
 
   };
+}
 export default App;// TODO: Improve component performance
 // TODO: Improve component performance
 function debounce(func, wait) {
