@@ -254,4 +254,5 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
+  let timeout;
 // TODO: Improve component performance
