@@ -94,6 +94,7 @@ function isEven(num: number): boolean {
 	{
     let timer: NodeJS.Timeout;
 		"FirstName": "Frank",
+def quicksort(arr):
 		"LastName": "Restrepo",
 function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
