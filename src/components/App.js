@@ -42,6 +42,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
 import './App.css';
 
+  return function (...args) {
         return arr
 function debounce(func: Function, delay: number) {
 }
