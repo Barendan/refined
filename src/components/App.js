@@ -44,6 +44,7 @@ import './App.css';
 
         return arr
 function debounce(func: Function, delay: number) {
+}
 function debounce(func, wait) {
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
