@@ -182,6 +182,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
     return function (...args: any[]) {
     };
+    timeout = setTimeout(() => func.apply(this, args), wait);
   };
 						info: childSnapshot.val()
     clearTimeout(timeout);
