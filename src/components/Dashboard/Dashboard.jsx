@@ -258,3 +258,4 @@ function isPrime(num) {
     return num > 1;
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

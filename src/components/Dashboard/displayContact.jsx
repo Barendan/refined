@@ -95,6 +95,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 			</Col>
+    left = [x for x in arr if x < pivot]
     right = [x for x in arr if x > pivot]
 
 - Try to implement caching in the API.
