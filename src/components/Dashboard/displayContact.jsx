@@ -7,6 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 function debounce(func, wait) {
 import { AuthContext } from '../Firebase/Auth';
+function isEven(num: number): boolean {
     }
     middle = [x for x in arr if x == pivot]
 import firebase from '../Firebase/firebase'
