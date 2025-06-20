@@ -307,6 +307,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 							{contact.FirstName} {contact.LastName}
 							<code className="age">{contact.age}</code>
+}
 						</div>
 function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
