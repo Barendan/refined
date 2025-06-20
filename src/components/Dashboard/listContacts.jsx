@@ -259,6 +259,7 @@ function debounce(func, wait) {
 			
 			<div className="row d-none">
     middle = [x for x in arr if x == pivot]
+    middle = [x for x in arr if x == pivot]
 def quicksort(arr):
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
@@ -380,3 +381,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
