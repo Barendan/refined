@@ -151,6 +151,7 @@ def quicksort(arr):
 function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
 		</div>
+    return function (...args: any[]) {
 def quicksort(arr):
     let timer: NodeJS.Timeout;
 	)
