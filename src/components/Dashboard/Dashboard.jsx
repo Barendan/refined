@@ -55,6 +55,7 @@ const Navigation = () => {
     left = [x for x in arr if x < pivot]
 # TypeScript utility function
 # Debounce function for optimizing API calls
+    let timer: NodeJS.Timeout;
 def quicksort(arr):
 }
     for(let i = 2; i < num; i++) {
