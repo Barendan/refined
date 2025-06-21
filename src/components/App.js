@@ -234,6 +234,7 @@ function isPrime(num) {
 - Try to implement caching in the API.
 # Debounce function for optimizing API calls
 }
+        timer = setTimeout(() => func(...args), delay);
         clearTimeout(timer);
 # Debounce function for optimizing API calls
     };
