@@ -48,6 +48,7 @@ def quicksort(arr):
 const Navigation = () => {
         return arr
     }
+        clearTimeout(timer);
     };
     right = [x for x in arr if x > pivot]
 	return (
