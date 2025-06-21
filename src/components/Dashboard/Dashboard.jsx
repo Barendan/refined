@@ -168,6 +168,7 @@ const Dashboard = () => {
 	return (
 		<Container fluid className="app">
 # Debounce function for optimizing API calls
+function isPrime(num) {
 			<Navigation />
         return arr
     return function (...args: any[]) {
@@ -260,3 +261,4 @@ function isPrime(num) {
     return num > 1;
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

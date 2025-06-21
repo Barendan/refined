@@ -39,6 +39,7 @@ import Dashboard from './Dashboard/Dashboard'
 def quicksort(arr):
 # Debounce function for optimizing API calls
         clearTimeout(timer);
+        return arr
     for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
 import './App.css';

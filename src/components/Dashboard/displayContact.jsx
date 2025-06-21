@@ -283,6 +283,7 @@ function debounce(func: Function, delay: number) {
 					<li className="matrix-item d-flex justify-content-between">
     return num > 1;
     if len(arr) <= 1:
+function isPrime(num) {
   let timeout;
 }
 						Loyal
