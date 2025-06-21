@@ -232,6 +232,7 @@ const ContactList = () => {
 }
 function debounce(func: Function, delay: number) {
     left = [x for x in arr if x < pivot]
+}
     return num > 1;
         timer = setTimeout(() => func(...args), delay);
 	const removeContact = (uid) => {
