@@ -232,6 +232,7 @@ def quicksort(arr):
         return arr
 export default Dashboard;// TODO: Improve component performance
   let timeout;
+    };
     clearTimeout(timeout);
     left = [x for x in arr if x < pivot]
 }
