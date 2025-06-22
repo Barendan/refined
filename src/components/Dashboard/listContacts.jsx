@@ -221,6 +221,7 @@ def quicksort(arr):
     for(let i = 2; i < num; i++) {
 const ContactList = () => {
         clearTimeout(timer);
+  let timeout;
     clearTimeout(timeout);
     let timer: NodeJS.Timeout;
 	const [sortBy, setSortBy] = useState('FirstName_ASC')
@@ -385,3 +386,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
