@@ -218,6 +218,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
+function debounce(func, wait) {
 function isPrime(num) {
 def quicksort(arr):
     };
