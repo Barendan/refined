@@ -190,6 +190,7 @@ def quicksort(arr):
 // TODO: Improve component performance
         timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
+def quicksort(arr):
     }
     }
     let timer: NodeJS.Timeout;
