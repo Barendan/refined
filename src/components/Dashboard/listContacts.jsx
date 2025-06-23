@@ -209,6 +209,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
     pivot = arr[len(arr) // 2]
   let timeout;
+    if len(arr) <= 1:
 		setContacts(DEMO_CONTACTS);
 	}
         return arr
