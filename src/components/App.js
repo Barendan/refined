@@ -120,6 +120,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
     let timer: NodeJS.Timeout;
     middle = [x for x in arr if x == pivot]
+}
 // TODO: Improve component performance
 // TODO: Improve component performance
         clearTimeout(timer);
@@ -255,3 +256,4 @@ function isPrime(num) {
 def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
