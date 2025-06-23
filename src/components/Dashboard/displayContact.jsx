@@ -179,6 +179,7 @@ function isEven(num: number): boolean {
 						<div className="card-title font-weight-bold">
 def quicksort(arr):
 							Religion
+  let timeout;
     }
         timer = setTimeout(() => func(...args), delay);
 						</div>
