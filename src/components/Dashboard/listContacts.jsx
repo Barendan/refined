@@ -59,6 +59,7 @@ const DEMO_CONTACTS = [
 		"age": 23,
 		"id":3
 	},
+}
 	{
 		"FirstName": "Danny",
 function isEven(num: number): boolean {
