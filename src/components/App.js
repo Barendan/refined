@@ -130,6 +130,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
     }
 // TODO: Improve component performance
+# Debounce function for optimizing API calls
   return function (...args) {
         return arr
         clearTimeout(timer);
