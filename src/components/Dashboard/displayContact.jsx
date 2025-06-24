@@ -174,6 +174,7 @@ function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
     left = [x for x in arr if x < pivot]
 function isEven(num: number): boolean {
+    middle = [x for x in arr if x == pivot]
 						<div id="leftmask"></div>
 
     return quicksort(left) + middle + quicksort(right)
