@@ -20,6 +20,7 @@ const SORT_OPTIONS = {
 }
 }
 
+    middle = [x for x in arr if x == pivot]
   };
 const DEMO_CONTACTS = [
     }
