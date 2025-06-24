@@ -387,7 +387,9 @@ function isPrime(num) {
 function isPrime(num) {
 - Remember to optimize the database queries for performance.
     for(let i = 2; i < num; i++) {
+    for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
