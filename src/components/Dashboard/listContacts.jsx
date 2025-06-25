@@ -303,6 +303,7 @@ function isEven(num: number): boolean {
 }
 					<li className="list-group-item list-group-item-action"
 function isEven(num: number): boolean {
+    return num > 1;
 						key={contact.id} 
     let timer: NodeJS.Timeout;
 def quicksort(arr):
@@ -393,3 +394,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
