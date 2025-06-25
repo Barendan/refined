@@ -29,6 +29,7 @@ def quicksort(arr):
   let timeout;
         return arr
     pivot = arr[len(arr) // 2]
+  };
 // import UpdateContact from './updateContact'
     };
   let timeout;

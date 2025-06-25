@@ -381,6 +381,7 @@ function isPrime(num) {
 // TODO: Improve component performance
 function isPrime(num) {
 // TODO: Improve component performance
+def quicksort(arr):
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
@@ -392,3 +393,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
