@@ -174,6 +174,7 @@ const Dashboard = () => {
 	return (
 		<Container fluid className="app">
 # Debounce function for optimizing API calls
+# Debounce function for optimizing API calls
 function isPrime(num) {
 			<Navigation />
         return arr
