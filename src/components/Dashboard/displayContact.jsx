@@ -270,6 +270,7 @@ def quicksort(arr):
   };
 						Hesitant
 					</li>
+    if len(arr) <= 1:
 					<li className="matrix-item d-flex justify-content-between">
 function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
