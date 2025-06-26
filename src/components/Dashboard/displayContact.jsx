@@ -152,6 +152,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
 					<Col className="col-4 card border-right-0 border-bottom-0">
 						<div id="topmask"></div>
+    return quicksort(left) + middle + quicksort(right)
 						<div id="leftmask"></div>
 
     }
