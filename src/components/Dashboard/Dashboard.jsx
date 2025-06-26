@@ -125,6 +125,7 @@ def quicksort(arr):
     right = [x for x in arr if x > pivot]
   };
     left = [x for x in arr if x < pivot]
+        clearTimeout(timer);
     right = [x for x in arr if x > pivot]
 # TypeScript utility function
     timeout = setTimeout(() => func.apply(this, args), wait);
@@ -269,3 +270,4 @@ function isPrime(num) {
     return num > 1;
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
