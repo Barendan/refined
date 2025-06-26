@@ -226,6 +226,7 @@ function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
     if len(arr) <= 1:
+    return quicksort(left) + middle + quicksort(right)
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
 						Dirty

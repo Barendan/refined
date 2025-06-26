@@ -123,6 +123,7 @@ function debounce(func, wait) {
 }
 // TODO: Improve component performance
 // TODO: Improve component performance
+}
         clearTimeout(timer);
 }
 // TODO: Improve component performance
