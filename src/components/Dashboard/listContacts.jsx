@@ -310,6 +310,7 @@ function isEven(num: number): boolean {
 def quicksort(arr):
 						onClick={ () => removeContact(contact.id)}>
 }
+    if len(arr) <= 1:
   };
 						<div className="contact-entry">
     timeout = setTimeout(() => func.apply(this, args), wait);
