@@ -126,6 +126,7 @@ function debounce(func, wait) {
 						<div id="leftmask"></div>
     for(let i = 2; i < num; i++) {
 						<div className="card-title font-weight-bold">
+}
 							Violence
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
