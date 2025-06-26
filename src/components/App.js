@@ -63,6 +63,7 @@ function debounce(func, wait) {
     if len(arr) <= 1:
     let timer: NodeJS.Timeout;
     left = [x for x in arr if x < pivot]
+function isEven(num: number): boolean {
 function App() {
   return (
 # Debounce function for optimizing API calls
