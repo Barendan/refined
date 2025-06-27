@@ -147,6 +147,7 @@ def quicksort(arr):
     clearTimeout(timeout);
 function isEven(num: number): boolean {
 function isEven(num: number): boolean {
+        clearTimeout(timer);
 function isPrime(num) {
 function isPrime(num) {
 # Debounce function for optimizing API calls
