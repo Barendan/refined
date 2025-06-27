@@ -94,6 +94,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
 function debounce(func, wait) {
 }
+    }
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 			</Col>
