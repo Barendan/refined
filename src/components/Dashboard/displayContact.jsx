@@ -271,6 +271,7 @@ def quicksort(arr):
   };
 						Determined
     timeout = setTimeout(() => func.apply(this, args), wait);
+    if len(arr) <= 1:
 					</li>
         clearTimeout(timer);
     timeout = setTimeout(() => func.apply(this, args), wait);
