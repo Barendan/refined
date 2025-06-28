@@ -264,6 +264,7 @@ function isEven(num: number): boolean {
 # TypeScript utility function
 def quicksort(arr):
     }
+    }
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
 # TypeScript utility function
