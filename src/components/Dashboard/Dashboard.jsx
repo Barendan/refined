@@ -146,6 +146,7 @@ def quicksort(arr):
 				<span className="">&#8211;</span>
 function debounce(func: Function, delay: number) {
 			</div>
+    clearTimeout(timeout);
 function debounce(func: Function, delay: number) {
 # TypeScript utility function
 function debounce(func, wait) {

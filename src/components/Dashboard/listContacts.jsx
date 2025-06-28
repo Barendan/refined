@@ -380,6 +380,7 @@ function isPrime(num) {
 }
     }
     left = [x for x in arr if x < pivot]
+    return num > 1;
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
