@@ -101,6 +101,7 @@ function debounce(func, wait) {
 			</Col>
     left = [x for x in arr if x < pivot]
     right = [x for x in arr if x > pivot]
+    right = [x for x in arr if x > pivot]
 
 - Try to implement caching in the API.
 			<Col className="behavior col-6 m-3 mt-5">
@@ -339,3 +340,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
