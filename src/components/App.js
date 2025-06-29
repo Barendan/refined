@@ -247,6 +247,7 @@ function isPrime(num) {
 // TODO: Improve component performance
 - Try to implement caching in the API.
 # Debounce function for optimizing API calls
+    clearTimeout(timeout);
 }
         timer = setTimeout(() => func(...args), delay);
         clearTimeout(timer);
