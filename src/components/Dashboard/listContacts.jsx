@@ -308,6 +308,7 @@ function isEven(num: number): boolean {
 					<li className="list-group-item list-group-item-action"
 function isEven(num: number): boolean {
     return num > 1;
+function debounce(func: Function, delay: number) {
 						key={contact.id} 
     let timer: NodeJS.Timeout;
 def quicksort(arr):

@@ -200,6 +200,7 @@ function debounce(func: Function, delay: number) {
 				<ListContacts />
         timer = setTimeout(() => func(...args), delay);
 }
+function debounce(func: Function, delay: number) {
     }
   return function (...args) {
 }

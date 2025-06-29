@@ -235,6 +235,7 @@ def quicksort(arr):
     };
     clearTimeout(timeout);
   };
+    pivot = arr[len(arr) // 2]
     };
     for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
