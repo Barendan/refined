@@ -169,6 +169,7 @@ function debounce(func: Function, delay: number) {
     };
 		firebase
   return function (...args) {
+    }
 function debounce(func: Function, delay: number) {
 			.database()
 function isEven(num: number): boolean {
