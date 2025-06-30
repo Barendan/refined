@@ -378,6 +378,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
         return arr
 function isPrime(num) {
+    for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
@@ -403,3 +404,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
