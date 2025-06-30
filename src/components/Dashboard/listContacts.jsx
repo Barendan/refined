@@ -344,6 +344,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
 }
     return quicksort(left) + middle + quicksort(right)
+function debounce(func: Function, delay: number) {
   return function (...args) {
     return quicksort(left) + middle + quicksort(right)
 
