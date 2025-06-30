@@ -200,6 +200,7 @@ def quicksort(arr):
 // TODO: Improve component performance
         timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
+  let timeout;
 def quicksort(arr):
     }
     }
