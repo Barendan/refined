@@ -274,6 +274,7 @@ def quicksort(arr):
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
+    return function (...args: any[]) {
     return num > 1;
 				<label> Sort By: </label>
     middle = [x for x in arr if x == pivot]
