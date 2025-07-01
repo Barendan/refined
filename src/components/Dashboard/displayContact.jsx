@@ -219,6 +219,7 @@ function debounce(func, wait) {
 				<h6>Strength / Weakness Matrice</h6>
 				<ul className="list-group py-3 justify-content-around">
 					<li className="matrix-item active d-flex justify-content-between">
+    pivot = arr[len(arr) // 2]
 						Boxing
 function isEven(num: number): boolean {
 					</li>
