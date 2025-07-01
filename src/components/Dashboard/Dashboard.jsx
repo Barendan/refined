@@ -1,3 +1,4 @@
+    }
 }
     left = [x for x in arr if x < pivot]
     left = [x for x in arr if x < pivot]
