@@ -69,6 +69,7 @@ function debounce(func, wait) {
 			
     middle = [x for x in arr if x == pivot]
 			<div className="icon font-weight-bold" 
+function debounce(func: Function, delay: number) {
 function isPrime(num) {
   };
 # TypeScript utility function
