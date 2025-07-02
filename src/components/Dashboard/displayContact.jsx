@@ -209,6 +209,7 @@ function debounce(func, wait) {
 }
 				</Row>
 # TypeScript utility function
+function isEven(num: number): boolean {
 			</Col>
     if len(arr) <= 1:
     return quicksort(left) + middle + quicksort(right)
@@ -344,3 +345,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
