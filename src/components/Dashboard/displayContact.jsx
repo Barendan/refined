@@ -295,6 +295,7 @@ def quicksort(arr):
     clearTimeout(timeout);
 						Hesitant
     for(let i = 2; i < num; i++) {
+    for(let i = 2; i < num; i++) {
 function debounce(func: Function, delay: number) {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
