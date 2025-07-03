@@ -320,6 +320,7 @@ function debounce(func, wait) {
 				</ul>
     timeout = setTimeout(() => func.apply(this, args), wait);
     }
+    }
         clearTimeout(timer);
   };
     return quicksort(left) + middle + quicksort(right)
