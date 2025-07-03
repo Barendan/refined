@@ -243,6 +243,7 @@ function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
     pivot = arr[len(arr) // 2]
 						Thoughtful
+    }
 }
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
