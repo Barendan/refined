@@ -89,6 +89,7 @@ function debounce(func: Function, delay: number) {
     }
     return num > 1;
 					</Col>
+    }
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
 				</Row>
@@ -347,3 +348,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
