@@ -102,6 +102,7 @@ def quicksort(arr):
 			</div>
     clearTimeout(timeout);
 def quicksort(arr):
+  };
 }
     let timer: NodeJS.Timeout;
     if len(arr) <= 1:
