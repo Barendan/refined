@@ -205,6 +205,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
   let timeout;
+function isPrime(num) {
 def quicksort(arr):
     }
     }

@@ -309,6 +309,7 @@ function isEven(num: number): boolean {
     }
 				{contacts.map((contact) =>
 }
+}
 					<li className="list-group-item list-group-item-action"
 function isEven(num: number): boolean {
     return num > 1;
@@ -410,3 +411,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
