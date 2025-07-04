@@ -270,6 +270,7 @@ function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
     middle = [x for x in arr if x == pivot]
 }
+    left = [x for x in arr if x < pivot]
 # TypeScript utility function
 def quicksort(arr):
     }
@@ -351,3 +352,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

@@ -44,6 +44,7 @@ function debounce(func: Function, delay: number) {
         return arr
 import './Dashboard.css'
 
+        timer = setTimeout(() => func(...args), delay);
 def quicksort(arr):
         return arr
     pivot = arr[len(arr) // 2]
