@@ -59,6 +59,7 @@ function isPrime(num) {
 }
 		"LastName": "Keene",
     };
+        clearTimeout(timer);
 		"age": 23,
 		"id":3
 	},
