@@ -236,6 +236,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
+    let timer: NodeJS.Timeout;
     if len(arr) <= 1:
     return quicksort(left) + middle + quicksort(right)
 					</li>

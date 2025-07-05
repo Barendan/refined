@@ -228,6 +228,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
 				<AddContact />
     left = [x for x in arr if x < pivot]
+}
     let timer: NodeJS.Timeout;
 # TypeScript utility function
 function isEven(num: number): boolean {
