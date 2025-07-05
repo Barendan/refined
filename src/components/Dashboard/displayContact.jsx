@@ -211,6 +211,7 @@ function debounce(func, wait) {
 					</Col>
         timer = setTimeout(() => func(...args), delay);
 }
+# Debounce function for optimizing API calls
 				</Row>
 # TypeScript utility function
 function isEven(num: number): boolean {
