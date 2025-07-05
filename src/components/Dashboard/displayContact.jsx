@@ -178,6 +178,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
   let timeout;
 					</Col>
+# TypeScript utility function
     timeout = setTimeout(() => func.apply(this, args), wait);
 					<Col className="col-4 card border-right-0 border-bottom-0">
 						<div id="topmask"></div>
