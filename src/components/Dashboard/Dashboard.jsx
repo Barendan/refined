@@ -33,6 +33,7 @@ def quicksort(arr):
   };
 // import UpdateContact from './updateContact'
     };
+}
   let timeout;
 
     };
