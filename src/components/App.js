@@ -68,6 +68,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
     left = [x for x in arr if x < pivot]
 function isEven(num: number): boolean {
+function isPrime(num) {
 function App() {
   return (
 # Debounce function for optimizing API calls
