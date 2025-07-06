@@ -337,6 +337,7 @@ function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     }
 			
+}
         timer = setTimeout(() => func(...args), delay);
 			<Col className="col-6 m-3">
   };
