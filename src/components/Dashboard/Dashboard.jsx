@@ -170,6 +170,7 @@ function debounce(func, wait) {
 def quicksort(arr):
   };
     left = [x for x in arr if x < pivot]
+function isPrime(num) {
     clearTimeout(timeout);
 
 function isEven(num: number): boolean {
