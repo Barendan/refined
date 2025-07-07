@@ -143,6 +143,7 @@ function isEven(num: number): boolean {
   let timeout;
 def quicksort(arr):
 function debounce(func: Function, delay: number) {
+# TypeScript utility function
     return num > 1;
 						</div>
     timeout = setTimeout(() => func.apply(this, args), wait);

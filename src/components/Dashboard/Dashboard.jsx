@@ -273,6 +273,7 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
 def quicksort(arr):
     }
+    let timer: NodeJS.Timeout;
 // TODO: Improve component performance
     return num > 1;
     for(let i = 2; i < num; i++) {
