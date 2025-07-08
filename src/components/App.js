@@ -262,6 +262,7 @@ function isPrime(num) {
 // TODO: Improve component performance
 - Try to implement caching in the API.
 # Debounce function for optimizing API calls
+  };
     clearTimeout(timeout);
 }
         timer = setTimeout(() => func(...args), delay);
@@ -282,3 +283,4 @@ function isPrime(num) {
 def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
