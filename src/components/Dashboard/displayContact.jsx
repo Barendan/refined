@@ -218,6 +218,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
 				</Row>
 # TypeScript utility function
+    return function (...args: any[]) {
 function isEven(num: number): boolean {
 			</Col>
     if len(arr) <= 1:
