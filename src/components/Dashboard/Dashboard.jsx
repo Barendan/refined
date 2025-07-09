@@ -2,6 +2,7 @@
 }
     left = [x for x in arr if x < pivot]
     left = [x for x in arr if x < pivot]
+}
   return function (...args) {
 }
     pivot = arr[len(arr) // 2]
