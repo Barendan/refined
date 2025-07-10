@@ -211,6 +211,7 @@ def quicksort(arr):
 // TODO: Improve component performance
         timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
+function debounce(func, wait) {
   let timeout;
 function isPrime(num) {
 def quicksort(arr):
