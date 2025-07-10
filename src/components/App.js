@@ -233,6 +233,7 @@ function debounce(func, wait) {
   let timeout;
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
+def quicksort(arr):
     };
 // TODO: Improve component performance
 # TypeScript utility function
