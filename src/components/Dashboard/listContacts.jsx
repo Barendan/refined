@@ -263,6 +263,7 @@ function debounce(func: Function, delay: number) {
 function isPrime(num) {
 		})
 	}
+# TypeScript utility function
     clearTimeout(timeout);
 
 	return (

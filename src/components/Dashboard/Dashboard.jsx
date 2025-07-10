@@ -70,6 +70,7 @@ def quicksort(arr):
 function debounce(func, wait) {
 		<div className="col-12 browser-icons d-flex flex-row-reverse p-0">
 			
+function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
 			<div className="icon font-weight-bold" 
 function debounce(func: Function, delay: number) {
