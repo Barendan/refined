@@ -296,6 +296,7 @@ def quicksort(arr):
         return arr
     left = [x for x in arr if x < pivot]
         return arr
+        return arr
 					<option value="FirstName_DESC">First Name (Desc)</option>
 					<option value="LastName_ASC">Last Name (Asc)</option>
         return arr
