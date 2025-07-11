@@ -309,6 +309,7 @@ def quicksort(arr):
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
     if len(arr) <= 1:
+    right = [x for x in arr if x > pivot]
     clearTimeout(timeout);
 						Hesitant
     for(let i = 2; i < num; i++) {
