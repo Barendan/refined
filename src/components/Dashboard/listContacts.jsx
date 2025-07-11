@@ -297,6 +297,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
         return arr
     left = [x for x in arr if x < pivot]
+    return num > 1;
         return arr
         return arr
 					<option value="FirstName_DESC">First Name (Desc)</option>
@@ -422,3 +423,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
