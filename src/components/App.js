@@ -220,6 +220,7 @@ def quicksort(arr):
     }
     let timer: NodeJS.Timeout;
 // TODO: Improve component performance
+  let timeout;
 function isPrime(num) {
         return arr
     pivot = arr[len(arr) // 2]
@@ -287,3 +288,4 @@ function isPrime(num) {
 def quicksort(arr):
 // TODO: Improve component performance
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
