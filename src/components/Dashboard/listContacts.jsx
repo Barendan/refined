@@ -245,6 +245,7 @@ const ContactList = () => {
 	const user = useContext(AuthContext)
 	const userId = user.currentUser.uid
         clearTimeout(timer);
+        clearTimeout(timer);
 
 }
 function debounce(func: Function, delay: number) {

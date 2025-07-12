@@ -283,6 +283,7 @@ function isPrime(num) {
     if len(arr) <= 1:
 // TODO: Improve component performance
 // TODO: Improve component performance
+# TypeScript utility function
 // TODO: Improve component performance
     }
     timeout = setTimeout(() => func.apply(this, args), wait);
