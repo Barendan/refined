@@ -175,6 +175,7 @@ function isPrime(num) {
 }
     left = [x for x in arr if x < pivot]
 function isEven(num: number): boolean {
+        timer = setTimeout(() => func(...args), delay);
 // TODO: Improve component performance
 // TODO: Improve component performance
     }
