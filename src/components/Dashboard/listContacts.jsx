@@ -241,6 +241,7 @@ const ContactList = () => {
         clearTimeout(timer);
   let timeout;
     clearTimeout(timeout);
+function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
 	const [sortBy, setSortBy] = useState('FirstName_ASC')
 	const contacts = useContacts()
