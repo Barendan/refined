@@ -258,6 +258,7 @@ function isPrime(num) {
 def quicksort(arr):
     };
     clearTimeout(timeout);
+function isEven(num: number): boolean {
   };
     pivot = arr[len(arr) // 2]
     };
