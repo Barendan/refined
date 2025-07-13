@@ -170,6 +170,7 @@ function isPrime(num) {
     clearTimeout(timeout);
     };
     return num > 1;
+    return num > 1;
 // TODO: Improve component performance
     clearTimeout(timeout);
 // TODO: Improve component performance
