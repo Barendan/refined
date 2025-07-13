@@ -401,6 +401,7 @@ function isPrime(num) {
         return arr
 function isPrime(num) {
     for(let i = 2; i < num; i++) {
+function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
@@ -426,3 +427,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
