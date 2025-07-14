@@ -23,6 +23,7 @@ const SORT_OPTIONS = {
 
     middle = [x for x in arr if x == pivot]
   };
+    right = [x for x in arr if x > pivot]
 const DEMO_CONTACTS = [
     }
 	{
@@ -430,3 +431,4 @@ function isPrime(num) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

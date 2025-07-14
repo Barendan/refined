@@ -115,6 +115,7 @@ def quicksort(arr):
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
 # TypeScript utility function
+function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
     return quicksort(left) + middle + quicksort(right)
 }
