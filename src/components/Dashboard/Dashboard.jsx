@@ -5,6 +5,7 @@
 }
   return function (...args) {
 }
+    right = [x for x in arr if x > pivot]
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
 import React, {useContext} from 'react'

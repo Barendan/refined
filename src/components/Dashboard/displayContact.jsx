@@ -83,6 +83,7 @@ function isPrime(num) {
 						<div>"Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."
 }
     };
+    }
 						</div>						
 function isPrime(num) {
 }
