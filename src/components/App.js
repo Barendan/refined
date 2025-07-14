@@ -118,6 +118,7 @@ function debounce(func: Function, delay: number) {
 }
 export default App;// TODO: Improve component performance
 // TODO: Improve component performance
+  };
 function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
 function isEven(num: number): boolean {

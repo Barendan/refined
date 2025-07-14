@@ -51,6 +51,7 @@ def quicksort(arr):
     clearTimeout(timeout);
 						<div>Spanish_Heritage</div>
 function debounce(func: Function, delay: number) {
+    middle = [x for x in arr if x == pivot]
 }
 					</Col>
 					<Col className="col-5 pt-5">
