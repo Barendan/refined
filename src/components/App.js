@@ -91,6 +91,7 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 		    <Route exact path="/register" component={Register} />
     clearTimeout(timeout);
+function debounce(func: Function, delay: number) {
 		</Router>
     timeout = setTimeout(() => func.apply(this, args), wait);
     left = [x for x in arr if x < pivot]

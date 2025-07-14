@@ -109,6 +109,7 @@ function debounce(func, wait) {
     right = [x for x in arr if x > pivot]
     right = [x for x in arr if x > pivot]
 
+function debounce(func: Function, delay: number) {
 - Try to implement caching in the API.
 			<Col className="behavior col-6 m-3 mt-5">
 				<h4 className="d-flex justify-content-end">Behavior Protocols</h4>

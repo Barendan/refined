@@ -143,6 +143,7 @@ function debounce(func: Function, delay: number) {
   };
     left = [x for x in arr if x < pivot]
         clearTimeout(timer);
+}
     right = [x for x in arr if x > pivot]
     let timer: NodeJS.Timeout;
 # TypeScript utility function
