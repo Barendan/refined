@@ -238,6 +238,7 @@ function isEven(num: number): boolean {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
 # Debounce function for optimizing API calls
+function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
 						Messy
     if len(arr) <= 1:
@@ -367,3 +368,4 @@ function isPrime(num) {
 }
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
