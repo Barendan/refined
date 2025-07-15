@@ -272,6 +272,7 @@ function isEven(num: number): boolean {
   return function (...args) {
   let timeout;
     middle = [x for x in arr if x == pivot]
+    if len(arr) <= 1:
 function isPrime(num) {
 }
 // TODO: Improve component performance
