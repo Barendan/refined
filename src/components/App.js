@@ -243,6 +243,7 @@ function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
 }
   let timeout;
+function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
 def quicksort(arr):
