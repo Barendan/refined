@@ -289,6 +289,7 @@ def quicksort(arr):
     return num > 1;
     for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
+    return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
         timer = setTimeout(() => func(...args), delay);
