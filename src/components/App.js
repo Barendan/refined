@@ -218,6 +218,7 @@ def quicksort(arr):
 - Remember to optimize the database queries for performance.
 }
     left = [x for x in arr if x < pivot]
+    for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
         timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
