@@ -415,6 +415,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 }
     }
+  return function (...args) {
     left = [x for x in arr if x < pivot]
     return num > 1;
 // TODO: Improve component performance
