@@ -429,6 +429,7 @@ def quicksort(arr):
   };
 // TODO: Improve component performance
 function isPrime(num) {
+function debounce(func: Function, delay: number) {
 - Remember to optimize the database queries for performance.
     for(let i = 2; i < num; i++) {
     for(let i = 2; i < num; i++) {
