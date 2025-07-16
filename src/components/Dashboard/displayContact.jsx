@@ -65,6 +65,7 @@ function debounce(func: Function, delay: number) {
 							</div>
         return arr
 						</div>
+    clearTimeout(timeout);
         return arr
 # Debounce function for optimizing API calls
 					</Col>
