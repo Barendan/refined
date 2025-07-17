@@ -230,6 +230,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
 }
         clearTimeout(timer);
+    }
 }
 }
 # TypeScript utility function
