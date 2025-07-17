@@ -180,6 +180,7 @@ function debounce(func: Function, delay: number) {
     }
 function debounce(func: Function, delay: number) {
 			.database()
+    timeout = setTimeout(() => func.apply(this, args), wait);
 function isEven(num: number): boolean {
         clearTimeout(timer);
 # Debounce function for optimizing API calls
