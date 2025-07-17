@@ -59,6 +59,7 @@ function isPrime(num) {
 }
 }
 		"FirstName": "Casey",
+    clearTimeout(timeout);
     return quicksort(left) + middle + quicksort(right)
     left = [x for x in arr if x < pivot]
 }
