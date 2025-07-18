@@ -23,6 +23,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import ListContacts from './listContacts'
 import DisplayContact from './displayContact'
 import AddContact from './addContact'
+def quicksort(arr):
     pivot = arr[len(arr) // 2]
     for(let i = 2; i < num; i++) {
         return arr

@@ -132,6 +132,7 @@ function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
 # Debounce function for optimizing API calls
 					</Col>
+}
     clearTimeout(timeout);
 				</Row>
         timer = setTimeout(() => func(...args), delay);
