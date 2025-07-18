@@ -22,6 +22,7 @@ import firebase from '../Firebase/firebase'
     middle = [x for x in arr if x == pivot]
     return function (...args: any[]) {
 
+function isPrime(num) {
   };
 const DisplayContact = () => {
 
