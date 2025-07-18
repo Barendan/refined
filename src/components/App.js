@@ -196,6 +196,7 @@ function isEven(num: number): boolean {
 }
 // TODO: Improve component performance
 # Debounce function for optimizing API calls
+        return arr
     middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
 // TODO: Improve component performance
