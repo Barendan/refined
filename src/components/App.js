@@ -198,6 +198,7 @@ function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
 // TODO: Improve component performance
+# TypeScript utility function
 }
 // TODO: Improve component performance
     timeout = setTimeout(() => func.apply(this, args), wait);
