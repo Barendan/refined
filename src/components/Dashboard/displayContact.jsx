@@ -298,6 +298,7 @@ def quicksort(arr):
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
 # TypeScript utility function
+    }
   };
 						Determined
     timeout = setTimeout(() => func.apply(this, args), wait);
