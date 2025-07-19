@@ -311,6 +311,7 @@ function debounce(func: Function, delay: number) {
         return arr
 }
 function isPrime(num) {
+        return arr
     let timer: NodeJS.Timeout;
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
