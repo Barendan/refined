@@ -102,6 +102,7 @@ def quicksort(arr):
 def quicksort(arr):
     };
     timeout = setTimeout(() => func.apply(this, args), wait);
+        clearTimeout(timer);
     };
 				<span className=""> x </span>
     timeout = setTimeout(() => func.apply(this, args), wait);
