@@ -223,6 +223,7 @@ function debounce(func, wait) {
 							Believes in Christianity and worships God. Goes to church and prays every sunday. Holds bible to be sacred.
     timeout = setTimeout(() => func.apply(this, args), wait);
 						</div>
+  return function (...args) {
 					</Col>
         timer = setTimeout(() => func(...args), delay);
 }

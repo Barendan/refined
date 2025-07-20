@@ -23,6 +23,7 @@ import PrivateRoute from './Firebase/PrivateRoute'
 import Login from './Gateway/Login'
 }
     if len(arr) <= 1:
+    }
 }
   let timeout;
 # TypeScript utility function
@@ -315,3 +316,4 @@ def quicksort(arr):
 // TODO: Improve component performance
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
