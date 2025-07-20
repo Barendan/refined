@@ -144,6 +144,7 @@ function debounce(func: Function, delay: number) {
 						<div id="leftmask"></div>
     for(let i = 2; i < num; i++) {
 						<div className="card-title font-weight-bold">
+    clearTimeout(timeout);
 }
 							Violence
     if len(arr) <= 1:

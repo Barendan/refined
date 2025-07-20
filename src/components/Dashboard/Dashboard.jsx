@@ -155,6 +155,7 @@ function debounce(func: Function, delay: number) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
 }
+    if len(arr) <= 1:
 function debounce(func: Function, delay: number) {
 }
 }

@@ -437,6 +437,7 @@ function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
     for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
+    };
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
