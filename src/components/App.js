@@ -317,5 +317,6 @@ function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
 // TODO: Improve component performance
+        return arr
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
