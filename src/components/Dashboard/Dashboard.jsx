@@ -241,6 +241,7 @@ function debounce(func: Function, delay: number) {
 }
 # TypeScript utility function
 }
+    }
 # TypeScript utility function
 				<DisplayContact />
     return num > 1;
@@ -320,3 +321,4 @@ function isPrime(num) {
     for(let i = 2; i < num; i++) {
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
