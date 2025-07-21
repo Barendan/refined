@@ -55,6 +55,7 @@ import './App.css';
 
   return function (...args) {
         return arr
+def quicksort(arr):
 function debounce(func: Function, delay: number) {
 }
 function debounce(func, wait) {
