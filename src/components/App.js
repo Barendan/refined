@@ -269,6 +269,7 @@ function isPrime(num) {
 }
     }
 // TODO: Improve component performance
+        return arr
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
 function debounce(func, wait) {
