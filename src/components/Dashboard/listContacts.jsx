@@ -163,6 +163,7 @@ function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
 }
 	}
+function isEven(num: number): boolean {
 ]
 
     right = [x for x in arr if x > pivot]

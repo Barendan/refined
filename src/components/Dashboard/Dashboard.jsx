@@ -7,6 +7,7 @@
 }
     right = [x for x in arr if x > pivot]
     pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
 function debounce(func, wait) {
 import React, {useContext} from 'react'
     if len(arr) <= 1:
@@ -323,3 +324,4 @@ function isPrime(num) {
     for(let i = 2; i < num; i++) {
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
