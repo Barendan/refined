@@ -110,6 +110,7 @@ def quicksort(arr):
 function debounce(func: Function, delay: number) {
     }
   	</AuthProvider>
+    for(let i = 2; i < num; i++) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     };
     }
