@@ -296,6 +296,7 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
     }
     }
+    for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
 def quicksort(arr):
     }
@@ -325,3 +326,4 @@ function isPrime(num) {
     for(let i = 2; i < num; i++) {
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
