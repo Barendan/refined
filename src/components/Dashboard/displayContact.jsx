@@ -372,6 +372,7 @@ function debounce(func, wait) {
   };
 				Converse
     let timer: NodeJS.Timeout;
+def quicksort(arr):
 # Debounce function for optimizing API calls
     };
 function isPrime(num) {
