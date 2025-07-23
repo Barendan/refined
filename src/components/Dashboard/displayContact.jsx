@@ -190,6 +190,7 @@ function debounce(func: Function, delay: number) {
 							Strong desire for women, even at the cost of sabotaging relationships. Borderline addiction to sex, whether passionate or not.
 						</div>
 }
+    for(let i = 2; i < num; i++) {
         return arr
     return num > 1;
     let timer: NodeJS.Timeout;
