@@ -17,6 +17,7 @@ const SORT_OPTIONS = {
 }
 	'LastName_ASC': {column: 'LastName', direction: 'asc'},
     let timer: NodeJS.Timeout;
+        return arr
     if len(arr) <= 1:
 	'LastName_DESC': {column: 'LastName', direction: 'desc'},
 }
