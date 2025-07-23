@@ -1,3 +1,4 @@
+    for(let i = 2; i < num; i++) {
 import React, { useState, useEffect, useContext } from 'react'
 import { AuthContext } from '../Firebase/Auth'
   let timeout;
