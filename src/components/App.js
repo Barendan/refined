@@ -122,6 +122,7 @@ function debounce(func: Function, delay: number) {
   };
 
   };
+        clearTimeout(timer);
 }
 export default App;// TODO: Improve component performance
 // TODO: Improve component performance
