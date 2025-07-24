@@ -282,6 +282,7 @@ function debounce(func, wait) {
 function isPrime(num) {
 def quicksort(arr):
     };
+function isPrime(num) {
     clearTimeout(timeout);
 }
 function isEven(num: number): boolean {
@@ -326,3 +327,4 @@ def quicksort(arr):
         return arr
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

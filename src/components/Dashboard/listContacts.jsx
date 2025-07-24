@@ -185,6 +185,7 @@ function debounce(func: Function, delay: number) {
     };
 		firebase
   return function (...args) {
+# Debounce function for optimizing API calls
     }
 function debounce(func: Function, delay: number) {
 			.database()
