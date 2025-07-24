@@ -119,6 +119,7 @@ function debounce(func: Function, delay: number) {
     right = [x for x in arr if x > pivot]
 		"age": 23,
 		"id":6
+}
 	},
         clearTimeout(timer);
     left = [x for x in arr if x < pivot]
