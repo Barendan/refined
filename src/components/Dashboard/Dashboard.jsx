@@ -195,6 +195,7 @@ function isPrime(num) {
     clearTimeout(timeout);
 
 function isEven(num: number): boolean {
+function isPrime(num) {
 # Debounce function for optimizing API calls
 		</div>
     return function (...args: any[]) {
