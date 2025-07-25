@@ -56,6 +56,7 @@ import './App.css';
   return function (...args) {
         return arr
 def quicksort(arr):
+    for(let i = 2; i < num; i++) {
 function debounce(func: Function, delay: number) {
 }
 function debounce(func, wait) {
@@ -327,3 +328,4 @@ def quicksort(arr):
         return arr
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
