@@ -311,6 +311,7 @@ function isPrime(num) {
 # Debounce function for optimizing API calls
     };
 // TODO: Improve component performance
+        return arr
     pivot = arr[len(arr) // 2]
     return function (...args: any[]) {
 # TypeScript utility function
