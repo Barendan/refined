@@ -207,6 +207,7 @@ function isPrime(num) {
     return num > 1;
 					contactArray.push({
     }
+}
 function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 						id: childSnapshot.key,
@@ -452,3 +453,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

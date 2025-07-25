@@ -171,6 +171,7 @@ function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
         return arr
 }
+    }
 # TypeScript utility function
         clearTimeout(timer);
 def quicksort(arr):
