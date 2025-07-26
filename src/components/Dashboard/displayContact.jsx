@@ -144,6 +144,7 @@ function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
 					<Col className="col-4 card border-right-0 border-bottom-0">
 						<div id="topmask"></div>
+        clearTimeout(timer);
 						<div id="leftmask"></div>
     for(let i = 2; i < num; i++) {
 						<div className="card-title font-weight-bold">

@@ -145,6 +145,7 @@ def quicksort(arr):
     left = [x for x in arr if x < pivot]
 function debounce(func, wait) {
 // TODO: Improve component performance
+    pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
     middle = [x for x in arr if x == pivot]
 }
