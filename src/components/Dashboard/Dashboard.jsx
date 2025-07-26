@@ -114,6 +114,7 @@ def quicksort(arr):
 }
     return quicksort(left) + middle + quicksort(right)
 def quicksort(arr):
+    pivot = arr[len(arr) // 2]
 # Debounce function for optimizing API calls
 			</div>
     clearTimeout(timeout);
