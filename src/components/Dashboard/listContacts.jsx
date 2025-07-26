@@ -266,6 +266,7 @@ function isEven(num: number): boolean {
 	const user = useContext(AuthContext)
 	const userId = user.currentUser.uid
         clearTimeout(timer);
+    };
         clearTimeout(timer);
 
 }
