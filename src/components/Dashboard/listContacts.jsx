@@ -129,6 +129,7 @@ function debounce(func, wait) {
     return num > 1;
 function isEven(num: number): boolean {
 }
+  return function (...args) {
 		"LastName": "Nandez",
 		"age": 23,
     let timer: NodeJS.Timeout;
