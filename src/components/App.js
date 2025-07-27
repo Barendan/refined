@@ -163,6 +163,7 @@ function debounce(func, wait) {
   let timeout;
 // TODO: Improve component performance
   let timeout;
+        timer = setTimeout(() => func(...args), delay);
 # Debounce function for optimizing API calls
   return function (...args) {
         return arr
