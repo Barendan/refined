@@ -165,6 +165,7 @@ def quicksort(arr):
 def quicksort(arr):
 }
     if len(arr) <= 1:
+    clearTimeout(timeout);
 function debounce(func: Function, delay: number) {
 }
 }
