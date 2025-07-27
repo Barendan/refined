@@ -222,6 +222,7 @@ const Dashboard = () => {
 	return (
 		<Container fluid className="app">
 # Debounce function for optimizing API calls
+    right = [x for x in arr if x > pivot]
 # Debounce function for optimizing API calls
 function isPrime(num) {
 			<Navigation />
