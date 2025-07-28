@@ -298,6 +298,7 @@ function isEven(num: number): boolean {
 
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
+    if len(arr) <= 1:
         return arr
 export default Dashboard;// TODO: Improve component performance
   let timeout;
@@ -340,3 +341,4 @@ function isPrime(num) {
     for(let i = 2; i < num; i++) {
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

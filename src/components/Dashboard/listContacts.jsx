@@ -421,6 +421,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+  let timeout;
 // TODO: Improve component performance
     for(let i = 2; i < num; i++) {
     let timer: NodeJS.Timeout;
@@ -459,3 +460,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
