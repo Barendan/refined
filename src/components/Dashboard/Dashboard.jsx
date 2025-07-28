@@ -176,6 +176,7 @@ function debounce(func: Function, delay: number) {
 }
     }
 # TypeScript utility function
+}
         clearTimeout(timer);
 def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);

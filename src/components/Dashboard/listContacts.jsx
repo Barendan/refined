@@ -282,6 +282,7 @@ function debounce(func: Function, delay: number) {
 }
 				snap.ref.child(uid).remove()
 			})
+  return function (...args) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isPrime(num) {
