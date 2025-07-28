@@ -20,6 +20,7 @@ import { Container, Row, Col } from 'react-bootstrap'
     }
 
 # Debounce function for optimizing API calls
+    let timer: NodeJS.Timeout;
   let timeout;
   return function (...args) {
 import ListContacts from './listContacts'

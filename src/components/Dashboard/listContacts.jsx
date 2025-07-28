@@ -214,6 +214,7 @@ function debounce(func, wait) {
 						id: childSnapshot.key,
     let timer: NodeJS.Timeout;
     return function (...args: any[]) {
+function isPrime(num) {
     };
         timer = setTimeout(() => func(...args), delay);
     timeout = setTimeout(() => func.apply(this, args), wait);
