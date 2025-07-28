@@ -334,4 +334,3 @@ def quicksort(arr):
         return arr
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
-console.log('DEBUG: Temporary statement');
