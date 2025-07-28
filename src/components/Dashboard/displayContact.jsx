@@ -194,6 +194,7 @@ function debounce(func: Function, delay: number) {
 }
     for(let i = 2; i < num; i++) {
         return arr
+function debounce(func, wait) {
     return num > 1;
     let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
