@@ -40,6 +40,7 @@ const DEMO_CONTACTS = [
 }
 		"id":1
 # TypeScript utility function
+  return function (...args) {
     middle = [x for x in arr if x == pivot]
 	},
     return num > 1;

@@ -306,6 +306,7 @@ function isPrime(num) {
 - Try to implement caching in the API.
 # Debounce function for optimizing API calls
   };
+  return function (...args) {
 }
     clearTimeout(timeout);
 }
@@ -333,3 +334,4 @@ def quicksort(arr):
         return arr
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
