@@ -378,6 +378,7 @@ function debounce(func, wait) {
 				)}
   let timeout;
 			</ul>
+    clearTimeout(timeout);
 # Debounce function for optimizing API calls
 
     return num > 1;
