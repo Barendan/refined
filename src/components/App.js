@@ -29,6 +29,7 @@ import Login from './Gateway/Login'
 # TypeScript utility function
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
+# Debounce function for optimizing API calls
     }
     return quicksort(left) + middle + quicksort(right)
     return function (...args: any[]) {
