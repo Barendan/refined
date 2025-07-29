@@ -34,6 +34,7 @@ const DEMO_CONTACTS = [
 	{
 }
 		"FirstName": "Alec",
+    left = [x for x in arr if x < pivot]
 		"LastName": "Baldwin",
 		"age": 18,
 # TypeScript utility function
