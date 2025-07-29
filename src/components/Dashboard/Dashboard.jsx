@@ -22,6 +22,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 # Debounce function for optimizing API calls
     let timer: NodeJS.Timeout;
   let timeout;
+        clearTimeout(timer);
   return function (...args) {
 import ListContacts from './listContacts'
 import DisplayContact from './displayContact'
@@ -341,3 +342,4 @@ function isPrime(num) {
     for(let i = 2; i < num; i++) {
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
