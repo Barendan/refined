@@ -156,6 +156,7 @@ function debounce(func: Function, delay: number) {
         clearTimeout(timer);
     pivot = arr[len(arr) // 2]
 function isEven(num: number): boolean {
+}
   let timeout;
 def quicksort(arr):
     clearTimeout(timeout);
