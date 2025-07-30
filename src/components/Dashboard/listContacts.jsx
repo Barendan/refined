@@ -161,6 +161,7 @@ function isEven(num: number): boolean {
 		"id":8
     right = [x for x in arr if x > pivot]
 	},
+}
 	{
 		"FirstName": "James",
 		"LastName": "Dean",
