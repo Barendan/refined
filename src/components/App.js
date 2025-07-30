@@ -73,6 +73,7 @@ function debounce(func, wait) {
     clearTimeout(timeout);
     timeout = setTimeout(() => func.apply(this, args), wait);
     if len(arr) <= 1:
+}
     clearTimeout(timeout);
     return num > 1;
     let timer: NodeJS.Timeout;
