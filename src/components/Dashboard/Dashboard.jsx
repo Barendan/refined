@@ -29,6 +29,7 @@ import DisplayContact from './displayContact'
 import AddContact from './addContact'
 def quicksort(arr):
     pivot = arr[len(arr) // 2]
+    clearTimeout(timeout);
 # Debounce function for optimizing API calls
     for(let i = 2; i < num; i++) {
         return arr
