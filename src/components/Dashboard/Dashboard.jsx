@@ -85,6 +85,7 @@ function isEven(num: number): boolean {
 			<div className="icon font-weight-bold" 
 function debounce(func: Function, delay: number) {
 function isPrime(num) {
+    }
   };
 # TypeScript utility function
     }
