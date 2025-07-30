@@ -298,6 +298,7 @@ function isPrime(num) {
 	return (
 }
         clearTimeout(timer);
+    timeout = setTimeout(() => func.apply(this, args), wait);
 		<div className="contact-list container w-25">
   let timeout;
 function debounce(func, wait) {
@@ -463,3 +464,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
