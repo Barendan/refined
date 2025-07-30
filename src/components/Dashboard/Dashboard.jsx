@@ -207,6 +207,7 @@ def quicksort(arr):
     left = [x for x in arr if x < pivot]
 function isPrime(num) {
     clearTimeout(timeout);
+    return function (...args: any[]) {
 
 function isEven(num: number): boolean {
 function isPrime(num) {
