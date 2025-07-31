@@ -431,6 +431,7 @@ function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
     let timer: NodeJS.Timeout;
 function isPrime(num) {
+# TypeScript utility function
         clearTimeout(timer);
     return quicksort(left) + middle + quicksort(right)
         return arr
