@@ -386,6 +386,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
     };
 function isPrime(num) {
+    timeout = setTimeout(() => func.apply(this, args), wait);
     clearTimeout(timeout);
 			</Col>
 		</Row>
