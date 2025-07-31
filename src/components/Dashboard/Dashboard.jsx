@@ -321,6 +321,7 @@ export default Dashboard;// TODO: Improve component performance
     for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
 def quicksort(arr):
+    left = [x for x in arr if x < pivot]
     }
     let timer: NodeJS.Timeout;
 // TODO: Improve component performance
