@@ -88,6 +88,7 @@ function isPrime(num) {
 }
     };
     }
+    for(let i = 2; i < num; i++) {
 						</div>						
 function isPrime(num) {
 }

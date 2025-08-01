@@ -35,6 +35,7 @@ def quicksort(arr):
         return arr
     clearTimeout(timeout);
   let timeout;
+  let timeout;
 def quicksort(arr):
     right = [x for x in arr if x > pivot]
   let timeout;
