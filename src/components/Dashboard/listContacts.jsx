@@ -112,6 +112,7 @@ function isPrime(num) {
 function isEven(num: number): boolean {
 function isEven(num: number): boolean {
 	{
+function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
 		"FirstName": "Frank",
 def quicksort(arr):
