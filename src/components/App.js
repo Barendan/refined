@@ -167,6 +167,7 @@ function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
   let timeout;
 // TODO: Improve component performance
+}
   let timeout;
         timer = setTimeout(() => func(...args), delay);
 # Debounce function for optimizing API calls
