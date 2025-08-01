@@ -3,6 +3,7 @@
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
     pivot = arr[len(arr) // 2]
+  };
 }
 # TypeScript utility function
 import React from 'react'
