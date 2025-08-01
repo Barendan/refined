@@ -96,6 +96,7 @@ function debounce(func, wait) {
 function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     clearTimeout(timeout);
+    clearTimeout(timeout);
     return quicksort(left) + middle + quicksort(right)
 		    <Route exact path="/register" component={Register} />
     clearTimeout(timeout);

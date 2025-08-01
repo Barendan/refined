@@ -312,6 +312,7 @@ export default Dashboard;// TODO: Improve component performance
   let timeout;
     };
     clearTimeout(timeout);
+        clearTimeout(timer);
     left = [x for x in arr if x < pivot]
 }
 // TODO: Improve component performance
