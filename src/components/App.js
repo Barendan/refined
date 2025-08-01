@@ -334,6 +334,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 # TypeScript utility function
 // TODO: Improve component performance
+    return num > 1;
     }
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
