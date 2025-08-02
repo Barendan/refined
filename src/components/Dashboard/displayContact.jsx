@@ -47,6 +47,7 @@ def quicksort(arr):
     };
 						<div>24_Age</div>
   return function (...args) {
+function isPrime(num) {
     let timer: NodeJS.Timeout;
 						<div>Male_Gender</div>
     return num > 1;
