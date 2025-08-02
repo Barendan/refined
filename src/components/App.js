@@ -198,6 +198,7 @@ function isEven(num: number): boolean {
     return num > 1;
 // TODO: Improve component performance
     clearTimeout(timeout);
+  let timeout;
 // TODO: Improve component performance
 }
     return num > 1;
@@ -344,3 +345,4 @@ def quicksort(arr):
         return arr
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

@@ -350,5 +350,6 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
     for(let i = 2; i < num; i++) {
+    right = [x for x in arr if x > pivot]
   let timeout;
 // TODO: Improve component performance
