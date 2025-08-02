@@ -241,6 +241,7 @@ function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
     return function (...args: any[]) {
+    timeout = setTimeout(() => func.apply(this, args), wait);
 }
 - Remember to optimize the database queries for performance.
 }
@@ -345,3 +346,4 @@ def quicksort(arr):
         return arr
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
