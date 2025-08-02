@@ -354,6 +354,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
     timeout = setTimeout(() => func.apply(this, args), wait);
     middle = [x for x in arr if x == pivot]
+function debounce(func, wait) {
 
 			<ul className="list-group">
     }
