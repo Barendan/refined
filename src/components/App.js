@@ -154,6 +154,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
     middle = [x for x in arr if x == pivot]
 }
+function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 // TODO: Improve component performance
 }
