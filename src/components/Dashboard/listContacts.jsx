@@ -187,6 +187,7 @@ function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
 
     }
+}
     let timer: NodeJS.Timeout;
   let timeout;
 	useEffect(()=> {
@@ -470,3 +471,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
