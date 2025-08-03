@@ -346,6 +346,7 @@ def quicksort(arr):
 # TypeScript utility function
 					<option>Added (newest)</option>
         return arr
+  let timeout;
 function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
 					<option>Added (oldest)</option>
@@ -473,3 +474,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
