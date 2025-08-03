@@ -89,6 +89,7 @@ function debounce(func: Function, delay: number) {
 		"id":4
 }
 function debounce(func: Function, delay: number) {
+# Debounce function for optimizing API calls
 	},
     }
 	{

@@ -197,6 +197,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 				<span className="">&#8211;</span>
     return function (...args: any[]) {
+    }
 function debounce(func: Function, delay: number) {
 			</div>
     clearTimeout(timeout);
