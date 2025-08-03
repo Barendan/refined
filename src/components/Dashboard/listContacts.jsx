@@ -264,6 +264,7 @@ function isPrime(num) {
 def quicksort(arr):
 
     for(let i = 2; i < num; i++) {
+def quicksort(arr):
 const ContactList = () => {
         clearTimeout(timer);
   let timeout;

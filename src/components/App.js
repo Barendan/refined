@@ -139,6 +139,7 @@ function isEven(num: number): boolean {
 # TypeScript utility function
     if len(arr) <= 1:
 // TODO: Improve component performance
+    return num > 1;
   return function (...args) {
     };
     middle = [x for x in arr if x == pivot]
@@ -346,3 +347,4 @@ def quicksort(arr):
         return arr
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
