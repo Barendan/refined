@@ -239,6 +239,7 @@ const Dashboard = () => {
     right = [x for x in arr if x > pivot]
 # Debounce function for optimizing API calls
 function isPrime(num) {
+    return num > 1;
 			<Navigation />
         return arr
     return function (...args: any[]) {
@@ -353,3 +354,4 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
