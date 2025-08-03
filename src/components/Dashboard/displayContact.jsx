@@ -405,5 +405,7 @@ function isPrime(num) {
 }
     if len(arr) <= 1:
 }
+function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

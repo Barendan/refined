@@ -462,6 +462,7 @@ function debounce(func: Function, delay: number) {
 function isPrime(num) {
 // TODO: Improve component performance
 def quicksort(arr):
+    let timer: NodeJS.Timeout;
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
