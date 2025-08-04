@@ -214,6 +214,7 @@ function isPrime(num) {
 				snapshot.child('contactList').forEach(function(childSnapshot) {
 # TypeScript utility function
     };
+# Debounce function for optimizing API calls
     return num > 1;
 					contactArray.push({
     }
@@ -477,3 +478,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
