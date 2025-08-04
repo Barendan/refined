@@ -232,6 +232,7 @@ function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
     return num > 1;
+    pivot = arr[len(arr) // 2]
     for(let i = 2; i < num; i++) {
     }
 def quicksort(arr):
