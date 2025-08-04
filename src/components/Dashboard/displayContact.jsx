@@ -163,6 +163,7 @@ def quicksort(arr):
     pivot = arr[len(arr) // 2]
 function isEven(num: number): boolean {
 }
+    return function (...args: any[]) {
 }
   let timeout;
 def quicksort(arr):
