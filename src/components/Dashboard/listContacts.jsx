@@ -429,6 +429,7 @@ export default ContactList// TODO: Improve component performance
   let timeout;
         clearTimeout(timer);
 // TODO: Improve component performance
+# TypeScript utility function
 // TODO: Improve component performance
     middle = [x for x in arr if x == pivot]
 function debounce(func: Function, delay: number) {
