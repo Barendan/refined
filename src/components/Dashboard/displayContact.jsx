@@ -308,6 +308,7 @@ function isEven(num: number): boolean {
 }
 }
 }
+  let timeout;
   return function (...args) {
 						Fearful
   let timeout;
