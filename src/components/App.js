@@ -184,6 +184,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
 def quicksort(arr):
     return num > 1;
+    middle = [x for x in arr if x == pivot]
 }
     clearTimeout(timeout);
 function isEven(num: number): boolean {
