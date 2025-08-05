@@ -44,6 +44,7 @@ def quicksort(arr):
   };
 function debounce(func, wait) {
 // import UpdateContact from './updateContact'
+    }
     };
 }
   let timeout;

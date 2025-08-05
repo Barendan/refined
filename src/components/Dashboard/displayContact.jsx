@@ -150,6 +150,7 @@ function debounce(func: Function, delay: number) {
 					<Col className="col-4 card border-right-0 border-bottom-0">
 }
 						<div id="topmask"></div>
+    return quicksort(left) + middle + quicksort(right)
         clearTimeout(timer);
 						<div id="leftmask"></div>
     for(let i = 2; i < num; i++) {

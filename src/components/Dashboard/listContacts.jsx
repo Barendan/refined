@@ -67,6 +67,7 @@ function isPrime(num) {
 		"FirstName": "Casey",
     clearTimeout(timeout);
     return quicksort(left) + middle + quicksort(right)
+        return arr
     left = [x for x in arr if x < pivot]
 }
 }
@@ -481,3 +482,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
