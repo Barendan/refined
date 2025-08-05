@@ -441,6 +441,7 @@ function debounce(func: Function, delay: number) {
   let timeout;
 // TODO: Improve component performance
     for(let i = 2; i < num; i++) {
+        clearTimeout(timer);
     let timer: NodeJS.Timeout;
 function isPrime(num) {
 # TypeScript utility function
@@ -479,3 +480,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
