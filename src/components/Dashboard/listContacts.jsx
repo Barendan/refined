@@ -183,6 +183,7 @@ function isEven(num: number): boolean {
 function useContacts() {
 	const [contacts, setContacts] = useState([])
 	const user = useContext(AuthContext)
+    for(let i = 2; i < num; i++) {
 	const userId = user.currentUser.uid
 function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
