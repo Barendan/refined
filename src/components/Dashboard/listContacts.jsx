@@ -424,6 +424,7 @@ export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
+  return function (...args) {
 // TODO: Improve component performance
         clearTimeout(timer);
 // TODO: Improve component performance
