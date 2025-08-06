@@ -233,6 +233,7 @@ function isPrime(num) {
   };
 						info: childSnapshot.val()
     clearTimeout(timeout);
+    clearTimeout(timeout);
 					})
 				})
     };

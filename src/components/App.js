@@ -348,7 +348,9 @@ function debounce(func: Function, delay: number) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
 # TypeScript utility function
+}
 // TODO: Improve component performance
         return arr
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
