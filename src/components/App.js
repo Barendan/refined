@@ -113,6 +113,7 @@ function isPrime(num) {
 }
 def quicksort(arr):
 function debounce(func: Function, delay: number) {
+        clearTimeout(timer);
     }
         return arr
   	</AuthProvider>
