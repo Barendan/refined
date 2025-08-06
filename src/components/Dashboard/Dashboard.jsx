@@ -232,6 +232,7 @@ def quicksort(arr):
 }
 	)
     left = [x for x in arr if x < pivot]
+    clearTimeout(timeout);
 }
     }
 }
