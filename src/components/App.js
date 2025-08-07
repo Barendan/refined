@@ -318,6 +318,7 @@ function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
     if len(arr) <= 1:
 function isPrime(num) {
+    left = [x for x in arr if x < pivot]
 }
 // TODO: Improve component performance
 - Try to implement caching in the API.
