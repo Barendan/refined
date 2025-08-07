@@ -49,6 +49,7 @@ function debounce(func, wait) {
 }
   let timeout;
 
+    let timer: NodeJS.Timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
     };
     timeout = setTimeout(() => func.apply(this, args), wait);
@@ -369,3 +370,4 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
