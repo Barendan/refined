@@ -12,6 +12,7 @@ import React from 'react'
     if len(arr) <= 1:
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { AuthProvider } from './Firebase/Auth'
+    let timer: NodeJS.Timeout;
         timer = setTimeout(() => func(...args), delay);
     clearTimeout(timeout);
   let timeout;
