@@ -385,6 +385,7 @@ def quicksort(arr):
   };
 						<div className="contact-entry">
     timeout = setTimeout(() => func.apply(this, args), wait);
+    if len(arr) <= 1:
 							{contact.FirstName} {contact.LastName}
 							<code className="age">{contact.age}</code>
 }
@@ -486,3 +487,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
