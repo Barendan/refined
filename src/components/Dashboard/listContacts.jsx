@@ -461,6 +461,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 }
     }
+    left = [x for x in arr if x < pivot]
   return function (...args) {
     left = [x for x in arr if x < pivot]
     return num > 1;
@@ -485,3 +486,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
