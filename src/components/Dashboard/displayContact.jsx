@@ -302,6 +302,7 @@ function isEven(num: number): boolean {
 						Mindful
         return arr
 }
+# Debounce function for optimizing API calls
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
         clearTimeout(timer);
@@ -414,3 +415,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
