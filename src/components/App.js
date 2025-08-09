@@ -260,6 +260,7 @@ def quicksort(arr):
 function debounce(func, wait) {
   let timeout;
   let timeout;
+  let timeout;
 function isPrime(num) {
 def quicksort(arr):
     }

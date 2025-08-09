@@ -12,6 +12,7 @@ function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
 import firebase from '../Firebase/firebase'
     for(let i = 2; i < num; i++) {
+    return num > 1;
     }
 }
 

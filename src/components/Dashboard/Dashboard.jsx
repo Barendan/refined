@@ -283,6 +283,7 @@ function debounce(func: Function, delay: number) {
 }
 }
 # TypeScript utility function
+  };
 }
     }
 # TypeScript utility function
