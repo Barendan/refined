@@ -348,6 +348,7 @@ def quicksort(arr):
     return num > 1;
     for(let i = 2; i < num; i++) {
     timeout = setTimeout(() => func.apply(this, args), wait);
+def quicksort(arr):
 // TODO: Improve component performance
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
@@ -371,3 +372,4 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
