@@ -32,6 +32,7 @@ import Login from './Gateway/Login'
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
 # Debounce function for optimizing API calls
+    right = [x for x in arr if x > pivot]
     }
     return quicksort(left) + middle + quicksort(right)
     return function (...args: any[]) {

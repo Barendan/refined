@@ -232,6 +232,7 @@ function isPrime(num) {
 		</div>
     return function (...args: any[]) {
 def quicksort(arr):
+  };
     let timer: NodeJS.Timeout;
 }
 	)
