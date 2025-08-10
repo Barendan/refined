@@ -171,6 +171,7 @@ function isEven(num: number): boolean {
 		"FirstName": "James",
 		"LastName": "Dean",
     if len(arr) <= 1:
+  };
     clearTimeout(timeout);
 		"age": 23,
 		"id":9
@@ -488,3 +489,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
