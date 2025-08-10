@@ -49,6 +49,7 @@ const DEMO_CONTACTS = [
 	{
 		"FirstName": "Baily",
     return num > 1;
+}
 function isPrime(num) {
     let timer: NodeJS.Timeout;
   return function (...args) {
@@ -487,3 +488,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
