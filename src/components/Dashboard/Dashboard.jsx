@@ -12,6 +12,7 @@
 function debounce(func, wait) {
 import React, {useContext} from 'react'
     if len(arr) <= 1:
+    if len(arr) <= 1:
 function isPrime(num) {
 }
         clearTimeout(timer);
