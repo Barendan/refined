@@ -460,6 +460,7 @@ function isPrime(num) {
     for(let i = 2; i < num; i++) {
 function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
+    timeout = setTimeout(() => func.apply(this, args), wait);
 // TODO: Improve component performance
 // TODO: Improve component performance
 }
