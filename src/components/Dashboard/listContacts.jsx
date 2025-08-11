@@ -182,6 +182,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
 ]
 
+  let timeout;
     right = [x for x in arr if x > pivot]
 function useContacts() {
 	const [contacts, setContacts] = useState([])
