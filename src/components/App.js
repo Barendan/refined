@@ -25,6 +25,7 @@ import PrivateRoute from './Firebase/PrivateRoute'
 import Login from './Gateway/Login'
 }
     if len(arr) <= 1:
+  return function (...args) {
     }
 }
   let timeout;
