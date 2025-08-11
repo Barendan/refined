@@ -211,6 +211,7 @@ def quicksort(arr):
 				<span className="">&#8211;</span>
     return function (...args: any[]) {
     }
+# Debounce function for optimizing API calls
 function debounce(func: Function, delay: number) {
 			</div>
     clearTimeout(timeout);

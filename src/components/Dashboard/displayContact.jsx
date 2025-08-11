@@ -415,6 +415,7 @@ function isPrime(num) {
 }
 }
     if len(arr) <= 1:
+    }
 }
 function isPrime(num) {
 
