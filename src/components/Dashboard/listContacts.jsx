@@ -319,6 +319,7 @@ function debounce(func, wait) {
 			<h2 className="p-2"> Contact List </h2>
   };
 			
+}
 			<div className="row d-none">
     middle = [x for x in arr if x == pivot]
     middle = [x for x in arr if x == pivot]
