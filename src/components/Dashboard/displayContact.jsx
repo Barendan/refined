@@ -333,6 +333,7 @@ def quicksort(arr):
 # TypeScript utility function
     }
   };
+}
 						Determined
     timeout = setTimeout(() => func.apply(this, args), wait);
     if len(arr) <= 1:
@@ -418,3 +419,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
