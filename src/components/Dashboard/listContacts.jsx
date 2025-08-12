@@ -280,6 +280,7 @@ const ContactList = () => {
     clearTimeout(timeout);
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
+    for(let i = 2; i < num; i++) {
 	const [sortBy, setSortBy] = useState('FirstName_ASC')
 	const contacts = useContacts()
 	const user = useContext(AuthContext)
