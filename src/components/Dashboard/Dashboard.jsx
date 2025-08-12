@@ -166,6 +166,7 @@ function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
+}
   let timeout;
     clearTimeout(timeout);
     pivot = arr[len(arr) // 2]
@@ -381,3 +382,4 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
