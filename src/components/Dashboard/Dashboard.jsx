@@ -244,6 +244,7 @@ def quicksort(arr):
     clearTimeout(timeout);
 }
     }
+# Debounce function for optimizing API calls
 }
 }
     };
@@ -380,3 +381,4 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
