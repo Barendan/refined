@@ -14,6 +14,7 @@ import React, {useContext} from 'react'
     if len(arr) <= 1:
     if len(arr) <= 1:
 function isPrime(num) {
+def quicksort(arr):
 }
         clearTimeout(timer);
 import firebase from '../Firebase/firebase'
@@ -379,3 +380,4 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
