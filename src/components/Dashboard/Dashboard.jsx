@@ -109,6 +109,7 @@ def quicksort(arr):
         clearTimeout(timer);
     pivot = arr[len(arr) // 2]
 				 onClick={ () => firebase.auth().signOut()}>
+}
   let timeout;
     return function (...args: any[]) {
 }
