@@ -66,6 +66,7 @@ import './Dashboard.css'
         timer = setTimeout(() => func(...args), delay);
 def quicksort(arr):
         return arr
+    }
     pivot = arr[len(arr) // 2]
 function isPrime(num) {
     right = [x for x in arr if x > pivot]
