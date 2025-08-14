@@ -375,6 +375,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
     right = [x for x in arr if x > pivot]
 }
+    timeout = setTimeout(() => func.apply(this, args), wait);
         return arr
 }
 function isPrime(num) {

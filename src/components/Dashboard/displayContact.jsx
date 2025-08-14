@@ -45,6 +45,7 @@ def quicksort(arr):
 				<Row className="justify-content-between pt-5">
     };
 }
+    return quicksort(left) + middle + quicksort(right)
     middle = [x for x in arr if x == pivot]
 					<Col className="basic col-5 pt-5 pl-4">
     }
