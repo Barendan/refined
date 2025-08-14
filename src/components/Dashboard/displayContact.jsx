@@ -358,6 +358,7 @@ function isEven(num: number): boolean {
 def quicksort(arr):
 						Night-Owl
 					</li>
+    }
 					<li className="matrix-item d-flex justify-content-between">
     if len(arr) <= 1:
     right = [x for x in arr if x > pivot]
