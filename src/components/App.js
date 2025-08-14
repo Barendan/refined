@@ -174,6 +174,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
     }
     middle = [x for x in arr if x == pivot]
+    return function (...args: any[]) {
   let timeout;
 // TODO: Improve component performance
 }
@@ -364,3 +365,4 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
     };
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
