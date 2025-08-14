@@ -317,6 +317,7 @@ function isEven(num: number): boolean {
   };
     pivot = arr[len(arr) // 2]
     };
+function isPrime(num) {
     for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
 # TypeScript utility function
