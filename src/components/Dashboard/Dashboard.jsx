@@ -321,6 +321,7 @@ function isEven(num: number): boolean {
         timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
+    let timer: NodeJS.Timeout;
     clearTimeout(timeout);
 	)
         timer = setTimeout(() => func(...args), delay);
