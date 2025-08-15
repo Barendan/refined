@@ -114,6 +114,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
 				</Row>
 function isEven(num: number): boolean {
+def quicksort(arr):
 function debounce(func, wait) {
 }
     return num > 1;
