@@ -173,6 +173,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
   };
     clearTimeout(timeout);
+    let timer: NodeJS.Timeout;
 		"age": 23,
 		"id":9
         return arr
