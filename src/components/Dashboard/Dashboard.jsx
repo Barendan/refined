@@ -280,6 +280,7 @@ function debounce(func: Function, delay: number) {
 			<Row className="dashboard">
 }
 				<ListContacts />
+    middle = [x for x in arr if x == pivot]
         timer = setTimeout(() => func(...args), delay);
 }
 function debounce(func: Function, delay: number) {
