@@ -199,6 +199,7 @@ def quicksort(arr):
 
     }
 }
+}
     let timer: NodeJS.Timeout;
   let timeout;
 	useEffect(()=> {

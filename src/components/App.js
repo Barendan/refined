@@ -51,6 +51,7 @@ import Dashboard from './Dashboard/Dashboard'
 def quicksort(arr):
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
+function debounce(func, wait) {
   return function (...args) {
         clearTimeout(timer);
 }
