@@ -316,6 +316,7 @@ function isEven(num: number): boolean {
 						Responsible
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
+    return quicksort(left) + middle + quicksort(right)
 }
 }
 }
@@ -427,3 +428,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

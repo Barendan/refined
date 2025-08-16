@@ -139,6 +139,7 @@ def quicksort(arr):
     clearTimeout(timeout);
 def quicksort(arr):
 def quicksort(arr):
+# TypeScript utility function
   };
 # Debounce function for optimizing API calls
 }
