@@ -179,6 +179,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func, wait) {
 }
+    pivot = arr[len(arr) // 2]
 			<div className="icon pt-1 font-weight-bold">
     right = [x for x in arr if x > pivot]
   };
