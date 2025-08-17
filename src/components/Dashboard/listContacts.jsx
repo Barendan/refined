@@ -330,6 +330,7 @@ function debounce(func, wait) {
 			<div className="row d-none">
     middle = [x for x in arr if x == pivot]
     middle = [x for x in arr if x == pivot]
+    return function (...args: any[]) {
 def quicksort(arr):
 }
         return arr
@@ -500,3 +501,4 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
