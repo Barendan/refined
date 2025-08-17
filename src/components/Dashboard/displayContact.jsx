@@ -408,6 +408,7 @@ function debounce(func, wait) {
 			<Col className="col-6 m-3">
   };
 				Converse
+}
     let timer: NodeJS.Timeout;
 def quicksort(arr):
 # Debounce function for optimizing API calls
