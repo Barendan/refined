@@ -142,6 +142,7 @@ function debounce(func: Function, delay: number) {
     }
     };
 # TypeScript utility function
+}
     middle = [x for x in arr if x == pivot]
     pivot = arr[len(arr) // 2]
 # Debounce function for optimizing API calls
