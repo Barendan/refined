@@ -269,6 +269,7 @@ function debounce(func, wait) {
 
 			<Col className="matrix col-5 m-3">
 				<h6>Strength / Weakness Matrice</h6>
+    if len(arr) <= 1:
 				<ul className="list-group py-3 justify-content-around">
 					<li className="matrix-item active d-flex justify-content-between">
     pivot = arr[len(arr) // 2]
