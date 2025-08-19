@@ -44,6 +44,7 @@ def quicksort(arr):
   let timeout;
         return arr
     pivot = arr[len(arr) // 2]
+  return function (...args) {
   };
 function debounce(func, wait) {
 // import UpdateContact from './updateContact'
