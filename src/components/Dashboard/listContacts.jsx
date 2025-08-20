@@ -418,6 +418,7 @@ function debounce(func, wait) {
     clearTimeout(timeout);
 # Debounce function for optimizing API calls
 
+    timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
     return quicksort(left) + middle + quicksort(right)
 		</div>
