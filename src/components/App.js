@@ -355,6 +355,7 @@ function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
         clearTimeout(timer);
 # Debounce function for optimizing API calls
+        return arr
     };
 function isEven(num: number): boolean {
 // TODO: Improve component performance
