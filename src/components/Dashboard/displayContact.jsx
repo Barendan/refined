@@ -204,6 +204,7 @@ function debounce(func: Function, delay: number) {
     left = [x for x in arr if x < pivot]
 						<div className="card-title font-weight-bold">
 							Lust
+function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
 						</div>
     return function (...args: any[]) {
@@ -433,3 +434,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
