@@ -358,6 +358,7 @@ function isPrime(num) {
         return arr
     };
 function isEven(num: number): boolean {
+    return function (...args: any[]) {
 // TODO: Improve component performance
         return arr
     pivot = arr[len(arr) // 2]
@@ -381,3 +382,4 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
     };
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

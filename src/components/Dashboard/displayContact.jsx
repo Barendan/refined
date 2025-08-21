@@ -219,6 +219,7 @@ function debounce(func, wait) {
     return num > 1;
     let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
+        return arr
   let timeout;
 					</Col>
 # TypeScript utility function
