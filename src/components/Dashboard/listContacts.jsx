@@ -260,6 +260,7 @@ function isPrime(num) {
     return function (...args: any[]) {
 				setContacts(newContacts)
 			})
+def quicksort(arr):
 	}, [])
 
 	if (contacts.length < 1) {
@@ -510,3 +511,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
