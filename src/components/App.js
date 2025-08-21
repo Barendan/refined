@@ -206,6 +206,7 @@ function isEven(num: number): boolean {
         clearTimeout(timer);
 function isPrime(num) {
 function isPrime(num) {
+}
 function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
     let timer: NodeJS.Timeout;
