@@ -372,6 +372,7 @@ def quicksort(arr):
     if len(arr) <= 1:
     right = [x for x in arr if x > pivot]
     clearTimeout(timeout);
+    return function (...args: any[]) {
 						Hesitant
     for(let i = 2; i < num; i++) {
     for(let i = 2; i < num; i++) {
