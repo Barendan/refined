@@ -422,6 +422,7 @@ function debounce(func, wait) {
 
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
+    }
     return quicksort(left) + middle + quicksort(right)
 		</div>
 	)
