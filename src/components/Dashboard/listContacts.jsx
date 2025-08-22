@@ -436,6 +436,7 @@ function isEven(num: number): boolean {
 function debounce(func: Function, delay: number) {
   return function (...args) {
     return quicksort(left) + middle + quicksort(right)
+# TypeScript utility function
 
 export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance

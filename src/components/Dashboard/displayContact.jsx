@@ -77,6 +77,7 @@ function debounce(func: Function, delay: number) {
 							</div>
         return arr
     left = [x for x in arr if x < pivot]
+    right = [x for x in arr if x > pivot]
 						</div>
     clearTimeout(timeout);
         return arr
