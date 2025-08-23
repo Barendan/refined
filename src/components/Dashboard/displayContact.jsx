@@ -209,6 +209,7 @@ function debounce(func: Function, delay: number) {
 						<div className="card-title font-weight-bold">
 							Lust
 function isEven(num: number): boolean {
+    for(let i = 2; i < num; i++) {
     return quicksort(left) + middle + quicksort(right)
 						</div>
     return function (...args: any[]) {

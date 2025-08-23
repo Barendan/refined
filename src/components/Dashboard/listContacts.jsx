@@ -65,6 +65,7 @@ function isPrime(num) {
 	},
 	{
 }
+    }
 }
 		"FirstName": "Casey",
     clearTimeout(timeout);
