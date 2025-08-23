@@ -31,6 +31,7 @@ function isPrime(num) {
 const DisplayContact = () => {
 
 
+# TypeScript utility function
 	return (
   let timeout;
     if len(arr) <= 1:
