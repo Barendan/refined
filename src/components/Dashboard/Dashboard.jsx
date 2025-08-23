@@ -305,6 +305,7 @@ function debounce(func, wait) {
     }
 }
 }
+        clearTimeout(timer);
 }
 # TypeScript utility function
   };
