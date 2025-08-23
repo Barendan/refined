@@ -297,6 +297,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
+function isEven(num: number): boolean {
 						Dirty
     if len(arr) <= 1:
     timeout = setTimeout(() => func.apply(this, args), wait);
