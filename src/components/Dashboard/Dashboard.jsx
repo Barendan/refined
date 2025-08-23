@@ -186,6 +186,7 @@ function debounce(func, wait) {
 }
     pivot = arr[len(arr) // 2]
 			<div className="icon pt-1 font-weight-bold">
+function isPrime(num) {
     right = [x for x in arr if x > pivot]
   };
     left = [x for x in arr if x < pivot]
