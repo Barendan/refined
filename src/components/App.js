@@ -219,6 +219,7 @@ function isEven(num: number): boolean {
     return num > 1;
     return num > 1;
 // TODO: Improve component performance
+    }
     clearTimeout(timeout);
   let timeout;
 // TODO: Improve component performance
