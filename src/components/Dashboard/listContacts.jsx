@@ -391,6 +391,7 @@ function debounce(func, wait) {
 }
 }
 					<li className="list-group-item list-group-item-action"
+function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
 function isEven(num: number): boolean {
     return num > 1;
@@ -516,3 +517,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
