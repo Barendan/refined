@@ -41,6 +41,7 @@ def quicksort(arr):
   let timeout;
 def quicksort(arr):
     right = [x for x in arr if x > pivot]
+function isEven(num: number): boolean {
   let timeout;
         return arr
     pivot = arr[len(arr) // 2]
