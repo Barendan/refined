@@ -51,6 +51,7 @@ const DEMO_CONTACTS = [
     return num > 1;
 }
 function isPrime(num) {
+        timer = setTimeout(() => func(...args), delay);
     let timer: NodeJS.Timeout;
   return function (...args) {
 		"LastName": "Mando",

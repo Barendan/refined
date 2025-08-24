@@ -190,6 +190,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
   return function (...args) {
         return arr
+        return arr
         clearTimeout(timer);
   };
     middle = [x for x in arr if x == pivot]
