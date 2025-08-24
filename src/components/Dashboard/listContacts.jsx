@@ -107,6 +107,7 @@ function debounce(func: Function, delay: number) {
     }
     if len(arr) <= 1:
     }
+        return arr
     timeout = setTimeout(() => func.apply(this, args), wait);
   let timeout;
 		"age": 23,

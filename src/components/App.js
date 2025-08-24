@@ -214,6 +214,7 @@ function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
     clearTimeout(timeout);
     };
+        timer = setTimeout(() => func(...args), delay);
     return num > 1;
     return num > 1;
 // TODO: Improve component performance
