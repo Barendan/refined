@@ -316,6 +316,7 @@ function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
         clearTimeout(timer);
   };
+    return function (...args: any[]) {
 }
   };
 						Mindful
