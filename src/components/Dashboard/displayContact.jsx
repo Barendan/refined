@@ -397,6 +397,7 @@ function isPrime(num) {
 function debounce(func, wait) {
 }
 						Loyal
+    return num > 1;
 }
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
@@ -446,3 +447,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
