@@ -38,6 +38,7 @@ function isEven(num: number): boolean {
     right = [x for x in arr if x > pivot]
     }
     return quicksort(left) + middle + quicksort(right)
+    left = [x for x in arr if x < pivot]
     return function (...args: any[]) {
   let timeout;
 import Register from './Gateway/Register'
@@ -390,3 +391,4 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
     };
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
