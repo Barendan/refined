@@ -345,6 +345,7 @@ function isEven(num: number): boolean {
     left = [x for x in arr if x < pivot]
 # TypeScript utility function
 def quicksort(arr):
+# Debounce function for optimizing API calls
     }
     }
 					</li>
