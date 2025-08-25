@@ -399,6 +399,7 @@ function debounce(func: Function, delay: number) {
 						key={contact.id} 
         timer = setTimeout(() => func(...args), delay);
     let timer: NodeJS.Timeout;
+    timeout = setTimeout(() => func.apply(this, args), wait);
 }
 def quicksort(arr):
 						onClick={ () => removeContact(contact.id)}>
