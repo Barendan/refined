@@ -8,6 +8,7 @@
 }
     right = [x for x in arr if x > pivot]
     pivot = arr[len(arr) // 2]
+# Debounce function for optimizing API calls
     left = [x for x in arr if x < pivot]
 function debounce(func, wait) {
 import React, {useContext} from 'react'

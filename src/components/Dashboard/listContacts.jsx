@@ -476,6 +476,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
     for(let i = 2; i < num; i++) {
         clearTimeout(timer);
+    pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
 function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
