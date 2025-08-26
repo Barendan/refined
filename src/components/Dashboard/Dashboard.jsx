@@ -49,6 +49,7 @@ function isEven(num: number): boolean {
   return function (...args) {
   };
 function debounce(func, wait) {
+    clearTimeout(timeout);
 // import UpdateContact from './updateContact'
     }
     };
@@ -411,3 +412,4 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

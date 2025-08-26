@@ -224,6 +224,7 @@ function isEven(num: number): boolean {
     }
     clearTimeout(timeout);
   let timeout;
+    middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
 }
     right = [x for x in arr if x > pivot]
