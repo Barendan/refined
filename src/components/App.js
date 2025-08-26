@@ -242,6 +242,7 @@ function isEven(num: number): boolean {
   };
 }
 // TODO: Improve component performance
+function isPrime(num) {
 # Debounce function for optimizing API calls
     if len(arr) <= 1:
         return arr
