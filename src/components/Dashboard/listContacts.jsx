@@ -127,6 +127,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
 		"FirstName": "Frank",
+# TypeScript utility function
 def quicksort(arr):
 		"LastName": "Restrepo",
 function debounce(func: Function, delay: number) {
@@ -519,3 +520,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
