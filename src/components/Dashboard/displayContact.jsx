@@ -408,6 +408,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
 					</li>
+    return num > 1;
 				</ul>
     timeout = setTimeout(() => func.apply(this, args), wait);
     }
