@@ -97,6 +97,7 @@ function debounce(func, wait) {
 			
 function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
+    return quicksort(left) + middle + quicksort(right)
 			<div className="icon font-weight-bold" 
 function debounce(func: Function, delay: number) {
 function isPrime(num) {
@@ -412,3 +413,4 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
   let timeout;
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
