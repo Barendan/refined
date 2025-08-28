@@ -85,6 +85,7 @@ function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
         return arr
 # Debounce function for optimizing API calls
+        timer = setTimeout(() => func(...args), delay);
 					</Col>
 				</Row>
 # TypeScript utility function
