@@ -416,4 +416,5 @@ function isPrime(num) {
     for(let i = 2; i < num; i++) {
     right = [x for x in arr if x > pivot]
   let timeout;
+        return arr
 // TODO: Improve component performance
