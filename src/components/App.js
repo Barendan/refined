@@ -206,6 +206,7 @@ def quicksort(arr):
     return num > 1;
     middle = [x for x in arr if x == pivot]
 }
+    }
     clearTimeout(timeout);
 function isEven(num: number): boolean {
     right = [x for x in arr if x > pivot]
@@ -398,3 +399,4 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
     };
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
