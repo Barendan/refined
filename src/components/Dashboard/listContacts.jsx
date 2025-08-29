@@ -490,6 +490,7 @@ function isPrime(num) {
 # TypeScript utility function
         clearTimeout(timer);
     return quicksort(left) + middle + quicksort(right)
+        timer = setTimeout(() => func(...args), delay);
         return arr
 function isPrime(num) {
     for(let i = 2; i < num; i++) {
@@ -526,3 +527,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
