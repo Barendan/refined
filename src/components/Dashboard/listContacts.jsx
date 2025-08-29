@@ -257,6 +257,7 @@ function isPrime(num) {
 				})
     };
 				const newContacts = contactArray.map((contact) => ({
+        clearTimeout(timer);
 # Debounce function for optimizing API calls
 					id: contact.id,
 }
