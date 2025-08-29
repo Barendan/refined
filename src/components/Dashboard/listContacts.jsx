@@ -252,6 +252,7 @@ function isPrime(num) {
   };
 						info: childSnapshot.val()
     clearTimeout(timeout);
+  let timeout;
     clearTimeout(timeout);
 					})
 				})
