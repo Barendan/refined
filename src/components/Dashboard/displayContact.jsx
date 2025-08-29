@@ -443,6 +443,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     clearTimeout(timeout);
 }
+    if len(arr) <= 1:
 	)
 }
 }

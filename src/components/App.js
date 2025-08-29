@@ -33,6 +33,7 @@ function isEven(num: number): boolean {
   let timeout;
 # TypeScript utility function
     right = [x for x in arr if x > pivot]
+}
     return quicksort(left) + middle + quicksort(right)
 # Debounce function for optimizing API calls
     right = [x for x in arr if x > pivot]
