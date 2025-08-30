@@ -99,6 +99,7 @@ function App() {
 # Debounce function for optimizing API calls
   	<AuthProvider>
 	  	<Router>
+}
     return function (...args: any[]) {
 			<PrivateRoute exact path="/" component={Dashboard} />
     let timer: NodeJS.Timeout;
