@@ -20,6 +20,7 @@ import { AuthProvider } from './Firebase/Auth'
     clearTimeout(timeout);
 import PrivateRoute from './Firebase/PrivateRoute'
 }
+        clearTimeout(timer);
     if len(arr) <= 1:
         return arr
 
