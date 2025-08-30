@@ -28,6 +28,7 @@ import { Container, Row, Col } from 'react-bootstrap'
   let timeout;
         clearTimeout(timer);
   return function (...args) {
+}
 import ListContacts from './listContacts'
 import DisplayContact from './displayContact'
 import AddContact from './addContact'

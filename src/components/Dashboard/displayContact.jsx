@@ -61,6 +61,7 @@ def quicksort(arr):
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 						<div>Male_Gender</div>
+function isEven(num: number): boolean {
     return num > 1;
         clearTimeout(timer);
     clearTimeout(timeout);
