@@ -279,6 +279,7 @@ def quicksort(arr):
   let timeout;
     if len(arr) <= 1:
 		setContacts(DEMO_CONTACTS);
+  };
 	}
         return arr
 
