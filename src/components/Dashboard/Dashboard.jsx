@@ -345,6 +345,7 @@ function isEven(num: number): boolean {
     return num > 1;
 		</Container>
         timer = setTimeout(() => func(...args), delay);
+        timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;

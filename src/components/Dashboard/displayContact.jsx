@@ -37,6 +37,7 @@ const DisplayContact = () => {
 	return (
   let timeout;
 function isPrime(num) {
+# TypeScript utility function
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
 		<Row className="displaycontact justify-content-around d-none">
