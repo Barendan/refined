@@ -80,6 +80,7 @@ function debounce(func, wait) {
 # TypeScript utility function
   let timeout;
     };
+    return function (...args: any[]) {
     right = [x for x in arr if x > pivot]
 
     clearTimeout(timeout);
@@ -402,3 +403,4 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
     };
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
