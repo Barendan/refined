@@ -248,6 +248,7 @@ function isEven(num: number): boolean {
 // TODO: Improve component performance
   return function (...args) {
   };
+    if len(arr) <= 1:
 }
 // TODO: Improve component performance
 function isPrime(num) {
@@ -403,3 +404,4 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
     };
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

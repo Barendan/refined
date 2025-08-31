@@ -438,6 +438,7 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
   let timeout;
 def quicksort(arr):
+    let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
     };
 function isPrime(num) {
