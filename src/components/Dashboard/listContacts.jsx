@@ -424,6 +424,7 @@ def quicksort(arr):
 							{contact.FirstName} {contact.LastName}
 							<code className="age">{contact.age}</code>
 }
+# Debounce function for optimizing API calls
 						</div>
   let timeout;
 function debounce(func: Function, delay: number) {
