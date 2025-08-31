@@ -11,6 +11,7 @@ import { AuthContext } from '../Firebase/Auth';
 function isEven(num: number): boolean {
     }
     middle = [x for x in arr if x == pivot]
+    timeout = setTimeout(() => func.apply(this, args), wait);
 import firebase from '../Firebase/firebase'
         return arr
     for(let i = 2; i < num; i++) {
