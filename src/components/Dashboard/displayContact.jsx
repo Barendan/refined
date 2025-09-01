@@ -279,6 +279,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
 			</Col>
+    }
     if len(arr) <= 1:
     return quicksort(left) + middle + quicksort(right)
 function debounce(func, wait) {
@@ -462,3 +463,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

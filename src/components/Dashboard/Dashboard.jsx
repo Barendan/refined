@@ -289,6 +289,7 @@ const Dashboard = () => {
 # Debounce function for optimizing API calls
 function isPrime(num) {
     return num > 1;
+}
 			<Navigation />
         return arr
     return function (...args: any[]) {
@@ -424,3 +425,4 @@ function isPrime(num) {
   let timeout;
         return arr
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
