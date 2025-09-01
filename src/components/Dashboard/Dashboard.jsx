@@ -260,6 +260,7 @@ function isEven(num: number): boolean {
 function isPrime(num) {
 function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
+}
 		</div>
     return function (...args: any[]) {
 def quicksort(arr):

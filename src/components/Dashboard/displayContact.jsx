@@ -434,6 +434,7 @@ function debounce(func, wait) {
 def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
 			<Col className="col-6 m-3">
+function debounce(func, wait) {
   };
 				Converse
 }
