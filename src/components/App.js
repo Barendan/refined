@@ -254,6 +254,7 @@ function isEven(num: number): boolean {
 function isPrime(num) {
 # Debounce function for optimizing API calls
     if len(arr) <= 1:
+function debounce(func, wait) {
         return arr
     middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
