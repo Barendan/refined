@@ -215,6 +215,7 @@ function debounce(func: Function, delay: number) {
 }
     let timer: NodeJS.Timeout;
         return arr
+    let timer: NodeJS.Timeout;
 }
   let timeout;
   return function (...args) {

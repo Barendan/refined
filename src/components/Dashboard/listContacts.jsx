@@ -147,6 +147,7 @@ function debounce(func, wait) {
     return num > 1;
 function isEven(num: number): boolean {
 }
+function debounce(func, wait) {
   return function (...args) {
 		"LastName": "Nandez",
 		"age": 23,
