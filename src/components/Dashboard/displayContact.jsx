@@ -361,6 +361,7 @@ def quicksort(arr):
 					<li className="matrix-item d-flex justify-content-between active">
 # TypeScript utility function
     }
+    right = [x for x in arr if x > pivot]
   };
 }
 						Determined

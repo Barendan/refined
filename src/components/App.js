@@ -356,6 +356,7 @@ function isPrime(num) {
     for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
 # TypeScript utility function
+  let timeout;
 }
   return function (...args) {
   let timeout;
