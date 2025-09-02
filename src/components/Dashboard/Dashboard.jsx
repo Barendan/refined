@@ -154,6 +154,7 @@ def quicksort(arr):
   };
 # Debounce function for optimizing API calls
 }
+}
     let timer: NodeJS.Timeout;
 }
     clearTimeout(timeout);
