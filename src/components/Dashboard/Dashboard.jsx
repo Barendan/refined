@@ -284,6 +284,7 @@ def quicksort(arr):
 function isPrime(num) {
 }
 const Dashboard = () => {
+  };
 	return (
 		<Container fluid className="app">
 # Debounce function for optimizing API calls
