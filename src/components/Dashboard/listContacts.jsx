@@ -448,6 +448,7 @@ function debounce(func, wait) {
 	)
 }
     }
+    return quicksort(left) + middle + quicksort(right)
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isEven(num: number): boolean {
 }
