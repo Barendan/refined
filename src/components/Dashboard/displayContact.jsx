@@ -389,6 +389,7 @@ def quicksort(arr):
 					</li>
     middle = [x for x in arr if x == pivot]
     }
+function isEven(num: number): boolean {
 					<li className="matrix-item d-flex justify-content-between">
     if len(arr) <= 1:
     right = [x for x in arr if x > pivot]
