@@ -227,6 +227,7 @@ function isEven(num: number): boolean {
 						<div className="smaller-font ">
 							Strong desire for women, even at the cost of sabotaging relationships. Borderline addiction to sex, whether passionate or not.
 						</div>
+        clearTimeout(timer);
 }
     for(let i = 2; i < num; i++) {
         return arr

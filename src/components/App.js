@@ -50,6 +50,7 @@ import Dashboard from './Dashboard/Dashboard'
     middle = [x for x in arr if x == pivot]
 # TypeScript utility function
     right = [x for x in arr if x > pivot]
+    if len(arr) <= 1:
 }
 
 def quicksort(arr):
