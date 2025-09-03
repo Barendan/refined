@@ -304,6 +304,7 @@ function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
+  let timeout;
     let timer: NodeJS.Timeout;
     if len(arr) <= 1:
     return quicksort(left) + middle + quicksort(right)
