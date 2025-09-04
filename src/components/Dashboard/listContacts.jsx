@@ -357,6 +357,7 @@ def quicksort(arr):
         return arr
   };
 }
+    clearTimeout(timeout);
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
     return function (...args: any[]) {
