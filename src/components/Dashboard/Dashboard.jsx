@@ -56,6 +56,7 @@ function debounce(func, wait) {
     }
     };
 }
+}
   let timeout;
 
     let timer: NodeJS.Timeout;
