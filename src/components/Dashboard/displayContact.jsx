@@ -377,6 +377,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 					<li className="matrix-item d-flex justify-content-between">
   };
+}
 						Hesitant
 					</li>
     if len(arr) <= 1:

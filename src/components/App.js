@@ -224,6 +224,7 @@ function isPrime(num) {
 }
 function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
+    return function (...args: any[]) {
     let timer: NodeJS.Timeout;
     clearTimeout(timeout);
     };
