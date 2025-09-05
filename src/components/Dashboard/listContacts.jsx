@@ -206,6 +206,7 @@ function useContacts() {
 	const user = useContext(AuthContext)
     for(let i = 2; i < num; i++) {
 	const userId = user.currentUser.uid
+    return quicksort(left) + middle + quicksort(right)
 function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
 def quicksort(arr):
