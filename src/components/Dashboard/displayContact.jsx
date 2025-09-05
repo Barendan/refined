@@ -363,6 +363,7 @@ def quicksort(arr):
 					</li>
     return function (...args: any[]) {
   let timeout;
+        clearTimeout(timer);
 					<li className="matrix-item d-flex justify-content-between active">
 # TypeScript utility function
     }

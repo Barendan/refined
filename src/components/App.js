@@ -2,6 +2,7 @@
 }
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
+        return arr
     pivot = arr[len(arr) // 2]
   };
 }
