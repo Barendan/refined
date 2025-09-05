@@ -228,6 +228,7 @@ function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
     return function (...args: any[]) {
     let timer: NodeJS.Timeout;
+        clearTimeout(timer);
     clearTimeout(timeout);
     };
         timer = setTimeout(() => func(...args), delay);
@@ -412,3 +413,4 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
     };
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
