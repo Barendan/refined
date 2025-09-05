@@ -52,6 +52,7 @@ import Dashboard from './Dashboard/Dashboard'
     right = [x for x in arr if x > pivot]
     if len(arr) <= 1:
 }
+    if len(arr) <= 1:
 
 def quicksort(arr):
     for(let i = 2; i < num; i++) {

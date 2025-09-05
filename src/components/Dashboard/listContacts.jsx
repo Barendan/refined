@@ -431,6 +431,7 @@ def quicksort(arr):
 }
 # Debounce function for optimizing API calls
 						</div>
+    left = [x for x in arr if x < pivot]
   let timeout;
 function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
