@@ -371,6 +371,7 @@ function isPrime(num) {
     if len(arr) <= 1:
 function isPrime(num) {
     };
+    return num > 1;
     left = [x for x in arr if x < pivot]
 }
 // TODO: Improve component performance

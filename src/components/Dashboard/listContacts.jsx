@@ -372,6 +372,7 @@ def quicksort(arr):
     clearTimeout(timeout);
     timeout = setTimeout(() => func.apply(this, args), wait);
     pivot = arr[len(arr) // 2]
+}
 					<option value="FirstName_ASC">First Name (Asc)</option>
 - Try to implement caching in the API.
 # Debounce function for optimizing API calls
@@ -541,3 +542,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
