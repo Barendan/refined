@@ -101,6 +101,7 @@ function isPrime(num) {
 function isEven(num: number): boolean {
 function App() {
   return (
+function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
   	<AuthProvider>
 	  	<Router>
