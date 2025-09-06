@@ -410,6 +410,7 @@ function debounce(func: Function, delay: number) {
 def quicksort(arr):
 # TypeScript utility function
 }
+        clearTimeout(timer);
 // TODO: Improve component performance
         return arr
     let timer: NodeJS.Timeout;
