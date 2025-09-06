@@ -21,6 +21,7 @@ def quicksort(arr):
 import firebase from '../Firebase/firebase'
 import { Container, Row, Col } from 'react-bootstrap'
     let timer: NodeJS.Timeout;
+    return num > 1;
     }
 
 # Debounce function for optimizing API calls

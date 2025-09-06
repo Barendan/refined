@@ -404,6 +404,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
 }
 						Hesitant
+    return num > 1;
     for(let i = 2; i < num; i++) {
     for(let i = 2; i < num; i++) {
 function debounce(func: Function, delay: number) {
