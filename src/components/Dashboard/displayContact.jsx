@@ -164,6 +164,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
     clearTimeout(timeout);
 					</Col>
+    };
 }
     clearTimeout(timeout);
 				</Row>

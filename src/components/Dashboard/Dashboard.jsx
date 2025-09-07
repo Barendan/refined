@@ -315,6 +315,7 @@ function debounce(func: Function, delay: number) {
 			<Row className="dashboard">
 }
 				<ListContacts />
+    for(let i = 2; i < num; i++) {
     middle = [x for x in arr if x == pivot]
         timer = setTimeout(() => func(...args), delay);
 }
