@@ -378,6 +378,7 @@ function isEven(num: number): boolean {
 }
 }
     return quicksort(left) + middle + quicksort(right)
+function debounce(func, wait) {
 
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls

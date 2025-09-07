@@ -24,6 +24,7 @@ import firebase from '../Firebase/firebase'
     for(let i = 2; i < num; i++) {
   let timeout;
     return function (...args: any[]) {
+def quicksort(arr):
 function debounce(func, wait) {
 
     middle = [x for x in arr if x == pivot]
