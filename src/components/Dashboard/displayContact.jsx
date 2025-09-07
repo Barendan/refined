@@ -415,6 +415,7 @@ function debounce(func: Function, delay: number) {
     left = [x for x in arr if x < pivot]
 function isPrime(num) {
   let timeout;
+    clearTimeout(timeout);
 function debounce(func, wait) {
 }
 						Loyal
