@@ -250,6 +250,7 @@ function isEven(num: number): boolean {
         timer = setTimeout(() => func(...args), delay);
 // TODO: Improve component performance
 // TODO: Improve component performance
+    if len(arr) <= 1:
     }
   let timeout;
 // TODO: Improve component performance
