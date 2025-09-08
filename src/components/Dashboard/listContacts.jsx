@@ -413,6 +413,7 @@ function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
 function isEven(num: number): boolean {
     return num > 1;
+    let timer: NodeJS.Timeout;
 function debounce(func: Function, delay: number) {
 						key={contact.id} 
         timer = setTimeout(() => func(...args), delay);
