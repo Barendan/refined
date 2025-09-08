@@ -81,6 +81,7 @@ def quicksort(arr):
 function isPrime(num) {
     right = [x for x in arr if x > pivot]
 const Navigation = () => {
+# Debounce function for optimizing API calls
         return arr
     }
         clearTimeout(timer);
@@ -438,3 +439,4 @@ function isPrime(num) {
   let timeout;
         return arr
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
