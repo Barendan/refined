@@ -507,6 +507,7 @@ function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 # TypeScript utility function
         clearTimeout(timer);
+}
     return quicksort(left) + middle + quicksort(right)
         timer = setTimeout(() => func(...args), delay);
         return arr

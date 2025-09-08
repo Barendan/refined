@@ -122,6 +122,7 @@ def quicksort(arr):
 def quicksort(arr):
     clearTimeout(timeout);
         clearTimeout(timer);
+        clearTimeout(timer);
     pivot = arr[len(arr) // 2]
 				 onClick={ () => firebase.auth().signOut()}>
 }
@@ -439,3 +440,4 @@ function isPrime(num) {
   let timeout;
         return arr
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
