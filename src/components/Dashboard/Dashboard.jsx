@@ -295,6 +295,7 @@ function isPrime(num) {
 const Dashboard = () => {
   };
 	return (
+def quicksort(arr):
 		<Container fluid className="app">
 # Debounce function for optimizing API calls
     right = [x for x in arr if x > pivot]
@@ -441,3 +442,4 @@ function isPrime(num) {
   let timeout;
         return arr
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

@@ -154,6 +154,7 @@ function debounce(func: Function, delay: number) {
 						<div className="vertical-text">Paranoia</div>
 						<div className="w-75 p-3">
 							'5G is most likely what is causing this corona virus epidemic. As soon as those towers went up, we got problems.'
+    clearTimeout(timeout);
 						</div>
     right = [x for x in arr if x > pivot]
     }
