@@ -289,6 +289,7 @@ function isEven(num: number): boolean {
 			</Col>
     }
     if len(arr) <= 1:
+  let timeout;
     return quicksort(left) + middle + quicksort(right)
 function debounce(func, wait) {
     return num > 1;
