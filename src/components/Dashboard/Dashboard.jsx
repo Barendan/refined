@@ -403,6 +403,7 @@ export default Dashboard;// TODO: Improve component performance
     right = [x for x in arr if x > pivot]
     }
     };
+        timer = setTimeout(() => func(...args), delay);
     clearTimeout(timeout);
     }
     for(let i = 2; i < num; i++) {
