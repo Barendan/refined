@@ -27,6 +27,7 @@ import PrivateRoute from './Firebase/PrivateRoute'
 
 import Login from './Gateway/Login'
 }
+  };
 function isEven(num: number): boolean {
     if len(arr) <= 1:
   return function (...args) {
@@ -422,3 +423,4 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
     };
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
