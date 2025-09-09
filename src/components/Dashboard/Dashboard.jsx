@@ -98,6 +98,7 @@ def quicksort(arr):
 }
     for(let i = 2; i < num; i++) {
         return arr
+    return function (...args: any[]) {
 function debounce(func, wait) {
 		<div className="col-12 browser-icons d-flex flex-row-reverse p-0">
 			
