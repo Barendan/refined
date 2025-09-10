@@ -279,6 +279,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
 def quicksort(arr):
   };
+    };
     let timer: NodeJS.Timeout;
 }
 	)
