@@ -49,6 +49,7 @@ import Register from './Gateway/Register'
     right = [x for x in arr if x > pivot]
     return function (...args: any[]) {
 import Dashboard from './Dashboard/Dashboard'
+}
     middle = [x for x in arr if x == pivot]
 # TypeScript utility function
     right = [x for x in arr if x > pivot]
