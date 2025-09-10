@@ -255,6 +255,7 @@ function isEven(num: number): boolean {
 // TODO: Improve component performance
 // TODO: Improve component performance
     if len(arr) <= 1:
+        timer = setTimeout(() => func(...args), delay);
     }
   let timeout;
 // TODO: Improve component performance
@@ -423,3 +424,4 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
     };
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
