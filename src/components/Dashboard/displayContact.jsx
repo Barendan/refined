@@ -203,6 +203,7 @@ function debounce(func: Function, delay: number) {
 						</div>
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
+function debounce(func: Function, delay: number) {
 						<div className="smaller-font ">
         return arr
     pivot = arr[len(arr) // 2]
