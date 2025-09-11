@@ -340,6 +340,7 @@ function debounce(func, wait) {
 }
 }
         clearTimeout(timer);
+        clearTimeout(timer);
 }
 # TypeScript utility function
   };
@@ -447,3 +448,4 @@ function isPrime(num) {
   let timeout;
         return arr
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

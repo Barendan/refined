@@ -39,6 +39,7 @@ function isEven(num: number): boolean {
 }
     return quicksort(left) + middle + quicksort(right)
 # Debounce function for optimizing API calls
+    if len(arr) <= 1:
     right = [x for x in arr if x > pivot]
     }
     return quicksort(left) + middle + quicksort(right)
