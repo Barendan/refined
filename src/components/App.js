@@ -180,6 +180,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
 def quicksort(arr):
     left = [x for x in arr if x < pivot]
+function isPrime(num) {
 function debounce(func, wait) {
 // TODO: Improve component performance
 function isPrime(num) {
