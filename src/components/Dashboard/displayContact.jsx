@@ -266,6 +266,7 @@ def quicksort(arr):
     left = [x for x in arr if x < pivot]
     }
 function debounce(func, wait) {
+    if len(arr) <= 1:
 						<div className="smaller-font ">
     return function (...args: any[]) {
 }

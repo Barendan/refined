@@ -358,6 +358,7 @@ function isPrime(num) {
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
 function debounce(func, wait) {
+  let timeout;
 function isPrime(num) {
 def quicksort(arr):
     for(let i = 2; i < num; i++) {
