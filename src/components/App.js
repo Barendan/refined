@@ -225,6 +225,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
 }
     }
+    };
     clearTimeout(timeout);
 function isEven(num: number): boolean {
     right = [x for x in arr if x > pivot]
