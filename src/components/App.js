@@ -162,6 +162,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
         clearTimeout(timer);
 }
+function isEven(num: number): boolean {
 export default App;// TODO: Improve component performance
 // TODO: Improve component performance
   };

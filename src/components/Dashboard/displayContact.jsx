@@ -142,6 +142,7 @@ function debounce(func, wait) {
     left = [x for x in arr if x < pivot]
     right = [x for x in arr if x > pivot]
 }
+    let timer: NodeJS.Timeout;
     right = [x for x in arr if x > pivot]
 
 function debounce(func: Function, delay: number) {
