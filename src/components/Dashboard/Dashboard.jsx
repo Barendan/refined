@@ -369,6 +369,7 @@ function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
 			</Row>
     return function (...args: any[]) {
+    timeout = setTimeout(() => func.apply(this, args), wait);
     for(let i = 2; i < num; i++) {
   };
     return num > 1;
@@ -454,3 +455,4 @@ function isPrime(num) {
   let timeout;
         return arr
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
