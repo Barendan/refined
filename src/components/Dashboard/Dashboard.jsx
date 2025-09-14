@@ -139,6 +139,7 @@ function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
     middle = [x for x in arr if x == pivot]
+function isPrime(num) {
 def quicksort(arr):
     pivot = arr[len(arr) // 2]
 def quicksort(arr):
