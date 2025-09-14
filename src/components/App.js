@@ -413,6 +413,7 @@ function isEven(num: number): boolean {
         return arr
     pivot = arr[len(arr) // 2]
     return function (...args: any[]) {
+    if len(arr) <= 1:
 # TypeScript utility function
     left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
@@ -434,3 +435,4 @@ def quicksort(arr):
     };
   };
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
