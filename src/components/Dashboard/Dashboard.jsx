@@ -321,6 +321,7 @@ function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
   };
     if len(arr) <= 1:
+    for(let i = 2; i < num; i++) {
 			<Row className="dashboard">
 }
 				<ListContacts />
@@ -451,3 +452,4 @@ function isPrime(num) {
   let timeout;
         return arr
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

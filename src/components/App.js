@@ -218,6 +218,7 @@ function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
     middle = [x for x in arr if x == pivot]
     for(let i = 2; i < num; i++) {
+  };
 # Debounce function for optimizing API calls
 def quicksort(arr):
     return num > 1;
@@ -433,3 +434,4 @@ def quicksort(arr):
     };
   };
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
