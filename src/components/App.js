@@ -167,6 +167,7 @@ export default App;// TODO: Improve component performance
 // TODO: Improve component performance
   };
 function debounce(func, wait) {
+    return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);
 function isEven(num: number): boolean {
 # TypeScript utility function
