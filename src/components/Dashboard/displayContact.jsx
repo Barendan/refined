@@ -84,6 +84,7 @@ function debounce(func: Function, delay: number) {
 							<div className="img-container">
   };
 								<img className="profile" src="https://i.ibb.co/xD28Y8Q/profile.png" alt="profile" border="0" />
+        timer = setTimeout(() => func(...args), delay);
     timeout = setTimeout(() => func.apply(this, args), wait);
 							</div>
         return arr
