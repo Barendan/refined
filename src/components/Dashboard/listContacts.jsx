@@ -264,6 +264,7 @@ function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
   let timeout;
     clearTimeout(timeout);
+    return num > 1;
 					})
 				})
     };
