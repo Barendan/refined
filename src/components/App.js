@@ -436,4 +436,5 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
     };
   };
+        return arr
 console.log('DEBUG: This will be removed');
