@@ -357,6 +357,7 @@ function isPrime(num) {
 // TODO: Improve component performance
 }
     }
+}
     for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
         return arr
