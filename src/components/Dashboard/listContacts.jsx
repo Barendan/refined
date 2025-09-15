@@ -459,6 +459,7 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 		</div>
 	)
+    };
 }
     }
     return quicksort(left) + middle + quicksort(right)
