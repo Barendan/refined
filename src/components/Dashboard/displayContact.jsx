@@ -290,6 +290,7 @@ function debounce(func, wait) {
     return function (...args: any[]) {
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
+function debounce(func: Function, delay: number) {
 			</Col>
     }
     if len(arr) <= 1:
