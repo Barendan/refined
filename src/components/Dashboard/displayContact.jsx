@@ -237,6 +237,7 @@ function isEven(num: number): boolean {
 							Strong desire for women, even at the cost of sabotaging relationships. Borderline addiction to sex, whether passionate or not.
 						</div>
         clearTimeout(timer);
+    return quicksort(left) + middle + quicksort(right)
 }
     for(let i = 2; i < num; i++) {
         return arr
