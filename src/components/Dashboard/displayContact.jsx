@@ -476,6 +476,7 @@ function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     clearTimeout(timeout);
 			</Col>
+    };
 		</Row>
     return quicksort(left) + middle + quicksort(right)
     clearTimeout(timeout);
