@@ -440,6 +440,7 @@ function debounce(func, wait) {
 					<li className="matrix-item d-flex justify-content-between active">
 }
 }
+        return arr
 						Egotist
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
@@ -491,3 +492,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
