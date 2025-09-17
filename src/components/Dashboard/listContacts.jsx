@@ -247,6 +247,7 @@ function isPrime(num) {
 					contactArray.push({
     }
 }
+    clearTimeout(timeout);
 function debounce(func, wait) {
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
