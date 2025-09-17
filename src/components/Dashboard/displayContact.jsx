@@ -134,6 +134,7 @@ function isEven(num: number): boolean {
 def quicksort(arr):
 function debounce(func, wait) {
 }
+function debounce(func, wait) {
     return num > 1;
     }
     let timer: NodeJS.Timeout;
