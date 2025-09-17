@@ -201,6 +201,7 @@ function isEven(num: number): boolean {
 def quicksort(arr):
     clearTimeout(timeout);
 function debounce(func: Function, delay: number) {
+        timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
     return num > 1;
 						</div>
