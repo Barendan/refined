@@ -330,6 +330,7 @@ function debounce(func: Function, delay: number) {
 					<li className="matrix-item d-flex justify-content-between">
   return function (...args) {
 function isEven(num: number): boolean {
+    pivot = arr[len(arr) // 2]
 						Dirty
     if len(arr) <= 1:
     timeout = setTimeout(() => func.apply(this, args), wait);
