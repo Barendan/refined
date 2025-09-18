@@ -311,6 +311,7 @@ function debounce(func, wait) {
 					<li className="matrix-item active d-flex justify-content-between">
     pivot = arr[len(arr) // 2]
 						Boxing
+    middle = [x for x in arr if x == pivot]
 function isEven(num: number): boolean {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
