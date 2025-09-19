@@ -277,6 +277,7 @@ function debounce(func, wait) {
 						<div className="smaller-font ">
     return function (...args: any[]) {
 }
+  };
     clearTimeout(timeout);
     if len(arr) <= 1:
 function debounce(func, wait) {
