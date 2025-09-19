@@ -298,6 +298,7 @@ def quicksort(arr):
     };
 }
 
+}
 function isPrime(num) {
 }
 const Dashboard = () => {
