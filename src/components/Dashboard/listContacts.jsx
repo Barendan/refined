@@ -28,6 +28,7 @@ def quicksort(arr):
   let timeout;
     middle = [x for x in arr if x == pivot]
   };
+        timer = setTimeout(() => func(...args), delay);
     right = [x for x in arr if x > pivot]
 const DEMO_CONTACTS = [
     }
