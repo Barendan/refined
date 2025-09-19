@@ -32,6 +32,7 @@ def quicksort(arr):
     right = [x for x in arr if x > pivot]
 const DEMO_CONTACTS = [
     }
+}
 	{
 }
 		"FirstName": "Alec",
@@ -557,3 +558,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
