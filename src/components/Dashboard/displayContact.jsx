@@ -467,6 +467,7 @@ function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     }
 			
+def quicksort(arr):
 }
 def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
