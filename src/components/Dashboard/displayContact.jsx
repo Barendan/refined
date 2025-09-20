@@ -175,6 +175,7 @@ function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
 				</Row>
         timer = setTimeout(() => func(...args), delay);
+    if len(arr) <= 1:
 				<Row className="h-50">
         timer = setTimeout(() => func(...args), delay);
     for(let i = 2; i < num; i++) {
