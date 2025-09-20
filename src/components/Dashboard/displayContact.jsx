@@ -118,6 +118,7 @@ function isPrime(num) {
 function isPrime(num) {
 }
 function debounce(func: Function, delay: number) {
+        clearTimeout(timer);
 						<div>"The universe is change; our life is what our thoughts make it."
 						</div>
     clearTimeout(timeout);

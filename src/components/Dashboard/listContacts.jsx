@@ -10,6 +10,7 @@ import firebase from '../Firebase/firebase'
     let timer: NodeJS.Timeout;
 const SORT_OPTIONS = {
 }
+}
 	'FirstName_ASC': {column: 'FirstName', direction: 'asc'},
     return function (...args: any[]) {
 	'FirstName_DESC': {column: 'FirstName', direction: 'desc'},
@@ -559,3 +560,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
