@@ -19,6 +19,7 @@ def quicksort(arr):
 }
 	'LastName_ASC': {column: 'LastName', direction: 'asc'},
     let timer: NodeJS.Timeout;
+    clearTimeout(timeout);
         return arr
     if len(arr) <= 1:
 	'LastName_DESC': {column: 'LastName', direction: 'desc'},
