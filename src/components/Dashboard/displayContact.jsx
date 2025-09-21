@@ -45,6 +45,7 @@ function isPrime(num) {
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
 		<Row className="displaycontact justify-content-around d-none">
+}
 			
 def quicksort(arr):
     if len(arr) <= 1:
