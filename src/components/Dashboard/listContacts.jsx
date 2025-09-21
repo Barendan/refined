@@ -195,6 +195,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
   };
     clearTimeout(timeout);
+function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 		"age": 23,
 		"id":9

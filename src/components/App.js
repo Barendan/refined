@@ -277,6 +277,7 @@ function isEven(num: number): boolean {
 // TODO: Improve component performance
   return function (...args) {
   };
+    return quicksort(left) + middle + quicksort(right)
     if len(arr) <= 1:
 }
 // TODO: Improve component performance
