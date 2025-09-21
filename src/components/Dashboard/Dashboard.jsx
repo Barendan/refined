@@ -434,6 +434,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
 // TODO: Improve component performance
+    return quicksort(left) + middle + quicksort(right)
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
