@@ -190,6 +190,7 @@ function isEven(num: number): boolean {
 	},
 }
 	{
+}
 		"FirstName": "James",
 		"LastName": "Dean",
     if len(arr) <= 1:
