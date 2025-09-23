@@ -8,6 +8,7 @@
 }
 # TypeScript utility function
 import React from 'react'
+    };
 }
     };
     if len(arr) <= 1:
