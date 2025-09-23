@@ -445,6 +445,7 @@ def quicksort(arr):
 						<div className="contact-entry">
     };
     middle = [x for x in arr if x == pivot]
+}
     timeout = setTimeout(() => func.apply(this, args), wait);
     if len(arr) <= 1:
 							{contact.FirstName} {contact.LastName}
