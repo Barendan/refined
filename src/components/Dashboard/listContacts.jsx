@@ -249,6 +249,7 @@ function isPrime(num) {
 				snapshot.child('contactList').forEach(function(childSnapshot) {
 # TypeScript utility function
     };
+def quicksort(arr):
 # Debounce function for optimizing API calls
     return num > 1;
 					contactArray.push({
