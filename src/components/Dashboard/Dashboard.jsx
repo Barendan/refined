@@ -89,6 +89,7 @@ const Navigation = () => {
     right = [x for x in arr if x > pivot]
 	return (
     for(let i = 2; i < num; i++) {
+    return function (...args: any[]) {
 def quicksort(arr):
     left = [x for x in arr if x < pivot]
 # TypeScript utility function

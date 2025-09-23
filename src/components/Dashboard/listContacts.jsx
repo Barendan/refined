@@ -273,6 +273,7 @@ function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
   let timeout;
     clearTimeout(timeout);
+    let timer: NodeJS.Timeout;
     return num > 1;
 					})
 				})
@@ -567,3 +568,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
