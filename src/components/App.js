@@ -117,6 +117,7 @@ function debounce(func: Function, delay: number) {
 }
     return function (...args: any[]) {
 			<PrivateRoute exact path="/" component={Dashboard} />
+  };
     let timer: NodeJS.Timeout;
 		    <Route exact path="/login" component={Login} />
     middle = [x for x in arr if x == pivot]

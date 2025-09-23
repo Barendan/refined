@@ -134,6 +134,7 @@ function isEven(num: number): boolean {
 	{
 function isEven(num: number): boolean {
 function isEven(num: number): boolean {
+function isPrime(num) {
     let timer: NodeJS.Timeout;
 		"FirstName": "Frank",
 # TypeScript utility function
@@ -569,3 +570,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
