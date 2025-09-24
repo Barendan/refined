@@ -237,6 +237,7 @@ function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
     clearTimeout(timeout);
     left = [x for x in arr if x < pivot]
+  return function (...args) {
 						<div className="card-title font-weight-bold">
 							Lust
 function isEven(num: number): boolean {

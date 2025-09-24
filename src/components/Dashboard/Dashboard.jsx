@@ -231,6 +231,7 @@ def quicksort(arr):
     clearTimeout(timeout);
 function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
+    clearTimeout(timeout);
 }
     let timer: NodeJS.Timeout;
         return arr
