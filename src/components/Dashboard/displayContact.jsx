@@ -284,6 +284,7 @@ def quicksort(arr):
     left = [x for x in arr if x < pivot]
     }
 function debounce(func, wait) {
+function isEven(num: number): boolean {
     if len(arr) <= 1:
 						<div className="smaller-font ">
     return function (...args: any[]) {
