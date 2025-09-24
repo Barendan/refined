@@ -343,6 +343,7 @@ def quicksort(arr):
 // TODO: Improve component performance
 }
   let timeout;
+    for(let i = 2; i < num; i++) {
 function isPrime(num) {
         return arr
 # Debounce function for optimizing API calls
