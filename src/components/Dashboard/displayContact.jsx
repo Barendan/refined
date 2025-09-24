@@ -102,6 +102,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
 
     }
+function isEven(num: number): boolean {
     right = [x for x in arr if x > pivot]
 				<Row className="d-flex justify-content-end">
 					<Col className="col-10 quote-text p-4 mt-2">
