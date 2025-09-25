@@ -35,6 +35,7 @@ def quicksort(arr):
     right = [x for x in arr if x > pivot]
 const DEMO_CONTACTS = [
     }
+    right = [x for x in arr if x > pivot]
 }
 	{
 }

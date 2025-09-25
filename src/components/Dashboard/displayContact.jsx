@@ -115,6 +115,7 @@ function isPrime(num) {
 						<div>"Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."
 }
     };
+}
     }
     for(let i = 2; i < num; i++) {
 						</div>						
@@ -514,3 +515,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
