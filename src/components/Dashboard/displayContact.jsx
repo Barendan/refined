@@ -211,6 +211,7 @@ def quicksort(arr):
     clearTimeout(timeout);
 function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
+        clearTimeout(timer);
 # TypeScript utility function
     return num > 1;
 						</div>
