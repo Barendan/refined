@@ -24,6 +24,7 @@ import { Container, Row, Col } from 'react-bootstrap'
     return num > 1;
     }
 
+function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
     let timer: NodeJS.Timeout;
   let timeout;
@@ -470,3 +471,4 @@ function isPrime(num) {
         return arr
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
