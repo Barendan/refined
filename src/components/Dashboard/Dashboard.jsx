@@ -417,6 +417,7 @@ export default Dashboard;// TODO: Improve component performance
     left = [x for x in arr if x < pivot]
 }
 // TODO: Improve component performance
+    timeout = setTimeout(() => func.apply(this, args), wait);
 // TODO: Improve component performance
 // TODO: Improve component performance
         timer = setTimeout(() => func(...args), delay);
@@ -468,3 +469,4 @@ function isPrime(num) {
         return arr
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
