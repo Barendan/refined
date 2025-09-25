@@ -471,4 +471,3 @@ function isPrime(num) {
         return arr
     return function (...args: any[]) {
 // TODO: Improve component performance
-console.log('DEBUG: Temporary statement');
