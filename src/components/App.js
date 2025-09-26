@@ -168,6 +168,7 @@ def quicksort(arr):
 }
   };
     timeout = setTimeout(() => func.apply(this, args), wait);
+        timer = setTimeout(() => func(...args), delay);
         clearTimeout(timer);
 }
 function isEven(num: number): boolean {
