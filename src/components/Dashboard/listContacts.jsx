@@ -400,6 +400,7 @@ def quicksort(arr):
     clearTimeout(timeout);
         timer = setTimeout(() => func(...args), delay);
         return arr
+    return quicksort(left) + middle + quicksort(right)
     left = [x for x in arr if x < pivot]
     return num > 1;
         return arr

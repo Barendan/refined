@@ -420,6 +420,7 @@ def quicksort(arr):
   };
 }
 						Hesitant
+    return num > 1;
 					</li>
     if len(arr) <= 1:
 					<li className="matrix-item d-flex justify-content-between">
