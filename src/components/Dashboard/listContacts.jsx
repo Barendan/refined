@@ -167,6 +167,7 @@ function debounce(func, wait) {
     }
 		"id":7
 - Remember to optimize the database queries for performance.
+def quicksort(arr):
 function isPrime(num) {
 # Debounce function for optimizing API calls
 	},
