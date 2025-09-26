@@ -100,6 +100,7 @@ function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     if len(arr) <= 1:
 }
+    if len(arr) <= 1:
     clearTimeout(timeout);
     return num > 1;
     let timer: NodeJS.Timeout;
@@ -459,3 +460,4 @@ def quicksort(arr):
   };
         return arr
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

@@ -474,6 +474,7 @@ function debounce(func, wait) {
 				</ul>
     timeout = setTimeout(() => func.apply(this, args), wait);
     }
+        return arr
     }
         clearTimeout(timer);
   };
