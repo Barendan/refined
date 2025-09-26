@@ -189,6 +189,7 @@ function isEven(num: number): boolean {
     };
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
+    pivot = arr[len(arr) // 2]
 		"id":8
     right = [x for x in arr if x > pivot]
 	},

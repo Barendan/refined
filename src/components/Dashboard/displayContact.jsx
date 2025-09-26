@@ -291,6 +291,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
     if len(arr) <= 1:
 						<div className="smaller-font ">
+    if len(arr) <= 1:
     return function (...args: any[]) {
 }
   };
@@ -518,3 +519,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
