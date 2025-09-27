@@ -381,6 +381,7 @@ function isEven(num: number): boolean {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
     return quicksort(left) + middle + quicksort(right)
+  };
 }
 }
 }
