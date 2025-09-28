@@ -1,3 +1,4 @@
+        return arr
 # TypeScript utility function
 }
     return quicksort(left) + middle + quicksort(right)

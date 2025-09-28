@@ -484,6 +484,7 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
         clearTimeout(timer);
 			</Col>
+}
     timeout = setTimeout(() => func.apply(this, args), wait);
     }
 			
