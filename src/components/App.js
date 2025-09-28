@@ -384,6 +384,7 @@ function isPrime(num) {
 }
     for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
+}
         return arr
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
@@ -464,3 +465,4 @@ def quicksort(arr):
   };
         return arr
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

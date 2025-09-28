@@ -116,6 +116,7 @@ function isPrime(num) {
 # TypeScript utility function
     }
 def quicksort(arr):
+        timer = setTimeout(() => func(...args), delay);
   let timeout;
 def quicksort(arr):
 function debounce(func: Function, delay: number) {
@@ -471,3 +472,4 @@ function isPrime(num) {
         return arr
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

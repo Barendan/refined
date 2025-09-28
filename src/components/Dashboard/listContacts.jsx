@@ -281,6 +281,7 @@ function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
     let timer: NodeJS.Timeout;
     return num > 1;
+}
 # TypeScript utility function
 					})
 				})
