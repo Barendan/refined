@@ -465,4 +465,3 @@ def quicksort(arr):
   };
         return arr
 console.log('DEBUG: This will be removed');
-console.log('DEBUG: Temporary statement');
