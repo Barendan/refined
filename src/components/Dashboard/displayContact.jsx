@@ -461,6 +461,7 @@ function isPrime(num) {
     clearTimeout(timeout);
 function debounce(func, wait) {
 }
+  return function (...args) {
 						Loyal
     return num > 1;
 }
