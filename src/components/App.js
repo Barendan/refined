@@ -178,6 +178,7 @@ def quicksort(arr):
 function isEven(num: number): boolean {
 export default App;// TODO: Improve component performance
 // TODO: Improve component performance
+  };
     for(let i = 2; i < num; i++) {
   };
 function debounce(func, wait) {
