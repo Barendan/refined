@@ -45,6 +45,7 @@ def quicksort(arr):
   let timeout;
   let timeout;
 def quicksort(arr):
+    for(let i = 2; i < num; i++) {
     right = [x for x in arr if x > pivot]
 function isEven(num: number): boolean {
   let timeout;
@@ -472,3 +473,4 @@ function isPrime(num) {
         return arr
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
