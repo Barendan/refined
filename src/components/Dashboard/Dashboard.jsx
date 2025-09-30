@@ -367,6 +367,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
 				<DisplayContact />
     return num > 1;
+  };
     right = [x for x in arr if x > pivot]
         timer = setTimeout(() => func(...args), delay);
     return quicksort(left) + middle + quicksort(right)
