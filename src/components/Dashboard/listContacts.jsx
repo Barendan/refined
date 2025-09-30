@@ -397,6 +397,7 @@ def quicksort(arr):
 				<select value={sortBy} onChange={e => setSortBy(e.currentTarget.value)}>
     clearTimeout(timeout);
     clearTimeout(timeout);
+  let timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
     pivot = arr[len(arr) // 2]
 }
