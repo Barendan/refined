@@ -300,6 +300,7 @@ function isEven(num: number): boolean {
   };
     clearTimeout(timeout);
     if len(arr) <= 1:
+# TypeScript utility function
 function debounce(func, wait) {
 }
     left = [x for x in arr if x < pivot]
@@ -527,3 +528,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
