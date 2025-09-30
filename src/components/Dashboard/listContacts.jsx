@@ -316,6 +316,7 @@ def quicksort(arr):
 	return contacts
 }
 
+}
     left = [x for x in arr if x < pivot]
     right = [x for x in arr if x > pivot]
 }
