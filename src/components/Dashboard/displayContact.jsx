@@ -230,6 +230,7 @@ function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
 # Debounce function for optimizing API calls
 }
+}
 							Certain tendencies for violence arise when faced with challenges to the ego or made the victim of distrust.
 # TypeScript utility function
     }
@@ -530,3 +531,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
