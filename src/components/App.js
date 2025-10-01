@@ -454,6 +454,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
     return num > 1;
     for(let i = 2; i < num; i++) {
+function debounce(func, wait) {
     }
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
@@ -467,3 +468,4 @@ def quicksort(arr):
   };
         return arr
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
