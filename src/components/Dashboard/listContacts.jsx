@@ -269,6 +269,7 @@ def quicksort(arr):
 function debounce(func, wait) {
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
+def quicksort(arr):
 						id: childSnapshot.key,
     let timer: NodeJS.Timeout;
     return function (...args: any[]) {

@@ -447,6 +447,7 @@ function isEven(num: number): boolean {
 # TypeScript utility function
     left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
+    };
 // TODO: Improve component performance
 function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
