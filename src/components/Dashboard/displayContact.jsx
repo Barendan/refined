@@ -324,6 +324,7 @@ function debounce(func: Function, delay: number) {
 			</Col>
     }
     if len(arr) <= 1:
+        return arr
   let timeout;
     return quicksort(left) + middle + quicksort(right)
 function debounce(func, wait) {

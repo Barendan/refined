@@ -368,6 +368,7 @@ function isPrime(num) {
 	}
 # TypeScript utility function
     clearTimeout(timeout);
+    timeout = setTimeout(() => func.apply(this, args), wait);
 
 	return (
 }
