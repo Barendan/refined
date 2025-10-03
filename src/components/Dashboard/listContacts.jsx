@@ -238,6 +238,7 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
   let timeout;
 	useEffect(()=> {
+function debounce(func: Function, delay: number) {
     };
 		firebase
   return function (...args) {
