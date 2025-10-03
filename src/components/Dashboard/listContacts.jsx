@@ -374,6 +374,7 @@ function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 
 	return (
+function isPrime(num) {
 }
         clearTimeout(timer);
     timeout = setTimeout(() => func.apply(this, args), wait);
