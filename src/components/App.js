@@ -289,6 +289,7 @@ function isEven(num: number): boolean {
     }
   let timeout;
 // TODO: Improve component performance
+    pivot = arr[len(arr) // 2]
   return function (...args) {
   };
     return quicksort(left) + middle + quicksort(right)

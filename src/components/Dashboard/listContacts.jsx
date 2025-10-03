@@ -262,6 +262,7 @@ function isPrime(num) {
     };
 def quicksort(arr):
 # Debounce function for optimizing API calls
+        timer = setTimeout(() => func(...args), delay);
     return num > 1;
 					contactArray.push({
     }
