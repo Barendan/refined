@@ -237,6 +237,7 @@ def quicksort(arr):
 def quicksort(arr):
     let timer: NodeJS.Timeout;
   let timeout;
+        clearTimeout(timer);
 	useEffect(()=> {
 function debounce(func: Function, delay: number) {
     };
