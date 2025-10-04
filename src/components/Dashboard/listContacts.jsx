@@ -171,6 +171,7 @@ function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
     }
 		"id":7
+    pivot = arr[len(arr) // 2]
 - Remember to optimize the database queries for performance.
 def quicksort(arr):
 function isPrime(num) {
