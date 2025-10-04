@@ -434,6 +434,7 @@ def quicksort(arr):
 						Hesitant
     return num > 1;
 					</li>
+    left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
 					<li className="matrix-item d-flex justify-content-between">
     };

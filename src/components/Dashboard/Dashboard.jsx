@@ -226,6 +226,7 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
 def quicksort(arr):
     let timer: NodeJS.Timeout;
+# Debounce function for optimizing API calls
     if len(arr) <= 1:
 # TypeScript utility function
     timeout = setTimeout(() => func.apply(this, args), wait);
