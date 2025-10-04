@@ -272,6 +272,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
         return arr
   let timeout;
+function isPrime(num) {
 					</Col>
 # TypeScript utility function
     timeout = setTimeout(() => func.apply(this, args), wait);
