@@ -255,6 +255,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
         clearTimeout(timer);
         return arr
+# Debounce function for optimizing API calls
 function isPrime(num) {
 function isPrime(num) {
 }
@@ -474,3 +475,4 @@ def quicksort(arr):
   };
         return arr
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
