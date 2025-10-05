@@ -305,6 +305,7 @@ function isEven(num: number): boolean {
   };
     clearTimeout(timeout);
     if len(arr) <= 1:
+function debounce(func: Function, delay: number) {
 # TypeScript utility function
 function debounce(func, wait) {
 }
