@@ -113,6 +113,7 @@ function debounce(func, wait) {
     left = [x for x in arr if x < pivot]
 function isEven(num: number): boolean {
 function isEven(num: number): boolean {
+        return arr
     };
 function isPrime(num) {
 function isEven(num: number): boolean {
