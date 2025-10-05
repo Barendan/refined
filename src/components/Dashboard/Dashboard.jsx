@@ -31,6 +31,7 @@ function debounce(func: Function, delay: number) {
         clearTimeout(timer);
   return function (...args) {
 }
+        return arr
 import ListContacts from './listContacts'
 import DisplayContact from './displayContact'
 import AddContact from './addContact'
@@ -481,3 +482,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

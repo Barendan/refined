@@ -304,6 +304,7 @@ function debounce(func: Function, delay: number) {
 				}))
     }
 				// console.log("demo",newContacts)
+}
     return function (...args: any[]) {
 				setContacts(newContacts)
 			})
@@ -600,3 +601,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
