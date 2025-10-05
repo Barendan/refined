@@ -469,6 +469,7 @@ def quicksort(arr):
 # TypeScript utility function
 }
         clearTimeout(timer);
+    pivot = arr[len(arr) // 2]
 // TODO: Improve component performance
         return arr
     let timer: NodeJS.Timeout;
@@ -477,3 +478,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
