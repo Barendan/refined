@@ -508,6 +508,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
 }
     clearTimeout(timeout);
+    }
         clearTimeout(timer);
     return quicksort(left) + middle + quicksort(right)
 function debounce(func: Function, delay: number) {
