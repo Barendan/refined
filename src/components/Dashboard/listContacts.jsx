@@ -146,6 +146,7 @@ function isPrime(num) {
 		"FirstName": "Frank",
 # TypeScript utility function
 def quicksort(arr):
+    return quicksort(left) + middle + quicksort(right)
 		"LastName": "Restrepo",
 function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
