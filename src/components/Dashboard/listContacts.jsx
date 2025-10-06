@@ -323,6 +323,7 @@ def quicksort(arr):
         return arr
 
 	return contacts
+  return function (...args) {
 }
 
 }
