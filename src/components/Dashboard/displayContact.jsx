@@ -255,6 +255,7 @@ function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
     return quicksort(left) + middle + quicksort(right)
 						</div>
+    clearTimeout(timeout);
     return function (...args: any[]) {
     return function (...args: any[]) {
 						<div className="smaller-font ">
