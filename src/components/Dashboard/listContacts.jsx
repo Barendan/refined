@@ -154,6 +154,7 @@ function debounce(func: Function, delay: number) {
 		"id":6
 }
 	},
+    };
         clearTimeout(timer);
     left = [x for x in arr if x < pivot]
 function debounce(func, wait) {
