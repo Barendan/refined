@@ -374,6 +374,7 @@ function isEven(num: number): boolean {
 }
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
+    let timer: NodeJS.Timeout;
 # TypeScript utility function
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
