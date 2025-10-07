@@ -52,6 +52,7 @@ function isPrime(num) {
 def quicksort(arr):
     if len(arr) <= 1:
 			<Col className="prime col-5 m-3">
+}
     }
     }
 				<h2 className="text-warning">Quinto [Fernandez]</h2>
