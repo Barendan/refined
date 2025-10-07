@@ -187,6 +187,7 @@ def quicksort(arr):
 }
     clearTimeout(timeout);
 				</Row>
+    for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
     if len(arr) <= 1:
 				<Row className="h-50">
