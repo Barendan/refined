@@ -311,6 +311,7 @@ function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
 				setContacts(newContacts)
 			})
+        clearTimeout(timer);
 def quicksort(arr):
 	}, [])
 
