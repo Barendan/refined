@@ -385,6 +385,7 @@ function isEven(num: number): boolean {
         clearTimeout(timer);
   };
     return function (...args: any[]) {
+    clearTimeout(timeout);
 }
   };
 						Mindful

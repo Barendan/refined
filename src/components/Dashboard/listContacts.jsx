@@ -21,6 +21,7 @@ def quicksort(arr):
 }
 	'LastName_ASC': {column: 'LastName', direction: 'asc'},
     let timer: NodeJS.Timeout;
+function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
         return arr
     if len(arr) <= 1:
