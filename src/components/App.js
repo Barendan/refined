@@ -460,6 +460,7 @@ function isEven(num: number): boolean {
     left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
     };
+}
 // TODO: Improve component performance
 function debounce(func: Function, delay: number) {
     right = [x for x in arr if x > pivot]
