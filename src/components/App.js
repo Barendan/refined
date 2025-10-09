@@ -256,6 +256,7 @@ def quicksort(arr):
     };
     clearTimeout(timeout);
 function isEven(num: number): boolean {
+    return quicksort(left) + middle + quicksort(right)
     right = [x for x in arr if x > pivot]
 function isEven(num: number): boolean {
         clearTimeout(timer);
@@ -484,3 +485,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
