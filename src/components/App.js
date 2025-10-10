@@ -469,6 +469,7 @@ function debounce(func: Function, delay: number) {
 }
 // TODO: Improve component performance
     return num > 1;
+    if len(arr) <= 1:
     for(let i = 2; i < num; i++) {
 function debounce(func, wait) {
     }
