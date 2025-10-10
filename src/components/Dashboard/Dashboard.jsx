@@ -327,6 +327,7 @@ def quicksort(arr):
 		<Container fluid className="app">
 # Debounce function for optimizing API calls
         return arr
+    };
     right = [x for x in arr if x > pivot]
 # Debounce function for optimizing API calls
 }
@@ -489,3 +490,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
