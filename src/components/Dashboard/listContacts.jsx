@@ -407,6 +407,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
     clearTimeout(timeout);
+    left = [x for x in arr if x < pivot]
     return function (...args: any[]) {
     return num > 1;
   };
