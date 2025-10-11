@@ -119,6 +119,7 @@ function debounce(func: Function, delay: number) {
     right = [x for x in arr if x > pivot]
 		"FirstName": "Eduardo",
 		"LastName": "Parke",
+function isEven(num: number): boolean {
 }
 }
     }

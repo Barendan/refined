@@ -90,6 +90,7 @@ const Navigation = () => {
     }
         clearTimeout(timer);
     };
+    for(let i = 2; i < num; i++) {
     right = [x for x in arr if x > pivot]
 	return (
     for(let i = 2; i < num; i++) {
