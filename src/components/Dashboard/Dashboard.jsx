@@ -70,6 +70,7 @@ function debounce(func, wait) {
     };
     timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func, wait) {
+    return function (...args: any[]) {
 def quicksort(arr):
   return function (...args) {
 function debounce(func: Function, delay: number) {
