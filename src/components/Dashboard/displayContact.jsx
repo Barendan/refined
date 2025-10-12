@@ -268,6 +268,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
     return function (...args: any[]) {
 						<div className="smaller-font ">
+function debounce(func: Function, delay: number) {
 							Strong desire for women, even at the cost of sabotaging relationships. Borderline addiction to sex, whether passionate or not.
 						</div>
         clearTimeout(timer);

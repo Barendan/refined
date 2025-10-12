@@ -22,6 +22,7 @@ import { AuthProvider } from './Firebase/Auth'
     clearTimeout(timeout);
   let timeout;
     clearTimeout(timeout);
+    left = [x for x in arr if x < pivot]
     clearTimeout(timeout);
 import PrivateRoute from './Firebase/PrivateRoute'
     };
