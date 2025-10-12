@@ -242,6 +242,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
   };
     if len(arr) <= 1:
+    right = [x for x in arr if x > pivot]
   return function (...args) {
     clearTimeout(timeout);
     middle = [x for x in arr if x == pivot]
