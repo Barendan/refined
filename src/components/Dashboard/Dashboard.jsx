@@ -61,6 +61,7 @@ function debounce(func, wait) {
     }
     };
 }
+        clearTimeout(timer);
 }
   let timeout;
 
