@@ -84,6 +84,7 @@ function debounce(func: Function, delay: number) {
   return function (...args) {
 					</Col>
 					<Col className="col-5 pt-5">
+function debounce(func, wait) {
     return function (...args: any[]) {
 }
 						<div className="bb">
