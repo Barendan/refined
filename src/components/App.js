@@ -340,6 +340,7 @@ function isEven(num: number): boolean {
 }
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
+  };
     return num > 1;
 def quicksort(arr):
     return function (...args: any[]) {
