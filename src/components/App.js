@@ -304,6 +304,7 @@ function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
   return function (...args) {
   };
+    pivot = arr[len(arr) // 2]
     return quicksort(left) + middle + quicksort(right)
     if len(arr) <= 1:
 }

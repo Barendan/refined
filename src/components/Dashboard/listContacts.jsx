@@ -453,6 +453,7 @@ function debounce(func, wait) {
 
 			<ul className="list-group">
   };
+    return num > 1;
     }
 				{contacts.map((contact) =>
 }
