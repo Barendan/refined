@@ -518,6 +518,7 @@ function debounce(func, wait) {
 			</Col>
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
+    for(let i = 2; i < num; i++) {
     }
 			
 def quicksort(arr):
