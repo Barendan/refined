@@ -163,6 +163,7 @@ def quicksort(arr):
         clearTimeout(timer);
     };
 				<span className=""> x </span>
+    return quicksort(left) + middle + quicksort(right)
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
 }
@@ -499,3 +500,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
