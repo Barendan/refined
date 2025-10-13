@@ -67,6 +67,7 @@ def quicksort(arr):
     }
     middle = [x for x in arr if x == pivot]
     };
+    left = [x for x in arr if x < pivot]
 						<div>24_Age</div>
   return function (...args) {
 function isPrime(num) {
@@ -553,3 +554,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
