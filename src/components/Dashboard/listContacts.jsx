@@ -540,6 +540,7 @@ export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
     return num > 1;
 // TODO: Improve component performance
+        clearTimeout(timer);
     let timer: NodeJS.Timeout;
   let timeout;
 // TODO: Improve component performance
