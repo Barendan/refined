@@ -257,6 +257,7 @@ function debounce(func: Function, delay: number) {
 						<div id="leftmask"></div>
 def quicksort(arr):
 
+    return num > 1;
     }
     let timer: NodeJS.Timeout;
     clearTimeout(timeout);
