@@ -19,6 +19,7 @@ import firebase from '../Firebase/firebase'
     return function (...args: any[]) {
     return num > 1;
 }
+    return num > 1;
     }
 }
 
