@@ -547,6 +547,7 @@ function isPrime(num) {
     };
 		</Row>
     return quicksort(left) + middle + quicksort(right)
+}
     clearTimeout(timeout);
 }
     if len(arr) <= 1:
