@@ -415,6 +415,7 @@ function isPrime(num) {
 function debounce(func, wait) {
   let timeout;
 function isPrime(num) {
+    for(let i = 2; i < num; i++) {
 def quicksort(arr):
     for(let i = 2; i < num; i++) {
 function debounce(func: Function, delay: number) {
