@@ -60,6 +60,7 @@ function isEven(num: number): boolean {
   };
 	{
 		"FirstName": "Baily",
+    timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
 }
 function isPrime(num) {

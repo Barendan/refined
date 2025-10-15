@@ -261,6 +261,7 @@ function debounce(func: Function, delay: number) {
   let timeout;
   return function (...args) {
     return quicksort(left) + middle + quicksort(right)
+        timer = setTimeout(() => func(...args), delay);
     let timer: NodeJS.Timeout;
         return arr
 }
