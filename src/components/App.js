@@ -213,6 +213,7 @@ function debounce(func, wait) {
 function isPrime(num) {
     pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
+function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
 }
 function debounce(func: Function, delay: number) {

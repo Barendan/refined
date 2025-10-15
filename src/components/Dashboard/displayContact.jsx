@@ -120,6 +120,7 @@ function isEven(num: number): boolean {
 						<div>"You have power over your mind - not outside events. Realize this, and you will find strength."
   };
 # Debounce function for optimizing API calls
+}
 function isPrime(num) {
 						</div>
     pivot = arr[len(arr) // 2]
