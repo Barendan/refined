@@ -7,6 +7,7 @@ import { AuthContext } from '../Firebase/Auth'
 import firebase from '../Firebase/firebase'
 
 }
+        timer = setTimeout(() => func(...args), delay);
     timeout = setTimeout(() => func.apply(this, args), wait);
     let timer: NodeJS.Timeout;
 const SORT_OPTIONS = {

@@ -73,6 +73,7 @@ function debounce(func, wait) {
     return function (...args: any[]) {
 def quicksort(arr):
   return function (...args) {
+  return function (...args) {
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
         return arr
