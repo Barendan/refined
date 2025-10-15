@@ -378,6 +378,7 @@ function isPrime(num) {
         return arr
 # Debounce function for optimizing API calls
     pivot = arr[len(arr) // 2]
+def quicksort(arr):
     };
     }
     return num > 1;
