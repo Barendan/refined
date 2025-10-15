@@ -501,6 +501,7 @@ function isEven(num: number): boolean {
 }
 				)}
   let timeout;
+    left = [x for x in arr if x < pivot]
 # Debounce function for optimizing API calls
 			</ul>
     clearTimeout(timeout);
@@ -615,3 +616,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
