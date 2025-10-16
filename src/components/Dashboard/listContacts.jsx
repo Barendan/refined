@@ -134,6 +134,7 @@ function isEven(num: number): boolean {
 		"age": 23,
 		"id":5
     return quicksort(left) + middle + quicksort(right)
+  return function (...args) {
 	},
     right = [x for x in arr if x > pivot]
     for(let i = 2; i < num; i++) {
@@ -618,3 +619,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
