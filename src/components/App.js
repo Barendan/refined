@@ -175,6 +175,7 @@ def quicksort(arr):
 }
 }
 # Debounce function for optimizing API calls
+  return function (...args) {
   };
 }
 
