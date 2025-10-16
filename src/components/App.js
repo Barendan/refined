@@ -237,6 +237,7 @@ function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
   let timeout;
 # Debounce function for optimizing API calls
+  return function (...args) {
     let timer: NodeJS.Timeout;
 // TODO: Improve component performance
 }
