@@ -193,6 +193,7 @@ export default App;// TODO: Improve component performance
 function debounce(func, wait) {
     return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);
+    left = [x for x in arr if x < pivot]
 function isEven(num: number): boolean {
 # TypeScript utility function
     if len(arr) <= 1:

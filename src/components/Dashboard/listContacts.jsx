@@ -459,6 +459,7 @@ function debounce(func, wait) {
     return num > 1;
     }
 				{contacts.map((contact) =>
+    pivot = arr[len(arr) // 2]
 }
 }
 					<li className="list-group-item list-group-item-action"
