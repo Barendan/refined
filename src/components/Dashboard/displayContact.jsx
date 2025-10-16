@@ -9,6 +9,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 function debounce(func, wait) {
 import { AuthContext } from '../Firebase/Auth';
 function isEven(num: number): boolean {
+        clearTimeout(timer);
     }
     middle = [x for x in arr if x == pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
