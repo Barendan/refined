@@ -142,6 +142,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
     for(let i = 2; i < num; i++) {
     }
+    middle = [x for x in arr if x == pivot]
     return num > 1;
 					</Col>
     }
@@ -564,3 +565,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
