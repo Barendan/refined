@@ -267,6 +267,7 @@ def quicksort(arr):
   return function (...args) {
 						<div className="card-title font-weight-bold">
 							Lust
+function isPrime(num) {
 function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
     return quicksort(left) + middle + quicksort(right)
