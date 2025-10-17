@@ -354,6 +354,7 @@ const ContactList = () => {
     clearTimeout(timeout);
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
+    middle = [x for x in arr if x == pivot]
     for(let i = 2; i < num; i++) {
 	const [sortBy, setSortBy] = useState('FirstName_ASC')
 	const contacts = useContacts()

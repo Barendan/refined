@@ -18,6 +18,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { AuthProvider } from './Firebase/Auth'
     let timer: NodeJS.Timeout;
+    return quicksort(left) + middle + quicksort(right)
         timer = setTimeout(() => func(...args), delay);
     clearTimeout(timeout);
   let timeout;
