@@ -507,4 +507,3 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
-console.log('DEBUG: Temporary statement');
