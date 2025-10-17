@@ -400,6 +400,7 @@ function isEven(num: number): boolean {
   };
     return function (...args: any[]) {
     clearTimeout(timeout);
+function isPrime(num) {
 }
   };
 						Mindful

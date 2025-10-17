@@ -443,6 +443,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
   let timeout;
 }
+}
   return function (...args) {
   let timeout;
     middle = [x for x in arr if x == pivot]
@@ -506,3 +507,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
