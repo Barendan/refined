@@ -148,6 +148,7 @@ function debounce(func: Function, delay: number) {
     }
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
+}
 				</Row>
 function isEven(num: number): boolean {
 def quicksort(arr):
