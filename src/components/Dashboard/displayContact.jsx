@@ -206,6 +206,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
     middle = [x for x in arr if x == pivot]
     for(let i = 2; i < num; i++) {
+    middle = [x for x in arr if x == pivot]
 					<Col className="col-4 card border-right-0 border-bottom-0">
   };
 }
