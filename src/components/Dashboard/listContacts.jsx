@@ -69,6 +69,7 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
   return function (...args) {
 		"LastName": "Mando",
+    return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
@@ -624,3 +625,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
