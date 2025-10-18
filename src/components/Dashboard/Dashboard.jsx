@@ -279,6 +279,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
 }
+}
   let timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
 				<span className="">&#8211;</span>
