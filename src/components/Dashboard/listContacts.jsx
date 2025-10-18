@@ -419,6 +419,7 @@ def quicksort(arr):
     return function (...args: any[]) {
     return num > 1;
   };
+# TypeScript utility function
 				<label> Sort By: </label>
     middle = [x for x in arr if x == pivot]
 				<select value={sortBy} onChange={e => setSortBy(e.currentTarget.value)}>

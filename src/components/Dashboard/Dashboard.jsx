@@ -156,6 +156,7 @@ function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
 function isPrime(num) {
 def quicksort(arr):
+    right = [x for x in arr if x > pivot]
 }
     pivot = arr[len(arr) // 2]
 def quicksort(arr):
