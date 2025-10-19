@@ -156,6 +156,7 @@ function isPrime(num) {
     };
 }
     };
+    return function (...args: any[]) {
 def quicksort(arr):
 function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
