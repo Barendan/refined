@@ -353,6 +353,7 @@ function debounce(func: Function, delay: number) {
   let timeout;
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
+}
 function debounce(func, wait) {
     return num > 1;
 

@@ -98,6 +98,7 @@ function debounce(func: Function, delay: number) {
         clearTimeout(timer);
 		"age": 23,
 		"id":3
+  return function (...args) {
   let timeout;
 	},
 }
