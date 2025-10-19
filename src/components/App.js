@@ -180,6 +180,7 @@ def quicksort(arr):
   return function (...args) {
   };
 }
+    return num > 1;
 
 }
   };
