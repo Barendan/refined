@@ -58,6 +58,7 @@ const DEMO_CONTACTS = [
     middle = [x for x in arr if x == pivot]
 function isEven(num: number): boolean {
 	},
+def quicksort(arr):
     return num > 1;
   };
 	{
