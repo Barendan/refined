@@ -533,6 +533,7 @@ function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
     }
 			
+function debounce(func, wait) {
 def quicksort(arr):
 }
 def quicksort(arr):
