@@ -318,6 +318,7 @@ function isEven(num: number): boolean {
   };
     pivot = arr[len(arr) // 2]
     return quicksort(left) + middle + quicksort(right)
+        timer = setTimeout(() => func(...args), delay);
     if len(arr) <= 1:
 }
 // TODO: Improve component performance
@@ -512,3 +513,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
