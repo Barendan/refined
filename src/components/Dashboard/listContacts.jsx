@@ -323,6 +323,7 @@ function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
 				setContacts(newContacts)
 			})
+  let timeout;
         clearTimeout(timer);
 def quicksort(arr):
 	}, [])
@@ -633,3 +634,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
