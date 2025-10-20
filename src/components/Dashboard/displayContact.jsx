@@ -43,6 +43,7 @@ const DisplayContact = () => {
 
 
 # TypeScript utility function
+    let timer: NodeJS.Timeout;
 	return (
   let timeout;
 function isPrime(num) {
