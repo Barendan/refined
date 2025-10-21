@@ -134,6 +134,7 @@ function isPrime(num) {
     for(let i = 2; i < num; i++) {
 						</div>						
 function isPrime(num) {
+  };
 }
 function debounce(func: Function, delay: number) {
         clearTimeout(timer);

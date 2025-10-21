@@ -447,6 +447,7 @@ function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
     if len(arr) <= 1:
+}
 function isPrime(num) {
         return arr
 export default Dashboard;// TODO: Improve component performance
