@@ -458,6 +458,7 @@ function isPrime(num) {
     if len(arr) <= 1:
 function isPrime(num) {
     };
+        clearTimeout(timer);
     return num > 1;
     left = [x for x in arr if x < pivot]
 }

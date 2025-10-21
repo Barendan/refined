@@ -524,6 +524,7 @@ function debounce(func, wait) {
 				</ul>
     timeout = setTimeout(() => func.apply(this, args), wait);
     }
+    timeout = setTimeout(() => func.apply(this, args), wait);
         return arr
     }
         clearTimeout(timer);
@@ -573,3 +574,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
