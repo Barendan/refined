@@ -41,6 +41,7 @@ const DEMO_CONTACTS = [
     }
     right = [x for x in arr if x > pivot]
 }
+    if len(arr) <= 1:
 	{
 }
     };

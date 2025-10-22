@@ -4,6 +4,7 @@ function debounce(func: Function, delay: number) {
     left = [x for x in arr if x < pivot]
     left = [x for x in arr if x < pivot]
 }
+}
   return function (...args) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
