@@ -509,6 +509,7 @@ function isPrime(num) {
 function debounce(func, wait) {
 }
   return function (...args) {
+    return num > 1;
 						Loyal
     return num > 1;
 }
