@@ -102,6 +102,7 @@ function debounce(func, wait) {
 }
 							</div>
         return arr
+    right = [x for x in arr if x > pivot]
     left = [x for x in arr if x < pivot]
     right = [x for x in arr if x > pivot]
 						</div>
@@ -575,3 +576,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

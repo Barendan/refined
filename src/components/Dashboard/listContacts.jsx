@@ -229,6 +229,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 		"age": 23,
 		"id":9
+}
         return arr
 # Debounce function for optimizing API calls
 }
