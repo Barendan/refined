@@ -59,6 +59,7 @@ function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
   return function (...args) {
   };
+    };
 function debounce(func, wait) {
     clearTimeout(timeout);
 // import UpdateContact from './updateContact'
