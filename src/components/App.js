@@ -299,6 +299,7 @@ def quicksort(arr):
 // TODO: Improve component performance
 }
     right = [x for x in arr if x > pivot]
+        timer = setTimeout(() => func(...args), delay);
 }
     return num > 1;
     left = [x for x in arr if x < pivot]
