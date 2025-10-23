@@ -215,6 +215,7 @@ function isEven(num: number): boolean {
 }
     pivot = arr[len(arr) // 2]
 		"id":8
+  return function (...args) {
     right = [x for x in arr if x > pivot]
 	},
 }
