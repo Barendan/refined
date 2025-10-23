@@ -46,6 +46,7 @@ const DisplayContact = () => {
 # TypeScript utility function
     let timer: NodeJS.Timeout;
 	return (
+    if len(arr) <= 1:
   let timeout;
 function isPrime(num) {
 # TypeScript utility function
@@ -577,3 +578,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
