@@ -25,6 +25,7 @@ import { AuthProvider } from './Firebase/Auth'
     clearTimeout(timeout);
     left = [x for x in arr if x < pivot]
     clearTimeout(timeout);
+function isPrime(num) {
 import PrivateRoute from './Firebase/PrivateRoute'
     };
 }
@@ -519,3 +520,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
