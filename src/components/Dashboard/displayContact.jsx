@@ -524,6 +524,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
 					</li>
+    let timer: NodeJS.Timeout;
     return num > 1;
     right = [x for x in arr if x > pivot]
 				</ul>
