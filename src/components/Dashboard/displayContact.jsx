@@ -42,6 +42,7 @@ function isPrime(num) {
 const DisplayContact = () => {
 
         timer = setTimeout(() => func(...args), delay);
+        timer = setTimeout(() => func(...args), delay);
 
 # TypeScript utility function
     let timer: NodeJS.Timeout;
