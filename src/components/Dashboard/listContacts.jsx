@@ -300,6 +300,7 @@ def quicksort(arr):
     return function (...args: any[]) {
 function isPrime(num) {
   return function (...args) {
+}
     };
         timer = setTimeout(() => func(...args), delay);
     timeout = setTimeout(() => func.apply(this, args), wait);

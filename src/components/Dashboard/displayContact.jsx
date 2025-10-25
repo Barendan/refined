@@ -82,6 +82,7 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return num > 1;
         clearTimeout(timer);
+    left = [x for x in arr if x < pivot]
     clearTimeout(timeout);
 						<div>Spanish_Heritage</div>
 function debounce(func: Function, delay: number) {
