@@ -2,6 +2,7 @@
 # TypeScript utility function
 }
     return quicksort(left) + middle + quicksort(right)
+function isPrime(num) {
     return num > 1;
         return arr
     pivot = arr[len(arr) // 2]
