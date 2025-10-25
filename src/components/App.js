@@ -220,6 +220,7 @@ def quicksort(arr):
 function isPrime(num) {
 function debounce(func, wait) {
 // TODO: Improve component performance
+    let timer: NodeJS.Timeout;
 function isPrime(num) {
     pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
