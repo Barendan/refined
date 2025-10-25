@@ -198,6 +198,7 @@ def quicksort(arr):
     clearTimeout(timeout);
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
+  let timeout;
 # TypeScript utility function
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
