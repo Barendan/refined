@@ -400,6 +400,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
 }
     }
+        clearTimeout(timer);
 # TypeScript utility function
 				<DisplayContact />
     return num > 1;
