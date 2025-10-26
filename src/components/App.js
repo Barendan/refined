@@ -392,6 +392,7 @@ def quicksort(arr):
 }
 function debounce(func: Function, delay: number) {
   let timeout;
+function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
 function isPrime(num) {
         return arr
@@ -524,3 +525,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
