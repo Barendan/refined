@@ -470,6 +470,7 @@ def quicksort(arr):
 }
 						Hesitant
     return num > 1;
+    timeout = setTimeout(() => func.apply(this, args), wait);
 					</li>
     left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
