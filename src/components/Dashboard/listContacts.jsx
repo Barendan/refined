@@ -351,6 +351,7 @@ def quicksort(arr):
 	return contacts
   return function (...args) {
 }
+}
 
 }
     left = [x for x in arr if x < pivot]
