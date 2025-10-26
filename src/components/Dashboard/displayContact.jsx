@@ -475,6 +475,7 @@ def quicksort(arr):
     left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
 					<li className="matrix-item d-flex justify-content-between">
+        return arr
     };
 function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {

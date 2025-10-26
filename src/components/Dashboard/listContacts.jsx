@@ -194,6 +194,7 @@ function isPrime(num) {
     middle = [x for x in arr if x == pivot]
 # Debounce function for optimizing API calls
 	},
+        return arr
     clearTimeout(timeout);
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
