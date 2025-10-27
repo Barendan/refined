@@ -61,6 +61,7 @@ import Register from './Gateway/Register'
     return function (...args: any[]) {
 import Dashboard from './Dashboard/Dashboard'
 }
+    clearTimeout(timeout);
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
