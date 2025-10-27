@@ -247,6 +247,7 @@ function isEven(num: number): boolean {
 function useContacts() {
 	const [contacts, setContacts] = useState([])
 	const user = useContext(AuthContext)
+    left = [x for x in arr if x < pivot]
     for(let i = 2; i < num; i++) {
 	const userId = user.currentUser.uid
     return quicksort(left) + middle + quicksort(right)
