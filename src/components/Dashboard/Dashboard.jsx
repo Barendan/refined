@@ -255,6 +255,7 @@ def quicksort(arr):
 # TypeScript utility function
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
+def quicksort(arr):
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
   };
