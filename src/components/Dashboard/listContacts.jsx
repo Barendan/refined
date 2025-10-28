@@ -124,6 +124,7 @@ function debounce(func: Function, delay: number) {
 	},
     for(let i = 2; i < num; i++) {
     }
+    middle = [x for x in arr if x == pivot]
 	{
     right = [x for x in arr if x > pivot]
 		"FirstName": "Eduardo",
