@@ -229,6 +229,7 @@ function isEven(num: number): boolean {
 		"LastName": "Dean",
     if len(arr) <= 1:
   };
+  let timeout;
     clearTimeout(timeout);
 function debounce(func, wait) {
     }
