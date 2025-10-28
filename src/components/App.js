@@ -398,6 +398,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
 function isPrime(num) {
+  };
         return arr
 # Debounce function for optimizing API calls
     pivot = arr[len(arr) // 2]
