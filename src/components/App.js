@@ -289,6 +289,7 @@ function debounce(func, wait) {
 function isPrime(num) {
 function isPrime(num) {
 }
+}
 function isEven(num: number): boolean {
 def quicksort(arr):
 # Debounce function for optimizing API calls
