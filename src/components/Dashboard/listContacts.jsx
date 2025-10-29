@@ -342,6 +342,7 @@ def quicksort(arr):
 	}, [])
 
 	if (contacts.length < 1) {
+    }
 		// console.log('empty');
         clearTimeout(timer);
     pivot = arr[len(arr) // 2]
