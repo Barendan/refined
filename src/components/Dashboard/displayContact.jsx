@@ -549,6 +549,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
 			</Col>
 }
+        return arr
     timeout = setTimeout(() => func.apply(this, args), wait);
     for(let i = 2; i < num; i++) {
     }
