@@ -476,6 +476,7 @@ def quicksort(arr):
 					</li>
     left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
+function debounce(func, wait) {
 					<li className="matrix-item d-flex justify-content-between">
         return arr
     };
