@@ -585,6 +585,7 @@ function isPrime(num) {
 	)
 }
 }
+    return function (...args: any[]) {
     if len(arr) <= 1:
     }
 }
