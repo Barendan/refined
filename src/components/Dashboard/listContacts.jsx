@@ -594,6 +594,7 @@ export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
   let timeout;
   let timeout;
+    return num > 1;
         clearTimeout(timer);
 // TODO: Improve component performance
 # TypeScript utility function
