@@ -398,6 +398,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
         clearTimeout(timer);
 function debounce(func: Function, delay: number) {
+function debounce(func: Function, delay: number) {
 }
 # TypeScript utility function
   };
