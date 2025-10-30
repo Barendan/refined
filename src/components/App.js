@@ -493,6 +493,7 @@ function isPrime(num) {
         return arr
     };
 function isEven(num: number): boolean {
+    for(let i = 2; i < num; i++) {
     return function (...args: any[]) {
 // TODO: Improve component performance
         return arr
