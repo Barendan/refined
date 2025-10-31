@@ -425,6 +425,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
     middle = [x for x in arr if x == pivot]
 function isEven(num: number): boolean {
+  let timeout;
 # TypeScript utility function
 function debounce(func, wait) {
 			</Row>
