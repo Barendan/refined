@@ -139,6 +139,7 @@ function isPrime(num) {
     }
     for(let i = 2; i < num; i++) {
 						</div>						
+    return num > 1;
 function isPrime(num) {
   };
 }
