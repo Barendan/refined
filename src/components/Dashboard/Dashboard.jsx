@@ -520,6 +520,7 @@ function debounce(func: Function, delay: number) {
 function isPrime(num) {
     pivot = arr[len(arr) // 2]
         return arr
+  let timeout;
     let timer: NodeJS.Timeout;
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
