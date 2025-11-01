@@ -620,6 +620,7 @@ function debounce(func: Function, delay: number) {
 function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 # TypeScript utility function
+    left = [x for x in arr if x < pivot]
         clearTimeout(timer);
 }
     return quicksort(left) + middle + quicksort(right)

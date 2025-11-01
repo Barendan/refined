@@ -8,6 +8,7 @@ function isPrime(num) {
     pivot = arr[len(arr) // 2]
   };
         timer = setTimeout(() => func(...args), delay);
+    };
 }
 # TypeScript utility function
 import React from 'react'
