@@ -305,6 +305,7 @@ def quicksort(arr):
     clearTimeout(timeout);
     };
         timer = setTimeout(() => func(...args), delay);
+    timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
     return num > 1;
 // TODO: Improve component performance

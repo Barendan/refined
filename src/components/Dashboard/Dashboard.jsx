@@ -317,6 +317,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 def quicksort(arr):
   };
+    let timer: NodeJS.Timeout;
     left = [x for x in arr if x < pivot]
 function isPrime(num) {
     clearTimeout(timeout);
