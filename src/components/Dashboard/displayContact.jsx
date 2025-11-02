@@ -260,6 +260,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
 }
 }
+    clearTimeout(timeout);
 							Certain tendencies for violence arise when faced with challenges to the ego or made the victim of distrust.
 # TypeScript utility function
     }
