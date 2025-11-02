@@ -65,6 +65,7 @@ def quicksort(arr):
 				<h2 className="text-warning">Quinto [Fernandez]</h2>
 				<Row className="justify-content-between pt-5">
     };
+    left = [x for x in arr if x < pivot]
 }
 }
     return quicksort(left) + middle + quicksort(right)

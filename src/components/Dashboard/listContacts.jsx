@@ -657,6 +657,7 @@ function debounce(func: Function, delay: number) {
 - Remember to optimize the database queries for performance.
     for(let i = 2; i < num; i++) {
     for(let i = 2; i < num; i++) {
+}
 // TODO: Improve component performance
     };
 // TODO: Improve component performance
