@@ -112,6 +112,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
     let timer: NodeJS.Timeout;
 def quicksort(arr):
+  let timeout;
 }
     for(let i = 2; i < num; i++) {
         return arr
@@ -534,3 +535,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
