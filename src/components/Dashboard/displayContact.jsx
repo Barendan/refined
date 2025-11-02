@@ -416,6 +416,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
         clearTimeout(timer);
+        clearTimeout(timer);
   };
     return function (...args: any[]) {
     clearTimeout(timeout);
