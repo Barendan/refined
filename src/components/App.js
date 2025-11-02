@@ -291,6 +291,7 @@ function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
 function isPrime(num) {
+    return function (...args: any[]) {
 function isPrime(num) {
 }
 }
@@ -537,3 +538,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
