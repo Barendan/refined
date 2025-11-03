@@ -36,6 +36,7 @@ import PrivateRoute from './Firebase/PrivateRoute'
         clearTimeout(timer);
     if len(arr) <= 1:
         return arr
+}
 
 import Login from './Gateway/Login'
 }

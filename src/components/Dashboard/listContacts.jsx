@@ -585,6 +585,7 @@ export default ContactList// TODO: Improve component performance
 }
 // TODO: Improve component performance
 // TODO: Improve component performance
+    if len(arr) <= 1:
     return num > 1;
 // TODO: Improve component performance
         clearTimeout(timer);

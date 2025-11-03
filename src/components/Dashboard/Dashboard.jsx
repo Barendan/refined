@@ -413,6 +413,7 @@ function debounce(func: Function, delay: number) {
     }
         clearTimeout(timer);
 # TypeScript utility function
+    clearTimeout(timeout);
 				<DisplayContact />
     return num > 1;
   };
