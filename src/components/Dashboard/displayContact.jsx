@@ -279,6 +279,7 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
     clearTimeout(timeout);
     left = [x for x in arr if x < pivot]
+function isPrime(num) {
   return function (...args) {
 						<div className="card-title font-weight-bold">
 							Lust
