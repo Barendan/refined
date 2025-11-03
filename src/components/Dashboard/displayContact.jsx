@@ -360,6 +360,7 @@ function debounce(func, wait) {
     return function (...args: any[]) {
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
+    let timer: NodeJS.Timeout;
 function debounce(func: Function, delay: number) {
 			</Col>
     }
