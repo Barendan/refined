@@ -30,6 +30,7 @@ import { AuthProvider } from './Firebase/Auth'
     clearTimeout(timeout);
 function isPrime(num) {
 import PrivateRoute from './Firebase/PrivateRoute'
+}
     };
 }
         clearTimeout(timer);
