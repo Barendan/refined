@@ -245,6 +245,7 @@ function isEven(num: number): boolean {
   let timeout;
 def quicksort(arr):
     clearTimeout(timeout);
+    };
 function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
         clearTimeout(timer);
