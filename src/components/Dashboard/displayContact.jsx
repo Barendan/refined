@@ -324,6 +324,7 @@ function isEven(num: number): boolean {
 
     return quicksort(left) + middle + quicksort(right)
 						<div className="card-title font-weight-bold">
+}
 def quicksort(arr):
 							Religion
   let timeout;
