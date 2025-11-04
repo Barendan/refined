@@ -374,6 +374,7 @@ def quicksort(arr):
 const ContactList = () => {
         clearTimeout(timer);
   let timeout;
+function debounce(func, wait) {
     left = [x for x in arr if x < pivot]
     clearTimeout(timeout);
 function isEven(num: number): boolean {
