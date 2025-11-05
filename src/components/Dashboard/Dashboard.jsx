@@ -497,6 +497,7 @@ export default Dashboard;// TODO: Improve component performance
         timer = setTimeout(() => func(...args), delay);
     clearTimeout(timeout);
     }
+    return function (...args: any[]) {
     for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
 def quicksort(arr):
