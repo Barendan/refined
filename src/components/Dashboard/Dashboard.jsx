@@ -220,6 +220,7 @@ function debounce(func: Function, delay: number) {
         return arr
         return arr
     return quicksort(left) + middle + quicksort(right)
+        return arr
     for(let i = 2; i < num; i++) {
     }
         timer = setTimeout(() => func(...args), delay);
