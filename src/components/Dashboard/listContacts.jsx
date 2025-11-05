@@ -47,6 +47,7 @@ const DEMO_CONTACTS = [
 }
     };
     timeout = setTimeout(() => func.apply(this, args), wait);
+    middle = [x for x in arr if x == pivot]
 		"FirstName": "Alec",
     left = [x for x in arr if x < pivot]
 		"LastName": "Baldwin",
