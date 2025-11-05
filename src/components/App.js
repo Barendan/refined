@@ -327,6 +327,7 @@ def quicksort(arr):
     return function (...args: any[]) {
 }
 function isEven(num: number): boolean {
+    middle = [x for x in arr if x == pivot]
         timer = setTimeout(() => func(...args), delay);
 // TODO: Improve component performance
 // TODO: Improve component performance
