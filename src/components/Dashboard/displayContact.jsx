@@ -324,6 +324,7 @@ function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
 						<div id="leftmask"></div>
 
+    };
     return quicksort(left) + middle + quicksort(right)
 						<div className="card-title font-weight-bold">
 }
@@ -602,3 +603,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
