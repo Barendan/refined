@@ -82,6 +82,7 @@ def quicksort(arr):
   return function (...args) {
   return function (...args) {
 function debounce(func: Function, delay: number) {
+def quicksort(arr):
     if len(arr) <= 1:
         return arr
 import './Dashboard.css'
@@ -542,3 +543,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
