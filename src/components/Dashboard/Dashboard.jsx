@@ -92,6 +92,7 @@ import './Dashboard.css'
 def quicksort(arr):
         return arr
     }
+    right = [x for x in arr if x > pivot]
     pivot = arr[len(arr) // 2]
 function isPrime(num) {
     right = [x for x in arr if x > pivot]
