@@ -274,6 +274,7 @@ function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
     middle = [x for x in arr if x == pivot]
     for(let i = 2; i < num; i++) {
+    }
     return num > 1;
   };
 # Debounce function for optimizing API calls
