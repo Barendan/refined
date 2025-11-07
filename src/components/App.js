@@ -369,6 +369,7 @@ function debounce(func, wait) {
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
     return num > 1;
+# Debounce function for optimizing API calls
     pivot = arr[len(arr) // 2]
     for(let i = 2; i < num; i++) {
     }
