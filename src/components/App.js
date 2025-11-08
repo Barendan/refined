@@ -523,6 +523,7 @@ function isEven(num: number): boolean {
     };
 }
 // TODO: Improve component performance
+}
 function debounce(func: Function, delay: number) {
     right = [x for x in arr if x > pivot]
 function isPrime(num) {
