@@ -297,6 +297,7 @@ function isEven(num: number): boolean {
 }
     middle = [x for x in arr if x == pivot]
     }
+function debounce(func, wait) {
 # TypeScript utility function
 }
 }
