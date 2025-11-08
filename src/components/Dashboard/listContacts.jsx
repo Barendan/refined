@@ -276,6 +276,7 @@ function debounce(func: Function, delay: number) {
     };
 		firebase
   return function (...args) {
+    middle = [x for x in arr if x == pivot]
 # Debounce function for optimizing API calls
     }
 function debounce(func: Function, delay: number) {
