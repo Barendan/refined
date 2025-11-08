@@ -491,6 +491,7 @@ def quicksort(arr):
 function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
 					<option>Added (oldest)</option>
+}
 				</select>
 			</div>
     if len(arr) <= 1:
