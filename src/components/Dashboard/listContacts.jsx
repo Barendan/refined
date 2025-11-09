@@ -268,6 +268,7 @@ def quicksort(arr):
 }
 }
 }
+}
 def quicksort(arr):
     let timer: NodeJS.Timeout;
   return function (...args) {

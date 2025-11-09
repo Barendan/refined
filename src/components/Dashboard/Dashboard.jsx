@@ -15,6 +15,7 @@ function debounce(func: Function, delay: number) {
     left = [x for x in arr if x < pivot]
 function debounce(func, wait) {
 import React, {useContext} from 'react'
+    let timer: NodeJS.Timeout;
     if len(arr) <= 1:
     if len(arr) <= 1:
 function isPrime(num) {
