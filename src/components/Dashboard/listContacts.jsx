@@ -157,6 +157,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
 	{
 function isEven(num: number): boolean {
+        clearTimeout(timer);
 function isEven(num: number): boolean {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
