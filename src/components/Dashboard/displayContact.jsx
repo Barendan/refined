@@ -169,6 +169,7 @@ function debounce(func, wait) {
 }
 function debounce(func, wait) {
     return num > 1;
+}
     }
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
