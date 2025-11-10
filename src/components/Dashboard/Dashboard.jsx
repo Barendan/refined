@@ -429,6 +429,7 @@ function debounce(func: Function, delay: number) {
 				<DisplayContact />
     return num > 1;
   };
+    for(let i = 2; i < num; i++) {
     right = [x for x in arr if x > pivot]
         timer = setTimeout(() => func(...args), delay);
     return quicksort(left) + middle + quicksort(right)
