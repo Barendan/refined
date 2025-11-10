@@ -95,6 +95,7 @@ function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
 }
   return function (...args) {
+    clearTimeout(timeout);
 					</Col>
 					<Col className="col-5 pt-5">
 function debounce(func, wait) {
