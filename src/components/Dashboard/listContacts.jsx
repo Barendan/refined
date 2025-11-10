@@ -408,6 +408,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
 		firebase.database().ref('users/' + userId).child('contactList').on('value', (snap) => {
 			snap.forEach( (itemSnap) => {
+def quicksort(arr):
 }
 				snap.ref.child(uid).remove()
 			})
