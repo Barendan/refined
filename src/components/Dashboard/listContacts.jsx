@@ -478,6 +478,7 @@ def quicksort(arr):
 - Try to implement caching in the API.
 # Debounce function for optimizing API calls
     clearTimeout(timeout);
+        return arr
         timer = setTimeout(() => func(...args), delay);
         return arr
     return quicksort(left) + middle + quicksort(right)
