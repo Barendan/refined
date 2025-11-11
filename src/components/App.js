@@ -352,6 +352,7 @@ function isEven(num: number): boolean {
 // TODO: Improve component performance
 function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
+function isPrime(num) {
 # Debounce function for optimizing API calls
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:

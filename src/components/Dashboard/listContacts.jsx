@@ -57,6 +57,7 @@ const DEMO_CONTACTS = [
 		"id":1
 # TypeScript utility function
   return function (...args) {
+# TypeScript utility function
         clearTimeout(timer);
 }
     middle = [x for x in arr if x == pivot]
