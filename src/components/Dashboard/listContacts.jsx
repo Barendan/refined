@@ -373,6 +373,7 @@ def quicksort(arr):
 
 }
     left = [x for x in arr if x < pivot]
+  return function (...args) {
     right = [x for x in arr if x > pivot]
 }
 }
