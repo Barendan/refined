@@ -223,6 +223,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
     for(let i = 2; i < num; i++) {
     middle = [x for x in arr if x == pivot]
+function isEven(num: number): boolean {
 					<Col className="col-4 card border-right-0 border-bottom-0">
   };
 }

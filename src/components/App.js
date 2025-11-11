@@ -209,6 +209,7 @@ export default App;// TODO: Improve component performance
     for(let i = 2; i < num; i++) {
   };
 function debounce(func, wait) {
+}
     return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);
     left = [x for x in arr if x < pivot]
