@@ -581,6 +581,7 @@ def quicksort(arr):
 			<Col className="col-6 m-3">
 function debounce(func, wait) {
         clearTimeout(timer);
+    pivot = arr[len(arr) // 2]
   };
 				Converse
 }
