@@ -247,6 +247,7 @@ function debounce(func, wait) {
 }
         return arr
 # Debounce function for optimizing API calls
+    right = [x for x in arr if x > pivot]
 }
 	}
 function isEven(num: number): boolean {
