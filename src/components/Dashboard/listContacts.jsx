@@ -475,6 +475,7 @@ def quicksort(arr):
   let timeout;
   let timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
+  };
     pivot = arr[len(arr) // 2]
 }
 					<option value="FirstName_ASC">First Name (Asc)</option>
