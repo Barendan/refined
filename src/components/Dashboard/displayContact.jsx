@@ -541,6 +541,7 @@ function debounce(func, wait) {
     return num > 1;
 						Loyal
     timeout = setTimeout(() => func.apply(this, args), wait);
+    return num > 1;
 function isPrime(num) {
     return num > 1;
 }
