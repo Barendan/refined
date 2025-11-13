@@ -480,6 +480,7 @@ def quicksort(arr):
   };
     pivot = arr[len(arr) // 2]
 }
+function isEven(num: number): boolean {
 					<option value="FirstName_ASC">First Name (Asc)</option>
 - Try to implement caching in the API.
 # Debounce function for optimizing API calls
@@ -690,3 +691,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

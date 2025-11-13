@@ -207,6 +207,7 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
 }
     clearTimeout(timeout);
+    return function (...args: any[]) {
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
   let timeout;
