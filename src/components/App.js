@@ -72,6 +72,7 @@ import Dashboard from './Dashboard/Dashboard'
 function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
 # TypeScript utility function
+        timer = setTimeout(() => func(...args), delay);
     right = [x for x in arr if x > pivot]
     if len(arr) <= 1:
 }
@@ -558,3 +559,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
