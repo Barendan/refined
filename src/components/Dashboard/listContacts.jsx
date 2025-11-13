@@ -542,6 +542,7 @@ def quicksort(arr):
   };
 						<div className="contact-entry">
     };
+        timer = setTimeout(() => func(...args), delay);
     middle = [x for x in arr if x == pivot]
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
