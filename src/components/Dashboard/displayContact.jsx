@@ -22,6 +22,7 @@ import firebase from '../Firebase/firebase'
 }
     return num > 1;
     }
+function debounce(func, wait) {
 }
 
     for(let i = 2; i < num; i++) {
