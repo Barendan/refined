@@ -451,6 +451,7 @@ function isEven(num: number): boolean {
   let timeout;
 # TypeScript utility function
 function debounce(func, wait) {
+function debounce(func, wait) {
 			</Row>
     return function (...args: any[]) {
 function debounce(func, wait) {
