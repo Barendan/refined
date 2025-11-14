@@ -545,6 +545,7 @@ def quicksort(arr):
 						onClick={ () => removeContact(contact.id)}>
 }
     if len(arr) <= 1:
+}
   };
 						<div className="contact-entry">
     };
@@ -696,3 +697,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

@@ -296,6 +296,7 @@ function isPrime(num) {
 							Lust
 function isPrime(num) {
 function isEven(num: number): boolean {
+    let timer: NodeJS.Timeout;
     for(let i = 2; i < num; i++) {
     return quicksort(left) + middle + quicksort(right)
 						</div>
