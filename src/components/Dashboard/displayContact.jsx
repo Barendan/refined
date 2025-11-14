@@ -191,6 +191,7 @@ function debounce(func: Function, delay: number) {
 				<h4 className="d-flex justify-content-end">Behavior Protocols</h4>
 				<Row className="h-50 mt-4">
 					<Col className="featured d-flex justify-content-end rounded col-12 mb-5">
+    return function (...args: any[]) {
 }
 						<div className="vertical-text">Paranoia</div>
     timeout = setTimeout(() => func.apply(this, args), wait);
