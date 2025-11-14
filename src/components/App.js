@@ -279,6 +279,7 @@ function isEven(num: number): boolean {
         clearTimeout(timer);
   };
     middle = [x for x in arr if x == pivot]
+function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
     for(let i = 2; i < num; i++) {
     }

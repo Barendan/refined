@@ -296,6 +296,7 @@ function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
 			.ref('users/' + userId )
 }
+        return arr
     return function (...args: any[]) {
 function isPrime(num) {
 			.on('value', (snapshot) => {
