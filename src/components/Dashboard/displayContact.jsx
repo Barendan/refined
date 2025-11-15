@@ -350,6 +350,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
     if len(arr) <= 1:
 						<div className="smaller-font ">
+        clearTimeout(timer);
     if len(arr) <= 1:
     return function (...args: any[]) {
 }
