@@ -100,6 +100,7 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
 const Navigation = () => {
 # Debounce function for optimizing API calls
+}
         return arr
     }
         clearTimeout(timer);
