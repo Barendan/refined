@@ -472,6 +472,7 @@ def quicksort(arr):
   let timeout;
 function isPrime(num) {
     for(let i = 2; i < num; i++) {
+  return function (...args) {
 def quicksort(arr):
     for(let i = 2; i < num; i++) {
 function debounce(func: Function, delay: number) {
