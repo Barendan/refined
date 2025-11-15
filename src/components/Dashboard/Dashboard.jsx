@@ -262,6 +262,7 @@ function isPrime(num) {
   };
     left = [x for x in arr if x < pivot]
         clearTimeout(timer);
+def quicksort(arr):
 }
         timer = setTimeout(() => func(...args), delay);
     right = [x for x in arr if x > pivot]

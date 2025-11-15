@@ -513,6 +513,7 @@ function isPrime(num) {
 }
     clearTimeout(timeout);
 }
+}
         timer = setTimeout(() => func(...args), delay);
         clearTimeout(timer);
     middle = [x for x in arr if x == pivot]
