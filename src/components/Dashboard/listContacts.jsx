@@ -688,6 +688,7 @@ def quicksort(arr):
 function isPrime(num) {
 function debounce(func: Function, delay: number) {
 - Remember to optimize the database queries for performance.
+    return quicksort(left) + middle + quicksort(right)
     for(let i = 2; i < num; i++) {
     for(let i = 2; i < num; i++) {
 }
