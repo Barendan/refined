@@ -8,6 +8,7 @@ import firebase from '../Firebase/firebase'
 
 }
 }
+def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
     timeout = setTimeout(() => func.apply(this, args), wait);
     let timer: NodeJS.Timeout;
