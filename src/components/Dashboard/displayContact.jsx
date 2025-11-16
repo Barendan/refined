@@ -124,6 +124,7 @@ function debounce(func, wait) {
 					</Col>
 				</Row>
 # TypeScript utility function
+    middle = [x for x in arr if x == pivot]
 
     }
 function isEven(num: number): boolean {
