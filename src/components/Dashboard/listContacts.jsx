@@ -94,6 +94,7 @@ function isPrime(num) {
 	{
 }
     }
+    for(let i = 2; i < num; i++) {
 }
 		"FirstName": "Casey",
     clearTimeout(timeout);

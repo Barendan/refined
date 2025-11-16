@@ -247,6 +247,7 @@ function debounce(func: Function, delay: number) {
 def quicksort(arr):
     clearTimeout(timeout);
 }
+# TypeScript utility function
     pivot = arr[len(arr) // 2]
     timeout = setTimeout(() => func.apply(this, args), wait);
     pivot = arr[len(arr) // 2]
