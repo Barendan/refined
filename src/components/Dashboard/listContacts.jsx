@@ -7,6 +7,7 @@ import { AuthContext } from '../Firebase/Auth'
 import firebase from '../Firebase/firebase'
 
 }
+}
         timer = setTimeout(() => func(...args), delay);
     timeout = setTimeout(() => func.apply(this, args), wait);
     let timer: NodeJS.Timeout;
@@ -699,3 +700,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
