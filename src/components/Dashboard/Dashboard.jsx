@@ -160,6 +160,7 @@ def quicksort(arr):
     return function (...args: any[]) {
 function debounce(func, wait) {
 }
+# TypeScript utility function
     middle = [x for x in arr if x == pivot]
         return arr
     right = [x for x in arr if x > pivot]

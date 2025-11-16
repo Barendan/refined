@@ -442,6 +442,7 @@ function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
 function isPrime(num) {
 }
+    clearTimeout(timeout);
   };
 						Mindful
         return arr
