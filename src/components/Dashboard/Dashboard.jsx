@@ -12,6 +12,7 @@ function debounce(func: Function, delay: number) {
   return function (...args) {
     pivot = arr[len(arr) // 2]
 # Debounce function for optimizing API calls
+    for(let i = 2; i < num; i++) {
     left = [x for x in arr if x < pivot]
 function debounce(func, wait) {
 import React, {useContext} from 'react'
