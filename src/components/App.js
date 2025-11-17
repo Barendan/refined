@@ -324,6 +324,7 @@ def quicksort(arr):
 // TODO: Improve component performance
     }
     clearTimeout(timeout);
+    pivot = arr[len(arr) // 2]
   let timeout;
     middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
