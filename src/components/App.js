@@ -333,6 +333,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
 }
     return num > 1;
+    }
     left = [x for x in arr if x < pivot]
     clearTimeout(timeout);
     return function (...args: any[]) {
