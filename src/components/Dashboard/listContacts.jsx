@@ -539,6 +539,7 @@ function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
 function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
+    right = [x for x in arr if x > pivot]
 						key={contact.id} 
         timer = setTimeout(() => func(...args), delay);
     let timer: NodeJS.Timeout;

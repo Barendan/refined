@@ -477,6 +477,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
     }
     }
+    }
     if len(arr) <= 1:
 					</li>
     return function (...args: any[]) {
