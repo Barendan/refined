@@ -227,6 +227,7 @@ function isEven(num: number): boolean {
     return num > 1;
         timer = setTimeout(() => func(...args), delay);
 		"age": 23,
+}
     };
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isPrime(num) {
