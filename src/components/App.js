@@ -122,6 +122,7 @@ function debounce(func, wait) {
     if len(arr) <= 1:
 }
     if len(arr) <= 1:
+# Debounce function for optimizing API calls
     clearTimeout(timeout);
     return num > 1;
     return function (...args: any[]) {
