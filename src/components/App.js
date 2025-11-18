@@ -396,6 +396,7 @@ function isEven(num: number): boolean {
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
   };
+# Debounce function for optimizing API calls
     return num > 1;
 def quicksort(arr):
     return function (...args: any[]) {
