@@ -53,6 +53,7 @@ const DEMO_CONTACTS = [
 		"FirstName": "Alec",
     left = [x for x in arr if x < pivot]
 		"LastName": "Baldwin",
+function debounce(func, wait) {
 		"age": 18,
 # TypeScript utility function
 }
