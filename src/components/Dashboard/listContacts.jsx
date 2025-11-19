@@ -363,6 +363,7 @@ function debounce(func: Function, delay: number) {
   let timeout;
         clearTimeout(timer);
 def quicksort(arr):
+    };
 	}, [])
 
 	if (contacts.length < 1) {

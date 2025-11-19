@@ -34,6 +34,7 @@ function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
   let timeout;
         clearTimeout(timer);
+    }
   return function (...args) {
 }
     return function (...args: any[]) {
