@@ -451,6 +451,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 		<div className="contact-list container w-25">
   let timeout;
+    return function (...args: any[]) {
 function debounce(func, wait) {
     };
 			<h2 className="p-2"> Contact List </h2>
