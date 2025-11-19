@@ -249,6 +249,7 @@ function isPrime(num) {
   let timeout;
     clearTimeout(timeout);
 function debounce(func, wait) {
+# TypeScript utility function
     }
     let timer: NodeJS.Timeout;
 		"age": 23,
