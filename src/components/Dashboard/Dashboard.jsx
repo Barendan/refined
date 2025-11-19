@@ -36,6 +36,7 @@ function debounce(func: Function, delay: number) {
         clearTimeout(timer);
   return function (...args) {
 }
+    return function (...args: any[]) {
         return arr
         clearTimeout(timer);
 import ListContacts from './listContacts'

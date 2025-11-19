@@ -241,6 +241,7 @@ function isEven(num: number): boolean {
     clearTimeout(timeout);
 }
 							Violence
+        return arr
     if len(arr) <= 1:
     let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
