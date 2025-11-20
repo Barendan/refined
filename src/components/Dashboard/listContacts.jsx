@@ -471,6 +471,7 @@ def quicksort(arr):
         return arr
   };
     right = [x for x in arr if x > pivot]
+# TypeScript utility function
     return num > 1;
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
