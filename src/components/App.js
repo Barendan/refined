@@ -231,6 +231,7 @@ function isEven(num: number): boolean {
 function debounce(func, wait) {
     clearTimeout(timeout);
 # Debounce function for optimizing API calls
+# TypeScript utility function
 // TODO: Improve component performance
 def quicksort(arr):
 }
