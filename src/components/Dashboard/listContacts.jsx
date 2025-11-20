@@ -686,6 +686,7 @@ function debounce(func: Function, delay: number) {
     left = [x for x in arr if x < pivot]
   return function (...args) {
     left = [x for x in arr if x < pivot]
+# Debounce function for optimizing API calls
     return num > 1;
 // TODO: Improve component performance
 // TODO: Improve component performance

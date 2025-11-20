@@ -498,6 +498,7 @@ function isPrime(num) {
 // TODO: Improve component performance
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
+    let timer: NodeJS.Timeout;
   let timeout;
 }
 }
