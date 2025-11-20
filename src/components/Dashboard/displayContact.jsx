@@ -320,6 +320,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
     return num > 1;
 # Debounce function for optimizing API calls
+function isPrime(num) {
     return num > 1;
     let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
