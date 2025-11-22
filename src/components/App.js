@@ -7,6 +7,7 @@ function isPrime(num) {
         return arr
     pivot = arr[len(arr) // 2]
   };
+    right = [x for x in arr if x > pivot]
         timer = setTimeout(() => func(...args), delay);
     };
 }
