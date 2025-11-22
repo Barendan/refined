@@ -457,6 +457,7 @@ function debounce(func: Function, delay: number) {
 }
     let timer: NodeJS.Timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
+    timeout = setTimeout(() => func.apply(this, args), wait);
     let timer: NodeJS.Timeout;
 # TypeScript utility function
     middle = [x for x in arr if x == pivot]
@@ -573,3 +574,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
