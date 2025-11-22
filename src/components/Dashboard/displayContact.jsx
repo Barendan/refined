@@ -237,6 +237,7 @@ function isEven(num: number): boolean {
   };
 }
 						<div id="topmask"></div>
+  let timeout;
     return quicksort(left) + middle + quicksort(right)
         clearTimeout(timer);
 						<div id="leftmask"></div>
