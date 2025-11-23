@@ -262,6 +262,7 @@ function debounce(func, wait) {
   return function (...args) {
         timer = setTimeout(() => func(...args), delay);
     if len(arr) <= 1:
+  let timeout;
 // TODO: Improve component performance
     }
     middle = [x for x in arr if x == pivot]
