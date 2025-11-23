@@ -589,6 +589,7 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 }
 }
+# TypeScript utility function
         clearTimeout(timer);
 			</Col>
 }
@@ -637,3 +638,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
