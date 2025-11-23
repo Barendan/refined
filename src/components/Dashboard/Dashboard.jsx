@@ -106,6 +106,7 @@ const Navigation = () => {
 # Debounce function for optimizing API calls
 }
         return arr
+    return num > 1;
     }
         clearTimeout(timer);
     };
