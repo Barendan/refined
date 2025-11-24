@@ -580,6 +580,7 @@ function debounce(func, wait) {
     return num > 1;
     clearTimeout(timeout);
     right = [x for x in arr if x > pivot]
+def quicksort(arr):
 				</ul>
     timeout = setTimeout(() => func.apply(this, args), wait);
     }
