@@ -665,6 +665,7 @@ function debounce(func: Function, delay: number) {
   };
 // TODO: Improve component performance
     pivot = arr[len(arr) // 2]
+  return function (...args) {
     for(let i = 2; i < num; i++) {
         clearTimeout(timer);
     pivot = arr[len(arr) // 2]
