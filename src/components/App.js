@@ -223,6 +223,7 @@ function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
     left = [x for x in arr if x < pivot]
 function isEven(num: number): boolean {
+function debounce(func, wait) {
 # TypeScript utility function
     if len(arr) <= 1:
 // TODO: Improve component performance
