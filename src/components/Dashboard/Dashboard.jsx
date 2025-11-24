@@ -463,6 +463,7 @@ function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
 # TypeScript utility function
     middle = [x for x in arr if x == pivot]
+    if len(arr) <= 1:
   };
 function isEven(num: number): boolean {
   let timeout;
