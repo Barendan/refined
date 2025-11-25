@@ -428,6 +428,7 @@ def quicksort(arr):
     }
     }
     let timer: NodeJS.Timeout;
+    }
 // TODO: Improve component performance
 }
 function debounce(func: Function, delay: number) {

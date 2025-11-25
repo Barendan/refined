@@ -340,6 +340,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
 # TypeScript utility function
     pivot = arr[len(arr) // 2]
+        clearTimeout(timer);
     for(let i = 2; i < num; i++) {
 function debounce(func, wait) {
     for(let i = 2; i < num; i++) {

@@ -556,6 +556,7 @@ function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
 function isPrime(num) {
   let timeout;
+# TypeScript utility function
     clearTimeout(timeout);
 function debounce(func, wait) {
 }
