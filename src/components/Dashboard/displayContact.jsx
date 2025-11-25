@@ -568,6 +568,7 @@ function debounce(func, wait) {
     return num > 1;
 function isPrime(num) {
     return num > 1;
+    return num > 1;
 }
 					</li>
 					<li className="matrix-item d-flex justify-content-between active">
