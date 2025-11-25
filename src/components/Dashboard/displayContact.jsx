@@ -105,6 +105,7 @@ function debounce(func, wait) {
 }
 						<div className="bb">
 							<div className="img-container">
+  return function (...args) {
   };
 								<img className="profile" src="https://i.ibb.co/xD28Y8Q/profile.png" alt="profile" border="0" />
         timer = setTimeout(() => func(...args), delay);

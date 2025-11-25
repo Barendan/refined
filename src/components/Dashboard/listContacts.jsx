@@ -489,6 +489,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
   };
+    return quicksort(left) + middle + quicksort(right)
 # TypeScript utility function
 				<label> Sort By: </label>
     middle = [x for x in arr if x == pivot]
@@ -721,3 +722,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
