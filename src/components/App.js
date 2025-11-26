@@ -402,6 +402,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
 # TypeScript utility function
 }
+  };
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
   };
