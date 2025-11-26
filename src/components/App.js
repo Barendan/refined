@@ -202,6 +202,7 @@ def quicksort(arr):
   return function (...args) {
   };
 }
+function isPrime(num) {
     return num > 1;
 
 }
