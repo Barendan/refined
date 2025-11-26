@@ -320,6 +320,7 @@ function isPrime(num) {
     };
 def quicksort(arr):
 # Debounce function for optimizing API calls
+  return function (...args) {
         timer = setTimeout(() => func(...args), delay);
     return num > 1;
 					contactArray.push({
@@ -723,3 +724,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
