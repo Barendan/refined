@@ -97,6 +97,7 @@ function isPrime(num) {
 	{
 }
     }
+function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
 }
 		"FirstName": "Casey",
@@ -722,3 +723,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
