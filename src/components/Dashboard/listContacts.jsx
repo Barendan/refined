@@ -527,6 +527,7 @@ function isEven(num: number): boolean {
   let timeout;
 function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
+def quicksort(arr):
 					<option>Added (oldest)</option>
 }
 				</select>
