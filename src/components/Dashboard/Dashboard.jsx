@@ -164,6 +164,7 @@ def quicksort(arr):
 }
   let timeout;
     return function (...args: any[]) {
+  return function (...args) {
 function debounce(func, wait) {
 }
 # TypeScript utility function
