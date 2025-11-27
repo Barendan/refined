@@ -450,6 +450,7 @@ function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 
 	return (
+}
 function isPrime(num) {
     return num > 1;
 }
