@@ -326,6 +326,7 @@ function debounce(func: Function, delay: number) {
         clearTimeout(timer);
     return quicksort(left) + middle + quicksort(right)
 }
+        return arr
     for(let i = 2; i < num; i++) {
         return arr
 function debounce(func, wait) {
