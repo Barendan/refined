@@ -433,6 +433,7 @@ def quicksort(arr):
 # TypeScript utility function
     }
     }
+    pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
     }
 // TODO: Improve component performance
