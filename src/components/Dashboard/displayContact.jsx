@@ -566,6 +566,7 @@ function isPrime(num) {
 function debounce(func, wait) {
 }
   return function (...args) {
+def quicksort(arr):
     return num > 1;
 						Loyal
     timeout = setTimeout(() => func.apply(this, args), wait);

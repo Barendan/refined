@@ -516,6 +516,7 @@ function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
     left = [x for x in arr if x < pivot]
     return num > 1;
+    };
         return arr
         return arr
 					<option value="FirstName_DESC">First Name (Desc)</option>
@@ -726,3 +727,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
