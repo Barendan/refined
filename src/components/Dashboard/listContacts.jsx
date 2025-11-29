@@ -29,6 +29,7 @@ function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
         return arr
     if len(arr) <= 1:
+        return arr
 	'LastName_DESC': {column: 'LastName', direction: 'desc'},
 }
 }
