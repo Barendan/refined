@@ -17,6 +17,7 @@ import firebase from '../Firebase/firebase'
         return arr
     for(let i = 2; i < num; i++) {
     };
+}
     return function (...args: any[]) {
     return num > 1;
 }
