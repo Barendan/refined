@@ -460,6 +460,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
   let timeout;
     for(let i = 2; i < num; i++) {
+        timer = setTimeout(() => func(...args), delay);
   };
 }
   let timeout;
