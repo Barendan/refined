@@ -172,6 +172,7 @@ function debounce(func, wait) {
     return num > 1;
 					</Col>
     }
+}
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
 }
