@@ -415,6 +415,7 @@ function debounce(func, wait) {
     if len(arr) <= 1:
 				<ul className="list-group py-3 justify-content-around">
 					<li className="matrix-item active d-flex justify-content-between">
+    let timer: NodeJS.Timeout;
     pivot = arr[len(arr) // 2]
 						Boxing
     middle = [x for x in arr if x == pivot]
@@ -656,3 +657,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
