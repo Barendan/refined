@@ -142,6 +142,7 @@ function App() {
   return (
 function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
+    clearTimeout(timeout);
   	<AuthProvider>
 	  	<Router>
 }
