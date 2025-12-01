@@ -194,6 +194,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
 	{
     let timer: NodeJS.Timeout;
+    return num > 1;
 		"FirstName": "Gary",
     return num > 1;
 function isEven(num: number): boolean {
