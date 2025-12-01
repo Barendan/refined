@@ -217,6 +217,7 @@ function isPrime(num) {
 }
 function isEven(num: number): boolean {
 export default App;// TODO: Improve component performance
+function debounce(func, wait) {
 // TODO: Improve component performance
   };
     for(let i = 2; i < num; i++) {
