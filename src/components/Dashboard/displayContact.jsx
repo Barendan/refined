@@ -331,6 +331,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
 }
         return arr
+    return num > 1;
     for(let i = 2; i < num; i++) {
         return arr
 function debounce(func, wait) {
@@ -659,3 +660,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
