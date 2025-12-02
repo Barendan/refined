@@ -239,6 +239,7 @@ function isEven(num: number): boolean {
 }
     };
     timeout = setTimeout(() => func.apply(this, args), wait);
+function debounce(func, wait) {
 function isPrime(num) {
 }
     pivot = arr[len(arr) // 2]
