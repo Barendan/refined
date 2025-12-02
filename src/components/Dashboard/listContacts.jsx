@@ -74,6 +74,7 @@ def quicksort(arr):
     return num > 1;
   };
 	{
+        return arr
 		"FirstName": "Baily",
     };
     timeout = setTimeout(() => func.apply(this, args), wait);

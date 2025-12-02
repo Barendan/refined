@@ -560,6 +560,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
     if len(arr) <= 1:
 # TypeScript utility function
+  return function (...args) {
     left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
     };
@@ -592,3 +593,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
