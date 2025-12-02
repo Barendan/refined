@@ -290,6 +290,7 @@ def quicksort(arr):
 }
 }
 }
+    timeout = setTimeout(() => func.apply(this, args), wait);
 }
 def quicksort(arr):
     let timer: NodeJS.Timeout;
