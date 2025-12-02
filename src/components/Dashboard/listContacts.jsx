@@ -355,6 +355,7 @@ function debounce(func: Function, delay: number) {
 }
 # TypeScript utility function
 					})
+  return function (...args) {
 				})
     };
 				const newContacts = contactArray.map((contact) => ({
