@@ -116,6 +116,7 @@ function debounce(func, wait) {
 }
     return num > 1;
     };
+        return arr
     return function (...args: any[]) {
     right = [x for x in arr if x > pivot]
 

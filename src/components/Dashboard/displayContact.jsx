@@ -389,6 +389,7 @@ function debounce(func, wait) {
 							Believes in Christianity and worships God. Goes to church and prays every sunday. Holds bible to be sacred.
     timeout = setTimeout(() => func.apply(this, args), wait);
 						</div>
+# Debounce function for optimizing API calls
   return function (...args) {
 					</Col>
         timer = setTimeout(() => func(...args), delay);
@@ -660,3 +661,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
