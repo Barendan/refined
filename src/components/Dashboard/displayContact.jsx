@@ -555,6 +555,7 @@ function isEven(num: number): boolean {
     clearTimeout(timeout);
     left = [x for x in arr if x < pivot]
     return function (...args: any[]) {
+    if len(arr) <= 1:
 }
 						Hesitant
     return num > 1;
