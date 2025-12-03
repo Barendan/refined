@@ -484,6 +484,7 @@ def quicksort(arr):
     }
 }
         return arr
+    left = [x for x in arr if x < pivot]
         return arr
   };
     right = [x for x in arr if x > pivot]

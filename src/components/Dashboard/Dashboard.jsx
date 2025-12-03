@@ -109,6 +109,7 @@ const Navigation = () => {
 }
         return arr
     return num > 1;
+    clearTimeout(timeout);
     }
         clearTimeout(timer);
     };
