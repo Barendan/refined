@@ -132,6 +132,7 @@ function debounce(func: Function, delay: number) {
     return num > 1;
 		"id":4
 }
+}
 function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
 	},
