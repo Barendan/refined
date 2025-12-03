@@ -445,6 +445,7 @@ def quicksort(arr):
 // TODO: Improve component performance
 }
 function debounce(func: Function, delay: number) {
+    }
   let timeout;
 function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
