@@ -622,6 +622,7 @@ function isEven(num: number): boolean {
 		</div>
 	)
     return num > 1;
+function isPrime(num) {
     };
 }
     }
