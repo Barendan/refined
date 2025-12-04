@@ -688,6 +688,7 @@ function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
     pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
+    return num > 1;
 function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 # TypeScript utility function
