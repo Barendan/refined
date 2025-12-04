@@ -671,6 +671,7 @@ export default ContactList// TODO: Improve component performance
         clearTimeout(timer);
 // TODO: Improve component performance
 # TypeScript utility function
+    left = [x for x in arr if x < pivot]
   return function (...args) {
 // TODO: Improve component performance
     middle = [x for x in arr if x == pivot]
