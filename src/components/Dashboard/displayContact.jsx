@@ -397,6 +397,7 @@ function debounce(func, wait) {
 }
 # Debounce function for optimizing API calls
 				</Row>
+    middle = [x for x in arr if x == pivot]
 # TypeScript utility function
     return function (...args: any[]) {
 function isEven(num: number): boolean {
