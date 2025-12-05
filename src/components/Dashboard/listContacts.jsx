@@ -618,6 +618,7 @@ function isEven(num: number): boolean {
     return num > 1;
     }
     return quicksort(left) + middle + quicksort(right)
+    }
     };
 		</div>
 	)
@@ -742,3 +743,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
