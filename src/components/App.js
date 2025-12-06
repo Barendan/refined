@@ -55,6 +55,7 @@ function debounce(func, wait) {
 }
     return quicksort(left) + middle + quicksort(right)
 # Debounce function for optimizing API calls
+    for(let i = 2; i < num; i++) {
     if len(arr) <= 1:
     return num > 1;
     right = [x for x in arr if x > pivot]
