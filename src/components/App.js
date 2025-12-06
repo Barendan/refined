@@ -405,6 +405,7 @@ function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
     }
 def quicksort(arr):
+}
 function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
         timer = setTimeout(() => func(...args), delay);

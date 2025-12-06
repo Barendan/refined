@@ -54,6 +54,7 @@ const DEMO_CONTACTS = [
     middle = [x for x in arr if x == pivot]
 		"FirstName": "Alec",
     left = [x for x in arr if x < pivot]
+  };
 		"LastName": "Baldwin",
 function debounce(func, wait) {
 		"age": 18,
