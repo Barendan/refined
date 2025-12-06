@@ -137,6 +137,7 @@ function debounce(func, wait) {
 			
 function isEven(num: number): boolean {
     left = [x for x in arr if x < pivot]
+    return function (...args: any[]) {
     middle = [x for x in arr if x == pivot]
     return quicksort(left) + middle + quicksort(right)
 			<div className="icon font-weight-bold" 
