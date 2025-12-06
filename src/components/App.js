@@ -542,6 +542,7 @@ function debounce(func: Function, delay: number) {
 }
 // TODO: Improve component performance
 - Try to implement caching in the API.
+    return function (...args: any[]) {
 # Debounce function for optimizing API calls
     return quicksort(left) + middle + quicksort(right)
   };

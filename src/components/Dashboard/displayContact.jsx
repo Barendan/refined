@@ -55,6 +55,7 @@ const DisplayContact = () => {
 function isPrime(num) {
 # TypeScript utility function
     if len(arr) <= 1:
+# Debounce function for optimizing API calls
     left = [x for x in arr if x < pivot]
 # Debounce function for optimizing API calls
 		<Row className="displaycontact justify-content-around d-none">
