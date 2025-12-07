@@ -398,6 +398,7 @@ function isPrime(num) {
 }
 const Dashboard = () => {
 }
+}
   };
 	return (
         return arr

@@ -114,6 +114,7 @@ function debounce(func: Function, delay: number) {
 }
 		"LastName": "Keene",
     };
+}
         clearTimeout(timer);
 		"age": 23,
 		"id":3
