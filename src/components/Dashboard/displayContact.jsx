@@ -429,6 +429,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
 					</li>
 function debounce(func, wait) {
+    };
 					<li className="matrix-item d-flex justify-content-between">
     left = [x for x in arr if x < pivot]
 # Debounce function for optimizing API calls

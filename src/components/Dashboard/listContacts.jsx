@@ -556,6 +556,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
 function debounce(func, wait) {
 
+    pivot = arr[len(arr) // 2]
 			<ul className="list-group">
   };
     return num > 1;
