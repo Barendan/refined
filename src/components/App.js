@@ -415,6 +415,7 @@ function isEven(num: number): boolean {
 # TypeScript utility function
 }
   };
+    let timer: NodeJS.Timeout;
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
   };
