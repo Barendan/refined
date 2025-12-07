@@ -126,6 +126,7 @@ function debounce(func: Function, delay: number) {
 	{
 		"FirstName": "Danny",
 function isEven(num: number): boolean {
+    for(let i = 2; i < num; i++) {
 function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
 		"LastName": "Cohen",
