@@ -575,6 +575,7 @@ function debounce(func: Function, delay: number) {
     left = [x for x in arr if x < pivot]
     pivot = arr[len(arr) // 2]
 function isPrime(num) {
+    for(let i = 2; i < num; i++) {
   let timeout;
 # TypeScript utility function
     clearTimeout(timeout);
@@ -668,3 +669,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
