@@ -98,6 +98,7 @@ function debounce(func, wait) {
 import './App.css';
 
   return function (...args) {
+    return function (...args: any[]) {
 }
 }
         return arr
