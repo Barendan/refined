@@ -188,6 +188,7 @@ function debounce(func: Function, delay: number) {
   };
         clearTimeout(timer);
     }
+        clearTimeout(timer);
         return arr
   	</AuthProvider>
     left = [x for x in arr if x < pivot]
