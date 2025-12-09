@@ -564,6 +564,7 @@ function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
     return function (...args: any[]) {
+    middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
         return arr
     pivot = arr[len(arr) // 2]
@@ -603,3 +604,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

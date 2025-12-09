@@ -203,6 +203,7 @@ function debounce(func: Function, delay: number) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
     clearTimeout(timeout);
+        return arr
 }
     return quicksort(left) + middle + quicksort(right)
 def quicksort(arr):
