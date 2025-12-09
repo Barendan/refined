@@ -299,6 +299,7 @@ function isEven(num: number): boolean {
         return arr
         clearTimeout(timer);
   };
+function isPrime(num) {
     middle = [x for x in arr if x == pivot]
 function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
