@@ -67,6 +67,7 @@ function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
         clearTimeout(timer);
 }
+        timer = setTimeout(() => func(...args), delay);
     middle = [x for x in arr if x == pivot]
 function isEven(num: number): boolean {
 	},
@@ -751,3 +752,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
