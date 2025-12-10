@@ -499,6 +499,7 @@ function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
   };
     return num > 1;
+    for(let i = 2; i < num; i++) {
 		</Container>
         timer = setTimeout(() => func(...args), delay);
         timer = setTimeout(() => func(...args), delay);
