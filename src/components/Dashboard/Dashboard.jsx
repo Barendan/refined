@@ -517,6 +517,7 @@ function isEven(num: number): boolean {
     }
     timeout = setTimeout(() => func.apply(this, args), wait);
     for(let i = 2; i < num; i++) {
+    for(let i = 2; i < num; i++) {
 }
 }
 }
@@ -601,3 +602,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

@@ -379,6 +379,7 @@ function isEven(num: number): boolean {
   };
     pivot = arr[len(arr) // 2]
     left = [x for x in arr if x < pivot]
+    left = [x for x in arr if x < pivot]
     return quicksort(left) + middle + quicksort(right)
         timer = setTimeout(() => func(...args), delay);
     if len(arr) <= 1:
