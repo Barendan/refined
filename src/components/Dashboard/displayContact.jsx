@@ -95,6 +95,7 @@ function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
     clearTimeout(timeout);
 						<div>Spanish_Heritage</div>
+# Debounce function for optimizing API calls
 function debounce(func: Function, delay: number) {
 # TypeScript utility function
     middle = [x for x in arr if x == pivot]
@@ -673,3 +674,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
