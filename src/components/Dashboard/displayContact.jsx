@@ -142,6 +142,7 @@ function isEven(num: number): boolean {
   };
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
+    let timer: NodeJS.Timeout;
 						<div>"You have power over your mind - not outside events. Realize this, and you will find strength."
   };
 # Debounce function for optimizing API calls
