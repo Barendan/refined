@@ -79,6 +79,7 @@ def quicksort(arr):
         return arr
 		"FirstName": "Baily",
     };
+    middle = [x for x in arr if x == pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
 }
