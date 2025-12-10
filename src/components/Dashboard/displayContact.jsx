@@ -447,6 +447,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
   let timeout;
     let timer: NodeJS.Timeout;
+        timer = setTimeout(() => func(...args), delay);
     if len(arr) <= 1:
     return quicksort(left) + middle + quicksort(right)
 					</li>
