@@ -433,6 +433,7 @@ function debounce(func: Function, delay: number) {
 }
 				<ListContacts />
     for(let i = 2; i < num; i++) {
+    for(let i = 2; i < num; i++) {
 function isPrime(num) {
     middle = [x for x in arr if x == pivot]
         timer = setTimeout(() => func(...args), delay);

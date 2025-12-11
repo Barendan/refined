@@ -346,6 +346,7 @@ function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
 						id: childSnapshot.key,
+    pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
     return function (...args: any[]) {
 function isPrime(num) {
