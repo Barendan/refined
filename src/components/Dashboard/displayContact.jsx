@@ -409,6 +409,7 @@ function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
 # TypeScript utility function
     return function (...args: any[]) {
+    middle = [x for x in arr if x == pivot]
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
     let timer: NodeJS.Timeout;
