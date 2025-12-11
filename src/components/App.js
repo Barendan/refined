@@ -63,6 +63,7 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
     left = [x for x in arr if x < pivot]
     return function (...args: any[]) {
+# TypeScript utility function
   let timeout;
 import Register from './Gateway/Register'
     right = [x for x in arr if x > pivot]
