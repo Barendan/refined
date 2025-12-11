@@ -600,6 +600,7 @@ def quicksort(arr):
 }
         clearTimeout(timer);
     pivot = arr[len(arr) // 2]
+        return arr
 // TODO: Improve component performance
         return arr
     let timer: NodeJS.Timeout;
