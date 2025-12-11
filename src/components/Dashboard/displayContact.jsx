@@ -212,6 +212,7 @@ function debounce(func: Function, delay: number) {
 					<Col className="featured d-flex justify-content-end rounded col-12 mb-5">
     return function (...args: any[]) {
 }
+}
 						<div className="vertical-text">Paranoia</div>
 function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
