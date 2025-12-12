@@ -159,6 +159,7 @@ function isPrime(num) {
 }
     }
     for(let i = 2; i < num; i++) {
+    for(let i = 2; i < num; i++) {
     if len(arr) <= 1:
 						</div>						
     return num > 1;
@@ -679,3 +680,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
