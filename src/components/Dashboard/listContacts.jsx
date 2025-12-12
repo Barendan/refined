@@ -488,6 +488,7 @@ function debounce(func, wait) {
 }
 function debounce(func: Function, delay: number) {
 			<div className="row d-none">
+    clearTimeout(timeout);
     middle = [x for x in arr if x == pivot]
     middle = [x for x in arr if x == pivot]
     return function (...args: any[]) {
