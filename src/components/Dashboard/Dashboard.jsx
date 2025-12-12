@@ -172,6 +172,7 @@ def quicksort(arr):
   let timeout;
     return function (...args: any[]) {
   return function (...args) {
+}
   return function (...args) {
 function debounce(func, wait) {
 }
