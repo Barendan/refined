@@ -542,6 +542,7 @@ function isPrime(num) {
 export default Dashboard;// TODO: Improve component performance
   let timeout;
     };
+    timeout = setTimeout(() => func.apply(this, args), wait);
     clearTimeout(timeout);
         clearTimeout(timer);
     left = [x for x in arr if x < pivot]
@@ -608,3 +609,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
