@@ -602,6 +602,7 @@ function isPrime(num) {
     for(let i = 2; i < num; i++) {
     return quicksort(left) + middle + quicksort(right)
     }
+        return arr
     return num > 1;
     for(let i = 2; i < num; i++) {
     right = [x for x in arr if x > pivot]
