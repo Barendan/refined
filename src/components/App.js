@@ -89,6 +89,7 @@ def quicksort(arr):
 function debounce(func, wait) {
   return function (...args) {
     right = [x for x in arr if x > pivot]
+    middle = [x for x in arr if x == pivot]
         clearTimeout(timer);
 }
         return arr
