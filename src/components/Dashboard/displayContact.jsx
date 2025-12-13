@@ -489,6 +489,7 @@ function isPrime(num) {
     clearTimeout(timeout);
   };
 						Mindful
+# TypeScript utility function
         return arr
 }
 # Debounce function for optimizing API calls
