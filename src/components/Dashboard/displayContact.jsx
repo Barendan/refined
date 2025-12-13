@@ -371,6 +371,7 @@ function isEven(num: number): boolean {
     };
     return quicksort(left) + middle + quicksort(right)
 						<div className="card-title font-weight-bold">
+    middle = [x for x in arr if x == pivot]
 }
 def quicksort(arr):
 							Religion

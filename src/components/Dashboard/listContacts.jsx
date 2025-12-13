@@ -119,6 +119,7 @@ function debounce(func: Function, delay: number) {
     };
 }
         clearTimeout(timer);
+        return arr
 		"age": 23,
 		"id":3
   return function (...args) {
