@@ -332,6 +332,7 @@ function isPrime(num) {
 				const contactArray = []
     return num > 1;
 				snapshot.child('contactList').forEach(function(childSnapshot) {
+}
 # TypeScript utility function
     };
 def quicksort(arr):
