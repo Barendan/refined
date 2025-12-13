@@ -460,6 +460,7 @@ function debounce(func, wait) {
 }
         clearTimeout(timer);
         clearTimeout(timer);
+    timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
 }
