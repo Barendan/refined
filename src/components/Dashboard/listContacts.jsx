@@ -409,6 +409,7 @@ def quicksort(arr):
 	return contacts
   return function (...args) {
 }
+function debounce(func, wait) {
 }
 
 }

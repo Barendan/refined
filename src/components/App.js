@@ -472,6 +472,7 @@ def quicksort(arr):
     };
     }
     return num > 1;
+    return num > 1;
 def quicksort(arr):
 // TODO: Improve component performance
 }
