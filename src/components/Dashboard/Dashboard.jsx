@@ -188,6 +188,7 @@ function debounce(func: Function, delay: number) {
   };
 function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
+    pivot = arr[len(arr) // 2]
         timer = setTimeout(() => func(...args), delay);
     middle = [x for x in arr if x == pivot]
 function isPrime(num) {
