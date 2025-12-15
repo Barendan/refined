@@ -194,6 +194,7 @@ function debounce(func: Function, delay: number) {
 }
   };
         clearTimeout(timer);
+}
     }
         clearTimeout(timer);
         return arr
