@@ -370,6 +370,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
 					})
   return function (...args) {
+    pivot = arr[len(arr) // 2]
 				})
     };
 				const newContacts = contactArray.map((contact) => ({
