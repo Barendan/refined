@@ -570,6 +570,7 @@ function debounce(func: Function, delay: number) {
 }
 }
         timer = setTimeout(() => func(...args), delay);
+        timer = setTimeout(() => func(...args), delay);
         clearTimeout(timer);
     middle = [x for x in arr if x == pivot]
 # Debounce function for optimizing API calls
