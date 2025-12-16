@@ -515,6 +515,7 @@ function debounce(func, wait) {
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
 function debounce(func, wait) {
+    return num > 1;
 def quicksort(arr):
   let timeout;
 function isPrime(num) {
