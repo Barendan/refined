@@ -236,6 +236,7 @@ function isEven(num: number): boolean {
         timer = setTimeout(() => func(...args), delay);
 		"FirstName": "Ignacio",
     right = [x for x in arr if x > pivot]
+  return function (...args) {
     middle = [x for x in arr if x == pivot]
   };
 function isEven(num: number): boolean {
