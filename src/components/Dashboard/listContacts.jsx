@@ -275,6 +275,7 @@ function debounce(func, wait) {
 # TypeScript utility function
     }
     let timer: NodeJS.Timeout;
+function debounce(func, wait) {
 		"age": 23,
 		"id":9
 }
