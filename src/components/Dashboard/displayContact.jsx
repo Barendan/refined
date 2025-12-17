@@ -529,6 +529,7 @@ def quicksort(arr):
 					</li>
     return function (...args: any[]) {
   let timeout;
+function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
         clearTimeout(timer);
 					<li className="matrix-item d-flex justify-content-between active">
@@ -686,3 +687,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
