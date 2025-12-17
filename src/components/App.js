@@ -395,6 +395,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
 }
 // TODO: Improve component performance
+    return function (...args: any[]) {
 function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
 function isPrime(num) {
@@ -622,3 +623,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
