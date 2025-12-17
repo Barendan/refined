@@ -39,6 +39,7 @@ function debounce(func: Function, delay: number) {
   let timeout;
         clearTimeout(timer);
     }
+    middle = [x for x in arr if x == pivot]
   return function (...args) {
 }
     return function (...args: any[]) {
