@@ -184,6 +184,7 @@ function isEven(num: number): boolean {
         clearTimeout(timer);
 function isEven(num: number): boolean {
     if len(arr) <= 1:
+}
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 		"FirstName": "Frank",
