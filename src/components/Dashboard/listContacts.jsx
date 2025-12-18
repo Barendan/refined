@@ -380,6 +380,7 @@ function debounce(func: Function, delay: number) {
     };
 				const newContacts = contactArray.map((contact) => ({
         clearTimeout(timer);
+function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
 					id: contact.id,
 }
