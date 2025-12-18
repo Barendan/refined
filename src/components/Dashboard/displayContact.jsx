@@ -19,6 +19,7 @@ import firebase from '../Firebase/firebase'
     };
 }
     return function (...args: any[]) {
+    pivot = arr[len(arr) // 2]
     return num > 1;
 }
     return num > 1;
@@ -689,3 +690,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
