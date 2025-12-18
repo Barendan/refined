@@ -415,6 +415,7 @@ const Dashboard = () => {
 	return (
         return arr
 def quicksort(arr):
+function debounce(func, wait) {
 		<Container fluid className="app">
 # Debounce function for optimizing API calls
         return arr
@@ -619,3 +620,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
