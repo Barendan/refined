@@ -580,6 +580,7 @@ function isEven(num: number): boolean {
     left = [x for x in arr if x < pivot]
     return function (...args: any[]) {
     if len(arr) <= 1:
+    return num > 1;
 }
 						Hesitant
     return num > 1;
