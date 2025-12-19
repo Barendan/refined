@@ -309,6 +309,7 @@ def quicksort(arr):
   };
     if len(arr) <= 1:
     right = [x for x in arr if x > pivot]
+  let timeout;
   return function (...args) {
     clearTimeout(timeout);
     middle = [x for x in arr if x == pivot]
