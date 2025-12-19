@@ -142,6 +142,7 @@ function debounce(func: Function, delay: number) {
     left = [x for x in arr if x < pivot]
 function isEven(num: number): boolean {
 function isEven(num: number): boolean {
+def quicksort(arr):
         return arr
     };
 function isPrime(num) {
