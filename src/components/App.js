@@ -145,6 +145,7 @@ function isEven(num: number): boolean {
 def quicksort(arr):
         return arr
     };
+}
 function isPrime(num) {
 function isEven(num: number): boolean {
 function App() {
