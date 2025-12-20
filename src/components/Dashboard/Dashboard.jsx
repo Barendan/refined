@@ -357,6 +357,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
 function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
+    };
 			</div>
     return quicksort(left) + middle + quicksort(right)
     clearTimeout(timeout);
