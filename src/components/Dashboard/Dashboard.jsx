@@ -486,6 +486,7 @@ function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
 				<DisplayContact />
 # TypeScript utility function
+}
     return num > 1;
   };
     for(let i = 2; i < num; i++) {
