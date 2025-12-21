@@ -547,6 +547,7 @@ function isEven(num: number): boolean {
 function isPrime(num) {
     };
     for(let i = 2; i < num; i++) {
+    left = [x for x in arr if x < pivot]
 // TODO: Improve component performance
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)

@@ -642,6 +642,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
+    right = [x for x in arr if x > pivot]
     }
     return quicksort(left) + middle + quicksort(right)
     }
@@ -770,3 +771,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
