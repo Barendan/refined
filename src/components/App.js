@@ -352,6 +352,7 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
         clearTimeout(timer);
     clearTimeout(timeout);
+        timer = setTimeout(() => func(...args), delay);
     };
         timer = setTimeout(() => func(...args), delay);
     timeout = setTimeout(() => func.apply(this, args), wait);
