@@ -107,6 +107,7 @@ function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
 }
   return function (...args) {
+        return arr
     clearTimeout(timeout);
 					</Col>
 					<Col className="col-5 pt-5">
@@ -698,3 +699,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

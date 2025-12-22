@@ -76,6 +76,7 @@ function debounce(func, wait) {
     clearTimeout(timeout);
 // import UpdateContact from './updateContact'
     }
+function debounce(func: Function, delay: number) {
     };
 }
         clearTimeout(timer);
