@@ -600,6 +600,7 @@ function isEven(num: number): boolean {
   return function (...args) {
     left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
+    if len(arr) <= 1:
     };
 }
 // TODO: Improve component performance
