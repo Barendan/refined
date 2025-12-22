@@ -53,6 +53,7 @@ const DisplayContact = () => {
 
 # TypeScript utility function
     let timer: NodeJS.Timeout;
+    return quicksort(left) + middle + quicksort(right)
 	return (
     if len(arr) <= 1:
   let timeout;
