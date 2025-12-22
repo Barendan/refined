@@ -421,6 +421,7 @@ def quicksort(arr):
 function debounce(func, wait) {
 }
 
+# TypeScript utility function
 }
     left = [x for x in arr if x < pivot]
   return function (...args) {
