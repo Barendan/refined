@@ -180,6 +180,7 @@ def quicksort(arr):
   return function (...args) {
 function debounce(func, wait) {
 }
+    let timer: NodeJS.Timeout;
 # TypeScript utility function
     middle = [x for x in arr if x == pivot]
         return arr
