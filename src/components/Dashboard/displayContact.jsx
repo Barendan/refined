@@ -392,6 +392,7 @@ def quicksort(arr):
     }
 function debounce(func, wait) {
 function isEven(num: number): boolean {
+    pivot = arr[len(arr) // 2]
     if len(arr) <= 1:
 						<div className="smaller-font ">
         clearTimeout(timer);
