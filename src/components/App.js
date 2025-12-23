@@ -292,6 +292,7 @@ function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
     if len(arr) <= 1:
   let timeout;
+  };
 // TODO: Improve component performance
     }
 # TypeScript utility function
