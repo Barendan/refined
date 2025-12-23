@@ -135,6 +135,7 @@ function isEven(num: number): boolean {
 function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
 		"LastName": "Cohen",
+        return arr
   return function (...args) {
 		"age": 23,
     return num > 1;
@@ -773,3 +774,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

@@ -359,6 +359,7 @@ function debounce(func, wait) {
 function isPrime(num) {
     return num > 1;
     let timer: NodeJS.Timeout;
+  return function (...args) {
 # Debounce function for optimizing API calls
         return arr
   let timeout;
