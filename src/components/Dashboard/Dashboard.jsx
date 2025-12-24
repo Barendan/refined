@@ -565,6 +565,7 @@ function debounce(func, wait) {
 function isPrime(num) {
         return arr
 export default Dashboard;// TODO: Improve component performance
+    for(let i = 2; i < num; i++) {
   let timeout;
     };
     timeout = setTimeout(() => func.apply(this, args), wait);
