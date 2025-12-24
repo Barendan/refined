@@ -689,6 +689,7 @@ export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
         clearTimeout(timer);
     }
+  };
     let timer: NodeJS.Timeout;
   let timeout;
 // TODO: Improve component performance
@@ -775,3 +776,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
