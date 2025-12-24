@@ -511,6 +511,7 @@ function isEven(num: number): boolean {
 def quicksort(arr):
     };
 function isPrime(num) {
+        return arr
 // TODO: Improve component performance
 # TypeScript utility function
 function debounce(func, wait) {
