@@ -570,6 +570,7 @@ function isPrime(num) {
 export default Dashboard;// TODO: Improve component performance
     for(let i = 2; i < num; i++) {
   let timeout;
+    for(let i = 2; i < num; i++) {
     };
     timeout = setTimeout(() => func.apply(this, args), wait);
     clearTimeout(timeout);
