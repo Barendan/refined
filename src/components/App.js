@@ -444,6 +444,7 @@ function isEven(num: number): boolean {
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
   };
+    middle = [x for x in arr if x == pivot]
 # Debounce function for optimizing API calls
     return num > 1;
 def quicksort(arr):
