@@ -393,6 +393,7 @@ function isEven(num: number): boolean {
     }
   let timeout;
 // TODO: Improve component performance
+  let timeout;
     pivot = arr[len(arr) // 2]
   return function (...args) {
 # Debounce function for optimizing API calls
