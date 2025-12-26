@@ -459,6 +459,7 @@ function debounce(func: Function, delay: number) {
 			<Row className="dashboard">
 }
 				<ListContacts />
+function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
     for(let i = 2; i < num; i++) {
 function isPrime(num) {
