@@ -685,6 +685,7 @@ export default ContactList// TODO: Improve component performance
     left = [x for x in arr if x < pivot]
         timer = setTimeout(() => func(...args), delay);
 }
+function debounce(func, wait) {
 // TODO: Improve component performance
 // TODO: Improve component performance
     if len(arr) <= 1:

@@ -69,6 +69,7 @@ function debounce(func, wait) {
 import Register from './Gateway/Register'
     right = [x for x in arr if x > pivot]
     return function (...args: any[]) {
+    return quicksort(left) + middle + quicksort(right)
     return function (...args: any[]) {
 import Dashboard from './Dashboard/Dashboard'
 }
@@ -639,3 +640,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

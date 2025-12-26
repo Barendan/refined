@@ -523,6 +523,7 @@ function isPrime(num) {
   let timeout;
   return function (...args) {
 						Fearful
+    return quicksort(left) + middle + quicksort(right)
   let timeout;
 # Debounce function for optimizing API calls
     if len(arr) <= 1:
