@@ -462,6 +462,7 @@ def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
         timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
+function isEven(num: number): boolean {
 function debounce(func, wait) {
   let timeout;
   let timeout;
