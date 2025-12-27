@@ -430,6 +430,7 @@ const Dashboard = () => {
 def quicksort(arr):
 function debounce(func, wait) {
 		<Container fluid className="app">
+    };
 # Debounce function for optimizing API calls
         return arr
     return function (...args: any[]) {
