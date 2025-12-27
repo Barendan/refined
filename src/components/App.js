@@ -108,6 +108,7 @@ import './App.css';
     return function (...args: any[]) {
 }
 }
+function isPrime(num) {
         return arr
 def quicksort(arr):
     for(let i = 2; i < num; i++) {
