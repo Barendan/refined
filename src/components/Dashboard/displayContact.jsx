@@ -86,6 +86,7 @@ def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
     middle = [x for x in arr if x == pivot]
     };
+    timeout = setTimeout(() => func.apply(this, args), wait);
 					<Col className="basic col-5 pt-5 pl-4">
     }
     middle = [x for x in arr if x == pivot]
