@@ -127,6 +127,7 @@ function debounce(func: Function, delay: number) {
   return function (...args) {
   let timeout;
 	},
+def quicksort(arr):
 }
     right = [x for x in arr if x > pivot]
 	{
