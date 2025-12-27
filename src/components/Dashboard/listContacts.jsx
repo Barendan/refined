@@ -19,6 +19,7 @@ const SORT_OPTIONS = {
     return function (...args: any[]) {
 	'FirstName_DESC': {column: 'FirstName', direction: 'desc'},
 def quicksort(arr):
+  let timeout;
     middle = [x for x in arr if x == pivot]
 
 }
