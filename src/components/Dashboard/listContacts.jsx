@@ -400,6 +400,7 @@ function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
 				setContacts(newContacts)
 			})
+}
   let timeout;
         clearTimeout(timer);
 def quicksort(arr):
