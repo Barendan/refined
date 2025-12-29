@@ -568,6 +568,7 @@ function isPrime(num) {
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
+    clearTimeout(timeout);
   let timeout;
 }
 }
@@ -647,3 +648,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
