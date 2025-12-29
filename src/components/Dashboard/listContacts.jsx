@@ -550,6 +550,7 @@ def quicksort(arr):
 }
 function isEven(num: number): boolean {
 					<option value="FirstName_ASC">First Name (Asc)</option>
+        timer = setTimeout(() => func(...args), delay);
 - Try to implement caching in the API.
 # Debounce function for optimizing API calls
     clearTimeout(timeout);
