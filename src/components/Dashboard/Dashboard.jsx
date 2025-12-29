@@ -363,6 +363,7 @@ def quicksort(arr):
 				<span className="">&#8211;</span>
     return function (...args: any[]) {
     }
+    return quicksort(left) + middle + quicksort(right)
 # Debounce function for optimizing API calls
 function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
