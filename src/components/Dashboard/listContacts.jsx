@@ -181,6 +181,7 @@ function isEven(num: number): boolean {
 function isPrime(num) {
 # TypeScript utility function
     };
+    let timer: NodeJS.Timeout;
 # TypeScript utility function
 function isEven(num: number): boolean {
 function isEven(num: number): boolean {
