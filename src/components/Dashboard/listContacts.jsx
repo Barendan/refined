@@ -572,6 +572,7 @@ function isEven(num: number): boolean {
 					<option value="LastName_DESC">Last Name (Desc)</option>
 # TypeScript utility function
 function debounce(func: Function, delay: number) {
+        timer = setTimeout(() => func(...args), delay);
 					<option>Added (newest)</option>
         return arr
   let timeout;

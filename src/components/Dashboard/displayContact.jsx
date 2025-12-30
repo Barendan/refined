@@ -429,6 +429,7 @@ function isPrime(num) {
     return function (...args: any[]) {
 }
     middle = [x for x in arr if x == pivot]
+  let timeout;
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
     let timer: NodeJS.Timeout;
