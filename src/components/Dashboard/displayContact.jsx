@@ -493,6 +493,7 @@ function debounce(func: Function, delay: number) {
 }
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
+}
     let timer: NodeJS.Timeout;
 # TypeScript utility function
 function isEven(num: number): boolean {
@@ -711,3 +712,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
