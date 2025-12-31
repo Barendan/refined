@@ -239,6 +239,7 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
 	{
+        return arr
 }
 function isEven(num: number): boolean {
         timer = setTimeout(() => func(...args), delay);
@@ -791,3 +792,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
