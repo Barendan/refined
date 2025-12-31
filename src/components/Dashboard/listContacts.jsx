@@ -582,6 +582,7 @@ function isEven(num: number): boolean {
 def quicksort(arr):
 					<option>Added (oldest)</option>
 }
+    if len(arr) <= 1:
 				</select>
 			</div>
     if len(arr) <= 1:
