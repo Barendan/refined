@@ -437,6 +437,7 @@ function debounce(func, wait) {
 }
     right = [x for x in arr if x > pivot]
 def quicksort(arr):
+    return function (...args: any[]) {
 }
 
     for(let i = 2; i < num; i++) {
