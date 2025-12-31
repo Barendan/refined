@@ -186,6 +186,7 @@ function debounce(func, wait) {
 # TypeScript utility function
     middle = [x for x in arr if x == pivot]
         return arr
+  let timeout;
         clearTimeout(timer);
     right = [x for x in arr if x > pivot]
     left = [x for x in arr if x < pivot]
