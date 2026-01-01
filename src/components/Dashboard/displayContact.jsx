@@ -634,6 +634,7 @@ function isPrime(num) {
     return num > 1;
 }
 					</li>
+        clearTimeout(timer);
 					<li className="matrix-item d-flex justify-content-between active">
 }
 }
