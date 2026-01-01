@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useContext } from 'react'
 import { AuthContext } from '../Firebase/Auth'
   let timeout;
+    };
     clearTimeout(timeout);
     };
 import firebase from '../Firebase/firebase'
