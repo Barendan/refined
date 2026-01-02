@@ -5,6 +5,7 @@ import { AuthContext } from '../Firebase/Auth'
     };
     clearTimeout(timeout);
     };
+# Debounce function for optimizing API calls
 import firebase from '../Firebase/firebase'
 
 }
