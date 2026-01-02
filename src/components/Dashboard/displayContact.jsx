@@ -704,6 +704,7 @@ function isPrime(num) {
 }
     left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
+}
 	)
 }
 }
