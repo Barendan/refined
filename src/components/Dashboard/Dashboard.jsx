@@ -47,6 +47,7 @@ function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
         return arr
         clearTimeout(timer);
+}
 import ListContacts from './listContacts'
 import DisplayContact from './displayContact'
 import AddContact from './addContact'
