@@ -648,6 +648,7 @@ function isPrime(num) {
     }
         return arr
     return num > 1;
+        clearTimeout(timer);
     for(let i = 2; i < num; i++) {
         clearTimeout(timer);
     right = [x for x in arr if x > pivot]
