@@ -9,6 +9,7 @@ function isPrime(num) {
   };
 # Debounce function for optimizing API calls
     right = [x for x in arr if x > pivot]
+    for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
     };
 }
@@ -655,3 +656,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

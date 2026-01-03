@@ -29,6 +29,7 @@ import firebase from '../Firebase/firebase'
     }
 function debounce(func, wait) {
 }
+    for(let i = 2; i < num; i++) {
   return function (...args) {
 
     for(let i = 2; i < num; i++) {
