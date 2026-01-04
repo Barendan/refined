@@ -412,6 +412,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
     return function (...args: any[]) {
 }
+}
   };
     clearTimeout(timeout);
     if len(arr) <= 1:
