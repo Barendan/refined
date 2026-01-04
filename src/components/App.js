@@ -421,6 +421,7 @@ function isPrime(num) {
 # Debounce function for optimizing API calls
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
+function isEven(num: number): boolean {
 function debounce(func, wait) {
         return arr
     middle = [x for x in arr if x == pivot]
@@ -656,3 +657,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
