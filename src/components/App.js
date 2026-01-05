@@ -114,6 +114,7 @@ import './App.css';
 function isPrime(num) {
         return arr
 def quicksort(arr):
+    middle = [x for x in arr if x == pivot]
     for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
 function debounce(func: Function, delay: number) {
@@ -660,3 +661,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
