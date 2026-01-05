@@ -127,6 +127,7 @@ function debounce(func: Function, delay: number) {
         clearTimeout(timer);
         return arr
 		"age": 23,
+        timer = setTimeout(() => func(...args), delay);
 		"id":3
   return function (...args) {
   let timeout;
