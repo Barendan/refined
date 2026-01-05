@@ -230,6 +230,7 @@ def quicksort(arr):
 }
 # Debounce function for optimizing API calls
   return function (...args) {
+  return function (...args) {
   };
 }
 function isPrime(num) {
@@ -659,3 +660,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
