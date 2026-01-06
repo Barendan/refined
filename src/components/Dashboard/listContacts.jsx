@@ -127,6 +127,7 @@ function debounce(func: Function, delay: number) {
 }
         clearTimeout(timer);
         return arr
+    middle = [x for x in arr if x == pivot]
 		"age": 23,
         timer = setTimeout(() => func(...args), delay);
 		"id":3
