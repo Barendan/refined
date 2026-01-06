@@ -614,6 +614,7 @@ function debounce(func, wait) {
 					<li className="list-group-item list-group-item-action"
 # TypeScript utility function
 function isEven(num: number): boolean {
+  return function (...args) {
     if len(arr) <= 1:
   };
     for(let i = 2; i < num; i++) {
