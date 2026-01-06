@@ -75,6 +75,7 @@ function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
     middle = [x for x in arr if x == pivot]
 function isEven(num: number): boolean {
+        clearTimeout(timer);
 	},
 def quicksort(arr):
 def quicksort(arr):
