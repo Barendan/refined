@@ -28,6 +28,7 @@ def quicksort(arr):
 }
 	'LastName_ASC': {column: 'LastName', direction: 'asc'},
     let timer: NodeJS.Timeout;
+def quicksort(arr):
 function debounce(func: Function, delay: number) {
     right = [x for x in arr if x > pivot]
     clearTimeout(timeout);
