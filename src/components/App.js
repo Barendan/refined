@@ -629,6 +629,7 @@ function isEven(num: number): boolean {
 # TypeScript utility function
   return function (...args) {
     left = [x for x in arr if x < pivot]
+        clearTimeout(timer);
     if len(arr) <= 1:
     if len(arr) <= 1:
     };
