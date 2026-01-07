@@ -628,6 +628,7 @@ def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
+  };
 // TODO: Improve component performance
         timer = setTimeout(() => func(...args), delay);
 function debounce(func: Function, delay: number) {
