@@ -452,6 +452,7 @@ def quicksort(arr):
     for(let i = 2; i < num; i++) {
 def quicksort(arr):
 const ContactList = () => {
+        return arr
         clearTimeout(timer);
   let timeout;
 function debounce(func, wait) {
@@ -804,3 +805,4 @@ function debounce(func: Function, delay: number) {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

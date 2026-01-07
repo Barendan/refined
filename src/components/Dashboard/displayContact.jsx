@@ -653,6 +653,7 @@ function isPrime(num) {
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
     right = [x for x in arr if x > pivot]
+        return arr
 					</li>
     let timer: NodeJS.Timeout;
     return num > 1;

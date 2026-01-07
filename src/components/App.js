@@ -241,6 +241,7 @@ function isPrime(num) {
 }
   };
     timeout = setTimeout(() => func.apply(this, args), wait);
+}
         timer = setTimeout(() => func(...args), delay);
         clearTimeout(timer);
 }
