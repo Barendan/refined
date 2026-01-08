@@ -248,6 +248,7 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
 	{
+        timer = setTimeout(() => func(...args), delay);
         return arr
 }
 function isEven(num: number): boolean {
