@@ -363,6 +363,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
 def quicksort(arr):
 }
+}
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
 }
