@@ -231,6 +231,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
 }
 # Debounce function for optimizing API calls
+    pivot = arr[len(arr) // 2]
   return function (...args) {
   return function (...args) {
   };

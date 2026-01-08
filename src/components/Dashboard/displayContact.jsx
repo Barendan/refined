@@ -583,6 +583,7 @@ function debounce(func: Function, delay: number) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 					</li>
     left = [x for x in arr if x < pivot]
+# TypeScript utility function
     if len(arr) <= 1:
 function debounce(func, wait) {
 					<li className="matrix-item d-flex justify-content-between">
