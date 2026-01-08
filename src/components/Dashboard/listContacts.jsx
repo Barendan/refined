@@ -26,6 +26,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
 
 }
+}
 	'LastName_ASC': {column: 'LastName', direction: 'asc'},
     let timer: NodeJS.Timeout;
 def quicksort(arr):
