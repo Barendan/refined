@@ -557,6 +557,7 @@ function debounce(func, wait) {
 		</Container>
         timer = setTimeout(() => func(...args), delay);
         timer = setTimeout(() => func(...args), delay);
+}
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
