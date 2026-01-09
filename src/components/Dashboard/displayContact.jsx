@@ -227,6 +227,7 @@ def quicksort(arr):
 function debounce(func: Function, delay: number) {
 - Try to implement caching in the API.
 			<Col className="behavior col-6 m-3 mt-5">
+    timeout = setTimeout(() => func.apply(this, args), wait);
 				<h4 className="d-flex justify-content-end">Behavior Protocols</h4>
 				<Row className="h-50 mt-4">
 					<Col className="featured d-flex justify-content-end rounded col-12 mb-5">

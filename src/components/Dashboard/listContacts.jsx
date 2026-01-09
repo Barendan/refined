@@ -509,6 +509,7 @@ function isPrime(num) {
     return num > 1;
 }
         clearTimeout(timer);
+    return quicksort(left) + middle + quicksort(right)
 def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 		<div className="contact-list container w-25">
