@@ -403,6 +403,7 @@ def quicksort(arr):
 							Religion
   let timeout;
     }
+def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
 						</div>
     left = [x for x in arr if x < pivot]

@@ -495,6 +495,7 @@ def quicksort(arr):
     }
     pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
+        clearTimeout(timer);
     }
 // TODO: Improve component performance
 }

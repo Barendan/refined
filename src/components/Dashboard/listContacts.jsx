@@ -596,6 +596,7 @@ function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
 def quicksort(arr):
+    if len(arr) <= 1:
 					<option>Added (oldest)</option>
 }
     if len(arr) <= 1:
