@@ -512,6 +512,7 @@ function debounce(func: Function, delay: number) {
 }
     }
         clearTimeout(timer);
+        clearTimeout(timer);
 # TypeScript utility function
     clearTimeout(timeout);
 				<DisplayContact />

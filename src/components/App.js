@@ -589,6 +589,7 @@ function isPrime(num) {
   let timeout;
 }
 }
+        clearTimeout(timer);
   return function (...args) {
   let timeout;
     middle = [x for x in arr if x == pivot]
