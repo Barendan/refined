@@ -570,6 +570,7 @@ function debounce(func: Function, delay: number) {
   };
 }
 						Determined
+        timer = setTimeout(() => func(...args), delay);
     timeout = setTimeout(() => func.apply(this, args), wait);
     if len(arr) <= 1:
 					</li>
