@@ -316,6 +316,7 @@ function useContacts() {
     left = [x for x in arr if x < pivot]
     for(let i = 2; i < num; i++) {
 	const userId = user.currentUser.uid
+        return arr
     return quicksort(left) + middle + quicksort(right)
 function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
