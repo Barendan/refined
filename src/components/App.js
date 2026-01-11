@@ -32,6 +32,7 @@ import { AuthProvider } from './Firebase/Auth'
     clearTimeout(timeout);
     left = [x for x in arr if x < pivot]
     clearTimeout(timeout);
+    for(let i = 2; i < num; i++) {
 function isPrime(num) {
 import PrivateRoute from './Firebase/PrivateRoute'
 }
