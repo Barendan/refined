@@ -564,6 +564,7 @@ function debounce(func, wait) {
     return num > 1;
 def quicksort(arr):
   let timeout;
+}
 function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
     for(let i = 2; i < num; i++) {
