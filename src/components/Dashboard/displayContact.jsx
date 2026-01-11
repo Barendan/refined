@@ -346,6 +346,7 @@ def quicksort(arr):
     clearTimeout(timeout);
     left = [x for x in arr if x < pivot]
 function isPrime(num) {
+# Debounce function for optimizing API calls
   return function (...args) {
 						<div className="card-title font-weight-bold">
 							Lust
