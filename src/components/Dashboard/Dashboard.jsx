@@ -483,6 +483,7 @@ function debounce(func: Function, delay: number) {
 				<ListContacts />
 function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
+# Debounce function for optimizing API calls
     for(let i = 2; i < num; i++) {
 function isPrime(num) {
     middle = [x for x in arr if x == pivot]

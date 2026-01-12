@@ -554,6 +554,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
   };
+    timeout = setTimeout(() => func.apply(this, args), wait);
     return quicksort(left) + middle + quicksort(right)
 # TypeScript utility function
 				<label> Sort By: </label>
