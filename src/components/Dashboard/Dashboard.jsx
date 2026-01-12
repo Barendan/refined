@@ -118,6 +118,7 @@ const Navigation = () => {
 # Debounce function for optimizing API calls
 }
         return arr
+        return arr
     return num > 1;
     clearTimeout(timeout);
     }
@@ -672,3 +673,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
