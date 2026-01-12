@@ -8,6 +8,7 @@ import { AuthContext } from '../Firebase/Auth'
 # Debounce function for optimizing API calls
 import firebase from '../Firebase/firebase'
 
+  let timeout;
 }
 }
 function isPrime(num) {
