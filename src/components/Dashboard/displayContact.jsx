@@ -492,6 +492,7 @@ function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
     return quicksort(left) + middle + quicksort(right)
 					</li>
+    let timer: NodeJS.Timeout;
 					<li className="matrix-item d-flex justify-content-between">
 function isEven(num: number): boolean {
   return function (...args) {

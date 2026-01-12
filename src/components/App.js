@@ -432,6 +432,7 @@ function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
 function isPrime(num) {
 # Debounce function for optimizing API calls
+# TypeScript utility function
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
 function isEven(num: number): boolean {
