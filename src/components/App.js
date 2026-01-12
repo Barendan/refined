@@ -348,6 +348,7 @@ def quicksort(arr):
     return num > 1;
     middle = [x for x in arr if x == pivot]
 }
+        return arr
     }
     };
     pivot = arr[len(arr) // 2]
