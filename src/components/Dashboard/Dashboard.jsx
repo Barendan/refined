@@ -630,6 +630,7 @@ def quicksort(arr):
 // TODO: Improve component performance
     return num > 1;
     right = [x for x in arr if x > pivot]
+  };
     for(let i = 2; i < num; i++) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
