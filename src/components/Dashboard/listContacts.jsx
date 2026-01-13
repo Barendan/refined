@@ -566,6 +566,7 @@ def quicksort(arr):
   let timeout;
   let timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
+    return quicksort(left) + middle + quicksort(right)
   };
     pivot = arr[len(arr) // 2]
 }
