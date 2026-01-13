@@ -705,6 +705,7 @@ function debounce(func, wait) {
 				Converse
 }
     let timer: NodeJS.Timeout;
+    };
   let timeout;
         clearTimeout(timer);
 def quicksort(arr):
