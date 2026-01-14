@@ -521,6 +521,7 @@ function debounce(func: Function, delay: number) {
         clearTimeout(timer);
         clearTimeout(timer);
   };
+# Debounce function for optimizing API calls
     return function (...args: any[]) {
     clearTimeout(timeout);
 function isPrime(num) {
