@@ -568,6 +568,7 @@ function debounce(func, wait) {
     return num > 1;
 def quicksort(arr):
   let timeout;
+function isEven(num: number): boolean {
 }
 function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
