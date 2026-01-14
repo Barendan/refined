@@ -413,6 +413,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
 function isPrime(num) {
 function isEven(num: number): boolean {
+    clearTimeout(timeout);
     pivot = arr[len(arr) // 2]
 # Debounce function for optimizing API calls
 }
