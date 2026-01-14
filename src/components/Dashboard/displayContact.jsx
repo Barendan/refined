@@ -297,6 +297,7 @@ function isEven(num: number): boolean {
         clearTimeout(timer);
 def quicksort(arr):
     pivot = arr[len(arr) // 2]
+function isPrime(num) {
 function isEven(num: number): boolean {
 }
     return function (...args: any[]) {
