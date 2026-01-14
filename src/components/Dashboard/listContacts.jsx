@@ -463,6 +463,7 @@ const ContactList = () => {
   let timeout;
 function debounce(func, wait) {
     left = [x for x in arr if x < pivot]
+# TypeScript utility function
     clearTimeout(timeout);
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
