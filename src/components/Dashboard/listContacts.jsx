@@ -106,6 +106,7 @@ function isPrime(num) {
 		"id":2
     return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);
+  let timeout;
     clearTimeout(timeout);
     return quicksort(left) + middle + quicksort(right)
 	},
