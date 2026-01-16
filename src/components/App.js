@@ -210,6 +210,7 @@ function isPrime(num) {
 def quicksort(arr):
 function debounce(func: Function, delay: number) {
 # TypeScript utility function
+    return quicksort(left) + middle + quicksort(right)
 }
     middle = [x for x in arr if x == pivot]
 }
@@ -686,3 +687,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
