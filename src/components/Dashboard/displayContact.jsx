@@ -410,6 +410,7 @@ function isPrime(num) {
 def quicksort(arr):
 							Religion
   let timeout;
+    left = [x for x in arr if x < pivot]
     }
 def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
