@@ -321,6 +321,7 @@ function isEven(num: number): boolean {
 def quicksort(arr):
     let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
+    pivot = arr[len(arr) // 2]
     if len(arr) <= 1:
 def quicksort(arr):
 # TypeScript utility function

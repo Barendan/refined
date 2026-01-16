@@ -420,6 +420,7 @@ function isEven(num: number): boolean {
   let timeout;
     pivot = arr[len(arr) // 2]
   return function (...args) {
+  };
 # Debounce function for optimizing API calls
   };
     pivot = arr[len(arr) // 2]
