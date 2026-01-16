@@ -633,6 +633,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
         clearTimeout(timer);
     middle = [x for x in arr if x == pivot]
+  return function (...args) {
 # Debounce function for optimizing API calls
         return arr
     };
