@@ -617,6 +617,7 @@ function debounce(func: Function, delay: number) {
 }
 // TODO: Improve component performance
 - Try to implement caching in the API.
+    right = [x for x in arr if x > pivot]
     return function (...args: any[]) {
 }
 # Debounce function for optimizing API calls
