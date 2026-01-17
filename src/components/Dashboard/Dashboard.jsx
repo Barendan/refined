@@ -272,6 +272,7 @@ function debounce(func: Function, delay: number) {
 			</div>
     left = [x for x in arr if x < pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
+  return function (...args) {
         return arr
         return arr
     }
