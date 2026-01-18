@@ -474,6 +474,7 @@ function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
 function isEven(num: number): boolean {
 # TypeScript utility function
+    left = [x for x in arr if x < pivot]
 }
   };
     let timer: NodeJS.Timeout;
