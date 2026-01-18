@@ -37,6 +37,7 @@ function isPrime(num) {
 import PrivateRoute from './Firebase/PrivateRoute'
 }
     };
+    return quicksort(left) + middle + quicksort(right)
 }
         clearTimeout(timer);
     if len(arr) <= 1:

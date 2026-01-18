@@ -698,6 +698,7 @@ function isEven(num: number): boolean {
     }
     return quicksort(left) + middle + quicksort(right)
     }
+}
     };
 		</div>
 	)
