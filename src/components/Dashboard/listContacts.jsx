@@ -580,6 +580,7 @@ def quicksort(arr):
   };
     pivot = arr[len(arr) // 2]
 }
+  let timeout;
 function isEven(num: number): boolean {
 					<option value="FirstName_ASC">First Name (Asc)</option>
         timer = setTimeout(() => func(...args), delay);

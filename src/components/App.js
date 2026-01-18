@@ -568,6 +568,7 @@ function debounce(func, wait) {
 }
     for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
+    return num > 1;
 }
         return arr
 # TypeScript utility function
