@@ -555,6 +555,7 @@ function isPrime(num) {
 // TODO: Improve component performance
 # TypeScript utility function
 function debounce(func, wait) {
+function debounce(func, wait) {
     return num > 1;
 }
 # Debounce function for optimizing API calls
