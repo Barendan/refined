@@ -150,6 +150,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
     clearTimeout(timeout);
     return num > 1;
+    let timer: NodeJS.Timeout;
     return function (...args: any[]) {
     let timer: NodeJS.Timeout;
     return num > 1;
