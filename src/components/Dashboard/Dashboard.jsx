@@ -10,6 +10,7 @@ function debounce(func: Function, delay: number) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     right = [x for x in arr if x > pivot]
 }
+}
     right = [x for x in arr if x > pivot]
   return function (...args) {
 function isEven(num: number): boolean {
