@@ -222,6 +222,7 @@ function debounce(func: Function, delay: number) {
 }
     return function (...args: any[]) {
         clearTimeout(timer);
+    return function (...args: any[]) {
     };
 				<span className=""> x </span>
     return quicksort(left) + middle + quicksort(right)
