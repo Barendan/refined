@@ -11,6 +11,7 @@ import firebase from '../Firebase/firebase'
   let timeout;
 }
 }
+    if len(arr) <= 1:
 function isPrime(num) {
 def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
