@@ -672,6 +672,7 @@ def quicksort(arr):
 							{contact.FirstName} {contact.LastName}
 							<code className="age">{contact.age}</code>
 }
+  let timeout;
 # Debounce function for optimizing API calls
 						</div>
     left = [x for x in arr if x < pivot]
