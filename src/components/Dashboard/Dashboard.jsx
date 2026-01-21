@@ -617,6 +617,7 @@ export default Dashboard;// TODO: Improve component performance
     };
     timeout = setTimeout(() => func.apply(this, args), wait);
     clearTimeout(timeout);
+}
         clearTimeout(timer);
     left = [x for x in arr if x < pivot]
 }
