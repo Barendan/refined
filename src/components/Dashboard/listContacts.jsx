@@ -491,6 +491,7 @@ function debounce(func: Function, delay: number) {
 }
     return num > 1;
         timer = setTimeout(() => func(...args), delay);
+function isPrime(num) {
 	const removeContact = (uid) => {
 # TypeScript utility function
 		firebase.database().ref('users/' + userId).child('contactList').on('value', (snap) => {
