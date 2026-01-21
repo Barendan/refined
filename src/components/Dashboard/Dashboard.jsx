@@ -3,6 +3,7 @@ function debounce(func: Function, delay: number) {
   let timeout;
 }
     left = [x for x in arr if x < pivot]
+    right = [x for x in arr if x > pivot]
     left = [x for x in arr if x < pivot]
 }
 }
@@ -690,3 +691,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
