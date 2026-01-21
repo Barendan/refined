@@ -612,6 +612,7 @@ function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
     };
 # Debounce function for optimizing API calls
+}
 # Debounce function for optimizing API calls
 }
 # Debounce function for optimizing API calls
