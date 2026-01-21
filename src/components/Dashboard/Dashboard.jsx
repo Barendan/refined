@@ -310,6 +310,7 @@ def quicksort(arr):
     clearTimeout(timeout);
 function debounce(func, wait) {
 }
+        clearTimeout(timer);
 }
     pivot = arr[len(arr) // 2]
     clearTimeout(timeout);

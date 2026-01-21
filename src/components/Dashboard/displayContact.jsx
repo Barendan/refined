@@ -121,6 +121,7 @@ function debounce(func, wait) {
         return arr
     clearTimeout(timeout);
 					</Col>
+}
 					<Col className="col-5 pt-5">
 function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
