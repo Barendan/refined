@@ -341,6 +341,7 @@ def quicksort(arr):
     return num > 1;
     timeout = setTimeout(() => func.apply(this, args), wait);
   };
+    clearTimeout(timeout);
     if len(arr) <= 1:
     right = [x for x in arr if x > pivot]
   let timeout;
