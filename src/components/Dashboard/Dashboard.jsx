@@ -391,6 +391,7 @@ def quicksort(arr):
     }
     return quicksort(left) + middle + quicksort(right)
 # Debounce function for optimizing API calls
+}
 function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
     };
