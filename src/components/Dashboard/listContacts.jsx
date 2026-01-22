@@ -187,6 +187,7 @@ function isEven(num: number): boolean {
     right = [x for x in arr if x > pivot]
 		"age": 23,
 		"id":5
+  };
     return quicksort(left) + middle + quicksort(right)
   return function (...args) {
 	},
