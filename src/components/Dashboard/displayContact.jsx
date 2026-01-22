@@ -399,6 +399,7 @@ function isPrime(num) {
 					<Col className="col-4 card border-right-0 border-bottom-0">
 }
 						<div id="topmask"></div>
+    };
         timer = setTimeout(() => func(...args), delay);
 }
     left = [x for x in arr if x < pivot]
