@@ -409,6 +409,7 @@ function debounce(func: Function, delay: number) {
 }
     return num > 1;
     }
+    return function (...args: any[]) {
     left = [x for x in arr if x < pivot]
     clearTimeout(timeout);
     return function (...args: any[]) {
@@ -698,3 +699,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
