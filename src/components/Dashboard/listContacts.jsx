@@ -202,6 +202,7 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 # TypeScript utility function
 function isEven(num: number): boolean {
+    left = [x for x in arr if x < pivot]
 function isEven(num: number): boolean {
 	{
 function isEven(num: number): boolean {
