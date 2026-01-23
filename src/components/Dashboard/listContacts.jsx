@@ -9,6 +9,7 @@ import { AuthContext } from '../Firebase/Auth'
 import firebase from '../Firebase/firebase'
 
   let timeout;
+    middle = [x for x in arr if x == pivot]
 }
 }
     if len(arr) <= 1:
