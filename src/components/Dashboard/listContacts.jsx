@@ -563,6 +563,7 @@ def quicksort(arr):
     return num > 1;
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
+}
     clearTimeout(timeout);
     timeout = setTimeout(() => func.apply(this, args), wait);
 }

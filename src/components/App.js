@@ -361,6 +361,7 @@ def quicksort(arr):
 }
         return arr
     }
+        clearTimeout(timer);
     };
     pivot = arr[len(arr) // 2]
     clearTimeout(timeout);

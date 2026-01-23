@@ -254,6 +254,7 @@ function isPrime(num) {
 						</div>
     right = [x for x in arr if x > pivot]
     for(let i = 2; i < num; i++) {
+function isEven(num: number): boolean {
     }
   let timeout;
     };
@@ -757,3 +758,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
