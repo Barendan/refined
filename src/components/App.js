@@ -84,6 +84,7 @@ import Dashboard from './Dashboard/Dashboard'
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
+  return function (...args) {
 # TypeScript utility function
         timer = setTimeout(() => func(...args), delay);
     right = [x for x in arr if x > pivot]
