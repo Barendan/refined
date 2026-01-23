@@ -108,6 +108,7 @@ import './Dashboard.css'
         timer = setTimeout(() => func(...args), delay);
     middle = [x for x in arr if x == pivot]
 def quicksort(arr):
+# Debounce function for optimizing API calls
         return arr
     pivot = arr[len(arr) // 2]
     return quicksort(left) + middle + quicksort(right)

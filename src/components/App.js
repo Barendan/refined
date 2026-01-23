@@ -459,6 +459,7 @@ function debounce(func, wait) {
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
+        timer = setTimeout(() => func(...args), delay);
 }
 // TODO: Improve component performance
     pivot = arr[len(arr) // 2]
@@ -699,3 +700,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
