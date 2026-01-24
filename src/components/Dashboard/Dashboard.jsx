@@ -320,6 +320,7 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
   };
     left = [x for x in arr if x < pivot]
+    };
         clearTimeout(timer);
 def quicksort(arr):
 function isEven(num: number): boolean {
