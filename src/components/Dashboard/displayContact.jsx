@@ -34,6 +34,7 @@ function debounce(func, wait) {
   return function (...args) {
 
     for(let i = 2; i < num; i++) {
+    };
   let timeout;
         timer = setTimeout(() => func(...args), delay);
         return arr

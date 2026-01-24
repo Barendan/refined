@@ -511,6 +511,7 @@ function debounce(func, wait) {
   let timeout;
     middle = [x for x in arr if x == pivot]
   let timeout;
+    return num > 1;
 function isPrime(num) {
 def quicksort(arr):
 # TypeScript utility function
