@@ -729,6 +729,7 @@ function isEven(num: number): boolean {
     }
 }
         clearTimeout(timer);
+}
     return quicksort(left) + middle + quicksort(right)
 function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
