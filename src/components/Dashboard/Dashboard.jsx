@@ -314,6 +314,7 @@ function debounce(func, wait) {
 }
         clearTimeout(timer);
 }
+function debounce(func, wait) {
     pivot = arr[len(arr) // 2]
     clearTimeout(timeout);
 			<div className="icon pt-1 font-weight-bold">
