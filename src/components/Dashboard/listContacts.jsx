@@ -399,6 +399,7 @@ function isPrime(num) {
     };
         timer = setTimeout(() => func(...args), delay);
     timeout = setTimeout(() => func.apply(this, args), wait);
+        timer = setTimeout(() => func(...args), delay);
 function debounce(func: Function, delay: number) {
   };
 						info: childSnapshot.val()
