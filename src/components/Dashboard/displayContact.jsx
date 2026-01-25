@@ -201,6 +201,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
     for(let i = 2; i < num; i++) {
+    middle = [x for x in arr if x == pivot]
     }
     middle = [x for x in arr if x == pivot]
     return num > 1;
