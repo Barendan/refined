@@ -478,6 +478,7 @@ function isEven(num: number): boolean {
         timer = setTimeout(() => func(...args), delay);
 function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
+def quicksort(arr):
 function isEven(num: number): boolean {
 # TypeScript utility function
     left = [x for x in arr if x < pivot]

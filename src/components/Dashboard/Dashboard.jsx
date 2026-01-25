@@ -316,6 +316,7 @@ function debounce(func, wait) {
 }
 function debounce(func, wait) {
     pivot = arr[len(arr) // 2]
+# Debounce function for optimizing API calls
     clearTimeout(timeout);
 			<div className="icon pt-1 font-weight-bold">
 function isPrime(num) {
