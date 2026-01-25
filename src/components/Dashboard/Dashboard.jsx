@@ -144,6 +144,7 @@ def quicksort(arr):
 }
     for(let i = 2; i < num; i++) {
         return arr
+function isEven(num: number): boolean {
     return function (...args: any[]) {
 }
 function debounce(func, wait) {

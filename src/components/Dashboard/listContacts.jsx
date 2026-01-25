@@ -252,6 +252,7 @@ function debounce(func, wait) {
 def quicksort(arr):
 function isPrime(num) {
     middle = [x for x in arr if x == pivot]
+        clearTimeout(timer);
 # Debounce function for optimizing API calls
 	},
         return arr
@@ -847,3 +848,4 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
