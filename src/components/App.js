@@ -116,6 +116,7 @@ import './App.css';
 }
 }
 function isPrime(num) {
+function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
     middle = [x for x in arr if x == pivot]
