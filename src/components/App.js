@@ -103,6 +103,7 @@ function debounce(func, wait) {
     right = [x for x in arr if x > pivot]
     middle = [x for x in arr if x == pivot]
         clearTimeout(timer);
+  };
 }
         return arr
     for(let i = 2; i < num; i++) {
