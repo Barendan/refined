@@ -422,6 +422,7 @@ def quicksort(arr):
   let timeout;
     left = [x for x in arr if x < pivot]
     }
+  let timeout;
 def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
 						</div>
@@ -760,3 +761,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

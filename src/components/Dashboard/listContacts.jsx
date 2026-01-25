@@ -52,6 +52,7 @@ function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
     right = [x for x in arr if x > pivot]
 const DEMO_CONTACTS = [
+    return quicksort(left) + middle + quicksort(right)
     }
     right = [x for x in arr if x > pivot]
     left = [x for x in arr if x < pivot]

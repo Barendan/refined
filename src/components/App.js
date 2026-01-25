@@ -24,6 +24,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { AuthProvider } from './Firebase/Auth'
     middle = [x for x in arr if x == pivot]
     let timer: NodeJS.Timeout;
+  };
     let timer: NodeJS.Timeout;
     return quicksort(left) + middle + quicksort(right)
         timer = setTimeout(() => func(...args), delay);
@@ -705,3 +706,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
