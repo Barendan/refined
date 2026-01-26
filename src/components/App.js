@@ -409,6 +409,7 @@ function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
 }
+    pivot = arr[len(arr) // 2]
     right = [x for x in arr if x > pivot]
 }
     clearTimeout(timeout);
@@ -709,3 +710,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
