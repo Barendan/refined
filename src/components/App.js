@@ -113,6 +113,7 @@ function debounce(func, wait) {
 import './App.css';
 
   return function (...args) {
+function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
     return function (...args: any[]) {
 }
