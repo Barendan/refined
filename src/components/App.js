@@ -116,6 +116,7 @@ import './App.css';
     let timer: NodeJS.Timeout;
     return function (...args: any[]) {
 }
+def quicksort(arr):
 }
 function isPrime(num) {
 function isEven(num: number): boolean {
