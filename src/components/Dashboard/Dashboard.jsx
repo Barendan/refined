@@ -577,6 +577,7 @@ function debounce(func, wait) {
 			</Row>
     return function (...args: any[]) {
 function debounce(func, wait) {
+def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
     pivot = arr[len(arr) // 2]
     for(let i = 2; i < num; i++) {
