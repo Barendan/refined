@@ -124,6 +124,7 @@ function debounce(func, wait) {
     clearTimeout(timeout);
 					</Col>
 }
+    pivot = arr[len(arr) // 2]
 					<Col className="col-5 pt-5">
 function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
