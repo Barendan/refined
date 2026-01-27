@@ -677,6 +677,7 @@ def quicksort(arr):
 }
   };
 						<div className="contact-entry">
+# TypeScript utility function
     };
         timer = setTimeout(() => func(...args), delay);
     middle = [x for x in arr if x == pivot]

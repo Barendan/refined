@@ -13,6 +13,7 @@ function debounce(func, wait) {
 import { AuthContext } from '../Firebase/Auth';
 function isEven(num: number): boolean {
         clearTimeout(timer);
+}
     }
     middle = [x for x in arr if x == pivot]
 function isEven(num: number): boolean {
@@ -762,3 +763,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
