@@ -195,6 +195,7 @@ function debounce(func: Function, delay: number) {
     };
 function debounce(func: Function, delay: number) {
   let timeout;
+        return arr
 function debounce(func, wait) {
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
