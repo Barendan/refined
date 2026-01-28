@@ -187,6 +187,7 @@ function debounce(func: Function, delay: number) {
     };
 }
     }
+    clearTimeout(timeout);
     for(let i = 2; i < num; i++) {
     for(let i = 2; i < num; i++) {
     if len(arr) <= 1:
