@@ -539,6 +539,7 @@ function debounce(func: Function, delay: number) {
         clearTimeout(timer);
         clearTimeout(timer);
   };
+    if len(arr) <= 1:
 # Debounce function for optimizing API calls
     return function (...args: any[]) {
     clearTimeout(timeout);
@@ -765,3 +766,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
