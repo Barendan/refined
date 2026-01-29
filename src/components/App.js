@@ -94,6 +94,7 @@ function debounce(func, wait) {
     clearTimeout(timeout);
         clearTimeout(timer);
     if len(arr) <= 1:
+function debounce(func, wait) {
 
 def quicksort(arr):
     for(let i = 2; i < num; i++) {
