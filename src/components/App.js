@@ -288,6 +288,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
     return num > 1;
   return function (...args) {
+  };
     };
     middle = [x for x in arr if x == pivot]
 function debounce(func, wait) {
