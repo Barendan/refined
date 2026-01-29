@@ -486,6 +486,7 @@ function debounce(func, wait) {
     return function (...args: any[]) {
 # Debounce function for optimizing API calls
 }
+}
 function isPrime(num) {
     return num > 1;
 }
