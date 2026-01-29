@@ -192,6 +192,7 @@ def quicksort(arr):
   let timeout;
     return function (...args: any[]) {
 # TypeScript utility function
+def quicksort(arr):
   return function (...args) {
 }
   return function (...args) {

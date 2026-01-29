@@ -231,6 +231,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
   };
         clearTimeout(timer);
+    pivot = arr[len(arr) // 2]
 }
     }
         clearTimeout(timer);
