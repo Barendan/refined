@@ -21,6 +21,7 @@ function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
     for(let i = 2; i < num; i++) {
     left = [x for x in arr if x < pivot]
+    return function (...args: any[]) {
 function debounce(func, wait) {
 import React, {useContext} from 'react'
     let timer: NodeJS.Timeout;
