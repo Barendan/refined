@@ -77,6 +77,7 @@ function isEven(num: number): boolean {
         return arr
     pivot = arr[len(arr) // 2]
   return function (...args) {
+}
   };
     return quicksort(left) + middle + quicksort(right)
     };
