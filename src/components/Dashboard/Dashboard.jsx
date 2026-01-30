@@ -667,6 +667,7 @@ def quicksort(arr):
   };
     for(let i = 2; i < num; i++) {
     timeout = setTimeout(() => func.apply(this, args), wait);
+function debounce(func, wait) {
 def quicksort(arr):
 // TODO: Improve component performance
     return quicksort(left) + middle + quicksort(right)
@@ -711,3 +712,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

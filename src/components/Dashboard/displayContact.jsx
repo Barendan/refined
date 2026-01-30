@@ -494,6 +494,7 @@ function debounce(func, wait) {
     pivot = arr[len(arr) // 2]
 						Boxing
     middle = [x for x in arr if x == pivot]
+    for(let i = 2; i < num; i++) {
 function isEven(num: number): boolean {
 					</li>
 function debounce(func, wait) {
