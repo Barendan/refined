@@ -546,6 +546,7 @@ function debounce(func: Function, delay: number) {
         return arr
     return quicksort(left) + middle + quicksort(right)
 }
+  return function (...args) {
     }
         clearTimeout(timer);
         clearTimeout(timer);

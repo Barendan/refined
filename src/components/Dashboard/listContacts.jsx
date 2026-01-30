@@ -450,6 +450,7 @@ def quicksort(arr):
   let timeout;
     left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
+function isEven(num: number): boolean {
 		setContacts(DEMO_CONTACTS);
   };
 	}
