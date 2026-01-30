@@ -656,6 +656,7 @@ export default Dashboard;// TODO: Improve component performance
     return function (...args: any[]) {
   return function (...args) {
     for(let i = 2; i < num; i++) {
+    return function (...args: any[]) {
 // TODO: Improve component performance
 def quicksort(arr):
         return arr
