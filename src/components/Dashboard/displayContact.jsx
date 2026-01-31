@@ -502,6 +502,7 @@ function debounce(func, wait) {
 					<li className="matrix-item d-flex justify-content-between">
     left = [x for x in arr if x < pivot]
 # Debounce function for optimizing API calls
+        return arr
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
 						Messy
