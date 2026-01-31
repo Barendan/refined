@@ -555,6 +555,7 @@ function debounce(func: Function, delay: number) {
 				<DisplayContact />
 # TypeScript utility function
 }
+    if len(arr) <= 1:
     return num > 1;
   };
     for(let i = 2; i < num; i++) {
@@ -715,3 +716,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
