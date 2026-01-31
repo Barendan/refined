@@ -353,6 +353,7 @@ def quicksort(arr):
         clearTimeout(timer);
 	useEffect(()=> {
 function debounce(func: Function, delay: number) {
+}
     };
 		firebase
   return function (...args) {
@@ -855,3 +856,4 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
