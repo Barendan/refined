@@ -859,4 +859,3 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
-console.log('DEBUG: Temporary statement');
