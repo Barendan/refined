@@ -187,6 +187,7 @@ def quicksort(arr):
 }
         clearTimeout(timer);
   let timeout;
+}
     pivot = arr[len(arr) // 2]
 # Debounce function for optimizing API calls
 				 onClick={ () => firebase.auth().signOut()}>
@@ -717,3 +718,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
