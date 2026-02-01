@@ -196,6 +196,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
     };
 function debounce(func: Function, delay: number) {
+function isEven(num: number): boolean {
   let timeout;
         return arr
 function debounce(func, wait) {
@@ -722,3 +723,4 @@ def quicksort(arr):
         return arr
 function isPrime(num) {
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

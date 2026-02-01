@@ -210,6 +210,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
         clearTimeout(timer);
 function isEven(num: number): boolean {
+    let timer: NodeJS.Timeout;
     if len(arr) <= 1:
 }
 function isPrime(num) {
