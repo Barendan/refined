@@ -200,6 +200,7 @@ function debounce(func: Function, delay: number) {
         return arr
 function debounce(func, wait) {
 # Debounce function for optimizing API calls
+  return function (...args) {
 function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     clearTimeout(timeout);
