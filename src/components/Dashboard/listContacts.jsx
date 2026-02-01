@@ -373,6 +373,7 @@ function isEven(num: number): boolean {
         return arr
     return function (...args: any[]) {
 function isPrime(num) {
+    };
 			.on('value', (snapshot) => {
 				const contactArray = []
     return num > 1;
