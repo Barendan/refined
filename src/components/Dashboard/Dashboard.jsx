@@ -167,6 +167,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
   };
 # TypeScript utility function
+    if len(arr) <= 1:
     }
 def quicksort(arr):
 }
