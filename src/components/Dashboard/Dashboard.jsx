@@ -357,6 +357,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
   };
     clearTimeout(timeout);
+    let timer: NodeJS.Timeout;
     if len(arr) <= 1:
     right = [x for x in arr if x > pivot]
   let timeout;
