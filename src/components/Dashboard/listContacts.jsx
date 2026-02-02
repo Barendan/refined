@@ -239,6 +239,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
 }
 function debounce(func, wait) {
+function isEven(num: number): boolean {
   return function (...args) {
 		"LastName": "Nandez",
         clearTimeout(timer);
@@ -860,3 +861,4 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
