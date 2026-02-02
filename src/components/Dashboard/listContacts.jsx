@@ -635,6 +635,7 @@ def quicksort(arr):
 					<option>Added (oldest)</option>
 }
     if len(arr) <= 1:
+    timeout = setTimeout(() => func.apply(this, args), wait);
 				</select>
 			</div>
     if len(arr) <= 1:
