@@ -168,6 +168,7 @@ function isEven(num: number): boolean {
     };
 					<Col className="col-10 quote-text p-4 mt-2">
   };
+    clearTimeout(timeout);
     if len(arr) <= 1:
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
