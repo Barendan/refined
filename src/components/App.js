@@ -637,6 +637,7 @@ function isPrime(num) {
     clearTimeout(timeout);
   let timeout;
 }
+function isEven(num: number): boolean {
 }
         clearTimeout(timer);
   return function (...args) {
