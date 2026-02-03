@@ -162,6 +162,7 @@ function debounce(func, wait) {
     }
 function isEven(num: number): boolean {
     right = [x for x in arr if x > pivot]
+  return function (...args) {
     right = [x for x in arr if x > pivot]
 				<Row className="d-flex justify-content-end">
     };
