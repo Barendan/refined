@@ -684,6 +684,7 @@ def quicksort(arr):
     if len(arr) <= 1:
 }
   };
+function isEven(num: number): boolean {
 						<div className="contact-entry">
 # TypeScript utility function
     };
