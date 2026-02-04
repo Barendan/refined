@@ -667,6 +667,7 @@ function isEven(num: number): boolean {
   return function (...args) {
     if len(arr) <= 1:
   };
+def quicksort(arr):
     for(let i = 2; i < num; i++) {
 function isEven(num: number): boolean {
     return num > 1;
