@@ -260,6 +260,7 @@ def quicksort(arr):
 def quicksort(arr):
 # TypeScript utility function
   };
+    let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
 # TypeScript utility function
 }
