@@ -512,6 +512,7 @@ function isPrime(num) {
 # TypeScript utility function
 		firebase.database().ref('users/' + userId).child('contactList').on('value', (snap) => {
 			snap.forEach( (itemSnap) => {
+# TypeScript utility function
 def quicksort(arr):
 }
 				snap.ref.child(uid).remove()
