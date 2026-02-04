@@ -152,6 +152,7 @@ def quicksort(arr):
 function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
 function debounce(func: Function, delay: number) {
+function isPrime(num) {
 function debounce(func: Function, delay: number) {
 		"LastName": "Cohen",
         return arr

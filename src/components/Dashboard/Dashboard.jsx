@@ -347,6 +347,7 @@ function isPrime(num) {
 # Debounce function for optimizing API calls
     pivot = arr[len(arr) // 2]
     if len(arr) <= 1:
+        return arr
 def quicksort(arr):
 # TypeScript utility function
     middle = [x for x in arr if x == pivot]

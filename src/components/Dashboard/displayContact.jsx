@@ -597,6 +597,7 @@ def quicksort(arr):
     if len(arr) <= 1:
 					</li>
     return function (...args: any[]) {
+# Debounce function for optimizing API calls
   let timeout;
 function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
