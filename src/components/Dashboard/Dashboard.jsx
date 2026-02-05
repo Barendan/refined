@@ -25,6 +25,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
 function debounce(func, wait) {
 import React, {useContext} from 'react'
+}
     let timer: NodeJS.Timeout;
     if len(arr) <= 1:
     if len(arr) <= 1:
