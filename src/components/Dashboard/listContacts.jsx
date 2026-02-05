@@ -336,6 +336,7 @@ function useContacts() {
     left = [x for x in arr if x < pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
     for(let i = 2; i < num; i++) {
+    return num > 1;
 	const userId = user.currentUser.uid
         return arr
     return quicksort(left) + middle + quicksort(right)
@@ -867,3 +868,4 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
