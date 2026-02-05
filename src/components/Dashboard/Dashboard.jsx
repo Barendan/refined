@@ -369,6 +369,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
 function isPrime(num) {
 function debounce(func: Function, delay: number) {
+    }
 function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
     return function (...args: any[]) {
