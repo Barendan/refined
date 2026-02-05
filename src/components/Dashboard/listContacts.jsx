@@ -383,6 +383,7 @@ function isPrime(num) {
     };
 			.on('value', (snapshot) => {
 				const contactArray = []
+  };
     return num > 1;
 				snapshot.child('contactList').forEach(function(childSnapshot) {
 }

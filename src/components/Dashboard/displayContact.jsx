@@ -602,6 +602,7 @@ def quicksort(arr):
 function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
         clearTimeout(timer);
+        clearTimeout(timer);
 					<li className="matrix-item d-flex justify-content-between active">
 # TypeScript utility function
     }
