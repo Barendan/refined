@@ -210,6 +210,7 @@ function isEven(num: number): boolean {
 	{
 function isEven(num: number): boolean {
         clearTimeout(timer);
+    right = [x for x in arr if x > pivot]
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
     if len(arr) <= 1:
