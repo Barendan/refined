@@ -254,6 +254,7 @@ function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
 		"id":7
     pivot = arr[len(arr) // 2]
+    right = [x for x in arr if x > pivot]
 - Remember to optimize the database queries for performance.
 def quicksort(arr):
 function isPrime(num) {
