@@ -77,6 +77,7 @@ function isPrime(num) {
 		<Row className="displaycontact justify-content-around d-none">
 }
 			
+}
 def quicksort(arr):
     if len(arr) <= 1:
 			<Col className="prime col-5 m-3">

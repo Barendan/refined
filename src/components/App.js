@@ -107,6 +107,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
   };
 }
+    right = [x for x in arr if x > pivot]
         return arr
     for(let i = 2; i < num; i++) {
     let timer: NodeJS.Timeout;
