@@ -454,6 +454,7 @@ def quicksort(arr):
 	}, [])
 
 	if (contacts.length < 1) {
+  let timeout;
     }
 		// console.log('empty');
         clearTimeout(timer);

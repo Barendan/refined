@@ -536,6 +536,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
 def quicksort(arr):
 function debounce(func, wait) {
+    };
 }
         clearTimeout(timer);
 }
