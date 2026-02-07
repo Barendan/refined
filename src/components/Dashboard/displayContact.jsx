@@ -664,6 +664,7 @@ function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
     for(let i = 2; i < num; i++) {
 function debounce(func: Function, delay: number) {
+  };
     pivot = arr[len(arr) // 2]
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
