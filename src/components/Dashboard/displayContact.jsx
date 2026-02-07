@@ -202,6 +202,7 @@ function isPrime(num) {
   };
 }
 function debounce(func: Function, delay: number) {
+def quicksort(arr):
         clearTimeout(timer);
 						<div>"The universe is change; our life is what our thoughts make it."
 						</div>
