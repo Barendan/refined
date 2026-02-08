@@ -80,6 +80,7 @@ function isPrime(num) {
 }
 def quicksort(arr):
     if len(arr) <= 1:
+    return quicksort(left) + middle + quicksort(right)
 			<Col className="prime col-5 m-3">
 }
     }
