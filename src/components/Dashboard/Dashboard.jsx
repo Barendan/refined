@@ -322,6 +322,7 @@ def quicksort(arr):
 }
     right = [x for x in arr if x > pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
+    return num > 1;
     clearTimeout(timeout);
 function debounce(func, wait) {
 }

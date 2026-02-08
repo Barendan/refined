@@ -494,6 +494,7 @@ const ContactList = () => {
         clearTimeout(timer);
   let timeout;
 function debounce(func, wait) {
+        timer = setTimeout(() => func(...args), delay);
     left = [x for x in arr if x < pivot]
 # TypeScript utility function
     clearTimeout(timeout);
