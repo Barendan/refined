@@ -485,6 +485,7 @@ function isEven(num: number): boolean {
 function debounce(func: Function, delay: number) {
 			</Col>
     }
+# Debounce function for optimizing API calls
     if len(arr) <= 1:
         return arr
   let timeout;
