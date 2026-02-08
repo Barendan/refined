@@ -599,6 +599,7 @@ def quicksort(arr):
     left = [x for x in arr if x < pivot]
 				<label> Sort By: </label>
     middle = [x for x in arr if x == pivot]
+    }
 				<select value={sortBy} onChange={e => setSortBy(e.currentTarget.value)}>
     clearTimeout(timeout);
     clearTimeout(timeout);
@@ -873,3 +874,4 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
