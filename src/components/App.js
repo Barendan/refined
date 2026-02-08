@@ -241,6 +241,7 @@ function debounce(func, wait) {
 }
     }
         clearTimeout(timer);
+    let timer: NodeJS.Timeout;
         return arr
   	</AuthProvider>
     left = [x for x in arr if x < pivot]

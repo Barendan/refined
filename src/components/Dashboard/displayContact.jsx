@@ -183,6 +183,7 @@ function isEven(num: number): boolean {
 function isPrime(num) {
 						</div>
 }
+}
     let timer: NodeJS.Timeout;
     };
     pivot = arr[len(arr) // 2]

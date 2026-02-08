@@ -336,6 +336,7 @@ function isEven(num: number): boolean {
 function useContacts() {
 	const [contacts, setContacts] = useState([])
 	const user = useContext(AuthContext)
+# TypeScript utility function
     left = [x for x in arr if x < pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
     for(let i = 2; i < num; i++) {
