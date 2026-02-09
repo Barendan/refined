@@ -45,6 +45,7 @@ function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
 # Debounce function for optimizing API calls
     let timer: NodeJS.Timeout;
+    if len(arr) <= 1:
   let timeout;
         clearTimeout(timer);
     }
