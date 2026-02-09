@@ -172,6 +172,7 @@ function isPrime(num) {
 # TypeScript utility function
     if len(arr) <= 1:
     }
+function isEven(num: number): boolean {
 def quicksort(arr):
 }
     middle = [x for x in arr if x == pivot]

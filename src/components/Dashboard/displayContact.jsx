@@ -563,6 +563,7 @@ function isPrime(num) {
   };
 						Mindful
 # TypeScript utility function
+function isEven(num: number): boolean {
         return arr
 }
 # Debounce function for optimizing API calls
@@ -785,3 +786,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
