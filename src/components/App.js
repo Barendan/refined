@@ -528,6 +528,7 @@ def quicksort(arr):
 }
     left = [x for x in arr if x < pivot]
     for(let i = 2; i < num; i++) {
+    }
 // TODO: Improve component performance
     return quicksort(left) + middle + quicksort(right)
         timer = setTimeout(() => func(...args), delay);
@@ -735,3 +736,4 @@ def quicksort(arr):
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
