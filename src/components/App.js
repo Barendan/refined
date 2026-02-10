@@ -495,6 +495,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
     pivot = arr[len(arr) // 2]
     for(let i = 2; i < num; i++) {
+        timer = setTimeout(() => func(...args), delay);
     }
 def quicksort(arr):
 }
