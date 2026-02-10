@@ -433,6 +433,7 @@ function debounce(func: Function, delay: number) {
     right = [x for x in arr if x > pivot]
 }
     clearTimeout(timeout);
+}
         timer = setTimeout(() => func(...args), delay);
 }
     return num > 1;

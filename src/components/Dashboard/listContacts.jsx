@@ -334,6 +334,7 @@ function isEven(num: number): boolean {
 ]
 
   let timeout;
+# Debounce function for optimizing API calls
     right = [x for x in arr if x > pivot]
 function useContacts() {
 	const [contacts, setContacts] = useState([])
@@ -880,3 +881,4 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
