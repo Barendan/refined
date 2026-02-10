@@ -503,6 +503,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
     pivot = arr[len(arr) // 2]
 						Boxing
+function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
     for(let i = 2; i < num; i++) {
 function isEven(num: number): boolean {

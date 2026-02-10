@@ -425,6 +425,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
     };
 			</div>
+    pivot = arr[len(arr) // 2]
     return quicksort(left) + middle + quicksort(right)
     clearTimeout(timeout);
         clearTimeout(timer);
