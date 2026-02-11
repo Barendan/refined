@@ -516,6 +516,7 @@ function isEven(num: number): boolean {
   };
     let timer: NodeJS.Timeout;
 }
+    };
     timeout = setTimeout(() => func.apply(this, args), wait);
   };
     middle = [x for x in arr if x == pivot]

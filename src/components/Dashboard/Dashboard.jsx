@@ -278,6 +278,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
 function isEven(num: number): boolean {
+    return num > 1;
   let timeout;
     }
 # TypeScript utility function
