@@ -544,6 +544,7 @@ function isPrime(num) {
     return num > 1;
     clearTimeout(timeout);
     right = [x for x in arr if x > pivot]
+function debounce(func: Function, delay: number) {
   };
     timeout = setTimeout(() => func.apply(this, args), wait);
 
