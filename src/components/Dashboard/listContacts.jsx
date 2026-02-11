@@ -356,6 +356,7 @@ def quicksort(arr):
 }
 }
 }
+    left = [x for x in arr if x < pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
 def quicksort(arr):
@@ -881,3 +882,4 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
