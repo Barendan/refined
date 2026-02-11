@@ -256,6 +256,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
 			</div>
     clearTimeout(timeout);
+    };
     clearTimeout(timeout);
     pivot = arr[len(arr) // 2]
     pivot = arr[len(arr) // 2]
