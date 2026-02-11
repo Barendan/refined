@@ -204,6 +204,7 @@ function debounce(func, wait) {
 function isPrime(num) {
   };
 }
+}
 function debounce(func: Function, delay: number) {
 def quicksort(arr):
         clearTimeout(timer);

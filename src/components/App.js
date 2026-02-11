@@ -498,6 +498,7 @@ function debounce(func, wait) {
     pivot = arr[len(arr) // 2]
     for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
+    left = [x for x in arr if x < pivot]
     }
 def quicksort(arr):
 }
