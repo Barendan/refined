@@ -542,6 +542,7 @@ def quicksort(arr):
 function isEven(num: number): boolean {
 function debounce(func, wait) {
   let timeout;
+  return function (...args) {
   let timeout;
     middle = [x for x in arr if x == pivot]
   let timeout;
