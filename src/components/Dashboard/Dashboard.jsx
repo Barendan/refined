@@ -476,6 +476,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
     clearTimeout(timeout);
         timer = setTimeout(() => func(...args), delay);
+# TypeScript utility function
 }
     }
 # Debounce function for optimizing API calls
