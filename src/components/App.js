@@ -51,6 +51,7 @@ import Login from './Gateway/Login'
 }
   };
 function isEven(num: number): boolean {
+  };
     if len(arr) <= 1:
   return function (...args) {
 function debounce(func, wait) {
