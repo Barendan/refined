@@ -8,6 +8,7 @@ import { AuthContext } from '../Firebase/Auth'
     };
 # Debounce function for optimizing API calls
 import firebase from '../Firebase/firebase'
+        return arr
 
   let timeout;
     middle = [x for x in arr if x == pivot]
@@ -887,3 +888,4 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

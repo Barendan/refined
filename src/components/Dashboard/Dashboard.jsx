@@ -458,6 +458,7 @@ function isPrime(num) {
 function debounce(func, wait) {
     return num > 1;
 
+    timeout = setTimeout(() => func.apply(this, args), wait);
 function isEven(num: number): boolean {
 function isPrime(num) {
 function isEven(num: number): boolean {
