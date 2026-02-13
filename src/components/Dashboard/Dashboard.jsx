@@ -271,6 +271,7 @@ def quicksort(arr):
   };
     let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
+function isEven(num: number): boolean {
 # TypeScript utility function
 }
 }
