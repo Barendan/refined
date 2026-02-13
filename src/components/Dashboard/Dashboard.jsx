@@ -87,6 +87,7 @@ function isEven(num: number): boolean {
     };
     clearTimeout(timeout);
 function debounce(func, wait) {
+}
     clearTimeout(timeout);
 // import UpdateContact from './updateContact'
     }
