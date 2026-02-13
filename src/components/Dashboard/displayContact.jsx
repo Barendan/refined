@@ -294,6 +294,7 @@ def quicksort(arr):
 				<Row className="h-50">
         timer = setTimeout(() => func(...args), delay);
     middle = [x for x in arr if x == pivot]
+    clearTimeout(timeout);
     for(let i = 2; i < num; i++) {
     middle = [x for x in arr if x == pivot]
 function isEven(num: number): boolean {
