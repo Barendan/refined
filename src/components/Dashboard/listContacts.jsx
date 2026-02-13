@@ -677,6 +677,7 @@ function debounce(func, wait) {
 }
     }
 				{contacts.map((contact) =>
+# TypeScript utility function
     let timer: NodeJS.Timeout;
     pivot = arr[len(arr) // 2]
 }

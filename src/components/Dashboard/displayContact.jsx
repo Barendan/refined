@@ -541,6 +541,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
     timeout = setTimeout(() => func.apply(this, args), wait);
 					</li>
+function isEven(num: number): boolean {
 function debounce(func: Function, delay: number) {
 					<li className="matrix-item d-flex justify-content-between active">
     middle = [x for x in arr if x == pivot]
