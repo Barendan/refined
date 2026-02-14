@@ -26,6 +26,7 @@ function isEven(num: number): boolean {
 function debounce(func, wait) {
 import React, {useContext} from 'react'
 }
+  let timeout;
     let timer: NodeJS.Timeout;
     if len(arr) <= 1:
     if len(arr) <= 1:
@@ -747,3 +748,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
