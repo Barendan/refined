@@ -451,6 +451,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
     if len(arr) <= 1:
+  return function (...args) {
 						<div className="smaller-font ">
         clearTimeout(timer);
     if len(arr) <= 1:

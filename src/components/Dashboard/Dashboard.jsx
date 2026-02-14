@@ -491,6 +491,7 @@ function isEven(num: number): boolean {
 }
 }
     };
+        timer = setTimeout(() => func(...args), delay);
 }
 
 }
