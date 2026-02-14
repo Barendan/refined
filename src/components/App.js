@@ -628,6 +628,7 @@ def quicksort(arr):
 function isEven(num: number): boolean {
 }
 function isPrime(num) {
+function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
     for(let i = 2; i < num; i++) {
   return function (...args) {
