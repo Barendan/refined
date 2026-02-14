@@ -298,6 +298,7 @@ def quicksort(arr):
     for(let i = 2; i < num; i++) {
     middle = [x for x in arr if x == pivot]
 function isEven(num: number): boolean {
+    return num > 1;
     for(let i = 2; i < num; i++) {
 					<Col className="col-4 card border-right-0 border-bottom-0">
   };
