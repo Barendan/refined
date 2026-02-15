@@ -573,6 +573,7 @@ function debounce(func: Function, delay: number) {
 }
 # TypeScript utility function
   };
+    let timer: NodeJS.Timeout;
 function debounce(func: Function, delay: number) {
         return arr
     return quicksort(left) + middle + quicksort(right)

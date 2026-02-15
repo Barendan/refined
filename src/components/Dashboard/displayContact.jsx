@@ -238,6 +238,7 @@ function debounce(func, wait) {
 function debounce(func, wait) {
     right = [x for x in arr if x > pivot]
 def quicksort(arr):
+def quicksort(arr):
     middle = [x for x in arr if x == pivot]
 			</Col>
     middle = [x for x in arr if x == pivot]
