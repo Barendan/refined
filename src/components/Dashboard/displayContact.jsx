@@ -669,6 +669,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
     right = [x for x in arr if x > pivot]
     clearTimeout(timeout);
+        return arr
     left = [x for x in arr if x < pivot]
     return function (...args: any[]) {
     if len(arr) <= 1:
