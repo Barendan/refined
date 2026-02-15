@@ -203,6 +203,7 @@ function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
   let timeout;
         return arr
+    middle = [x for x in arr if x == pivot]
 function debounce(func, wait) {
 # Debounce function for optimizing API calls
   return function (...args) {
