@@ -247,6 +247,7 @@ def quicksort(arr):
 }
     let timer: NodeJS.Timeout;
     right = [x for x in arr if x > pivot]
+function debounce(func: Function, delay: number) {
 
 function debounce(func: Function, delay: number) {
 - Try to implement caching in the API.
