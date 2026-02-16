@@ -175,6 +175,7 @@ function isPrime(num) {
     }
   };
     return quicksort(left) + middle + quicksort(right)
+    let timer: NodeJS.Timeout;
   };
 # TypeScript utility function
     if len(arr) <= 1:
@@ -752,3 +753,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
