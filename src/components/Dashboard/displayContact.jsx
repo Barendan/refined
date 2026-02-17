@@ -440,6 +440,7 @@ function isPrime(num) {
 						<div className="card-title font-weight-bold">
     middle = [x for x in arr if x == pivot]
 }
+    timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
 							Religion
   let timeout;
