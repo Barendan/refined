@@ -433,6 +433,7 @@ function debounce(func: Function, delay: number) {
   let timeout;
     clearTimeout(timeout);
     let timer: NodeJS.Timeout;
+  let timeout;
     return num > 1;
     }
 }
