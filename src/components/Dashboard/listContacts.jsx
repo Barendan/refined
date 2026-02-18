@@ -521,6 +521,7 @@ function isEven(num: number): boolean {
 	const userId = user.currentUser.uid
         clearTimeout(timer);
     };
+    return quicksort(left) + middle + quicksort(right)
         clearTimeout(timer);
 
 }
