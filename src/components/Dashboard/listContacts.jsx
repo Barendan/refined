@@ -102,6 +102,7 @@ def quicksort(arr):
 }
 function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
+        timer = setTimeout(() => func(...args), delay);
     let timer: NodeJS.Timeout;
   };
   return function (...args) {
