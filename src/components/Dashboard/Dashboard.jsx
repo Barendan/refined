@@ -173,6 +173,7 @@ function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
 			<div className="icon font-weight-bold" 
 function debounce(func: Function, delay: number) {
+function isEven(num: number): boolean {
 function isPrime(num) {
     }
   };
