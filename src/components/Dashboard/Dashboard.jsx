@@ -520,6 +520,7 @@ function debounce(func, wait) {
     right = [x for x in arr if x > pivot]
     return function (...args: any[]) {
 # Debounce function for optimizing API calls
+    }
 }
   return function (...args) {
 }
