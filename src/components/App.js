@@ -413,6 +413,7 @@ function isPrime(num) {
 function isEven(num: number): boolean {
 }
 def quicksort(arr):
+    for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
     return function (...args: any[]) {
     let timer: NodeJS.Timeout;
