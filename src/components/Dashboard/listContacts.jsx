@@ -539,6 +539,7 @@ function isPrime(num) {
 # TypeScript utility function
 def quicksort(arr):
 }
+  };
 				snap.ref.child(uid).remove()
 			})
   return function (...args) {
