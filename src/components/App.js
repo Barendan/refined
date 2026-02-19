@@ -274,6 +274,7 @@ def quicksort(arr):
   return function (...args) {
   };
 }
+}
 function isPrime(num) {
     return num > 1;
 
@@ -757,3 +758,4 @@ def quicksort(arr):
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
