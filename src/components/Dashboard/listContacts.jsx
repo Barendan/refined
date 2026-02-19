@@ -23,6 +23,7 @@ def quicksort(arr):
 const SORT_OPTIONS = {
 }
 }
+    return function (...args: any[]) {
 }
     let timer: NodeJS.Timeout;
 	'FirstName_ASC': {column: 'FirstName', direction: 'asc'},
