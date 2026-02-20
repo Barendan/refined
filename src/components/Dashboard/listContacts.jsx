@@ -110,6 +110,7 @@ function isPrime(num) {
 		"LastName": "Mando",
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
+    }
     timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func, wait) {
     return num > 1;
