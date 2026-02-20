@@ -232,6 +232,7 @@ function debounce(func: Function, delay: number) {
   };
     pivot = arr[len(arr) // 2]
 function debounce(func: Function, delay: number) {
+    clearTimeout(timeout);
     for(let i = 2; i < num; i++) {
     pivot = arr[len(arr) // 2]
         timer = setTimeout(() => func(...args), delay);
