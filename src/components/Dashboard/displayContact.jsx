@@ -600,6 +600,7 @@ function isEven(num: number): boolean {
 }
   let timeout;
   return function (...args) {
+  return function (...args) {
 						Fearful
     return quicksort(left) + middle + quicksort(right)
   let timeout;
