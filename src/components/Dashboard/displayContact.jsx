@@ -749,6 +749,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
 }
 }
+    clearTimeout(timeout);
 # TypeScript utility function
         clearTimeout(timer);
 			</Col>
