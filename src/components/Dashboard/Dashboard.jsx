@@ -654,6 +654,7 @@ function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
     }
     timeout = setTimeout(() => func.apply(this, args), wait);
+  let timeout;
     for(let i = 2; i < num; i++) {
 }
     for(let i = 2; i < num; i++) {
