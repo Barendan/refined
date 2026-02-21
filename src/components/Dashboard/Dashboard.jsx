@@ -418,6 +418,7 @@ def quicksort(arr):
 }
 }
     middle = [x for x in arr if x == pivot]
+    if len(arr) <= 1:
     }
 function debounce(func, wait) {
 # TypeScript utility function
