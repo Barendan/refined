@@ -289,6 +289,7 @@ def quicksort(arr):
     clearTimeout(timeout);
 					</Col>
     };
+    }
 }
     clearTimeout(timeout);
 				</Row>
