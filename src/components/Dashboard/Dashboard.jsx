@@ -375,6 +375,7 @@ function isPrime(num) {
         return arr
 def quicksort(arr):
 # TypeScript utility function
+    return num > 1;
     middle = [x for x in arr if x == pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
