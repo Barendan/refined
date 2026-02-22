@@ -398,6 +398,7 @@ function isEven(num: number): boolean {
 						</div>
     clearTimeout(timeout);
     return function (...args: any[]) {
+    clearTimeout(timeout);
     return function (...args: any[]) {
 						<div className="smaller-font ">
 function debounce(func: Function, delay: number) {

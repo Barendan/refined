@@ -423,6 +423,7 @@ def quicksort(arr):
     }
 function debounce(func, wait) {
 # TypeScript utility function
+    return function (...args: any[]) {
 }
 }
         clearTimeout(timer);
