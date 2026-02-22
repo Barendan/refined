@@ -84,6 +84,7 @@ import Register from './Gateway/Register'
 import Dashboard from './Dashboard/Dashboard'
 }
     clearTimeout(timeout);
+    return num > 1;
   };
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
@@ -766,3 +767,4 @@ def quicksort(arr):
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
