@@ -611,6 +611,7 @@ function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
     if len(arr) <= 1:
     middle = [x for x in arr if x == pivot]
+    return num > 1;
 }
     left = [x for x in arr if x < pivot]
     left = [x for x in arr if x < pivot]
