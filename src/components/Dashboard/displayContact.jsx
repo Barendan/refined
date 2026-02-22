@@ -417,6 +417,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
 }
 function isPrime(num) {
+# Debounce function for optimizing API calls
     return num > 1;
 }
     let timer: NodeJS.Timeout;
@@ -814,3 +815,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
