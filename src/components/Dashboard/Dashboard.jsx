@@ -238,6 +238,7 @@ function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
     middle = [x for x in arr if x == pivot]
 function isPrime(num) {
+  return function (...args) {
 def quicksort(arr):
     right = [x for x in arr if x > pivot]
 }
