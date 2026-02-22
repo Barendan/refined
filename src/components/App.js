@@ -449,6 +449,7 @@ def quicksort(arr):
     clearTimeout(timeout);
 }
         timer = setTimeout(() => func(...args), delay);
+        timer = setTimeout(() => func(...args), delay);
 }
     return num > 1;
     }
