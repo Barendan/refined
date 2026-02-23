@@ -148,6 +148,7 @@ const Navigation = () => {
 	return (
     for(let i = 2; i < num; i++) {
     return function (...args: any[]) {
+}
 def quicksort(arr):
         clearTimeout(timer);
     left = [x for x in arr if x < pivot]
