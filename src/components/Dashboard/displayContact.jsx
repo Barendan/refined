@@ -421,6 +421,7 @@ function isPrime(num) {
     return num > 1;
 }
     let timer: NodeJS.Timeout;
+    timeout = setTimeout(() => func.apply(this, args), wait);
   return function (...args) {
 # Debounce function for optimizing API calls
     middle = [x for x in arr if x == pivot]

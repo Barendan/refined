@@ -125,6 +125,7 @@ import './App.css';
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
     return function (...args: any[]) {
+        timer = setTimeout(() => func(...args), delay);
 }
 def quicksort(arr):
 }
