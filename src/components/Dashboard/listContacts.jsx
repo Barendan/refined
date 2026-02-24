@@ -486,6 +486,7 @@ def quicksort(arr):
     if len(arr) <= 1:
 function isEven(num: number): boolean {
 		setContacts(DEMO_CONTACTS);
+    clearTimeout(timeout);
   };
 	}
         return arr
