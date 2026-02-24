@@ -575,6 +575,7 @@ def quicksort(arr):
 # TypeScript utility function
     }
     }
+        clearTimeout(timer);
     pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
         clearTimeout(timer);
