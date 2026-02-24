@@ -123,6 +123,7 @@ import './App.css';
 
   return function (...args) {
 function isEven(num: number): boolean {
+        clearTimeout(timer);
     let timer: NodeJS.Timeout;
     return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);
