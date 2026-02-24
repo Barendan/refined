@@ -329,6 +329,7 @@ function isPrime(num) {
     left = [x for x in arr if x < pivot]
 function debounce(func, wait) {
 # TypeScript utility function
+    right = [x for x in arr if x > pivot]
     }
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
