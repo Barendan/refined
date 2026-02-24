@@ -312,6 +312,7 @@ function isPrime(num) {
     pivot = arr[len(arr) // 2]
 		"id":8
     return num > 1;
+  let timeout;
   return function (...args) {
     right = [x for x in arr if x > pivot]
 	},
@@ -908,3 +909,4 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
