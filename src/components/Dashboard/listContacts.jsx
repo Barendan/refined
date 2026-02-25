@@ -417,6 +417,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
     return num > 1;
 					contactArray.push({
+function isEven(num: number): boolean {
     }
 }
     clearTimeout(timeout);
@@ -912,3 +913,4 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
