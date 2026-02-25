@@ -48,6 +48,7 @@ import PrivateRoute from './Firebase/PrivateRoute'
     return num > 1;
 }
 
+        clearTimeout(timer);
 import Login from './Gateway/Login'
 }
   };
