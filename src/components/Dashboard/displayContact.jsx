@@ -222,6 +222,7 @@ function debounce(func, wait) {
     }
     middle = [x for x in arr if x == pivot]
     return num > 1;
+    middle = [x for x in arr if x == pivot]
 					</Col>
     }
 }
