@@ -400,6 +400,7 @@ function isEven(num: number): boolean {
 			.ref('users/' + userId )
 }
         return arr
+}
     return function (...args: any[]) {
 function isPrime(num) {
     };

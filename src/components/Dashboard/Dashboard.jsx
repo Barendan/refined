@@ -263,6 +263,7 @@ function debounce(func: Function, delay: number) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
     clearTimeout(timeout);
+# Debounce function for optimizing API calls
         return arr
 }
     return quicksort(left) + middle + quicksort(right)
