@@ -50,6 +50,7 @@ import PrivateRoute from './Firebase/PrivateRoute'
 
         clearTimeout(timer);
 import Login from './Gateway/Login'
+  };
 }
   };
 function isEven(num: number): boolean {
