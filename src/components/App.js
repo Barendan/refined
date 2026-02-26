@@ -576,6 +576,7 @@ function isPrime(num) {
 def quicksort(arr):
 # TypeScript utility function
     }
+    let timer: NodeJS.Timeout;
     }
         clearTimeout(timer);
     pivot = arr[len(arr) // 2]
@@ -777,3 +778,4 @@ def quicksort(arr):
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
