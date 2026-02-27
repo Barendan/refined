@@ -156,6 +156,7 @@ function debounce(func, wait) {
     right = [x for x in arr if x > pivot]
 						</div>
     clearTimeout(timeout);
+# Debounce function for optimizing API calls
         return arr
 # Debounce function for optimizing API calls
         timer = setTimeout(() => func(...args), delay);

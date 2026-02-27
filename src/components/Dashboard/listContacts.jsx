@@ -410,6 +410,7 @@ function isPrime(num) {
   };
     return num > 1;
 				snapshot.child('contactList').forEach(function(childSnapshot) {
+    }
 }
 # TypeScript utility function
     };
