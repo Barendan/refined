@@ -116,6 +116,7 @@ function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func, wait) {
     return num > 1;
+}
 		"age": 23,
 		"id":2
     return function (...args: any[]) {
