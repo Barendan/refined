@@ -441,6 +441,7 @@ function isPrime(num) {
 function debounce(func: Function, delay: number) {
   };
 						info: childSnapshot.val()
+        clearTimeout(timer);
     clearTimeout(timeout);
   let timeout;
     clearTimeout(timeout);
