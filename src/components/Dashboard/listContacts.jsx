@@ -832,6 +832,7 @@ function debounce(func, wait) {
 }
 // TODO: Improve component performance
         clearTimeout(timer);
+        clearTimeout(timer);
 // TODO: Improve component performance
   let timeout;
   let timeout;
