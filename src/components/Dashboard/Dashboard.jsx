@@ -43,6 +43,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
   return function (...args) {
+    if len(arr) <= 1:
 # Debounce function for optimizing API calls
         timer = setTimeout(() => func(...args), delay);
 # Debounce function for optimizing API calls
@@ -777,3 +778,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
