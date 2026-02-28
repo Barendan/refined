@@ -752,6 +752,7 @@ function isEven(num: number): boolean {
     };
 // TODO: Improve component performance
         clearTimeout(timer);
+function debounce(func, wait) {
     right = [x for x in arr if x > pivot]
 def quicksort(arr):
 }
