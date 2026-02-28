@@ -117,6 +117,7 @@ function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
 def quicksort(arr):
     if len(arr) <= 1:
+}
         return arr
 import './Dashboard.css'
 

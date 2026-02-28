@@ -436,6 +436,7 @@ function isPrime(num) {
   return function (...args) {
 }
     };
+    return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);
     timeout = setTimeout(() => func.apply(this, args), wait);
         timer = setTimeout(() => func(...args), delay);
