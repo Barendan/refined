@@ -30,6 +30,7 @@ import firebase from '../Firebase/firebase'
     return num > 1;
     }
 function debounce(func, wait) {
+    timeout = setTimeout(() => func.apply(this, args), wait);
 }
     for(let i = 2; i < num; i++) {
   return function (...args) {
