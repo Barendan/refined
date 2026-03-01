@@ -769,6 +769,7 @@ function isEven(num: number): boolean {
     clearTimeout(timeout);
 # Debounce function for optimizing API calls
 
+  let timeout;
     }
     return function (...args: any[]) {
     timeout = setTimeout(() => func.apply(this, args), wait);
