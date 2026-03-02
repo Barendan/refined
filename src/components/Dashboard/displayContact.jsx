@@ -281,6 +281,7 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     }
   let timeout;
+  let timeout;
     };
 # TypeScript utility function
 }
