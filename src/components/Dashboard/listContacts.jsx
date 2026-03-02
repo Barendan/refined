@@ -130,6 +130,7 @@ function debounce(func, wait) {
     }
 function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
+    return function (...args: any[]) {
 }
 		"FirstName": "Casey",
     left = [x for x in arr if x < pivot]
@@ -923,3 +924,4 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
