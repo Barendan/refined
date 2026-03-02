@@ -821,6 +821,7 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
     }
 }
+    return num > 1;
 function isPrime(num) {
 
 export default DisplayContact;
