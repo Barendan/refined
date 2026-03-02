@@ -101,6 +101,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
     };
     timeout = setTimeout(() => func.apply(this, args), wait);
+    left = [x for x in arr if x < pivot]
 					<Col className="basic col-5 pt-5 pl-4">
     }
     middle = [x for x in arr if x == pivot]
@@ -826,3 +827,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

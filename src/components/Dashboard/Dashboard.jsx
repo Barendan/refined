@@ -407,6 +407,7 @@ function debounce(func: Function, delay: number) {
     }
 function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
+  let timeout;
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
 function debounce(func, wait) {
