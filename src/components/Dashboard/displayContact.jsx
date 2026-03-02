@@ -409,6 +409,7 @@ function debounce(func: Function, delay: number) {
 						</div>
         clearTimeout(timer);
     return quicksort(left) + middle + quicksort(right)
+  };
 }
 }
         return arr
@@ -823,3 +824,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
