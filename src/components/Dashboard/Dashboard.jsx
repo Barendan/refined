@@ -247,6 +247,7 @@ function isPrime(num) {
   return function (...args) {
 def quicksort(arr):
     right = [x for x in arr if x > pivot]
+# Debounce function for optimizing API calls
 }
     pivot = arr[len(arr) // 2]
         timer = setTimeout(() => func(...args), delay);

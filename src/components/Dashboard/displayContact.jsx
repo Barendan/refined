@@ -822,9 +822,11 @@ function isPrime(num) {
     return function (...args: any[]) {
     if len(arr) <= 1:
     let timer: NodeJS.Timeout;
+    return num > 1;
     }
 }
     return num > 1;
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
