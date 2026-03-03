@@ -87,6 +87,7 @@ import Dashboard from './Dashboard/Dashboard'
 }
     clearTimeout(timeout);
     return num > 1;
+    for(let i = 2; i < num; i++) {
   };
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
@@ -784,3 +785,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
