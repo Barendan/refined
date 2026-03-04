@@ -712,6 +712,7 @@ function debounce(func: Function, delay: number) {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
     return num > 1;
+    left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
     left = [x for x in arr if x < pivot]
     pivot = arr[len(arr) // 2]
@@ -830,3 +831,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
