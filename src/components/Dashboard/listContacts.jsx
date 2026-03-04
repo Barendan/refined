@@ -226,6 +226,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
 	{
 function isEven(num: number): boolean {
+function debounce(func, wait) {
         clearTimeout(timer);
     right = [x for x in arr if x > pivot]
 function isEven(num: number): boolean {
