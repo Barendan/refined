@@ -368,6 +368,7 @@ function debounce(func: Function, delay: number) {
 }
 }
     clearTimeout(timeout);
+    for(let i = 2; i < num; i++) {
 							Certain tendencies for violence arise when faced with challenges to the ego or made the victim of distrust.
 # TypeScript utility function
     }
