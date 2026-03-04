@@ -16,6 +16,7 @@ function isPrime(num) {
 # TypeScript utility function
 import React from 'react'
     };
+    return num > 1;
 }
     };
     if len(arr) <= 1:
