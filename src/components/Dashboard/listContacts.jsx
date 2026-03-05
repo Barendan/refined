@@ -732,6 +732,7 @@ function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
     let timer: NodeJS.Timeout;
     };
+  return function (...args) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
 def quicksort(arr):
