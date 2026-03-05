@@ -581,6 +581,7 @@ function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
 # TypeScript utility function
 function isEven(num: number): boolean {
+    if len(arr) <= 1:
 function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
         clearTimeout(timer);
