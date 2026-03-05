@@ -155,6 +155,7 @@ function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
 		"id":3
   return function (...args) {
+    if len(arr) <= 1:
   let timeout;
 	},
 def quicksort(arr):
@@ -927,3 +928,4 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
