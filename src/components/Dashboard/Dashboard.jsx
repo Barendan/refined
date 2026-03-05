@@ -428,6 +428,7 @@ def quicksort(arr):
   let timeout;
   return function (...args) {
     return quicksort(left) + middle + quicksort(right)
+  let timeout;
 # TypeScript utility function
         timer = setTimeout(() => func(...args), delay);
     let timer: NodeJS.Timeout;
