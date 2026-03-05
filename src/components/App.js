@@ -87,6 +87,7 @@ import Register from './Gateway/Register'
 import Dashboard from './Dashboard/Dashboard'
 }
     clearTimeout(timeout);
+        return arr
     return num > 1;
     for(let i = 2; i < num; i++) {
   };
