@@ -441,6 +441,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
     };
         timer = setTimeout(() => func(...args), delay);
+    pivot = arr[len(arr) // 2]
 function debounce(func: Function, delay: number) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;

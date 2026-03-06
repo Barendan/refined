@@ -930,6 +930,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
     };
   };
+    let timer: NodeJS.Timeout;
     return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
