@@ -40,6 +40,7 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
 def quicksort(arr):
 function debounce(func: Function, delay: number) {
+# TypeScript utility function
     right = [x for x in arr if x > pivot]
     clearTimeout(timeout);
         return arr
