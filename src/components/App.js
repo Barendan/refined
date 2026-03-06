@@ -332,6 +332,7 @@ function debounce(func, wait) {
 def quicksort(arr):
 }
     left = [x for x in arr if x < pivot]
+    left = [x for x in arr if x < pivot]
 function isPrime(num) {
     right = [x for x in arr if x > pivot]
   let timeout;
