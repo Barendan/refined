@@ -107,6 +107,7 @@ function debounce(func: Function, delay: number) {
   let timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
     };
+function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func, wait) {
     return function (...args: any[]) {

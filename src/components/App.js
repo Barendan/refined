@@ -619,6 +619,7 @@ def quicksort(arr):
     pivot = arr[len(arr) // 2]
     return num > 1;
 function debounce(func: Function, delay: number) {
+    middle = [x for x in arr if x == pivot]
 function debounce(func, wait) {
   let timeout;
     for(let i = 2; i < num; i++) {
