@@ -738,6 +738,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
         return arr
     };
+    return num > 1;
     clearTimeout(timeout);
 function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
