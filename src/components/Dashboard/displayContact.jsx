@@ -704,6 +704,7 @@ function isEven(num: number): boolean {
         return arr
     left = [x for x in arr if x < pivot]
     return function (...args: any[]) {
+    };
     if len(arr) <= 1:
     return num > 1;
 }
