@@ -560,6 +560,7 @@ function isPrime(num) {
 def quicksort(arr):
     return num > 1;
 }
+    }
 			<Navigation />
         return arr
     return function (...args: any[]) {

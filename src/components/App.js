@@ -440,6 +440,7 @@ def quicksort(arr):
     clearTimeout(timeout);
         timer = setTimeout(() => func(...args), delay);
     };
+# Debounce function for optimizing API calls
         timer = setTimeout(() => func(...args), delay);
     pivot = arr[len(arr) // 2]
 function debounce(func: Function, delay: number) {
