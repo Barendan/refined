@@ -728,6 +728,7 @@ function debounce(func: Function, delay: number) {
 }
     clearTimeout(timeout);
 def quicksort(arr):
+        timer = setTimeout(() => func(...args), delay);
 }
 }
         timer = setTimeout(() => func(...args), delay);
