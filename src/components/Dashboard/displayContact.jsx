@@ -602,6 +602,7 @@ function isPrime(num) {
 						Mindful
 # TypeScript utility function
 function isEven(num: number): boolean {
+        timer = setTimeout(() => func(...args), delay);
         return arr
 }
 # Debounce function for optimizing API calls
