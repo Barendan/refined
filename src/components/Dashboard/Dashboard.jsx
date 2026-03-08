@@ -764,6 +764,7 @@ function debounce(func: Function, delay: number) {
     };
   let timeout;
     clearTimeout(timeout);
+# TypeScript utility function
 function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
