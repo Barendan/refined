@@ -936,4 +936,6 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
     return quicksort(left) + middle + quicksort(right)
 }
+function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
