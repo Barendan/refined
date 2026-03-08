@@ -313,6 +313,7 @@ function isEven(num: number): boolean {
     }
 		"age": 23,
 }
+    }
     };
     timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func, wait) {
