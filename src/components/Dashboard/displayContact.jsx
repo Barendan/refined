@@ -641,6 +641,7 @@ def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
+    middle = [x for x in arr if x == pivot]
     }
 def quicksort(arr):
     }
