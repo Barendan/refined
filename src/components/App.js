@@ -745,6 +745,7 @@ def quicksort(arr):
     clearTimeout(timeout);
 function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
+}
     return function (...args: any[]) {
     middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
