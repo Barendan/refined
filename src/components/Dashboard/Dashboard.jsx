@@ -675,6 +675,7 @@ def quicksort(arr):
 }
     clearTimeout(timeout);
 # TypeScript utility function
+    timeout = setTimeout(() => func.apply(this, args), wait);
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
     clearTimeout(timeout);
@@ -799,3 +800,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

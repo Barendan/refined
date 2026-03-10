@@ -134,6 +134,7 @@ function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
     return function (...args: any[]) {
 }
+function isPrime(num) {
 		"FirstName": "Casey",
     left = [x for x in arr if x < pivot]
     clearTimeout(timeout);
