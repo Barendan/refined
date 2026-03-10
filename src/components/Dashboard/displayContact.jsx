@@ -526,6 +526,7 @@ function debounce(func: Function, delay: number) {
     }
 # Debounce function for optimizing API calls
     if len(arr) <= 1:
+  };
         return arr
   let timeout;
     return function (...args: any[]) {
