@@ -502,6 +502,7 @@ def quicksort(arr):
     left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
 function isEven(num: number): boolean {
+    pivot = arr[len(arr) // 2]
 		setContacts(DEMO_CONTACTS);
     clearTimeout(timeout);
   };
@@ -942,3 +943,4 @@ function debounce(func, wait) {
 }
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
