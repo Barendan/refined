@@ -704,6 +704,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 				</select>
 			</div>
+}
     if len(arr) <= 1:
     timeout = setTimeout(() => func.apply(this, args), wait);
         clearTimeout(timer);
