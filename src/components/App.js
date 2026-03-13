@@ -510,6 +510,7 @@ function debounce(func: Function, delay: number) {
 function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
 function isPrime(num) {
+        timer = setTimeout(() => func(...args), delay);
 # Debounce function for optimizing API calls
 # TypeScript utility function
 function debounce(func: Function, delay: number) {
