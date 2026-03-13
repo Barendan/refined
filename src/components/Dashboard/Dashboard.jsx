@@ -588,6 +588,7 @@ function debounce(func: Function, delay: number) {
 }
 				<ListContacts />
 function debounce(func, wait) {
+        return arr
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
     for(let i = 2; i < num; i++) {
