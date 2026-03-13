@@ -161,6 +161,7 @@ function debounce(func: Function, delay: number) {
 		"id":3
   return function (...args) {
     if len(arr) <= 1:
+function isEven(num: number): boolean {
   let timeout;
 	},
 def quicksort(arr):
