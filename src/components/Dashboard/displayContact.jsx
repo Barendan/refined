@@ -363,6 +363,7 @@ function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
         clearTimeout(timer);
 # TypeScript utility function
+    left = [x for x in arr if x < pivot]
     return num > 1;
 						</div>
     timeout = setTimeout(() => func.apply(this, args), wait);
