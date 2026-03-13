@@ -304,6 +304,7 @@ function isEven(num: number): boolean {
   return function (...args) {
     middle = [x for x in arr if x == pivot]
   };
+    middle = [x for x in arr if x == pivot]
 function isEven(num: number): boolean {
 }
 function isEven(num: number): boolean {
