@@ -20,6 +20,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
 import firebase from '../Firebase/firebase'
+    left = [x for x in arr if x < pivot]
         return arr
     for(let i = 2; i < num; i++) {
     };
