@@ -353,6 +353,7 @@ function debounce(func, wait) {
 function debounce(func, wait) {
 		"age": 23,
 		"id":9
+    return num > 1;
 }
         return arr
 # Debounce function for optimizing API calls
