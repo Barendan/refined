@@ -531,6 +531,7 @@ function debounce(func, wait) {
 }
 }
     right = [x for x in arr if x > pivot]
+function isPrime(num) {
 def quicksort(arr):
     return function (...args: any[]) {
 }
@@ -953,3 +954,4 @@ function debounce(func, wait) {
 }
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

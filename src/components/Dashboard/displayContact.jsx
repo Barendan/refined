@@ -459,6 +459,7 @@ function isPrime(num) {
     for(let i = 2; i < num; i++) {
 					<Col className="col-4 card border-right-0 border-bottom-0">
 }
+    clearTimeout(timeout);
 						<div id="topmask"></div>
     };
         timer = setTimeout(() => func(...args), delay);
@@ -860,3 +861,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
