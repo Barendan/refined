@@ -489,6 +489,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
 }
+}
     return function (...args: any[]) {
 # TypeScript utility function
     let timer: NodeJS.Timeout;
