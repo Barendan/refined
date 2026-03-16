@@ -719,6 +719,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
 function isPrime(num) {
 function debounce(func: Function, delay: number) {
+    right = [x for x in arr if x > pivot]
     };
         clearTimeout(timer);
     return num > 1;
@@ -804,3 +805,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
