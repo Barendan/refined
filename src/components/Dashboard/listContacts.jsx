@@ -831,6 +831,7 @@ function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
 # TypeScript utility function
 function debounce(func: Function, delay: number) {
+    for(let i = 2; i < num; i++) {
     pivot = arr[len(arr) // 2]
   return function (...args) {
     return quicksort(left) + middle + quicksort(right)

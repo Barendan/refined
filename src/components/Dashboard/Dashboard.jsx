@@ -613,6 +613,7 @@ function debounce(func, wait) {
     };
 }
         clearTimeout(timer);
+        clearTimeout(timer);
 }
     }
 }
