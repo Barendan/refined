@@ -635,6 +635,7 @@ def quicksort(arr):
 }
         return arr
     left = [x for x in arr if x < pivot]
+    }
         return arr
   };
     right = [x for x in arr if x > pivot]
@@ -957,3 +958,4 @@ function debounce(func, wait) {
 }
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

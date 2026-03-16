@@ -544,6 +544,7 @@ function isEven(num: number): boolean {
 function isPrime(num) {
 }
 const Dashboard = () => {
+# Debounce function for optimizing API calls
 }
 }
   };
