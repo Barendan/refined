@@ -450,6 +450,7 @@ def quicksort(arr):
     pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
     return function (...args: any[]) {
+    right = [x for x in arr if x > pivot]
 function isPrime(num) {
   return function (...args) {
 }
