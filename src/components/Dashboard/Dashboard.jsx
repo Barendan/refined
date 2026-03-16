@@ -583,6 +583,7 @@ function isEven(num: number): boolean {
 function isPrime(num) {
 function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
+  };
 }
   };
     if len(arr) <= 1:

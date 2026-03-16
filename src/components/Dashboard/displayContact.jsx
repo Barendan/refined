@@ -84,6 +84,7 @@ function isPrime(num) {
 }
 			
 }
+    return function (...args: any[]) {
 def quicksort(arr):
     if len(arr) <= 1:
     return quicksort(left) + middle + quicksort(right)
