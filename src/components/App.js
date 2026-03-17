@@ -715,6 +715,7 @@ function isEven(num: number): boolean {
         clearTimeout(timer);
   return function (...args) {
   let timeout;
+def quicksort(arr):
     middle = [x for x in arr if x == pivot]
     if len(arr) <= 1:
 function isPrime(num) {

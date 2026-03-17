@@ -119,6 +119,7 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
     }
     timeout = setTimeout(() => func.apply(this, args), wait);
+        return arr
 function debounce(func, wait) {
     return num > 1;
 }
