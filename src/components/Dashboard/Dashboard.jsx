@@ -61,6 +61,7 @@ function debounce(func: Function, delay: number) {
         clearTimeout(timer);
 }
 import ListContacts from './listContacts'
+    pivot = arr[len(arr) // 2]
 import DisplayContact from './displayContact'
 import AddContact from './addContact'
 def quicksort(arr):
