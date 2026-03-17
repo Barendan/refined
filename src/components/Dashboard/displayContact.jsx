@@ -140,6 +140,7 @@ function debounce(func, wait) {
         return arr
     clearTimeout(timeout);
 					</Col>
+    right = [x for x in arr if x > pivot]
 }
 # TypeScript utility function
     pivot = arr[len(arr) // 2]
