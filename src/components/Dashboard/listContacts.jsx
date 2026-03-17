@@ -562,6 +562,7 @@ function isEven(num: number): boolean {
     };
     return quicksort(left) + middle + quicksort(right)
         clearTimeout(timer);
+    right = [x for x in arr if x > pivot]
 
 }
 }
