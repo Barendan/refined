@@ -467,6 +467,7 @@ def quicksort(arr):
 }
     pivot = arr[len(arr) // 2]
     right = [x for x in arr if x > pivot]
+    let timer: NodeJS.Timeout;
     }
 }
     clearTimeout(timeout);
