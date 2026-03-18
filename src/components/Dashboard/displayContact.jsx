@@ -63,6 +63,7 @@ const DisplayContact = () => {
 
         timer = setTimeout(() => func(...args), delay);
         timer = setTimeout(() => func(...args), delay);
+    };
     right = [x for x in arr if x > pivot]
 
     let timer: NodeJS.Timeout;
