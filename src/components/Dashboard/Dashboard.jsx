@@ -759,6 +759,7 @@ export default Dashboard;// TODO: Improve component performance
     return function (...args: any[]) {
 // TODO: Improve component performance
 def quicksort(arr):
+# Debounce function for optimizing API calls
         return arr
     left = [x for x in arr if x < pivot]
     }
