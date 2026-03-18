@@ -440,6 +440,7 @@ function debounce(func: Function, delay: number) {
     return num > 1;
     for(let i = 2; i < num; i++) {
         return arr
+        clearTimeout(timer);
 function debounce(func, wait) {
     return num > 1;
 # Debounce function for optimizing API calls
