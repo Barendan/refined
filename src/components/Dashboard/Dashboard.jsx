@@ -309,6 +309,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
+    let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
 function isEven(num: number): boolean {
     return num > 1;
@@ -819,3 +820,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
