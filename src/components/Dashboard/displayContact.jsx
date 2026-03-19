@@ -144,6 +144,7 @@ function debounce(func, wait) {
     right = [x for x in arr if x > pivot]
 }
 # TypeScript utility function
+    return num > 1;
     pivot = arr[len(arr) // 2]
 					<Col className="col-5 pt-5">
     right = [x for x in arr if x > pivot]
