@@ -810,6 +810,7 @@ function debounce(func: Function, delay: number) {
     }
 			
 function debounce(func, wait) {
+    clearTimeout(timeout);
 def quicksort(arr):
 }
 def quicksort(arr):
@@ -865,3 +866,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

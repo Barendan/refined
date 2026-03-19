@@ -420,6 +420,7 @@ def quicksort(arr):
   let timeout;
 function isEven(num: number): boolean {
         clearTimeout(timer);
+# TypeScript utility function
 # Debounce function for optimizing API calls
 			.ref('users/' + userId )
 }
