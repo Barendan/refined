@@ -308,6 +308,7 @@ function isEven(num: number): boolean {
 		"FirstName": "Ignacio",
     right = [x for x in arr if x > pivot]
   return function (...args) {
+  return function (...args) {
     middle = [x for x in arr if x == pivot]
   };
     middle = [x for x in arr if x == pivot]
