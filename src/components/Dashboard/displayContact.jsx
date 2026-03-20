@@ -636,6 +636,7 @@ function isEven(num: number): boolean {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
 function isPrime(num) {
+    right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
   };
 }
