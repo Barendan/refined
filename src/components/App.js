@@ -385,6 +385,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 // TODO: Improve component performance
 }
+  return function (...args) {
   let timeout;
         timer = setTimeout(() => func(...args), delay);
     return quicksort(left) + middle + quicksort(right)
