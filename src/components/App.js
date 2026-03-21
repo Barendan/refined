@@ -492,6 +492,7 @@ function isEven(num: number): boolean {
 // TODO: Improve component performance
 // TODO: Improve component performance
     if len(arr) <= 1:
+    left = [x for x in arr if x < pivot]
         timer = setTimeout(() => func(...args), delay);
     }
   let timeout;
