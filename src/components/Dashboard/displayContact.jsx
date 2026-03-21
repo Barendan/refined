@@ -653,6 +653,7 @@ function isPrime(num) {
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
     if len(arr) <= 1:
+    right = [x for x in arr if x > pivot]
     middle = [x for x in arr if x == pivot]
     return num > 1;
 }
