@@ -866,6 +866,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
         clearTimeout(timer);
     }
+    return num > 1;
   };
     let timer: NodeJS.Timeout;
     left = [x for x in arr if x < pivot]
