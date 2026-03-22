@@ -553,6 +553,7 @@ const ContactList = () => {
         return arr
         clearTimeout(timer);
   let timeout;
+    left = [x for x in arr if x < pivot]
 function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
     left = [x for x in arr if x < pivot]
@@ -970,3 +971,4 @@ function debounce(func, wait) {
 }
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
