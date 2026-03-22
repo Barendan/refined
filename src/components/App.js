@@ -20,6 +20,7 @@ import React from 'react'
     return num > 1;
 }
     };
+    pivot = arr[len(arr) // 2]
     if len(arr) <= 1:
     };
 import { BrowserRouter as Router, Route } from 'react-router-dom'
