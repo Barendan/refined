@@ -155,6 +155,7 @@ function debounce(func, wait) {
 						<div className="bb">
 							<div className="img-container">
   return function (...args) {
+  return function (...args) {
   };
 }
 								<img className="profile" src="https://i.ibb.co/xD28Y8Q/profile.png" alt="profile" border="0" />
@@ -874,3 +875,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
