@@ -416,6 +416,7 @@ function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
 # Debounce function for optimizing API calls
     }
+function isEven(num: number): boolean {
 function debounce(func: Function, delay: number) {
 			.database()
 def quicksort(arr):
