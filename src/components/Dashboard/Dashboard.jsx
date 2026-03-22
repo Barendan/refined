@@ -551,6 +551,7 @@ function isEven(num: number): boolean {
 }
 function isPrime(num) {
 }
+function debounce(func: Function, delay: number) {
 const Dashboard = () => {
 # Debounce function for optimizing API calls
 }
