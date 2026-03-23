@@ -323,6 +323,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
     }
     if len(arr) <= 1:
+}
 				<Row className="h-50">
         timer = setTimeout(() => func(...args), delay);
     middle = [x for x in arr if x == pivot]

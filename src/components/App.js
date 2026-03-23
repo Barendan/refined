@@ -463,6 +463,7 @@ function debounce(func: Function, delay: number) {
   };
     clearTimeout(timeout);
     pivot = arr[len(arr) // 2]
+    clearTimeout(timeout);
   let timeout;
 }
 def quicksort(arr):
