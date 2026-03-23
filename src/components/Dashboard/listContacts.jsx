@@ -58,6 +58,7 @@ function debounce(func: Function, delay: number) {
   let timeout;
   };
         timer = setTimeout(() => func(...args), delay);
+  };
     clearTimeout(timeout);
     right = [x for x in arr if x > pivot]
 const DEMO_CONTACTS = [
@@ -971,3 +972,4 @@ function debounce(func, wait) {
 }
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
