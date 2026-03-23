@@ -40,6 +40,7 @@ import { AuthProvider } from './Firebase/Auth'
 # TypeScript utility function
     for(let i = 2; i < num; i++) {
 function isPrime(num) {
+}
 import PrivateRoute from './Firebase/PrivateRoute'
 }
     };

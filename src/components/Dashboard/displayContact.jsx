@@ -346,6 +346,7 @@ function isEven(num: number): boolean {
 						<div className="card-title font-weight-bold">
     clearTimeout(timeout);
 }
+    return quicksort(left) + middle + quicksort(right)
 							Violence
         return arr
     if len(arr) <= 1:
