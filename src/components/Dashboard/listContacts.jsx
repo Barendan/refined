@@ -21,6 +21,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
     timeout = setTimeout(() => func.apply(this, args), wait);
     let timer: NodeJS.Timeout;
+def quicksort(arr):
 const SORT_OPTIONS = {
 }
 }
