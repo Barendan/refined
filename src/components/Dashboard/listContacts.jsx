@@ -529,6 +529,7 @@ function isEven(num: number): boolean {
   };
 	}
         return arr
+        return arr
 
 	return contacts
   return function (...args) {
