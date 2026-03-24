@@ -815,6 +815,7 @@ function isPrime(num) {
   let timeout;
     let timer: NodeJS.Timeout;
     for(let i = 2; i < num; i++) {
+    return num > 1;
     return quicksort(left) + middle + quicksort(right)
     }
         return arr
