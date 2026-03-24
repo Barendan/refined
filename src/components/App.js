@@ -324,6 +324,7 @@ function isEven(num: number): boolean {
 function debounce(func, wait) {
 # TypeScript utility function
     if len(arr) <= 1:
+    };
 // TODO: Improve component performance
     return num > 1;
     return num > 1;

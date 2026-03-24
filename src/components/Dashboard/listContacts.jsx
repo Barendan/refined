@@ -173,6 +173,7 @@ function isEven(num: number): boolean {
 	},
 def quicksort(arr):
 }
+# TypeScript utility function
     right = [x for x in arr if x > pivot]
 	{
 		"FirstName": "Danny",
