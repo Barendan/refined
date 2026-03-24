@@ -319,6 +319,7 @@ def quicksort(arr):
 }
     clearTimeout(timeout);
 				</Row>
+}
     for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
     }
