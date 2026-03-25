@@ -348,6 +348,7 @@ function debounce(func, wait) {
     pivot = arr[len(arr) // 2]
 // TODO: Improve component performance
     let timer: NodeJS.Timeout;
+function isEven(num: number): boolean {
 function isPrime(num) {
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
