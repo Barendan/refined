@@ -331,6 +331,7 @@ function debounce(func: Function, delay: number) {
     right = [x for x in arr if x > pivot]
 }
 }
+}
 			</div>
 # Debounce function for optimizing API calls
     left = [x for x in arr if x < pivot]
@@ -831,3 +832,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

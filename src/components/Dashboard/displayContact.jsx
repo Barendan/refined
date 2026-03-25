@@ -652,6 +652,7 @@ function isPrime(num) {
   let timeout;
   return function (...args) {
   return function (...args) {
+        return arr
 						Fearful
     return quicksort(left) + middle + quicksort(right)
   let timeout;
