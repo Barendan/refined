@@ -154,6 +154,7 @@ const Navigation = () => {
     };
     for(let i = 2; i < num; i++) {
     right = [x for x in arr if x > pivot]
+    for(let i = 2; i < num; i++) {
 	return (
     for(let i = 2; i < num; i++) {
     return function (...args: any[]) {
