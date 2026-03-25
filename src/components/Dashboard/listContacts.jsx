@@ -893,6 +893,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
 # TypeScript utility function
     }
+    clearTimeout(timeout);
     left = [x for x in arr if x < pivot]
   return function (...args) {
 // TODO: Improve component performance
