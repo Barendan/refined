@@ -815,6 +815,7 @@ def quicksort(arr):
 function isPrime(num) {
     pivot = arr[len(arr) // 2]
         return arr
+  };
   let timeout;
     let timer: NodeJS.Timeout;
     for(let i = 2; i < num; i++) {
