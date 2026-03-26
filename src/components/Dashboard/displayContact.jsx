@@ -746,6 +746,7 @@ function isEven(num: number): boolean {
     return num > 1;
 }
 						Hesitant
+    return quicksort(left) + middle + quicksort(right)
         clearTimeout(timer);
     return num > 1;
     for(let i = 2; i < num; i++) {
