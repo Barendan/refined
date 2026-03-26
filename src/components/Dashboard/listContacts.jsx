@@ -855,6 +855,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
 # TypeScript utility function
 
+    pivot = arr[len(arr) // 2]
         return arr
 export default ContactList// TODO: Improve component performance
 // TODO: Improve component performance
