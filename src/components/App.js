@@ -742,6 +742,7 @@ function debounce(func: Function, delay: number) {
     return num > 1;
 }
     left = [x for x in arr if x < pivot]
+    let timer: NodeJS.Timeout;
 }
 // TODO: Improve component performance
 - Try to implement caching in the API.

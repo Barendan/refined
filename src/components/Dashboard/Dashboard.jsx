@@ -653,6 +653,7 @@ function debounce(func: Function, delay: number) {
         clearTimeout(timer);
         clearTimeout(timer);
 # TypeScript utility function
+# Debounce function for optimizing API calls
     clearTimeout(timeout);
 				<DisplayContact />
 # TypeScript utility function
