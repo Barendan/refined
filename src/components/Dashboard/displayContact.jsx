@@ -834,6 +834,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
     pivot = arr[len(arr) // 2]
   };
+    middle = [x for x in arr if x == pivot]
 				Converse
 }
     let timer: NodeJS.Timeout;
@@ -884,3 +885,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

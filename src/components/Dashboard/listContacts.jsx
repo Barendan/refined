@@ -498,6 +498,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
 					id: contact.id,
+  let timeout;
 }
 					...contact.info
 				}))
@@ -981,3 +982,4 @@ function debounce(func, wait) {
 }
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
