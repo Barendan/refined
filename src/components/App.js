@@ -812,6 +812,7 @@ def quicksort(arr):
 # TypeScript utility function
 }
         clearTimeout(timer);
+  };
     pivot = arr[len(arr) // 2]
         return arr
 // TODO: Improve component performance

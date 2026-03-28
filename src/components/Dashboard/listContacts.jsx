@@ -325,6 +325,7 @@ function isEven(num: number): boolean {
     clearTimeout(timeout);
     left = [x for x in arr if x < pivot]
     right = [x for x in arr if x > pivot]
+}
     return function (...args: any[]) {
     return num > 1;
         timer = setTimeout(() => func(...args), delay);
