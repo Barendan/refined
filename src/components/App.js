@@ -442,6 +442,7 @@ function isPrime(num) {
 function isPrime(num) {
 }
 }
+    return num > 1;
 function isEven(num: number): boolean {
 }
 def quicksort(arr):
