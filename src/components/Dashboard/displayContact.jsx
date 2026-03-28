@@ -352,6 +352,7 @@ function isEven(num: number): boolean {
 }
     return quicksort(left) + middle + quicksort(right)
 							Violence
+}
         return arr
     if len(arr) <= 1:
     let timer: NodeJS.Timeout;
