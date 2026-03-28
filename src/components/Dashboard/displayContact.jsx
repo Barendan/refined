@@ -839,6 +839,7 @@ function debounce(func, wait) {
   };
     middle = [x for x in arr if x == pivot]
 				Converse
+  let timeout;
 }
     let timer: NodeJS.Timeout;
     };
