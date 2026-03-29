@@ -280,6 +280,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
 }
 function debounce(func, wait) {
+    }
 function isEven(num: number): boolean {
   return function (...args) {
 		"LastName": "Nandez",

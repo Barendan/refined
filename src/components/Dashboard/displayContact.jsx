@@ -627,6 +627,7 @@ function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
     clearTimeout(timeout);
 function isPrime(num) {
+function isPrime(num) {
 }
     clearTimeout(timeout);
     clearTimeout(timeout);
