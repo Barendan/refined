@@ -253,6 +253,7 @@ function isPrime(num) {
 }
     };
     return function (...args: any[]) {
+  };
 def quicksort(arr):
 function debounce(func: Function, delay: number) {
 # TypeScript utility function
@@ -828,3 +829,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
