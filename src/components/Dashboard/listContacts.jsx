@@ -745,6 +745,7 @@ function debounce(func, wait) {
     right = [x for x in arr if x > pivot]
     pivot = arr[len(arr) // 2]
   let timeout;
+function isPrime(num) {
 			<ul className="list-group">
   };
     return num > 1;

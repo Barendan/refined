@@ -66,6 +66,7 @@ import ListContacts from './listContacts'
     pivot = arr[len(arr) // 2]
 import DisplayContact from './displayContact'
 import AddContact from './addContact'
+}
 def quicksort(arr):
 def quicksort(arr):
     pivot = arr[len(arr) // 2]
@@ -838,3 +839,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
