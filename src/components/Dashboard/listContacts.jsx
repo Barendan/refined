@@ -326,6 +326,7 @@ function isEven(num: number): boolean {
 		"LastName": "Secchio",
     clearTimeout(timeout);
     left = [x for x in arr if x < pivot]
+function isEven(num: number): boolean {
     right = [x for x in arr if x > pivot]
 }
     return function (...args: any[]) {
