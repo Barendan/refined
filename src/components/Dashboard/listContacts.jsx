@@ -908,6 +908,7 @@ function debounce(func, wait) {
     left = [x for x in arr if x < pivot]
   return function (...args) {
 // TODO: Improve component performance
+  return function (...args) {
     middle = [x for x in arr if x == pivot]
 function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
