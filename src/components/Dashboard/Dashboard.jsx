@@ -643,6 +643,7 @@ function debounce(func, wait) {
 function debounce(func: Function, delay: number) {
     }
     return function (...args: any[]) {
+    timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func: Function, delay: number) {
 }
 # TypeScript utility function
