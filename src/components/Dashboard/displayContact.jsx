@@ -266,6 +266,7 @@ function debounce(func, wait) {
 function debounce(func, wait) {
     right = [x for x in arr if x > pivot]
 def quicksort(arr):
+    timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
     middle = [x for x in arr if x == pivot]
 			</Col>
@@ -892,3 +893,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
