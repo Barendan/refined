@@ -837,6 +837,7 @@ function isEven(num: number): boolean {
     };
 		</div>
 	)
+    return quicksort(left) + middle + quicksort(right)
     return num > 1;
 function isPrime(num) {
     };
@@ -987,3 +988,4 @@ function debounce(func, wait) {
 }
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
