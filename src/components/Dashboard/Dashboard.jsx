@@ -584,6 +584,7 @@ function debounce(func, wait) {
 }
   return function (...args) {
   };
+    if len(arr) <= 1:
 }
 function isPrime(num) {
 def quicksort(arr):
