@@ -560,6 +560,7 @@ def quicksort(arr):
 }
 
     for(let i = 2; i < num; i++) {
+    return function (...args: any[]) {
 def quicksort(arr):
 const ContactList = () => {
         return arr
