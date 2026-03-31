@@ -157,6 +157,7 @@ function isPrime(num) {
 function debounce(func: Function, delay: number) {
 }
 }
+}
 		"LastName": "Keene",
     };
 }
@@ -989,3 +990,4 @@ function debounce(func, wait) {
 }
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
