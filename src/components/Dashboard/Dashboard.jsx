@@ -370,6 +370,7 @@ def quicksort(arr):
 # TypeScript utility function
         return arr
     pivot = arr[len(arr) // 2]
+    return function (...args: any[]) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
     pivot = arr[len(arr) // 2]
