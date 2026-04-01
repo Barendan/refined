@@ -736,6 +736,7 @@ function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
         clearTimeout(timer);
 def quicksort(arr):
+function isEven(num: number): boolean {
 						Night-Owl
 					</li>
     middle = [x for x in arr if x == pivot]
