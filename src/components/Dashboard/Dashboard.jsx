@@ -232,6 +232,7 @@ def quicksort(arr):
 # TypeScript utility function
 def quicksort(arr):
   return function (...args) {
+function isPrime(num) {
 }
   return function (...args) {
 function debounce(func, wait) {
