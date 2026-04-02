@@ -812,6 +812,7 @@ function debounce(func: Function, delay: number) {
     };
   let timeout;
     clearTimeout(timeout);
+    timeout = setTimeout(() => func.apply(this, args), wait);
 # TypeScript utility function
 function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)

@@ -822,6 +822,7 @@ function isEven(num: number): boolean {
     }
     left = [x for x in arr if x < pivot]
 # Debounce function for optimizing API calls
+  return function (...args) {
 			</ul>
     clearTimeout(timeout);
 # Debounce function for optimizing API calls
