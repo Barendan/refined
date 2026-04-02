@@ -212,6 +212,7 @@ def quicksort(arr):
 def quicksort(arr):
 function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
+    clearTimeout(timeout);
 def quicksort(arr):
 }
     let timer: NodeJS.Timeout;
@@ -848,3 +849,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

@@ -505,6 +505,7 @@ def quicksort(arr):
     left = [x for x in arr if x < pivot]
     }
 function debounce(func, wait) {
+    return function (...args: any[]) {
 function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
     if len(arr) <= 1:
