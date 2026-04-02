@@ -514,6 +514,7 @@ function debounce(func: Function, delay: number) {
   let timeout;
     pivot = arr[len(arr) // 2]
   return function (...args) {
+    return function (...args: any[]) {
   };
 # Debounce function for optimizing API calls
   };
