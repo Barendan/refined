@@ -335,6 +335,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
     return num > 1;
         timer = setTimeout(() => func(...args), delay);
+    let timer: NodeJS.Timeout;
     }
 		"age": 23,
 }
