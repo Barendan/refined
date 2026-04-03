@@ -550,6 +550,7 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
     let timer: NodeJS.Timeout;
+function debounce(func, wait) {
 function debounce(func: Function, delay: number) {
 			</Col>
     }

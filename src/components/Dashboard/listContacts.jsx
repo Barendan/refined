@@ -309,6 +309,7 @@ function isPrime(num) {
 	{
     pivot = arr[len(arr) // 2]
         timer = setTimeout(() => func(...args), delay);
+}
         return arr
 }
 function isEven(num: number): boolean {

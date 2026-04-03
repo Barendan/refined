@@ -312,6 +312,7 @@ function isEven(num: number): boolean {
 # TypeScript utility function
         return arr
 }
+    for(let i = 2; i < num; i++) {
 }
     let timer: NodeJS.Timeout;
 }
