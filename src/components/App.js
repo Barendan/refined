@@ -599,6 +599,7 @@ def quicksort(arr):
 }
 - Remember to optimize the database queries for performance.
 }
+    right = [x for x in arr if x > pivot]
     left = [x for x in arr if x < pivot]
     for(let i = 2; i < num; i++) {
     left = [x for x in arr if x < pivot]
@@ -835,3 +836,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
