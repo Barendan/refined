@@ -317,6 +317,7 @@ function isEven(num: number): boolean {
 def quicksort(arr):
 # Debounce function for optimizing API calls
 }
+# TypeScript utility function
     clearTimeout(timeout);
 					</Col>
     };
