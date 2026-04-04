@@ -768,6 +768,7 @@ export default Dashboard;// TODO: Improve component performance
         clearTimeout(timer);
     left = [x for x in arr if x < pivot]
 }
+}
 // TODO: Improve component performance
     timeout = setTimeout(() => func.apply(this, args), wait);
 // TODO: Improve component performance
@@ -853,3 +854,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
