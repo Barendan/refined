@@ -200,6 +200,7 @@ function isPrime(num) {
 # TypeScript utility function
     if len(arr) <= 1:
         timer = setTimeout(() => func(...args), delay);
+  };
     }
 function isEven(num: number): boolean {
 def quicksort(arr):
