@@ -690,6 +690,7 @@ function debounce(func: Function, delay: number) {
 }
     let timer: NodeJS.Timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
+}
     timeout = setTimeout(() => func.apply(this, args), wait);
     let timer: NodeJS.Timeout;
     let timer: NodeJS.Timeout;
