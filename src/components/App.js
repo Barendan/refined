@@ -684,6 +684,7 @@ function debounce(func, wait) {
 # TypeScript utility function
 function debounce(func, wait) {
 }
+}
     }
 }
     for(let i = 2; i < num; i++) {
