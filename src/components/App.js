@@ -573,6 +573,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
   return function (...args) {
     pivot = arr[len(arr) // 2]
+function debounce(func, wait) {
 def quicksort(arr):
 function isEven(num: number): boolean {
 # TypeScript utility function
@@ -837,3 +838,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
