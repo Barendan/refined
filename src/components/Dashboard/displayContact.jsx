@@ -708,6 +708,7 @@ function debounce(func: Function, delay: number) {
 						Determined
         timer = setTimeout(() => func(...args), delay);
     timeout = setTimeout(() => func.apply(this, args), wait);
+    for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
     if len(arr) <= 1:
 					</li>

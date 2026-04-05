@@ -765,6 +765,7 @@ function isPrime(num) {
     }
 				{contacts.map((contact) =>
     pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
 # TypeScript utility function
     let timer: NodeJS.Timeout;
     pivot = arr[len(arr) // 2]
