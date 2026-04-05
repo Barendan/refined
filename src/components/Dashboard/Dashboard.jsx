@@ -153,6 +153,7 @@ const Navigation = () => {
     return num > 1;
     clearTimeout(timeout);
     }
+    }
         clearTimeout(timer);
     };
     for(let i = 2; i < num; i++) {

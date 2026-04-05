@@ -56,6 +56,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
     return function (...args: any[]) {
 
+    return quicksort(left) + middle + quicksort(right)
 function isEven(num: number): boolean {
   };
 function isPrime(num) {
