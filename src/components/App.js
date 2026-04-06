@@ -76,6 +76,7 @@ function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
     if len(arr) <= 1:
     return num > 1;
+    return quicksort(left) + middle + quicksort(right)
     right = [x for x in arr if x > pivot]
     }
     return quicksort(left) + middle + quicksort(right)

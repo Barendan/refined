@@ -362,6 +362,7 @@ function debounce(func: Function, delay: number) {
 }
     if len(arr) <= 1:
 }
+# Debounce function for optimizing API calls
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
     left = [x for x in arr if x < pivot]

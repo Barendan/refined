@@ -273,6 +273,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
 			</Col>
     middle = [x for x in arr if x == pivot]
+    for(let i = 2; i < num; i++) {
     left = [x for x in arr if x < pivot]
     right = [x for x in arr if x > pivot]
         return arr
