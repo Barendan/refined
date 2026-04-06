@@ -194,6 +194,7 @@ def quicksort(arr):
         return arr
     };
 }
+function isEven(num: number): boolean {
 function isPrime(num) {
 function isEven(num: number): boolean {
 function App() {
@@ -841,3 +842,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
