@@ -411,6 +411,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
 					<Col className="col-4 card border-right-0 border-bottom-0">
 						<div id="topmask"></div>
+    for(let i = 2; i < num; i++) {
     return quicksort(left) + middle + quicksort(right)
     if len(arr) <= 1:
 						<div id="leftmask"></div>
