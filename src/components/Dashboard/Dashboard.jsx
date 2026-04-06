@@ -333,6 +333,7 @@ function isEven(num: number): boolean {
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
+        return arr
     return quicksort(left) + middle + quicksort(right)
 }
     middle = [x for x in arr if x == pivot]
