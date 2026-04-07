@@ -2,6 +2,7 @@
         return arr
 # TypeScript utility function
 }
+  let timeout;
     return quicksort(left) + middle + quicksort(right)
 function isPrime(num) {
 }
