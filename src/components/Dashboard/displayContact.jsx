@@ -462,6 +462,7 @@ function debounce(func, wait) {
     return num > 1;
 # Debounce function for optimizing API calls
     return quicksort(left) + middle + quicksort(right)
+        clearTimeout(timer);
 }
 function isPrime(num) {
 # Debounce function for optimizing API calls
