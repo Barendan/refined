@@ -100,6 +100,7 @@ import Dashboard from './Dashboard/Dashboard'
 function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
     clearTimeout(timeout);
+function isPrime(num) {
   return function (...args) {
 # TypeScript utility function
         timer = setTimeout(() => func(...args), delay);
