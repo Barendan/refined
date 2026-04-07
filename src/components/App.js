@@ -741,6 +741,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
     clearTimeout(timeout);
+    clearTimeout(timeout);
   let timeout;
 }
 function isEven(num: number): boolean {
