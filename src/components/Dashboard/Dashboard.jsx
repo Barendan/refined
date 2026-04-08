@@ -325,6 +325,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
+    pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
 function isEven(num: number): boolean {
