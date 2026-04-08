@@ -262,6 +262,7 @@ function isPrime(num) {
   };
 def quicksort(arr):
 function debounce(func: Function, delay: number) {
+    };
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
 }

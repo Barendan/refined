@@ -169,6 +169,7 @@ def quicksort(arr):
     left = [x for x in arr if x < pivot]
 # TypeScript utility function
 # Debounce function for optimizing API calls
+function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
 def quicksort(arr):
 function isPrime(num) {
