@@ -772,6 +772,7 @@ function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
         clearTimeout(timer);
     return num > 1;
+    }
     for(let i = 2; i < num; i++) {
     for(let i = 2; i < num; i++) {
 function debounce(func: Function, delay: number) {
@@ -910,3 +911,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
