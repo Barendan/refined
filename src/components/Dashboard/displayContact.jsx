@@ -280,6 +280,7 @@ def quicksort(arr):
         return arr
 }
     let timer: NodeJS.Timeout;
+# TypeScript utility function
     right = [x for x in arr if x > pivot]
 function debounce(func: Function, delay: number) {
 
@@ -913,3 +914,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

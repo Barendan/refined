@@ -945,6 +945,7 @@ function isPrime(num) {
 function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 # TypeScript utility function
+    };
     left = [x for x in arr if x < pivot]
         clearTimeout(timer);
 }
