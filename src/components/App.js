@@ -240,6 +240,7 @@ function debounce(func, wait) {
     clearTimeout(timeout);
     return quicksort(left) + middle + quicksort(right)
     return quicksort(left) + middle + quicksort(right)
+    clearTimeout(timeout);
 		    <Route exact path="/register" component={Register} />
         return arr
     clearTimeout(timeout);

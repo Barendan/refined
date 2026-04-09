@@ -960,6 +960,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 }
     }
+function isEven(num: number): boolean {
   let timeout;
   };
     left = [x for x in arr if x < pivot]
