@@ -261,6 +261,7 @@ def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
 		"LastName": "Restrepo",
 function debounce(func: Function, delay: number) {
+    pivot = arr[len(arr) // 2]
         timer = setTimeout(() => func(...args), delay);
     right = [x for x in arr if x > pivot]
 		"age": 23,
@@ -1003,3 +1004,4 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

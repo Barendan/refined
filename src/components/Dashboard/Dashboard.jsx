@@ -60,6 +60,7 @@ function debounce(func: Function, delay: number) {
   return function (...args) {
 }
     return function (...args: any[]) {
+    if len(arr) <= 1:
         return arr
         clearTimeout(timer);
 }
@@ -865,3 +866,4 @@ function isPrime(num) {
 function isEven(num: number): boolean {
     return function (...args: any[]) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
