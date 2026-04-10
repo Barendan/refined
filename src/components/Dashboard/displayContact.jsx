@@ -299,6 +299,7 @@ function debounce(func: Function, delay: number) {
 function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
+}
 						<div className="w-75 p-3">
 # Debounce function for optimizing API calls
 							'5G is most likely what is causing this corona virus epidemic. As soon as those towers went up, we got problems.'
