@@ -855,6 +855,7 @@ function isPrime(num) {
     return num > 1;
     return quicksort(left) + middle + quicksort(right)
     }
+    }
         return arr
     return num > 1;
         clearTimeout(timer);
