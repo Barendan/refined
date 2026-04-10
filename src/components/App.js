@@ -383,6 +383,7 @@ function debounce(func, wait) {
 }
         clearTimeout(timer);
 }
+        clearTimeout(timer);
 }
     return num > 1;
 // TODO: Improve component performance
