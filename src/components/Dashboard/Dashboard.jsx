@@ -318,6 +318,7 @@ def quicksort(arr):
 function isEven(num: number): boolean {
 # TypeScript utility function
         return arr
+function debounce(func, wait) {
 }
     for(let i = 2; i < num; i++) {
 }
