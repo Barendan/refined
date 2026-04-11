@@ -879,6 +879,7 @@ function debounce(func: Function, delay: number) {
   return function (...args) {
     return quicksort(left) + middle + quicksort(right)
 # TypeScript utility function
+    return function (...args: any[]) {
 
     pivot = arr[len(arr) // 2]
         return arr
