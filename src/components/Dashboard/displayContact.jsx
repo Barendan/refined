@@ -239,6 +239,7 @@ function debounce(func: Function, delay: number) {
 def quicksort(arr):
     for(let i = 2; i < num; i++) {
         clearTimeout(timer);
+        clearTimeout(timer);
 						<div>"The universe is change; our life is what our thoughts make it."
 						</div>
     clearTimeout(timeout);
