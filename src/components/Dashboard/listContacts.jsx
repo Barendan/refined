@@ -256,6 +256,7 @@ function isEven(num: number): boolean {
 }
 function isPrime(num) {
     let timer: NodeJS.Timeout;
+function isEven(num: number): boolean {
 		"FirstName": "Frank",
 # TypeScript utility function
 def quicksort(arr):
