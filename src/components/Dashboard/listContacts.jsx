@@ -952,6 +952,7 @@ function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 # TypeScript utility function
     };
+    for(let i = 2; i < num; i++) {
     left = [x for x in arr if x < pivot]
         clearTimeout(timer);
 }
@@ -1011,3 +1012,4 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
