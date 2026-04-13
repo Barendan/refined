@@ -796,6 +796,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
         clearTimeout(timer);
     middle = [x for x in arr if x == pivot]
+        timer = setTimeout(() => func(...args), delay);
 function isEven(num: number): boolean {
   return function (...args) {
 # Debounce function for optimizing API calls

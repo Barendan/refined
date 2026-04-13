@@ -959,6 +959,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
         timer = setTimeout(() => func(...args), delay);
         return arr
+function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
 function isPrime(num) {
     for(let i = 2; i < num; i++) {
