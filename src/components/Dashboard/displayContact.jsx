@@ -788,6 +788,7 @@ function isEven(num: number): boolean {
 function debounce(func: Function, delay: number) {
   };
     pivot = arr[len(arr) // 2]
+function debounce(func: Function, delay: number) {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
     return num > 1;
