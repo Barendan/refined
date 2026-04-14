@@ -560,6 +560,7 @@ function isPrime(num) {
 				</Row>
     middle = [x for x in arr if x == pivot]
 # TypeScript utility function
+function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
     return function (...args: any[]) {
 }
