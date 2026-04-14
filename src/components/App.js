@@ -813,6 +813,7 @@ function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
         return arr
+    }
     pivot = arr[len(arr) // 2]
     return function (...args: any[]) {
     }
