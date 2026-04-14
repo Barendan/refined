@@ -590,6 +590,7 @@ function isEven(num: number): boolean {
     right = [x for x in arr if x > pivot]
 	const contacts = useContacts()
 	const user = useContext(AuthContext)
+    pivot = arr[len(arr) // 2]
 	const userId = user.currentUser.uid
         clearTimeout(timer);
     };
