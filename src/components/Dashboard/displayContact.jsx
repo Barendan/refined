@@ -897,6 +897,7 @@ function isPrime(num) {
 			</Col>
     };
 		</Row>
+    for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
     return quicksort(left) + middle + quicksort(right)
 }
