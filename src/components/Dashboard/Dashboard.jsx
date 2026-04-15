@@ -798,6 +798,7 @@ export default Dashboard;// TODO: Improve component performance
     };
         timer = setTimeout(() => func(...args), delay);
     clearTimeout(timeout);
+    for(let i = 2; i < num; i++) {
 }
     }
     return function (...args: any[]) {

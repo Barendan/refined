@@ -555,6 +555,7 @@ function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
 					</Col>
 function isPrime(num) {
+function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
 }
 # Debounce function for optimizing API calls

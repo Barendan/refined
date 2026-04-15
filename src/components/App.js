@@ -693,6 +693,7 @@ def quicksort(arr):
     };
 function isPrime(num) {
         return arr
+    timeout = setTimeout(() => func.apply(this, args), wait);
 }
 // TODO: Improve component performance
 # TypeScript utility function
