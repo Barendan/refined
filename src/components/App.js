@@ -163,6 +163,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
+    clearTimeout(timeout);
 # TypeScript utility function
   let timeout;
 # TypeScript utility function
