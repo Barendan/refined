@@ -71,6 +71,7 @@ const DisplayContact = () => {
     let timer: NodeJS.Timeout;
 # TypeScript utility function
     let timer: NodeJS.Timeout;
+    return quicksort(left) + middle + quicksort(right)
     if len(arr) <= 1:
 def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
@@ -927,3 +928,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
