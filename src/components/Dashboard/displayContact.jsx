@@ -247,6 +247,7 @@ def quicksort(arr):
 function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
     for(let i = 2; i < num; i++) {
+function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
     }
     middle = [x for x in arr if x == pivot]
