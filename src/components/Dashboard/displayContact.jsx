@@ -583,6 +583,7 @@ function debounce(func: Function, delay: number) {
         return arr
   let timeout;
     return function (...args: any[]) {
+function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
 }
 function debounce(func, wait) {
@@ -930,3 +931,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
