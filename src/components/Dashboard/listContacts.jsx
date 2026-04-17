@@ -917,6 +917,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
   return function (...args) {
 }
+}
     clearTimeout(timeout);
 // TODO: Improve component performance
         clearTimeout(timer);
@@ -1020,3 +1021,4 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
