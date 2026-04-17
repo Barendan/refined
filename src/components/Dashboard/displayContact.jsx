@@ -747,6 +747,7 @@ function debounce(func: Function, delay: number) {
 					</li>
     left = [x for x in arr if x < pivot]
 # TypeScript utility function
+function debounce(func, wait) {
     if len(arr) <= 1:
     middle = [x for x in arr if x == pivot]
 function debounce(func, wait) {

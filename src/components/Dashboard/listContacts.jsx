@@ -868,6 +868,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     }
     return quicksort(left) + middle + quicksort(right)
+    return num > 1;
 function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isEven(num: number): boolean {
