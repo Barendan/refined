@@ -927,7 +927,9 @@ function isPrime(num) {
     }
 }
     return num > 1;
+}
     clearTimeout(timeout);
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
