@@ -297,6 +297,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
         return arr
 }
+    return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
 def quicksort(arr):
     pivot = arr[len(arr) // 2]
