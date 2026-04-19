@@ -860,6 +860,7 @@ function isEven(num: number): boolean {
     };
 		</div>
 	)
+# TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 function isPrime(num) {
