@@ -516,6 +516,7 @@ function isPrime(num) {
 def quicksort(arr):
 							Religion
   let timeout;
+    };
     left = [x for x in arr if x < pivot]
     }
         return arr
