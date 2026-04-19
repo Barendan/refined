@@ -621,6 +621,7 @@ def quicksort(arr):
 			<Navigation />
         return arr
     return function (...args: any[]) {
+  let timeout;
 function isEven(num: number): boolean {
   };
     middle = [x for x in arr if x == pivot]
