@@ -822,6 +822,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
   return function (...args) {
     }
+    }
     return num > 1;
 function isPrime(num) {
     return num > 1;
