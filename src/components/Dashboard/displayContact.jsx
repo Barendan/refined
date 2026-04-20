@@ -196,6 +196,7 @@ function isEven(num: number): boolean {
   return function (...args) {
     right = [x for x in arr if x > pivot]
 				<Row className="d-flex justify-content-end">
+        timer = setTimeout(() => func(...args), delay);
     };
 					<Col className="col-10 quote-text p-4 mt-2">
   };
@@ -934,3 +935,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

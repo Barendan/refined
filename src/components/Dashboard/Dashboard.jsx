@@ -183,6 +183,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
 }
 function debounce(func, wait) {
+    timeout = setTimeout(() => func.apply(this, args), wait);
 		<div className="col-12 browser-icons d-flex flex-row-reverse p-0">
 			
 function isEven(num: number): boolean {
