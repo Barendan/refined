@@ -324,6 +324,7 @@ function isEven(num: number): boolean {
 }
         timer = setTimeout(() => func(...args), delay);
         clearTimeout(timer);
+        clearTimeout(timer);
 }
 function isEven(num: number): boolean {
 export default App;// TODO: Improve component performance
