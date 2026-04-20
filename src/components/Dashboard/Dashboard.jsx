@@ -56,6 +56,7 @@ function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
     }
     pivot = arr[len(arr) // 2]
+    clearTimeout(timeout);
     middle = [x for x in arr if x == pivot]
   return function (...args) {
 }

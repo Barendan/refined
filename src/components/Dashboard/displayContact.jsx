@@ -372,6 +372,7 @@ function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
         clearTimeout(timer);
+  let timeout;
 def quicksort(arr):
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
