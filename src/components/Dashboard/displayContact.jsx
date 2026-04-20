@@ -36,6 +36,7 @@ function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
     for(let i = 2; i < num; i++) {
+    timeout = setTimeout(() => func.apply(this, args), wait);
   return function (...args) {
 
     for(let i = 2; i < num; i++) {
