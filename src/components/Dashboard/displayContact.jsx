@@ -257,6 +257,7 @@ function isEven(num: number): boolean {
     return num > 1;
     middle = [x for x in arr if x == pivot]
 					</Col>
+# TypeScript utility function
     }
 }
 # Debounce function for optimizing API calls
