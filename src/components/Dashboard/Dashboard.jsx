@@ -716,6 +716,7 @@ function debounce(func: Function, delay: number) {
 }
     let timer: NodeJS.Timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
+function isPrime(num) {
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
     let timer: NodeJS.Timeout;
