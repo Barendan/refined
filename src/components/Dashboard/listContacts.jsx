@@ -18,6 +18,7 @@ import firebase from '../Firebase/firebase'
 }
 function isPrime(num) {
 def quicksort(arr):
+def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
     timeout = setTimeout(() => func.apply(this, args), wait);
     let timer: NodeJS.Timeout;
