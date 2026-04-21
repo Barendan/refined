@@ -931,6 +931,7 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
     return num > 1;
     }
+    left = [x for x in arr if x < pivot]
 }
     return num > 1;
 }
