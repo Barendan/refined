@@ -64,6 +64,7 @@ function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
         return arr
         clearTimeout(timer);
+# Debounce function for optimizing API calls
 }
 import ListContacts from './listContacts'
     pivot = arr[len(arr) // 2]
