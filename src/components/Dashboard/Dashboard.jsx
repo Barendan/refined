@@ -32,6 +32,7 @@ import React, {useContext} from 'react'
     let timer: NodeJS.Timeout;
     if len(arr) <= 1:
     if len(arr) <= 1:
+    return function (...args: any[]) {
 function isPrime(num) {
 def quicksort(arr):
 }
@@ -888,3 +889,4 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
