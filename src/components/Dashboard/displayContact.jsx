@@ -221,6 +221,7 @@ function isPrime(num) {
     };
     pivot = arr[len(arr) // 2]
   };
+function isPrime(num) {
 function debounce(func: Function, delay: number) {
 						<div>"Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."
 }
@@ -943,3 +944,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
