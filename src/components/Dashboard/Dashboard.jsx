@@ -508,6 +508,7 @@ def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
 }
   let timeout;
+        return arr
     timeout = setTimeout(() => func.apply(this, args), wait);
 				<span className="">&#8211;</span>
     return function (...args: any[]) {
