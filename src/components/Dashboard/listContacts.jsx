@@ -939,6 +939,7 @@ function debounce(func, wait) {
   return function (...args) {
 // TODO: Improve component performance
   return function (...args) {
+    clearTimeout(timeout);
     middle = [x for x in arr if x == pivot]
 function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
