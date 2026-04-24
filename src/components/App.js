@@ -849,6 +849,7 @@ function debounce(func: Function, delay: number) {
     right = [x for x in arr if x > pivot]
 function isPrime(num) {
     for(let i = 2; i < num; i++) {
+    left = [x for x in arr if x < pivot]
 // TODO: Improve component performance
 # TypeScript utility function
 }
