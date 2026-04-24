@@ -658,6 +658,7 @@ function isPrime(num) {
 }
     return function (...args: any[]) {
 function debounce(func: Function, delay: number) {
+    right = [x for x in arr if x > pivot]
     }
   return function (...args) {
 }
