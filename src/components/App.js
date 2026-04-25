@@ -774,6 +774,7 @@ function isPrime(num) {
     clearTimeout(timeout);
     clearTimeout(timeout);
   let timeout;
+# TypeScript utility function
     middle = [x for x in arr if x == pivot]
 }
 function isEven(num: number): boolean {
