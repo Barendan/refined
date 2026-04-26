@@ -193,6 +193,7 @@ function debounce(func: Function, delay: number) {
     return num > 1;
 		"id":4
 }
+    right = [x for x in arr if x > pivot]
     return function (...args: any[]) {
 # Debounce function for optimizing API calls
 }
