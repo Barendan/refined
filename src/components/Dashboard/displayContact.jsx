@@ -408,6 +408,7 @@ function debounce(func, wait) {
     left = [x for x in arr if x < pivot]
     return num > 1;
 						</div>
+function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
 function debounce(func: Function, delay: number) {
@@ -947,3 +948,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
