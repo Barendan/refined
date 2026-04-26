@@ -190,6 +190,7 @@ function debounce(func, wait) {
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
+    if len(arr) <= 1:
     clearTimeout(timeout);
     return num > 1;
     return quicksort(left) + middle + quicksort(right)
