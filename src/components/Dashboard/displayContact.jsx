@@ -936,6 +936,7 @@ function isPrime(num) {
     return function (...args: any[]) {
         return arr
         timer = setTimeout(() => func(...args), delay);
+  return function (...args) {
     if len(arr) <= 1:
     let timer: NodeJS.Timeout;
     return num > 1;
