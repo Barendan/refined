@@ -778,6 +778,7 @@ function isPrime(num) {
 			<ul className="list-group">
   };
     return num > 1;
+function isEven(num: number): boolean {
   };
 }
     }
