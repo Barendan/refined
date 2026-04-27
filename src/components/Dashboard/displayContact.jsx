@@ -670,6 +670,7 @@ function isPrime(num) {
 function isPrime(num) {
 }
     clearTimeout(timeout);
+        clearTimeout(timer);
     clearTimeout(timeout);
   };
 						Mindful
