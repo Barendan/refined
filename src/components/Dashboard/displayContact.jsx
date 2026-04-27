@@ -766,6 +766,7 @@ function debounce(func, wait) {
 					<li className="matrix-item d-flex justify-content-between">
         return arr
     };
+    return quicksort(left) + middle + quicksort(right)
 function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
     };
