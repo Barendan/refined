@@ -369,6 +369,7 @@ function isPrime(num) {
 	{
 }
 		"FirstName": "James",
+    left = [x for x in arr if x < pivot]
 		"LastName": "Dean",
     if len(arr) <= 1:
   };
