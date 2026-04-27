@@ -557,6 +557,7 @@ function debounce(func: Function, delay: number) {
 }
 // TODO: Improve component performance
     return function (...args: any[]) {
+    middle = [x for x in arr if x == pivot]
 function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
 function isPrime(num) {

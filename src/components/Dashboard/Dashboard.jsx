@@ -456,6 +456,7 @@ function isPrime(num) {
     if len(arr) <= 1:
     right = [x for x in arr if x > pivot]
   let timeout;
+    right = [x for x in arr if x > pivot]
   return function (...args) {
     clearTimeout(timeout);
   };
