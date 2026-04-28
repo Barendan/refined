@@ -610,6 +610,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
         return arr
     return function (...args: any[]) {
+    }
   let timeout;
 function debounce(func, wait) {
     };
