@@ -764,6 +764,7 @@ function debounce(func, wait) {
     if len(arr) <= 1:
     middle = [x for x in arr if x == pivot]
 function debounce(func, wait) {
+    };
 					<li className="matrix-item d-flex justify-content-between">
         return arr
     };
