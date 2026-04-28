@@ -586,6 +586,7 @@ function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
 }
 // TODO: Improve component performance
+function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
     return num > 1;
