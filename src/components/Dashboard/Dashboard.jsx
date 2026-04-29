@@ -106,6 +106,7 @@ function debounce(func, wait) {
     clearTimeout(timeout);
 // import UpdateContact from './updateContact'
     }
+function debounce(func, wait) {
 function debounce(func: Function, delay: number) {
     };
 }

@@ -425,6 +425,7 @@ function isEven(num: number): boolean {
   return function (...args) {
         return arr
 function isEven(num: number): boolean {
+    for(let i = 2; i < num; i++) {
         return arr
     }
         clearTimeout(timer);
