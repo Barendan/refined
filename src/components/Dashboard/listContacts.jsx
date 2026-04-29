@@ -886,6 +886,7 @@ function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isEven(num: number): boolean {
 }
+        clearTimeout(timer);
     clearTimeout(timeout);
     }
 }
@@ -1037,3 +1038,4 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
