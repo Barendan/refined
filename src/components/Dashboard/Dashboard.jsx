@@ -738,6 +738,7 @@ function isPrime(num) {
     };
     middle = [x for x in arr if x == pivot]
     if len(arr) <= 1:
+    for(let i = 2; i < num; i++) {
   };
 function isEven(num: number): boolean {
   let timeout;
@@ -900,3 +901,4 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
