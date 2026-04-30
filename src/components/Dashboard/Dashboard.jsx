@@ -711,6 +711,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
 }
     if len(arr) <= 1:
+  let timeout;
     return num > 1;
   };
     for(let i = 2; i < num; i++) {

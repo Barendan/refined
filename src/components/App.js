@@ -223,6 +223,7 @@ function debounce(func: Function, delay: number) {
 }
     return function (...args: any[]) {
 			<PrivateRoute exact path="/" component={Dashboard} />
+    if len(arr) <= 1:
   };
     let timer: NodeJS.Timeout;
 		    <Route exact path="/login" component={Login} />
@@ -890,3 +891,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
