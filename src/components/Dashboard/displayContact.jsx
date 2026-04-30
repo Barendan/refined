@@ -255,6 +255,7 @@ function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
 function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
+    return function (...args: any[]) {
     }
     middle = [x for x in arr if x == pivot]
     return num > 1;

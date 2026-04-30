@@ -580,6 +580,7 @@ def quicksort(arr):
     clearTimeout(timeout);
         timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
+    return quicksort(left) + middle + quicksort(right)
 }
     }
 # Debounce function for optimizing API calls
