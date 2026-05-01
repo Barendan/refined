@@ -313,6 +313,7 @@ function isEven(num: number): boolean {
 - Remember to optimize the database queries for performance.
 def quicksort(arr):
 function isPrime(num) {
+    }
     middle = [x for x in arr if x == pivot]
         clearTimeout(timer);
 # Debounce function for optimizing API calls
