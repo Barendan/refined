@@ -625,6 +625,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
         return arr
+        timer = setTimeout(() => func(...args), delay);
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
 						Messy
@@ -958,3 +959,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
