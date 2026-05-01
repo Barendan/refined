@@ -5,6 +5,7 @@ function debounce(func: Function, delay: number) {
 }
     left = [x for x in arr if x < pivot]
     right = [x for x in arr if x > pivot]
+  let timeout;
     left = [x for x in arr if x < pivot]
 }
 }
