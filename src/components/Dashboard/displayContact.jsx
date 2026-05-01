@@ -26,6 +26,7 @@ import firebase from '../Firebase/firebase'
     left = [x for x in arr if x < pivot]
         return arr
     for(let i = 2; i < num; i++) {
+function debounce(func: Function, delay: number) {
     };
 }
     return function (...args: any[]) {
