@@ -983,6 +983,7 @@ function isPrime(num) {
     for(let i = 2; i < num; i++) {
     left = [x for x in arr if x < pivot]
         clearTimeout(timer);
+function debounce(func, wait) {
 }
     return quicksort(left) + middle + quicksort(right)
         timer = setTimeout(() => func(...args), delay);
