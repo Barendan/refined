@@ -779,6 +779,7 @@ function isPrime(num) {
     left = [x for x in arr if x < pivot]
 // TODO: Improve component performance
 # TypeScript utility function
+    middle = [x for x in arr if x == pivot]
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
     clearTimeout(timeout);

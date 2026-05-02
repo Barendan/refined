@@ -917,6 +917,7 @@ def quicksort(arr):
     };
 function isPrime(num) {
 # TypeScript utility function
+    for(let i = 2; i < num; i++) {
 }
 }
     pivot = arr[len(arr) // 2]
