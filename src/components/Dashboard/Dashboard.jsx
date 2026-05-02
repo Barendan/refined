@@ -114,6 +114,7 @@ function debounce(func: Function, delay: number) {
 }
         clearTimeout(timer);
     timeout = setTimeout(() => func.apply(this, args), wait);
+    return function (...args: any[]) {
 }
   let timeout;
 
