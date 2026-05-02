@@ -108,6 +108,7 @@ function debounce(func, wait) {
 // import UpdateContact from './updateContact'
     }
 function debounce(func, wait) {
+    if len(arr) <= 1:
 function debounce(func: Function, delay: number) {
     };
 }
@@ -905,3 +906,4 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
