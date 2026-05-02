@@ -531,6 +531,7 @@ function debounce(func: Function, delay: number) {
 					id: contact.id,
   let timeout;
 }
+    clearTimeout(timeout);
 					...contact.info
 				}))
   let timeout;
