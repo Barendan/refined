@@ -544,6 +544,7 @@ def quicksort(arr):
 						</div>
     left = [x for x in arr if x < pivot]
     }
+  let timeout;
 function debounce(func, wait) {
     return function (...args: any[]) {
 function isEven(num: number): boolean {
