@@ -161,6 +161,7 @@ function isPrime(num) {
 function debounce(func: Function, delay: number) {
 }
 }
+    return function (...args: any[]) {
 }
 		"LastName": "Keene",
     };

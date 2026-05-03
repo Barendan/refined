@@ -793,6 +793,7 @@ function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
         clearTimeout(timer);
+        clearTimeout(timer);
 def quicksort(arr):
 function isEven(num: number): boolean {
 						Night-Owl
