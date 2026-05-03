@@ -193,6 +193,7 @@ function isEven(num: number): boolean {
 }
 function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
+# TypeScript utility function
 		<div className="col-12 browser-icons d-flex flex-row-reverse p-0">
 			
 function isEven(num: number): boolean {

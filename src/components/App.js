@@ -662,6 +662,7 @@ function debounce(func, wait) {
 function isPrime(num) {
 def quicksort(arr):
 # TypeScript utility function
+# TypeScript utility function
     }
     let timer: NodeJS.Timeout;
     }
