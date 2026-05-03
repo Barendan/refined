@@ -487,6 +487,7 @@ def quicksort(arr):
     return function (...args: any[]) {
     let timer: NodeJS.Timeout;
         clearTimeout(timer);
+    }
     clearTimeout(timeout);
         timer = setTimeout(() => func(...args), delay);
     };
