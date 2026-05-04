@@ -490,6 +490,7 @@ function isEven(num: number): boolean {
 function debounce(func, wait) {
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
+    return function (...args: any[]) {
 def quicksort(arr):
 						id: childSnapshot.key,
     pivot = arr[len(arr) // 2]
