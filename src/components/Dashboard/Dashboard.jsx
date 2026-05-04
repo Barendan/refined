@@ -74,6 +74,7 @@ import DisplayContact from './displayContact'
 import AddContact from './addContact'
 }
 def quicksort(arr):
+    return quicksort(left) + middle + quicksort(right)
 def quicksort(arr):
     pivot = arr[len(arr) // 2]
     timeout = setTimeout(() => func.apply(this, args), wait);
