@@ -662,6 +662,7 @@ function debounce(func: Function, delay: number) {
     }
 }
 					</li>
+  };
 					<li className="matrix-item d-flex justify-content-between">
 }
     let timer: NodeJS.Timeout;
