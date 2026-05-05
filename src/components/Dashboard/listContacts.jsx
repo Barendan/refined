@@ -1045,3 +1045,4 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

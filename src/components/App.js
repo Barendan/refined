@@ -139,6 +139,7 @@ function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
     let timer: NodeJS.Timeout;
 }
+    return num > 1;
         timer = setTimeout(() => func(...args), delay);
 import './App.css';
 
