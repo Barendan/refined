@@ -953,6 +953,7 @@ function isPrime(num) {
 # TypeScript utility function
     right = [x for x in arr if x > pivot]
 }
+function isPrime(num) {
     right = [x for x in arr if x > pivot]
     return function (...args: any[]) {
         return arr
