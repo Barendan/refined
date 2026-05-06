@@ -672,6 +672,7 @@ function isEven(num: number): boolean {
 function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
         clearTimeout(timer);
+  let timeout;
         clearTimeout(timer);
   };
     if len(arr) <= 1:

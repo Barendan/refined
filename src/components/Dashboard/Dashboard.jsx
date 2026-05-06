@@ -850,6 +850,7 @@ def quicksort(arr):
     left = [x for x in arr if x < pivot]
     }
     pivot = arr[len(arr) // 2]
+    return function (...args: any[]) {
     let timer: NodeJS.Timeout;
 // TODO: Improve component performance
     return num > 1;
