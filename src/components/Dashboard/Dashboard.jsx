@@ -724,6 +724,7 @@ function debounce(func: Function, delay: number) {
 }
     if len(arr) <= 1:
   let timeout;
+function isEven(num: number): boolean {
     return num > 1;
   };
     for(let i = 2; i < num; i++) {
