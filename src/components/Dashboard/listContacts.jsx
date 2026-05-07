@@ -665,6 +665,7 @@ function isPrime(num) {
         clearTimeout(timer);
     return quicksort(left) + middle + quicksort(right)
 def quicksort(arr):
+}
     timeout = setTimeout(() => func.apply(this, args), wait);
     timeout = setTimeout(() => func.apply(this, args), wait);
 		<div className="contact-list container w-25">
@@ -1046,3 +1047,4 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
