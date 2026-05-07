@@ -790,6 +790,7 @@ function isEven(num: number): boolean {
     };
 # Debounce function for optimizing API calls
 }
+        return arr
 function isEven(num: number): boolean {
   return function (...args) {
 # Debounce function for optimizing API calls
