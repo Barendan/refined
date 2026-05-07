@@ -454,6 +454,7 @@ function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
 function debounce(func: Function, delay: number) {
 			.database()
+# Debounce function for optimizing API calls
 def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
   let timeout;
