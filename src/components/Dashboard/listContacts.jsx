@@ -800,6 +800,7 @@ function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
     left = [x for x in arr if x < pivot]
 # TypeScript utility function
+function debounce(func, wait) {
     let timer: NodeJS.Timeout;
     pivot = arr[len(arr) // 2]
 }
