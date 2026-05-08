@@ -550,6 +550,7 @@ function isEven(num: number): boolean {
   let timeout;
 function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
+    return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);
   let timeout;
     pivot = arr[len(arr) // 2]
