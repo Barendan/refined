@@ -803,6 +803,7 @@ function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
     return quicksort(left) + middle + quicksort(right)
         timer = setTimeout(() => func(...args), delay);
+    pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
 }
     for(let i = 2; i < num; i++) {

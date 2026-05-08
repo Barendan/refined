@@ -36,6 +36,7 @@ const SORT_OPTIONS = {
 def quicksort(arr):
   let timeout;
     middle = [x for x in arr if x == pivot]
+    middle = [x for x in arr if x == pivot]
 
 }
   return function (...args) {
@@ -1050,3 +1051,4 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
