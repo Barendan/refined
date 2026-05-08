@@ -30,6 +30,7 @@ function debounce(func, wait) {
 import React, {useContext} from 'react'
 }
     return quicksort(left) + middle + quicksort(right)
+function isPrime(num) {
   let timeout;
     let timer: NodeJS.Timeout;
     if len(arr) <= 1:
@@ -920,3 +921,4 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

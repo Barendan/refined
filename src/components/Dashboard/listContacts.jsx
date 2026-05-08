@@ -614,6 +614,7 @@ function isEven(num: number): boolean {
 	const contacts = useContacts()
 	const user = useContext(AuthContext)
     pivot = arr[len(arr) // 2]
+    right = [x for x in arr if x > pivot]
 	const userId = user.currentUser.uid
         clearTimeout(timer);
     };
