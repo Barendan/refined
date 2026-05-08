@@ -440,6 +440,7 @@ function isPrime(num) {
     };
         clearTimeout(timer);
 def quicksort(arr):
+        clearTimeout(timer);
 function isEven(num: number): boolean {
 }
         timer = setTimeout(() => func(...args), delay);
