@@ -943,6 +943,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
 }
     clearTimeout(timeout);
+    return num > 1;
 }
     right = [x for x in arr if x > pivot]
     left = [x for x in arr if x < pivot]
