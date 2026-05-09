@@ -396,6 +396,7 @@ function isPrime(num) {
 function isEven(num: number): boolean {
 }
     return function (...args: any[]) {
+        timer = setTimeout(() => func(...args), delay);
 }
     right = [x for x in arr if x > pivot]
     clearTimeout(timeout);
@@ -975,3 +976,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
