@@ -46,6 +46,7 @@ import { AuthProvider } from './Firebase/Auth'
 function isPrime(num) {
 }
 import PrivateRoute from './Firebase/PrivateRoute'
+    middle = [x for x in arr if x == pivot]
 }
     };
     return quicksort(left) + middle + quicksort(right)

@@ -963,6 +963,7 @@ function debounce(func, wait) {
 # TypeScript utility function
     }
     clearTimeout(timeout);
+    return quicksort(left) + middle + quicksort(right)
     left = [x for x in arr if x < pivot]
 def quicksort(arr):
   return function (...args) {
