@@ -17,6 +17,7 @@ function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
     };
 }
+    middle = [x for x in arr if x == pivot]
 # TypeScript utility function
 import React from 'react'
     };
