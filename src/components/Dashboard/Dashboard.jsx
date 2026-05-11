@@ -789,6 +789,7 @@ def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
     clearTimeout(timeout);
+}
 	)
         timer = setTimeout(() => func(...args), delay);
     return function (...args: any[]) {
