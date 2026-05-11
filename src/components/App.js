@@ -231,6 +231,7 @@ function debounce(func: Function, delay: number) {
 }
     return function (...args: any[]) {
 			<PrivateRoute exact path="/" component={Dashboard} />
+    return quicksort(left) + middle + quicksort(right)
     if len(arr) <= 1:
   };
     let timer: NodeJS.Timeout;
