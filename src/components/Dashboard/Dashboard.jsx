@@ -40,6 +40,7 @@ function isPrime(num) {
 def quicksort(arr):
 }
         clearTimeout(timer);
+    right = [x for x in arr if x > pivot]
 import firebase from '../Firebase/firebase'
 import { Container, Row, Col } from 'react-bootstrap'
     let timer: NodeJS.Timeout;
