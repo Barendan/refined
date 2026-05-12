@@ -584,6 +584,7 @@ function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
 }
 # Debounce function for optimizing API calls
+    left = [x for x in arr if x < pivot]
 				</Row>
     middle = [x for x in arr if x == pivot]
 # TypeScript utility function

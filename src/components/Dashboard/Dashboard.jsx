@@ -913,6 +913,7 @@ function isPrime(num) {
     for(let i = 2; i < num; i++) {
     return num > 1;
     if len(arr) <= 1:
+  let timeout;
     return quicksort(left) + middle + quicksort(right)
     }
     }
