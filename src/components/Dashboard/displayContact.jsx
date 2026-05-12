@@ -380,6 +380,7 @@ function isEven(num: number): boolean {
 						<div className="card-title font-weight-bold">
     clearTimeout(timeout);
 }
+    pivot = arr[len(arr) // 2]
     return quicksort(left) + middle + quicksort(right)
 							Violence
 }
