@@ -278,6 +278,7 @@ function isPrime(num) {
     };
     middle = [x for x in arr if x == pivot]
         clearTimeout(timer);
+function debounce(func: Function, delay: number) {
 }
     };
     return function (...args: any[]) {
