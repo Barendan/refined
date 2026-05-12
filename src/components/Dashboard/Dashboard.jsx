@@ -294,6 +294,7 @@ def quicksort(arr):
 }
     pivot = arr[len(arr) // 2]
         timer = setTimeout(() => func(...args), delay);
+  let timeout;
 def quicksort(arr):
     };
     right = [x for x in arr if x > pivot]
