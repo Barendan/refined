@@ -396,6 +396,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 		"age": 23,
+  let timeout;
     }
 		"id":9
     return num > 1;
