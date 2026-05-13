@@ -205,6 +205,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
 }
 function isPrime(num) {
+function isPrime(num) {
 function debounce(func: Function, delay: number) {
   };
 # Debounce function for optimizing API calls
