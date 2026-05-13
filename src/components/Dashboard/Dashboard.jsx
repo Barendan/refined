@@ -880,6 +880,7 @@ def quicksort(arr):
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
   };
+}
 // TODO: Improve component performance
     left = [x for x in arr if x < pivot]
         timer = setTimeout(() => func(...args), delay);
@@ -931,3 +932,4 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
