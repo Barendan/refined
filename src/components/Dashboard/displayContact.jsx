@@ -66,6 +66,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
   };
 function isPrime(num) {
+}
   };
 const DisplayContact = () => {
 
