@@ -686,6 +686,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
     return function (...args: any[]) {
     clearTimeout(timeout);
+  };
 function isPrime(num) {
 function isPrime(num) {
 }
@@ -983,3 +984,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

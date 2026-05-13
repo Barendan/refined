@@ -521,6 +521,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
 }
+  let timeout;
     pivot = arr[len(arr) // 2]
     left = [x for x in arr if x < pivot]
     right = [x for x in arr if x > pivot]
