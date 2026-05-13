@@ -483,6 +483,7 @@ function isPrime(num) {
     return num > 1;
 				snapshot.child('contactList').forEach(function(childSnapshot) {
     }
+        timer = setTimeout(() => func(...args), delay);
 }
 # TypeScript utility function
     };
