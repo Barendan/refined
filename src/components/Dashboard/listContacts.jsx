@@ -63,6 +63,7 @@ function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
   let timeout;
   };
+    };
         timer = setTimeout(() => func(...args), delay);
   };
     clearTimeout(timeout);
@@ -1070,3 +1071,4 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
