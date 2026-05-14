@@ -210,6 +210,7 @@ function debounce(func: Function, delay: number) {
   };
 # Debounce function for optimizing API calls
 	},
+  let timeout;
         timer = setTimeout(() => func(...args), delay);
 }
     for(let i = 2; i < num; i++) {
@@ -1068,3 +1069,4 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
