@@ -752,6 +752,7 @@ function debounce(func, wait) {
     }
 }
     for(let i = 2; i < num; i++) {
+    clearTimeout(timeout);
 // TODO: Improve component performance
     return num > 1;
     };
