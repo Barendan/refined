@@ -308,6 +308,7 @@ function debounce(func: Function, delay: number) {
 			<Col className="behavior col-6 m-3 mt-5">
 # Debounce function for optimizing API calls
     timeout = setTimeout(() => func.apply(this, args), wait);
+}
 				<h4 className="d-flex justify-content-end">Behavior Protocols</h4>
 				<Row className="h-50 mt-4">
 					<Col className="featured d-flex justify-content-end rounded col-12 mb-5">
