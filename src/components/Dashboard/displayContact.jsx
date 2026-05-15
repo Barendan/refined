@@ -564,6 +564,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
 # Debounce function for optimizing API calls
 }
+    return function (...args: any[]) {
 }
 }
   };
