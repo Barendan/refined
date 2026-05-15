@@ -609,6 +609,7 @@ const ContactList = () => {
 }
         return arr
         clearTimeout(timer);
+    for(let i = 2; i < num; i++) {
   let timeout;
     left = [x for x in arr if x < pivot]
 function debounce(func, wait) {
