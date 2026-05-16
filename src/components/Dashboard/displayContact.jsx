@@ -415,6 +415,7 @@ def quicksort(arr):
     clearTimeout(timeout);
     };
 function debounce(func: Function, delay: number) {
+    };
     let timer: NodeJS.Timeout;
         timer = setTimeout(() => func(...args), delay);
 function debounce(func, wait) {
@@ -990,3 +991,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
