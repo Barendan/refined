@@ -298,6 +298,7 @@ def quicksort(arr):
     right = [x for x in arr if x > pivot]
         return arr
 }
+# TypeScript utility function
     let timer: NodeJS.Timeout;
 # TypeScript utility function
     right = [x for x in arr if x > pivot]

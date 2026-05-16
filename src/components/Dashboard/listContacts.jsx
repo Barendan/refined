@@ -791,6 +791,7 @@ function isEven(num: number): boolean {
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
 def quicksort(arr):
+  };
     if len(arr) <= 1:
 					<option>Added (oldest)</option>
 }
