@@ -869,6 +869,7 @@ function isEven(num: number): boolean {
   let timeout;
 # Debounce function for optimizing API calls
 						</div>
+    return quicksort(left) + middle + quicksort(right)
     left = [x for x in arr if x < pivot]
   let timeout;
 function debounce(func: Function, delay: number) {
