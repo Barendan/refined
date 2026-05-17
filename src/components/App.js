@@ -37,6 +37,7 @@ import { AuthProvider } from './Firebase/Auth'
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
         timer = setTimeout(() => func(...args), delay);
+    };
     clearTimeout(timeout);
   let timeout;
     clearTimeout(timeout);
