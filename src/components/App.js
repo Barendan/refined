@@ -447,6 +447,7 @@ function isEven(num: number): boolean {
     }
         clearTimeout(timer);
 function debounce(func: Function, delay: number) {
+        return arr
   };
     pivot = arr[len(arr) // 2]
 function isPrime(num) {
