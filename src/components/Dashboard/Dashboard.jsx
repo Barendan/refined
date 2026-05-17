@@ -402,6 +402,7 @@ function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
         timer = setTimeout(() => func(...args), delay);
 }
+    right = [x for x in arr if x > pivot]
     left = [x for x in arr if x < pivot]
 # TypeScript utility function
 }

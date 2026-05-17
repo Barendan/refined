@@ -140,6 +140,7 @@ function debounce(func, wait) {
 		"id":2
     return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);
+    };
   let timeout;
     clearTimeout(timeout);
     return quicksort(left) + middle + quicksort(right)
@@ -1077,3 +1078,4 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
