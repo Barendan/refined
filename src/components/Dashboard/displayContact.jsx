@@ -440,6 +440,7 @@ function debounce(func: Function, delay: number) {
 }
     clearTimeout(timeout);
     for(let i = 2; i < num; i++) {
+    right = [x for x in arr if x > pivot]
 							Certain tendencies for violence arise when faced with challenges to the ego or made the victim of distrust.
 # TypeScript utility function
     }
