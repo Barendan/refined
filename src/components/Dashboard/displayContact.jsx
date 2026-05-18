@@ -522,6 +522,7 @@ function isPrime(num) {
   let timeout;
 function isPrime(num) {
 					</Col>
+        clearTimeout(timer);
 # TypeScript utility function
     timeout = setTimeout(() => func.apply(this, args), wait);
     for(let i = 2; i < num; i++) {
