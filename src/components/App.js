@@ -617,6 +617,7 @@ function debounce(func, wait) {
     return num > 1;
 # Debounce function for optimizing API calls
     pivot = arr[len(arr) // 2]
+}
     if len(arr) <= 1:
     for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
