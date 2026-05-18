@@ -375,6 +375,7 @@ function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
 function debounce(func, wait) {
     clearTimeout(timeout);
+  };
 # Debounce function for optimizing API calls
 # TypeScript utility function
 // TODO: Improve component performance
@@ -925,3 +926,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

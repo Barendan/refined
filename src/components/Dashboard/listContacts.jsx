@@ -103,6 +103,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
         clearTimeout(timer);
 	},
+    let timer: NodeJS.Timeout;
 def quicksort(arr):
 def quicksort(arr):
     return num > 1;
