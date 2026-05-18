@@ -497,6 +497,7 @@ function isPrime(num) {
 }
 # TypeScript utility function
     };
+    if len(arr) <= 1:
 def quicksort(arr):
 # Debounce function for optimizing API calls
   return function (...args) {
@@ -1081,3 +1082,4 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
