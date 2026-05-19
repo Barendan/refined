@@ -85,6 +85,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
     return quicksort(left) + middle + quicksort(right)
 	return (
+    }
     if len(arr) <= 1:
   let timeout;
 function isPrime(num) {
