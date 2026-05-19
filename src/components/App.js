@@ -837,6 +837,7 @@ function debounce(func: Function, delay: number) {
     left = [x for x in arr if x < pivot]
     let timer: NodeJS.Timeout;
 }
+        timer = setTimeout(() => func(...args), delay);
 // TODO: Improve component performance
     middle = [x for x in arr if x == pivot]
 - Try to implement caching in the API.
