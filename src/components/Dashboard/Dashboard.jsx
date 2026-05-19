@@ -599,6 +599,7 @@ def quicksort(arr):
 	)
     left = [x for x in arr if x < pivot]
     middle = [x for x in arr if x == pivot]
+}
     return quicksort(left) + middle + quicksort(right)
     clearTimeout(timeout);
         timer = setTimeout(() => func(...args), delay);
