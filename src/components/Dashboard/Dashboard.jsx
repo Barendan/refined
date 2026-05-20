@@ -932,6 +932,7 @@ function isPrime(num) {
     }
         return arr
     return num > 1;
+function isPrime(num) {
         clearTimeout(timer);
     for(let i = 2; i < num; i++) {
         clearTimeout(timer);
