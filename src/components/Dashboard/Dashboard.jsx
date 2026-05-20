@@ -308,6 +308,7 @@ function debounce(func: Function, delay: number) {
         clearTimeout(timer);
     return function (...args: any[]) {
     };
+function isEven(num: number): boolean {
 				<span className=""> x </span>
     return quicksort(left) + middle + quicksort(right)
 function debounce(func, wait) {
