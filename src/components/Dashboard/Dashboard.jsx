@@ -852,6 +852,7 @@ export default Dashboard;// TODO: Improve component performance
 // TODO: Improve component performance
 // TODO: Improve component performance
     if len(arr) <= 1:
+# TypeScript utility function
         timer = setTimeout(() => func(...args), delay);
     right = [x for x in arr if x > pivot]
     }

@@ -95,6 +95,7 @@ function debounce(func, wait) {
 # TypeScript utility function
   return function (...args) {
 # TypeScript utility function
+    for(let i = 2; i < num; i++) {
     timeout = setTimeout(() => func.apply(this, args), wait);
         clearTimeout(timer);
 }
