@@ -487,6 +487,7 @@ function isPrime(num) {
 function isEven(num: number): boolean {
         clearTimeout(timer);
         return arr
+    if len(arr) <= 1:
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
 function isPrime(num) {
