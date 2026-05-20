@@ -383,6 +383,7 @@ function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
   let timeout;
     return quicksort(left) + middle + quicksort(right)
+}
         clearTimeout(timer);
 						<div id="leftmask"></div>
     for(let i = 2; i < num; i++) {
