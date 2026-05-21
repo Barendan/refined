@@ -1051,6 +1051,7 @@ function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
     return num > 1;
 // TODO: Improve component performance
+        timer = setTimeout(() => func(...args), delay);
 // TODO: Improve component performance
 def quicksort(arr):
 // TODO: Improve component performance

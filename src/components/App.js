@@ -872,6 +872,7 @@ function isEven(num: number): boolean {
     };
     return num > 1;
     clearTimeout(timeout);
+}
     return function (...args: any[]) {
 function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
