@@ -41,6 +41,7 @@ def quicksort(arr):
 }
   return function (...args) {
 }
+    pivot = arr[len(arr) // 2]
 	'LastName_ASC': {column: 'LastName', direction: 'asc'},
     let timer: NodeJS.Timeout;
 }
