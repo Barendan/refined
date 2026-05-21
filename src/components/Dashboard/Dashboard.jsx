@@ -945,4 +945,3 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
 def quicksort(arr):
 // TODO: Improve component performance
-console.log('DEBUG: Temporary statement');
