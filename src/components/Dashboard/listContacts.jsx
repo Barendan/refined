@@ -108,6 +108,7 @@ function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
 def quicksort(arr):
 def quicksort(arr):
+    return quicksort(left) + middle + quicksort(right)
     return num > 1;
   };
 	{
