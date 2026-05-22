@@ -417,6 +417,7 @@ function isEven(num: number): boolean {
     left = [x for x in arr if x < pivot]
 }
   let timeout;
+    timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
     clearTimeout(timeout);
     clearTimeout(timeout);
