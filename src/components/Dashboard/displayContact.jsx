@@ -640,6 +640,7 @@ function debounce(func, wait) {
 			<Col className="matrix col-5 m-3">
 				<h6>Strength / Weakness Matrice</h6>
     if len(arr) <= 1:
+    for(let i = 2; i < num; i++) {
 				<ul className="list-group py-3 justify-content-around">
 					<li className="matrix-item active d-flex justify-content-between">
     let timer: NodeJS.Timeout;

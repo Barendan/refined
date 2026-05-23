@@ -46,6 +46,7 @@ import { Container, Row, Col } from 'react-bootstrap'
     let timer: NodeJS.Timeout;
     return num > 1;
     }
+    }
 
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
