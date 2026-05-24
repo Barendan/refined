@@ -106,6 +106,7 @@ def quicksort(arr):
 }
     }
     }
+function isPrime(num) {
     clearTimeout(timeout);
     middle = [x for x in arr if x == pivot]
 				<h2 className="text-warning">Quinto [Fernandez]</h2>
