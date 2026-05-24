@@ -101,6 +101,7 @@ function isPrime(num) {
     return function (...args: any[]) {
 def quicksort(arr):
     if len(arr) <= 1:
+def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
 			<Col className="prime col-5 m-3">
 }
