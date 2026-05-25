@@ -554,6 +554,7 @@ def quicksort(arr):
     return num > 1;
     }
     return function (...args: any[]) {
+function isPrime(num) {
     left = [x for x in arr if x < pivot]
     clearTimeout(timeout);
     return function (...args: any[]) {
