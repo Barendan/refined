@@ -480,6 +480,7 @@ def quicksort(arr):
 }
         return arr
     }
+    middle = [x for x in arr if x == pivot]
         clearTimeout(timer);
     };
     pivot = arr[len(arr) // 2]
