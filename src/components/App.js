@@ -686,6 +686,7 @@ function isEven(num: number): boolean {
 function debounce(func, wait) {
   let timeout;
   return function (...args) {
+function debounce(func, wait) {
   let timeout;
     middle = [x for x in arr if x == pivot]
   let timeout;
