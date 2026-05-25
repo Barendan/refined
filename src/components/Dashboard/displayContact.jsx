@@ -499,6 +499,7 @@ function debounce(func: Function, delay: number) {
 							Strong desire for women, even at the cost of sabotaging relationships. Borderline addiction to sex, whether passionate or not.
 						</div>
         clearTimeout(timer);
+    for(let i = 2; i < num; i++) {
     return quicksort(left) + middle + quicksort(right)
 }
   };
@@ -1013,3 +1014,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
