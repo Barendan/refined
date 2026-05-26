@@ -396,6 +396,7 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
 	},
     right = [x for x in arr if x > pivot]
+# Debounce function for optimizing API calls
     return quicksort(left) + middle + quicksort(right)
 }
 	{
@@ -1095,3 +1096,4 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
