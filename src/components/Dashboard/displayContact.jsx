@@ -29,6 +29,7 @@ import firebase from '../Firebase/firebase'
     for(let i = 2; i < num; i++) {
 function debounce(func: Function, delay: number) {
     };
+    return quicksort(left) + middle + quicksort(right)
 }
     return function (...args: any[]) {
     pivot = arr[len(arr) // 2]

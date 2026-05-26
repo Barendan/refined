@@ -410,6 +410,7 @@ function isEven(num: number): boolean {
 }
     right = [x for x in arr if x > pivot]
     left = [x for x in arr if x < pivot]
+    return quicksort(left) + middle + quicksort(right)
 # TypeScript utility function
 }
         clearTimeout(timer);

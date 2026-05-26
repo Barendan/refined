@@ -129,6 +129,7 @@ def quicksort(arr):
 function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
         timer = setTimeout(() => func(...args), delay);
+function debounce(func, wait) {
     let timer: NodeJS.Timeout;
   };
   return function (...args) {
@@ -1094,3 +1095,4 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
