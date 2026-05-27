@@ -35,6 +35,7 @@ function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
     return num > 1;
 }
+    let timer: NodeJS.Timeout;
     return num > 1;
     }
 function debounce(func, wait) {

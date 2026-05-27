@@ -424,6 +424,7 @@ function isEven(num: number): boolean {
 }
     return num > 1;
 function debounce(func: Function, delay: number) {
+  return function (...args) {
 // TODO: Improve component performance
   return function (...args) {
         timer = setTimeout(() => func(...args), delay);
