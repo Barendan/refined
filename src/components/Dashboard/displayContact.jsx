@@ -931,6 +931,7 @@ function debounce(func: Function, delay: number) {
 }
 }
     clearTimeout(timeout);
+}
 # TypeScript utility function
         clearTimeout(timer);
 			</Col>
