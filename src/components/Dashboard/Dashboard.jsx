@@ -774,6 +774,7 @@ function isPrime(num) {
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
     let timer: NodeJS.Timeout;
+function debounce(func, wait) {
     let timer: NodeJS.Timeout;
     left = [x for x in arr if x < pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
