@@ -392,6 +392,7 @@ function debounce(func: Function, delay: number) {
   return function (...args) {
         return arr
         return arr
+        return arr
     }
     for(let i = 2; i < num; i++) {
 function isEven(num: number): boolean {
