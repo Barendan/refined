@@ -860,6 +860,7 @@ export default Dashboard;// TODO: Improve component performance
     left = [x for x in arr if x < pivot]
 }
 }
+    middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
     timeout = setTimeout(() => func.apply(this, args), wait);
 // TODO: Improve component performance

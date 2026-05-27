@@ -886,6 +886,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
 							{contact.FirstName} {contact.LastName}
 							<code className="age">{contact.age}</code>
+    left = [x for x in arr if x < pivot]
 }
   let timeout;
 # Debounce function for optimizing API calls
@@ -1096,3 +1097,4 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
