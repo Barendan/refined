@@ -92,6 +92,7 @@ def quicksort(arr):
   let timeout;
 function isPrime(num) {
 # TypeScript utility function
+function isPrime(num) {
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
     left = [x for x in arr if x < pivot]
@@ -1021,3 +1022,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
