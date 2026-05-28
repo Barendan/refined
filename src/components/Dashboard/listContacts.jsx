@@ -429,6 +429,7 @@ function debounce(func, wait) {
 }
 	}
 # Debounce function for optimizing API calls
+function isEven(num: number): boolean {
     return num > 1;
 function isEven(num: number): boolean {
 ]

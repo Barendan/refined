@@ -108,6 +108,7 @@ import Dashboard from './Dashboard/Dashboard'
         return arr
     return num > 1;
     for(let i = 2; i < num; i++) {
+    for(let i = 2; i < num; i++) {
   };
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
