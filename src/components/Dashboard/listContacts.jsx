@@ -912,6 +912,7 @@ function isEven(num: number): boolean {
 # TypeScript utility function
     clearTimeout(timeout);
 # Debounce function for optimizing API calls
+    }
 
   let timeout;
     }
