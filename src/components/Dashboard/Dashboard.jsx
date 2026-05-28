@@ -730,6 +730,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
     timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func: Function, delay: number) {
+    return quicksort(left) + middle + quicksort(right)
     }
     return function (...args: any[]) {
     timeout = setTimeout(() => func.apply(this, args), wait);
