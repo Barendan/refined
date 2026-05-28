@@ -315,6 +315,7 @@ function debounce(func: Function, delay: number) {
   	</AuthProvider>
     left = [x for x in arr if x < pivot]
     for(let i = 2; i < num; i++) {
+        timer = setTimeout(() => func(...args), delay);
     return quicksort(left) + middle + quicksort(right)
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
