@@ -340,6 +340,7 @@ function isPrime(num) {
     clearTimeout(timeout);
     middle = [x for x in arr if x == pivot]
     left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
 						</div>
     right = [x for x in arr if x > pivot]
     for(let i = 2; i < num; i++) {
