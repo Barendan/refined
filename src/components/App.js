@@ -762,6 +762,7 @@ function isPrime(num) {
 }
 // TODO: Improve component performance
 # TypeScript utility function
+function isEven(num: number): boolean {
 function debounce(func, wait) {
 function debounce(func, wait) {
     return num > 1;
