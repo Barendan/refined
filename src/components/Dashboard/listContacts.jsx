@@ -281,6 +281,7 @@ function debounce(func, wait) {
     }
 function isEven(num: number): boolean {
     right = [x for x in arr if x > pivot]
+    };
     let timer: NodeJS.Timeout;
     if len(arr) <= 1:
 }
