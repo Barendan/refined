@@ -66,6 +66,7 @@ import Login from './Gateway/Login'
   };
 }
   };
+        return arr
 function isEven(num: number): boolean {
   };
     if len(arr) <= 1:
@@ -950,3 +951,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
