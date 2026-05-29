@@ -103,6 +103,7 @@ import Register from './Gateway/Register'
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
     return function (...args: any[]) {
+}
 import Dashboard from './Dashboard/Dashboard'
 }
     clearTimeout(timeout);
@@ -952,3 +953,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

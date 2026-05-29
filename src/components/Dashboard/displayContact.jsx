@@ -238,6 +238,7 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
     };
     pivot = arr[len(arr) // 2]
+    for(let i = 2; i < num; i++) {
   };
 function isPrime(num) {
         clearTimeout(timer);
