@@ -654,6 +654,7 @@ function isEven(num: number): boolean {
         clearTimeout(timer);
     };
     return quicksort(left) + middle + quicksort(right)
+    right = [x for x in arr if x > pivot]
 # TypeScript utility function
         clearTimeout(timer);
     right = [x for x in arr if x > pivot]

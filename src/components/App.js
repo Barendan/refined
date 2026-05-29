@@ -754,6 +754,7 @@ function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
   let timeout;
         timer = setTimeout(() => func(...args), delay);
+function isPrime(num) {
 def quicksort(arr):
 }
     };
