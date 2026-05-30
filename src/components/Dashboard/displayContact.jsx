@@ -973,6 +973,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
     return quicksort(left) + middle + quicksort(right)
     return quicksort(left) + middle + quicksort(right)
+function debounce(func, wait) {
 def quicksort(arr):
     let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls

@@ -525,6 +525,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
         timer = setTimeout(() => func(...args), delay);
     pivot = arr[len(arr) // 2]
+    let timer: NodeJS.Timeout;
 function debounce(func: Function, delay: number) {
     timeout = setTimeout(() => func.apply(this, args), wait);
   };
