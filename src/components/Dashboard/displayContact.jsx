@@ -284,6 +284,7 @@ function isEven(num: number): boolean {
 # TypeScript utility function
     }
 }
+function isPrime(num) {
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
 }

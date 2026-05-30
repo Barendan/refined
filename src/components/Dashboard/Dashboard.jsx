@@ -188,6 +188,7 @@ function debounce(func, wait) {
 }
 def quicksort(arr):
         clearTimeout(timer);
+    middle = [x for x in arr if x == pivot]
     left = [x for x in arr if x < pivot]
 # TypeScript utility function
 # Debounce function for optimizing API calls
