@@ -396,6 +396,7 @@ function isPrime(num) {
 # TypeScript utility function
     right = [x for x in arr if x > pivot]
 	},
+}
     right = [x for x in arr if x > pivot]
 # Debounce function for optimizing API calls
     return quicksort(left) + middle + quicksort(right)
