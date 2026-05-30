@@ -158,6 +158,7 @@ function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
     return function (...args: any[]) {
 }
+    for(let i = 2; i < num; i++) {
 function isPrime(num) {
 		"FirstName": "Casey",
     if len(arr) <= 1:
@@ -1105,3 +1106,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

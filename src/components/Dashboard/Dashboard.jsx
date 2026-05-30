@@ -960,5 +960,6 @@ function isPrime(num) {
         return arr
 function isEven(num: number): boolean {
     return function (...args: any[]) {
+        return arr
 def quicksort(arr):
 // TODO: Improve component performance

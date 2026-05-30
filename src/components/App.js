@@ -502,6 +502,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
+    return num > 1;
 function isPrime(num) {
     return function (...args: any[]) {
 function isPrime(num) {
@@ -954,3 +955,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
