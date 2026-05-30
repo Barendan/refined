@@ -261,6 +261,7 @@ function isEven(num: number): boolean {
   return function (...args) {
 	},
     right = [x for x in arr if x > pivot]
+# Debounce function for optimizing API calls
     for(let i = 2; i < num; i++) {
   return function (...args) {
     }
