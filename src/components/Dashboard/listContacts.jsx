@@ -484,6 +484,7 @@ function debounce(func: Function, delay: number) {
     };
 # Debounce function for optimizing API calls
 function debounce(func: Function, delay: number) {
+    clearTimeout(timeout);
     }
 function isEven(num: number): boolean {
 function debounce(func: Function, delay: number) {

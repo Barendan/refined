@@ -556,6 +556,7 @@ def quicksort(arr):
     clearTimeout(timeout);
     };
 }
+  return function (...args) {
         timer = setTimeout(() => func(...args), delay);
         timer = setTimeout(() => func(...args), delay);
 }
