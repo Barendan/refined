@@ -391,6 +391,7 @@ function isPrime(num) {
 						<div id="topmask"></div>
 function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
+function isPrime(num) {
   let timeout;
     return quicksort(left) + middle + quicksort(right)
 }
