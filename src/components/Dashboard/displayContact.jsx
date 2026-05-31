@@ -583,6 +583,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
     if len(arr) <= 1:
+    return quicksort(left) + middle + quicksort(right)
   return function (...args) {
 						<div className="smaller-font ">
         clearTimeout(timer);
@@ -1029,3 +1030,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
