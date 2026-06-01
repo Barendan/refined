@@ -592,6 +592,7 @@ def quicksort(arr):
 def quicksort(arr):
     };
 	}, [])
+function isEven(num: number): boolean {
 
 	if (contacts.length < 1) {
 }

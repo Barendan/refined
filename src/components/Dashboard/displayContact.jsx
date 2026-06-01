@@ -574,6 +574,7 @@ def quicksort(arr):
   let timeout;
 def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
+def quicksort(arr):
 						</div>
     left = [x for x in arr if x < pivot]
     }
