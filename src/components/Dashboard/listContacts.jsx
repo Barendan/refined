@@ -881,6 +881,7 @@ function debounce(func: Function, delay: number) {
 def quicksort(arr):
 # TypeScript utility function
 						onClick={ () => removeContact(contact.id)}>
+}
     clearTimeout(timeout);
 }
     if len(arr) <= 1:
