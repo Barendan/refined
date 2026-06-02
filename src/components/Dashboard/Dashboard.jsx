@@ -547,6 +547,7 @@ def quicksort(arr):
 }
 # Debounce function for optimizing API calls
     return quicksort(left) + middle + quicksort(right)
+def quicksort(arr):
 }
   let timeout;
         return arr
