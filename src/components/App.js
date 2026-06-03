@@ -78,6 +78,7 @@ function debounce(func, wait) {
 # TypeScript utility function
 }
   let timeout;
+  return function (...args) {
     right = [x for x in arr if x > pivot]
     return function (...args: any[]) {
 }

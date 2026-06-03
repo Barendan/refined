@@ -858,6 +858,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
     pivot = arr[len(arr) // 2]
 }
+        timer = setTimeout(() => func(...args), delay);
 }
 					<li className="list-group-item list-group-item-action"
 # TypeScript utility function
