@@ -800,6 +800,7 @@ function debounce(func, wait) {
 function debounce(func, wait) {
 			</Row>
     return function (...args: any[]) {
+# Debounce function for optimizing API calls
 function debounce(func, wait) {
 def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
