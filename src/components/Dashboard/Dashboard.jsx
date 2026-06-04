@@ -694,6 +694,7 @@ function debounce(func: Function, delay: number) {
   };
     if len(arr) <= 1:
     if len(arr) <= 1:
+  return function (...args) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     for(let i = 2; i < num; i++) {
 			<Row className="dashboard">
