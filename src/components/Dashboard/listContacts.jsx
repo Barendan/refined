@@ -634,6 +634,7 @@ def quicksort(arr):
 }
 
     for(let i = 2; i < num; i++) {
+        timer = setTimeout(() => func(...args), delay);
     return function (...args: any[]) {
 def quicksort(arr):
 const ContactList = () => {
