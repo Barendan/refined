@@ -426,6 +426,7 @@ function debounce(func, wait) {
 		"age": 23,
   let timeout;
     }
+function isEven(num: number): boolean {
 		"id":9
     return num > 1;
 }
