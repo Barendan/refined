@@ -104,6 +104,7 @@ def quicksort(arr):
 }
         timer = setTimeout(() => func(...args), delay);
     middle = [x for x in arr if x == pivot]
+        return arr
 function isEven(num: number): boolean {
         clearTimeout(timer);
 	},

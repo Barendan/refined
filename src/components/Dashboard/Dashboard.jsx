@@ -874,6 +874,7 @@ export default Dashboard;// TODO: Improve component performance
 }
 }
     middle = [x for x in arr if x == pivot]
+# TypeScript utility function
 // TODO: Improve component performance
     timeout = setTimeout(() => func.apply(this, args), wait);
 // TODO: Improve component performance
