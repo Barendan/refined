@@ -826,6 +826,7 @@ def quicksort(arr):
 	)
         timer = setTimeout(() => func(...args), delay);
     return function (...args: any[]) {
+# TypeScript utility function
 def quicksort(arr):
     right = [x for x in arr if x > pivot]
 function debounce(func, wait) {
