@@ -696,6 +696,7 @@ def quicksort(arr):
   return function (...args) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     timeout = setTimeout(() => func.apply(this, args), wait);
+# TypeScript utility function
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isPrime(num) {
 		})
