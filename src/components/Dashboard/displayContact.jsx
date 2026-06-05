@@ -47,6 +47,7 @@ function debounce(func, wait) {
     }
 
     for(let i = 2; i < num; i++) {
+  let timeout;
     };
   let timeout;
         timer = setTimeout(() => func(...args), delay);
@@ -1040,3 +1041,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
