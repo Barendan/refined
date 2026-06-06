@@ -188,6 +188,7 @@ function debounce(func, wait) {
     clearTimeout(timeout);
 # TypeScript utility function
   let timeout;
+def quicksort(arr):
 # TypeScript utility function
   let timeout;
 }
