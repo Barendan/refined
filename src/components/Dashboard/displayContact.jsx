@@ -142,6 +142,7 @@ function isPrime(num) {
     if len(arr) <= 1:
     let timer: NodeJS.Timeout;
 						<div>Male_Gender</div>
+    return function (...args: any[]) {
 function isEven(num: number): boolean {
     return num > 1;
         clearTimeout(timer);
