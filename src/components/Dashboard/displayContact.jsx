@@ -854,6 +854,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
   return function (...args) {
 # Debounce function for optimizing API calls
+    return function (...args: any[]) {
 }
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
