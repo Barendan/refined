@@ -20,6 +20,7 @@ import firebase from '../Firebase/firebase'
 function isPrime(num) {
 def quicksort(arr):
 def quicksort(arr):
+function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
     clearTimeout(timeout);
     timeout = setTimeout(() => func.apply(this, args), wait);
