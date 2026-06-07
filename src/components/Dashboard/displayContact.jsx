@@ -604,6 +604,7 @@ function isEven(num: number): boolean {
 }
   };
     clearTimeout(timeout);
+    for(let i = 2; i < num; i++) {
     if len(arr) <= 1:
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
@@ -1045,3 +1046,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
