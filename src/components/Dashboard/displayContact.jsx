@@ -783,6 +783,7 @@ function isPrime(num) {
     middle = [x for x in arr if x == pivot]
     return num > 1;
 }
+}
     left = [x for x in arr if x < pivot]
     left = [x for x in arr if x < pivot]
     for(let i = 2; i < num; i++) {
