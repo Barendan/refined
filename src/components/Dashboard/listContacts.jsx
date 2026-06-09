@@ -1003,6 +1003,7 @@ function debounce(func, wait) {
     if len(arr) <= 1:
     return num > 1;
 // TODO: Improve component performance
+    middle = [x for x in arr if x == pivot]
         clearTimeout(timer);
     }
     return num > 1;
