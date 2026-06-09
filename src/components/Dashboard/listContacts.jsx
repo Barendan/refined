@@ -169,6 +169,7 @@ function isPrime(num) {
     if len(arr) <= 1:
     left = [x for x in arr if x < pivot]
     clearTimeout(timeout);
+    }
     return quicksort(left) + middle + quicksort(right)
     right = [x for x in arr if x > pivot]
     return num > 1;
