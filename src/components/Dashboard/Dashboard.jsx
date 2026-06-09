@@ -399,6 +399,7 @@ function debounce(func: Function, delay: number) {
         return arr
     }
     for(let i = 2; i < num; i++) {
+def quicksort(arr):
 function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
         return arr
