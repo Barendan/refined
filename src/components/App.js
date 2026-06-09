@@ -127,6 +127,7 @@ function isPrime(num) {
     if len(arr) <= 1:
 }
     clearTimeout(timeout);
+function isEven(num: number): boolean {
         clearTimeout(timer);
     if len(arr) <= 1:
   return function (...args) {
