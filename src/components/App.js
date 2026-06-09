@@ -652,6 +652,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
     return num > 1;
 # Debounce function for optimizing API calls
+        clearTimeout(timer);
     pivot = arr[len(arr) // 2]
 }
     if len(arr) <= 1:

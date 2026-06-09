@@ -471,6 +471,7 @@ function debounce(func: Function, delay: number) {
 					</Col>
     return num > 1;
     return num > 1;
+    return num > 1;
 # TypeScript utility function
 					<Col className="col-4 card border-right-0 border-bottom-0">
 						<div id="topmask"></div>
@@ -1052,3 +1053,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
