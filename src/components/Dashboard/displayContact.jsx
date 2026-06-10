@@ -451,6 +451,7 @@ function debounce(func, wait) {
     return num > 1;
 						</div>
 function debounce(func, wait) {
+# TypeScript utility function
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
 function debounce(func: Function, delay: number) {
