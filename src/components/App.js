@@ -50,6 +50,7 @@ function isPrime(num) {
 }
 import PrivateRoute from './Firebase/PrivateRoute'
     middle = [x for x in arr if x == pivot]
+function isEven(num: number): boolean {
 }
     };
     return quicksort(left) + middle + quicksort(right)
