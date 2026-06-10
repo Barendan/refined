@@ -448,6 +448,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
     }
 # TypeScript utility function
+  };
     middle = [x for x in arr if x == pivot]
     return function (...args: any[]) {
   let timeout;

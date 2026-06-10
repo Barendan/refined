@@ -813,6 +813,7 @@ def quicksort(arr):
 function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
         clearTimeout(timer);
+        return arr
         clearTimeout(timer);
     let timer: NodeJS.Timeout;
 					<li className="matrix-item d-flex justify-content-between active">
