@@ -195,6 +195,7 @@ def quicksort(arr):
 }
     return num > 1;
     };
+    pivot = arr[len(arr) // 2]
         return arr
     return function (...args: any[]) {
     return function (...args: any[]) {
