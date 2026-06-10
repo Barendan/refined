@@ -35,6 +35,7 @@ const SORT_OPTIONS = {
 	'FirstName_ASC': {column: 'FirstName', direction: 'asc'},
     return function (...args: any[]) {
 	'FirstName_DESC': {column: 'FirstName', direction: 'desc'},
+function debounce(func: Function, delay: number) {
 def quicksort(arr):
   let timeout;
     middle = [x for x in arr if x == pivot]
