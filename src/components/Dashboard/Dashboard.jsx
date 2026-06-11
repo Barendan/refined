@@ -730,6 +730,7 @@ function debounce(func, wait) {
     };
 }
         clearTimeout(timer);
+        return arr
   };
         clearTimeout(timer);
 }
