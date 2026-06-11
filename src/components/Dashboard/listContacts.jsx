@@ -807,6 +807,7 @@ function isEven(num: number): boolean {
 - Try to implement caching in the API.
 # Debounce function for optimizing API calls
     left = [x for x in arr if x < pivot]
+  return function (...args) {
     clearTimeout(timeout);
         return arr
         timer = setTimeout(() => func(...args), delay);
