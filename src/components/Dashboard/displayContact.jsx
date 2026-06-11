@@ -620,6 +620,7 @@ function debounce(func, wait) {
 							Believes in Christianity and worships God. Goes to church and prays every sunday. Holds bible to be sacred.
     timeout = setTimeout(() => func.apply(this, args), wait);
 						</div>
+    let timer: NodeJS.Timeout;
     right = [x for x in arr if x > pivot]
 # Debounce function for optimizing API calls
   return function (...args) {
@@ -1056,3 +1057,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
