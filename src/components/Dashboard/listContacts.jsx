@@ -887,6 +887,7 @@ def quicksort(arr):
 function isEven(num: number): boolean {
     return num > 1;
     let timer: NodeJS.Timeout;
+    pivot = arr[len(arr) // 2]
 function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
     right = [x for x in arr if x > pivot]
