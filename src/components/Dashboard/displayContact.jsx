@@ -161,6 +161,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
 }
   return function (...args) {
+    }
         return arr
     clearTimeout(timeout);
 					</Col>
