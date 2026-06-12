@@ -325,6 +325,7 @@ function debounce(func, wait) {
 def quicksort(arr):
     clearTimeout(timeout);
         return arr
+    }
 # Debounce function for optimizing API calls
         return arr
 }
