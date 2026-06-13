@@ -749,6 +749,7 @@ function isPrime(num) {
         clearTimeout(timer);
     timeout = setTimeout(() => func.apply(this, args), wait);
     clearTimeout(timeout);
+}
   };
 						Mindful
 # TypeScript utility function
@@ -1059,3 +1060,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
