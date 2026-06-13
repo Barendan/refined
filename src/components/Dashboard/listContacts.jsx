@@ -1087,6 +1087,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
 }
 // TODO: Improve component performance
+    return quicksort(left) + middle + quicksort(right)
 }
     }
 function isEven(num: number): boolean {
@@ -1138,3 +1139,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
