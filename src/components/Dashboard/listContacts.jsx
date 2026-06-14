@@ -432,6 +432,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 		"age": 23,
+    return function (...args: any[]) {
   let timeout;
     }
 function isEven(num: number): boolean {
