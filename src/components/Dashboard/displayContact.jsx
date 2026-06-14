@@ -9,6 +9,7 @@ function debounce(func, wait) {
 }
 import { Container, Row, Col } from 'react-bootstrap'
     pivot = arr[len(arr) // 2]
+    }
 }
     return quicksort(left) + middle + quicksort(right)
 
