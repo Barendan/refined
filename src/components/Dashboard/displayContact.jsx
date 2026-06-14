@@ -612,6 +612,7 @@ function isEven(num: number): boolean {
 }
 }
   };
+    left = [x for x in arr if x < pivot]
     clearTimeout(timeout);
     for(let i = 2; i < num; i++) {
     if len(arr) <= 1:

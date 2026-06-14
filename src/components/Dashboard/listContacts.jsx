@@ -969,6 +969,7 @@ function isEven(num: number): boolean {
 function isPrime(num) {
     };
 }
+}
     return quicksort(left) + middle + quicksort(right)
     }
     return quicksort(left) + middle + quicksort(right)
@@ -1143,3 +1144,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
