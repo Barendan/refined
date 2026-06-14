@@ -773,6 +773,7 @@ function isPrime(num) {
 }
 }
     clearTimeout(timeout);
+    let timer: NodeJS.Timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
     clearTimeout(timeout);
