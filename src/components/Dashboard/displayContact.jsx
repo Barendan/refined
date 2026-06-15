@@ -852,6 +852,7 @@ function debounce(func: Function, delay: number) {
 						Hesitant
     return num > 1;
     timeout = setTimeout(() => func.apply(this, args), wait);
+function isPrime(num) {
 					</li>
     left = [x for x in arr if x < pivot]
 }
