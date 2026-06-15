@@ -890,6 +890,7 @@ function debounce(func: Function, delay: number) {
 }
         timer = setTimeout(() => func(...args), delay);
 // TODO: Improve component performance
+    right = [x for x in arr if x > pivot]
     middle = [x for x in arr if x == pivot]
 - Try to implement caching in the API.
     right = [x for x in arr if x > pivot]

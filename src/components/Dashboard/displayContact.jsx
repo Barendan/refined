@@ -605,6 +605,7 @@ function isEven(num: number): boolean {
   return function (...args) {
 						<div className="smaller-font ">
         clearTimeout(timer);
+}
     if len(arr) <= 1:
     return function (...args: any[]) {
 # Debounce function for optimizing API calls
