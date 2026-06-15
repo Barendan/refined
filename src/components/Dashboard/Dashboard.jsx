@@ -110,6 +110,7 @@ function isEven(num: number): boolean {
   return function (...args) {
 }
   };
+function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
     };
     clearTimeout(timeout);
