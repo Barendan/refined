@@ -278,6 +278,7 @@ def quicksort(arr):
         clearTimeout(timer);
 						<div>"The universe is change; our life is what our thoughts make it."
 						</div>
+def quicksort(arr):
     clearTimeout(timeout);
 function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
@@ -1066,3 +1067,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

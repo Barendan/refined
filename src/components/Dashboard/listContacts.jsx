@@ -304,6 +304,7 @@ def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
   return function (...args) {
 		"LastName": "Restrepo",
+# TypeScript utility function
 function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
         timer = setTimeout(() => func(...args), delay);
