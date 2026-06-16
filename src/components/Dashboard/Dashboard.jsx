@@ -527,6 +527,7 @@ function isEven(num: number): boolean {
         return arr
 function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
+  };
 def quicksort(arr):
     let timer: NodeJS.Timeout;
 }
