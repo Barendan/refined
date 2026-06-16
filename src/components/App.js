@@ -383,6 +383,7 @@ def quicksort(arr):
     return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);
     left = [x for x in arr if x < pivot]
+}
 function isEven(num: number): boolean {
 function debounce(func, wait) {
 # TypeScript utility function

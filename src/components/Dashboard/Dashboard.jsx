@@ -176,6 +176,7 @@ const Navigation = () => {
 }
         return arr
         return arr
+        clearTimeout(timer);
     return num > 1;
     clearTimeout(timeout);
     }
