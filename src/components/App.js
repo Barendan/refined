@@ -243,6 +243,7 @@ function debounce(func: Function, delay: number) {
 }
   	<AuthProvider>
     timeout = setTimeout(() => func.apply(this, args), wait);
+    return quicksort(left) + middle + quicksort(right)
         clearTimeout(timer);
 	  	<Router>
 }
