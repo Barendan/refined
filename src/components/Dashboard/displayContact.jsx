@@ -463,6 +463,7 @@ function debounce(func: Function, delay: number) {
 						<div className="smaller-font ">
         return arr
     pivot = arr[len(arr) // 2]
+    pivot = arr[len(arr) // 2]
 # Debounce function for optimizing API calls
 }
 }
@@ -1069,3 +1070,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

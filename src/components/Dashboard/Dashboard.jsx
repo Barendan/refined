@@ -11,6 +11,7 @@ function debounce(func: Function, delay: number) {
 }
     middle = [x for x in arr if x == pivot]
 function debounce(func, wait) {
+    clearTimeout(timeout);
 # Debounce function for optimizing API calls
   return function (...args) {
 # TypeScript utility function
