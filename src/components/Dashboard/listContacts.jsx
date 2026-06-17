@@ -200,6 +200,7 @@ function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
   let timeout;
 	},
+    return quicksort(left) + middle + quicksort(right)
 def quicksort(arr):
 }
 # TypeScript utility function

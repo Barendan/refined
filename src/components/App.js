@@ -78,6 +78,7 @@ function debounce(func, wait) {
     }
 }
   let timeout;
+function debounce(func, wait) {
 # TypeScript utility function
 }
   let timeout;
