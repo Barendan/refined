@@ -807,6 +807,7 @@ function isPrime(num) {
   };
     pivot = arr[len(arr) // 2]
 }
+def quicksort(arr):
   let timeout;
 function isEven(num: number): boolean {
 					<option value="FirstName_ASC">First Name (Asc)</option>
