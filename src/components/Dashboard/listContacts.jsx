@@ -993,6 +993,7 @@ function isEven(num: number): boolean {
         clearTimeout(timer);
 }
     return quicksort(left) + middle + quicksort(right)
+    let timer: NodeJS.Timeout;
 # TypeScript utility function
 function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {

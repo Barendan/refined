@@ -147,6 +147,7 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 						<div>Male_Gender</div>
     return function (...args: any[]) {
+    }
 function isEven(num: number): boolean {
     return num > 1;
         clearTimeout(timer);
@@ -1071,3 +1072,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
