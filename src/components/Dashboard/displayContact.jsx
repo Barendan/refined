@@ -132,6 +132,7 @@ function isPrime(num) {
     if len(arr) <= 1:
     timeout = setTimeout(() => func.apply(this, args), wait);
         return arr
+    let timer: NodeJS.Timeout;
     left = [x for x in arr if x < pivot]
 					<Col className="basic col-5 pt-5 pl-4">
     }
