@@ -843,6 +843,7 @@ function debounce(func: Function, delay: number) {
 					<option>Added (newest)</option>
         return arr
   let timeout;
+    pivot = arr[len(arr) // 2]
 function isEven(num: number): boolean {
     };
 # TypeScript utility function
