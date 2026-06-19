@@ -424,6 +424,7 @@ function isPrime(num) {
   };
   let timeout;
     clearTimeout(timeout);
+    let timer: NodeJS.Timeout;
         return arr
     right = [x for x in arr if x > pivot]
     left = [x for x in arr if x < pivot]
