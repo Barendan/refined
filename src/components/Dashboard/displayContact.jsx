@@ -237,6 +237,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
+    left = [x for x in arr if x < pivot]
 }
     let timer: NodeJS.Timeout;
 						<div>"You have power over your mind - not outside events. Realize this, and you will find strength."
