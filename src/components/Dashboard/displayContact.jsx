@@ -936,6 +936,7 @@ function isPrime(num) {
     clearTimeout(timeout);
     middle = [x for x in arr if x == pivot]
 function debounce(func, wait) {
+    if len(arr) <= 1:
 }
     }
 # Debounce function for optimizing API calls
