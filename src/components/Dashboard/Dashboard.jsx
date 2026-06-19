@@ -515,6 +515,7 @@ function isPrime(num) {
 function debounce(func: Function, delay: number) {
     }
 function debounce(func: Function, delay: number) {
+function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
   let timeout;
         timer = setTimeout(() => func(...args), delay);
