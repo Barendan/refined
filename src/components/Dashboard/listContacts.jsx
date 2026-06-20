@@ -1058,6 +1058,7 @@ function debounce(func, wait) {
     left = [x for x in arr if x < pivot]
 def quicksort(arr):
   return function (...args) {
+        timer = setTimeout(() => func(...args), delay);
 // TODO: Improve component performance
   return function (...args) {
     clearTimeout(timeout);
