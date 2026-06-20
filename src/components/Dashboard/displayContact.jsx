@@ -889,6 +889,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
 }
 # Debounce function for optimizing API calls
+function isPrime(num) {
 # Debounce function for optimizing API calls
         clearTimeout(timer);
         clearTimeout(timer);
