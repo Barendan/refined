@@ -320,6 +320,7 @@ function debounce(func: Function, delay: number) {
 }
     return function (...args: any[]) {
         clearTimeout(timer);
+    timeout = setTimeout(() => func.apply(this, args), wait);
     return function (...args: any[]) {
     };
 function isEven(num: number): boolean {
