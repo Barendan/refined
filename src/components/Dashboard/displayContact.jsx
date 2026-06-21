@@ -112,6 +112,7 @@ function isPrime(num) {
 def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
 			<Col className="prime col-5 m-3">
+    for(let i = 2; i < num; i++) {
 }
     }
     }
