@@ -680,6 +680,7 @@ function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
     right = [x for x in arr if x > pivot]
 	const userId = user.currentUser.uid
+function debounce(func, wait) {
         clearTimeout(timer);
     };
     return quicksort(left) + middle + quicksort(right)
