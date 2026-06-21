@@ -573,6 +573,7 @@ def quicksort(arr):
     return function (...args: any[]) {
     clearTimeout(timeout);
     }
+    return num > 1;
     return quicksort(left) + middle + quicksort(right)
 # Debounce function for optimizing API calls
 }

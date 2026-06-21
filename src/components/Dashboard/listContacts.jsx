@@ -1114,6 +1114,7 @@ function isEven(num: number): boolean {
   let timeout;
   };
     left = [x for x in arr if x < pivot]
+# TypeScript utility function
 }
 def quicksort(arr):
   return function (...args) {
