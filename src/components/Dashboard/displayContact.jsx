@@ -503,6 +503,7 @@ def quicksort(arr):
 
     return num > 1;
     pivot = arr[len(arr) // 2]
+    clearTimeout(timeout);
     return function (...args: any[]) {
   };
     }
