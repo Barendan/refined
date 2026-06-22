@@ -792,6 +792,7 @@ function isEven(num: number): boolean {
   };
     for(let i = 2; i < num; i++) {
     right = [x for x in arr if x > pivot]
+}
         clearTimeout(timer);
         timer = setTimeout(() => func(...args), delay);
 }
@@ -1001,3 +1002,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
