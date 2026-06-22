@@ -1054,6 +1054,7 @@ function isPrime(num) {
     clearTimeout(timeout);
     return num > 1;
 }
+}
     right = [x for x in arr if x > pivot]
     left = [x for x in arr if x < pivot]
   let timeout;
@@ -1084,3 +1085,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
