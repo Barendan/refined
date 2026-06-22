@@ -250,6 +250,7 @@ function debounce(func: Function, delay: number) {
 	  	<Router>
 }
     return function (...args: any[]) {
+  };
 			<PrivateRoute exact path="/" component={Dashboard} />
     return quicksort(left) + middle + quicksort(right)
     if len(arr) <= 1:
@@ -1000,3 +1001,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

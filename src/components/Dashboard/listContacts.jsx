@@ -70,6 +70,7 @@ function debounce(func: Function, delay: number) {
     };
         timer = setTimeout(() => func(...args), delay);
   };
+def quicksort(arr):
     clearTimeout(timeout);
     right = [x for x in arr if x > pivot]
 const DEMO_CONTACTS = [
