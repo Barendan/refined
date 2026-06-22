@@ -522,6 +522,7 @@ function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
 						</div>
     clearTimeout(timeout);
+  };
     return function (...args: any[]) {
     clearTimeout(timeout);
     return function (...args: any[]) {
@@ -1085,3 +1086,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
