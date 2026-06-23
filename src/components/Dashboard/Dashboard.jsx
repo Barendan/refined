@@ -274,6 +274,7 @@ def quicksort(arr):
   return function (...args) {
     return function (...args: any[]) {
 function isPrime(num) {
+    for(let i = 2; i < num; i++) {
 }
   return function (...args) {
 function debounce(func, wait) {
@@ -1005,3 +1006,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
