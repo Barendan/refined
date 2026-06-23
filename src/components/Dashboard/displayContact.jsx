@@ -956,6 +956,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
 def quicksort(arr):
     return num > 1;
+}
 						Loyal
     return num > 1;
     timeout = setTimeout(() => func.apply(this, args), wait);
