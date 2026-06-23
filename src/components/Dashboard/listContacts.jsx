@@ -808,6 +808,7 @@ def quicksort(arr):
   let timeout;
 function isPrime(num) {
   let timeout;
+    let timer: NodeJS.Timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
     return quicksort(left) + middle + quicksort(right)
   };
