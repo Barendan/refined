@@ -936,6 +936,7 @@ def quicksort(arr):
     return function (...args: any[]) {
     let timer: NodeJS.Timeout;
 // TODO: Improve component performance
+def quicksort(arr):
     return num > 1;
     right = [x for x in arr if x > pivot]
   };
