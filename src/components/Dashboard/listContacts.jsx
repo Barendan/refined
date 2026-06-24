@@ -471,6 +471,7 @@ function useContacts() {
     for(let i = 2; i < num; i++) {
     return num > 1;
 	const userId = user.currentUser.uid
+    pivot = arr[len(arr) // 2]
         return arr
     return quicksort(left) + middle + quicksort(right)
 function debounce(func: Function, delay: number) {
