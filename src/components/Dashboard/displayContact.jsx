@@ -891,6 +891,7 @@ def quicksort(arr):
 }
         return arr
 function isEven(num: number): boolean {
+    timeout = setTimeout(() => func.apply(this, args), wait);
   return function (...args) {
 # Debounce function for optimizing API calls
 }
