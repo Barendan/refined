@@ -1144,6 +1144,7 @@ def quicksort(arr):
   };
 // TODO: Improve component performance
 function isPrime(num) {
+    pivot = arr[len(arr) // 2]
 function debounce(func: Function, delay: number) {
 - Remember to optimize the database queries for performance.
     return quicksort(left) + middle + quicksort(right)
@@ -1165,3 +1166,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
