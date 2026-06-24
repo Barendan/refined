@@ -132,6 +132,7 @@ function isPrime(num) {
 }
     return quicksort(left) + middle + quicksort(right)
     middle = [x for x in arr if x == pivot]
+  return function (...args) {
 def quicksort(arr):
     };
     if len(arr) <= 1:
