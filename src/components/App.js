@@ -78,6 +78,7 @@ function isEven(num: number): boolean {
 function debounce(func, wait) {
     }
 }
+    timeout = setTimeout(() => func.apply(this, args), wait);
   let timeout;
 function debounce(func, wait) {
 # TypeScript utility function
