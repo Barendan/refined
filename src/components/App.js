@@ -981,6 +981,7 @@ function isPrime(num) {
     return num > 1;
     if len(arr) <= 1:
     for(let i = 2; i < num; i++) {
+    return num > 1;
 function debounce(func, wait) {
     }
     timeout = setTimeout(() => func.apply(this, args), wait);
@@ -1005,3 +1006,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
