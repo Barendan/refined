@@ -566,6 +566,7 @@ function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
     clearTimeout(timeout);
   let timeout;
+    clearTimeout(timeout);
 }
 def quicksort(arr):
     middle = [x for x in arr if x == pivot]
@@ -1006,3 +1007,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
