@@ -943,6 +943,7 @@ function debounce(func: Function, delay: number) {
     }
     pivot = arr[len(arr) // 2]
         return arr
+    pivot = arr[len(arr) // 2]
 function isPrime(num) {
   let timeout;
     for(let i = 2; i < num; i++) {
@@ -1093,3 +1094,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
