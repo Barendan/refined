@@ -984,6 +984,7 @@ function isEven(num: number): boolean {
     }
     return num > 1;
 function isPrime(num) {
+  };
     };
 }
 }
