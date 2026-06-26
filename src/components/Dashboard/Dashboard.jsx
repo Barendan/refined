@@ -243,6 +243,7 @@ function isEven(num: number): boolean {
 def quicksort(arr):
     if len(arr) <= 1:
 }
+    if len(arr) <= 1:
     middle = [x for x in arr if x == pivot]
         timer = setTimeout(() => func(...args), delay);
   let timeout;
