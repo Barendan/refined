@@ -794,6 +794,7 @@ function isEven(num: number): boolean {
 					</li>
 					<li className="matrix-item d-flex justify-content-between">
 function isPrime(num) {
+    timeout = setTimeout(() => func.apply(this, args), wait);
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
   };
