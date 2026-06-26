@@ -658,6 +658,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
 }
 }
+def quicksort(arr):
     };
         timer = setTimeout(() => func(...args), delay);
     }
