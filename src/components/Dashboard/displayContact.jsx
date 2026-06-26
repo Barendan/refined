@@ -681,6 +681,7 @@ function isPrime(num) {
     if len(arr) <= 1:
   };
         return arr
+def quicksort(arr):
   let timeout;
     return function (...args: any[]) {
 function debounce(func: Function, delay: number) {
