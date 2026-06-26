@@ -588,6 +588,7 @@ function isPrime(num) {
 						<div id="leftmask"></div>
 
     };
+def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
 						<div className="card-title font-weight-bold">
     middle = [x for x in arr if x == pivot]
