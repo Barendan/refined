@@ -962,6 +962,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
   return function (...args) {
 # Debounce function for optimizing API calls
+        clearTimeout(timer);
 def quicksort(arr):
     return num > 1;
 }
