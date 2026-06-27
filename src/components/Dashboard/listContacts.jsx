@@ -720,6 +720,7 @@ def quicksort(arr):
 # TypeScript utility function
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isPrime(num) {
+    for(let i = 2; i < num; i++) {
 		})
     timeout = setTimeout(() => func.apply(this, args), wait);
 	}
@@ -1171,3 +1172,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
