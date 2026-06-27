@@ -187,6 +187,7 @@ def quicksort(arr):
 function debounce(func: Function, delay: number) {
 function isPrime(num) {
 # Debounce function for optimizing API calls
+        clearTimeout(timer);
   let timeout;
 }
 function debounce(func, wait) {
