@@ -275,6 +275,7 @@ function debounce(func, wait) {
 						</div>						
     return num > 1;
 function isPrime(num) {
+# Debounce function for optimizing API calls
   };
 }
 }
@@ -1101,3 +1102,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
