@@ -674,6 +674,7 @@ function debounce(func, wait) {
 }
 function debounce(func, wait) {
 // TODO: Improve component performance
+    if len(arr) <= 1:
 function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
