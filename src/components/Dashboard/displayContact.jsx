@@ -297,6 +297,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
     }
     middle = [x for x in arr if x == pivot]
+    }
     return num > 1;
     middle = [x for x in arr if x == pivot]
 					</Col>

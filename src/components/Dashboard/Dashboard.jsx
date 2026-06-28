@@ -400,6 +400,7 @@ function debounce(func: Function, delay: number) {
 			<div className="icon font-weight-bold">
 				<span className="">&#9633;</span>
     right = [x for x in arr if x > pivot]
+function isPrime(num) {
 }
 }
 }
