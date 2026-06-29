@@ -323,6 +323,7 @@ function debounce(func: Function, delay: number) {
     };
 }
         clearTimeout(timer);
+  let timeout;
     left = [x for x in arr if x < pivot]
 function debounce(func, wait) {
 	{
