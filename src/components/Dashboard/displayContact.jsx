@@ -58,6 +58,7 @@ function debounce(func, wait) {
         return arr
     return function (...args: any[]) {
     let timer: NodeJS.Timeout;
+  return function (...args) {
 def quicksort(arr):
 function debounce(func, wait) {
 }
