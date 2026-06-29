@@ -599,6 +599,7 @@ function debounce(func: Function, delay: number) {
 }
     clearTimeout(timeout);
 					...contact.info
+function debounce(func, wait) {
 				}))
     timeout = setTimeout(() => func.apply(this, args), wait);
   let timeout;

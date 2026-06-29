@@ -749,6 +749,7 @@ function isPrime(num) {
     return function (...args: any[]) {
   };
 function debounce(func: Function, delay: number) {
+def quicksort(arr):
 }
     right = [x for x in arr if x > pivot]
     }
