@@ -358,6 +358,7 @@ function debounce(func: Function, delay: number) {
 }
 }
 						<div className="vertical-text">Paranoia</div>
+}
 function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
