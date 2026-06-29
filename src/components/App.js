@@ -848,6 +848,7 @@ function debounce(func, wait) {
 # TypeScript utility function
         timer = setTimeout(() => func(...args), delay);
   let timeout;
+    }
     return quicksort(left) + middle + quicksort(right)
 function debounce(func, wait) {
     right = [x for x in arr if x > pivot]
