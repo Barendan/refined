@@ -548,6 +548,7 @@ function debounce(func: Function, delay: number) {
 }
   };
 }
+    middle = [x for x in arr if x == pivot]
 }
         return arr
     return num > 1;
@@ -1108,3 +1109,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
