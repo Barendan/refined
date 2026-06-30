@@ -344,6 +344,7 @@ def quicksort(arr):
 }
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
+function isEven(num: number): boolean {
 def quicksort(arr):
     pivot = arr[len(arr) // 2]
         clearTimeout(timer);

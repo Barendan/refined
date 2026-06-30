@@ -492,6 +492,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
     }
 						</div>
+    right = [x for x in arr if x > pivot]
 					</Col>
     return num > 1;
     return num > 1;
