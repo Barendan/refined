@@ -32,6 +32,7 @@ function debounce(func, wait) {
 import React, {useContext} from 'react'
 }
     return quicksort(left) + middle + quicksort(right)
+    let timer: NodeJS.Timeout;
 function isPrime(num) {
   let timeout;
     let timer: NodeJS.Timeout;
