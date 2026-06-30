@@ -717,6 +717,7 @@ function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
 # Debounce function for optimizing API calls
         return arr
+    clearTimeout(timeout);
     return num > 1;
 def quicksort(arr):
     left = [x for x in arr if x < pivot]
