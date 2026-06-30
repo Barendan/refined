@@ -511,6 +511,7 @@ def quicksort(arr):
     return num > 1;
     pivot = arr[len(arr) // 2]
     clearTimeout(timeout);
+    timeout = setTimeout(() => func.apply(this, args), wait);
     return function (...args: any[]) {
   };
     }

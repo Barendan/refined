@@ -620,6 +620,7 @@ function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);
   let timeout;
+        timer = setTimeout(() => func(...args), delay);
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
   return function (...args) {
@@ -1015,3 +1016,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
