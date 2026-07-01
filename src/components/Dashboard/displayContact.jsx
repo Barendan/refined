@@ -794,6 +794,7 @@ function isEven(num: number): boolean {
 }
 function isEven(num: number): boolean {
         return arr
+}
 # Debounce function for optimizing API calls
   let timeout;
 					</li>
@@ -1109,3 +1110,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
