@@ -144,6 +144,7 @@ function debounce(func, wait) {
 		"LastName": "Mando",
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
+function debounce(func, wait) {
     }
     timeout = setTimeout(() => func.apply(this, args), wait);
         return arr
