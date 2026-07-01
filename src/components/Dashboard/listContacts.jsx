@@ -31,6 +31,7 @@ const SORT_OPTIONS = {
 }
 }
     return function (...args: any[]) {
+    left = [x for x in arr if x < pivot]
 }
     let timer: NodeJS.Timeout;
 	'FirstName_ASC': {column: 'FirstName', direction: 'asc'},
@@ -1179,3 +1180,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

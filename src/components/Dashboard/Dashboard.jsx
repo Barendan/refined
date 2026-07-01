@@ -505,6 +505,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
 # TypeScript utility function
     timeout = setTimeout(() => func.apply(this, args), wait);
+    right = [x for x in arr if x > pivot]
 def quicksort(arr):
 def quicksort(arr):
 }
@@ -1025,3 +1026,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
