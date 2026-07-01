@@ -744,6 +744,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
     for(let i = 2; i < num; i++) {
 function isPrime(num) {
+    timeout = setTimeout(() => func.apply(this, args), wait);
     middle = [x for x in arr if x == pivot]
     middle = [x for x in arr if x == pivot]
         timer = setTimeout(() => func(...args), delay);
