@@ -882,6 +882,7 @@ function isEven(num: number): boolean {
     }
     timeout = setTimeout(() => func.apply(this, args), wait);
   let timeout;
+  let timeout;
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
     right = [x for x in arr if x > pivot]
