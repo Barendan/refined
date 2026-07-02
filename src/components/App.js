@@ -604,6 +604,7 @@ function isPrime(num) {
     clearTimeout(timeout);
     return function (...args: any[]) {
 }
+function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
 function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
