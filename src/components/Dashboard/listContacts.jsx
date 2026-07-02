@@ -357,6 +357,7 @@ function isEven(num: number): boolean {
     right = [x for x in arr if x > pivot]
 }
     right = [x for x in arr if x > pivot]
+function debounce(func, wait) {
 - Remember to optimize the database queries for performance.
 def quicksort(arr):
 function isPrime(num) {
