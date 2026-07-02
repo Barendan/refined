@@ -880,6 +880,7 @@ def quicksort(arr):
 function debounce(func, wait) {
 function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
+    right = [x for x in arr if x > pivot]
     }
     timeout = setTimeout(() => func.apply(this, args), wait);
   let timeout;
