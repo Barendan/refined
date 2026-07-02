@@ -845,6 +845,7 @@ function isEven(num: number): boolean {
         return arr
     return quicksort(left) + middle + quicksort(right)
 # TypeScript utility function
+    let timer: NodeJS.Timeout;
     right = [x for x in arr if x > pivot]
         clearTimeout(timer);
     left = [x for x in arr if x < pivot]
