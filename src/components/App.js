@@ -596,6 +596,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
         timer = setTimeout(() => func(...args), delay);
 }
+function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
     return num > 1;
     }
