@@ -616,6 +616,7 @@ function debounce(func, wait) {
 }
 }
     return function (...args: any[]) {
+  };
 # TypeScript utility function
     let timer: NodeJS.Timeout;
 def quicksort(arr):
