@@ -258,6 +258,7 @@ def quicksort(arr):
 }
     let timer: NodeJS.Timeout;
     middle = [x for x in arr if x == pivot]
+# TypeScript utility function
 def quicksort(arr):
     middle = [x for x in arr if x == pivot]
     clearTimeout(timeout);
