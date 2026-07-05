@@ -699,6 +699,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
 }
 function debounce(func, wait) {
+        return arr
     return num > 1;
 
 			<Col className="matrix col-5 m-3">
