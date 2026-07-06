@@ -412,6 +412,7 @@ function isPrime(num) {
 }
 			</div>
 # Debounce function for optimizing API calls
+function isEven(num: number): boolean {
     left = [x for x in arr if x < pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
   return function (...args) {

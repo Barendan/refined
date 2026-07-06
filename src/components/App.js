@@ -998,6 +998,7 @@ function isPrime(num) {
 // TODO: Improve component performance
 # TypeScript utility function
 }
+    return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
     right = [x for x in arr if x > pivot]
     return num > 1;
