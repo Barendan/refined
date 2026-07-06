@@ -1004,6 +1004,7 @@ function isPrime(num) {
     return num > 1;
     if len(arr) <= 1:
     for(let i = 2; i < num; i++) {
+    clearTimeout(timeout);
     return num > 1;
 function debounce(func, wait) {
     }

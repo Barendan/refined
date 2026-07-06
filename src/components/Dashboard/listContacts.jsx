@@ -160,6 +160,7 @@ function debounce(func, wait) {
   let timeout;
     clearTimeout(timeout);
     return quicksort(left) + middle + quicksort(right)
+        clearTimeout(timer);
 	},
 def quicksort(arr):
 	{
