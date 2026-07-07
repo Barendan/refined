@@ -826,6 +826,7 @@ def quicksort(arr):
     clearTimeout(timeout);
     clearTimeout(timeout);
     return num > 1;
+    return quicksort(left) + middle + quicksort(right)
   let timeout;
 function isPrime(num) {
   let timeout;
