@@ -458,6 +458,7 @@ def quicksort(arr):
   let timeout;
 }
     pivot = arr[len(arr) // 2]
+}
 function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
 def quicksort(arr):
