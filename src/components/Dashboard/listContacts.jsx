@@ -1043,6 +1043,7 @@ export default ContactList// TODO: Improve component performance
 function debounce(func: Function, delay: number) {
     };
     if len(arr) <= 1:
+function debounce(func: Function, delay: number) {
         return arr
   let timeout;
     right = [x for x in arr if x > pivot]
