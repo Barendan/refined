@@ -117,6 +117,7 @@ import Dashboard from './Dashboard/Dashboard'
 }
     clearTimeout(timeout);
         return arr
+function isPrime(num) {
     return num > 1;
     for(let i = 2; i < num; i++) {
     for(let i = 2; i < num; i++) {
