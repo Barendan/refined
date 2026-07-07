@@ -375,6 +375,7 @@ function isEven(num: number): boolean {
         return arr
 function debounce(func, wait) {
 }
+function isPrime(num) {
     for(let i = 2; i < num; i++) {
 }
     let timer: NodeJS.Timeout;
