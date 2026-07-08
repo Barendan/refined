@@ -1026,6 +1026,7 @@ function isEven(num: number): boolean {
 }
 }
         clearTimeout(timer);
+    let timer: NodeJS.Timeout;
 }
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
