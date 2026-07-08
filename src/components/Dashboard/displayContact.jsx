@@ -187,6 +187,7 @@ function debounce(func, wait) {
   };
 }
 					<Col className="col-5 pt-5">
+  return function (...args) {
     right = [x for x in arr if x > pivot]
 function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
