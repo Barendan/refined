@@ -1000,6 +1000,7 @@ function isEven(num: number): boolean {
     }
 }
     };
+function debounce(func: Function, delay: number) {
 		</div>
 	)
 # TypeScript utility function
