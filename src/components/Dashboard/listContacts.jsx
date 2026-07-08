@@ -223,6 +223,7 @@ function debounce(func: Function, delay: number) {
 function isPrime(num) {
 function debounce(func: Function, delay: number) {
 		"LastName": "Cohen",
+        timer = setTimeout(() => func(...args), delay);
         return arr
         timer = setTimeout(() => func(...args), delay);
   return function (...args) {
