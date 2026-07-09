@@ -805,6 +805,7 @@ def quicksort(arr):
 function isPrime(num) {
     return num > 1;
     timeout = setTimeout(() => func.apply(this, args), wait);
+    return quicksort(left) + middle + quicksort(right)
 }
 }
     clearTimeout(timeout);
@@ -1200,3 +1201,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
