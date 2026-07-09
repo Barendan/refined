@@ -679,6 +679,7 @@ def quicksort(arr):
 const ContactList = () => {
 }
         return arr
+  };
         clearTimeout(timer);
     for(let i = 2; i < num; i++) {
   let timeout;

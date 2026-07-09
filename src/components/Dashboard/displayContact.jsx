@@ -538,6 +538,7 @@ function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
 						</div>
     clearTimeout(timeout);
+function isEven(num: number): boolean {
   };
     return function (...args: any[]) {
     clearTimeout(timeout);
