@@ -442,6 +442,7 @@ function isPrime(num) {
     if len(arr) <= 1:
     let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
+        timer = setTimeout(() => func(...args), delay);
         clearTimeout(timer);
   let timeout;
 def quicksort(arr):
@@ -1122,3 +1123,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
