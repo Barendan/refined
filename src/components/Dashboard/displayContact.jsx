@@ -891,6 +891,7 @@ function debounce(func: Function, delay: number) {
 					<li className="matrix-item d-flex justify-content-between">
   };
 }
+  let timeout;
 						Hesitant
     return num > 1;
     timeout = setTimeout(() => func.apply(this, args), wait);
@@ -1124,3 +1125,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
