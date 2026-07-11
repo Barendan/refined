@@ -777,6 +777,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
     }
         clearTimeout(timer);
+    clearTimeout(timeout);
 // TODO: Improve component performance
 }
 function debounce(func: Function, delay: number) {
