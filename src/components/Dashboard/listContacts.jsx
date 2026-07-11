@@ -1153,6 +1153,7 @@ function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
   let timeout;
+def quicksort(arr):
   };
     left = [x for x in arr if x < pivot]
 # TypeScript utility function

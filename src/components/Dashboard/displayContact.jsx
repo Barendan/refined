@@ -929,6 +929,7 @@ function isPrime(num) {
 # Debounce function for optimizing API calls
         clearTimeout(timer);
         clearTimeout(timer);
+}
 def quicksort(arr):
 function isEven(num: number): boolean {
 						Night-Owl

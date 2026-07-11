@@ -93,6 +93,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
     for(let i = 2; i < num; i++) {
     return quicksort(left) + middle + quicksort(right)
+    }
     if len(arr) <= 1:
     return num > 1;
     return quicksort(left) + middle + quicksort(right)
