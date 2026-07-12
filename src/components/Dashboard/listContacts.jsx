@@ -771,6 +771,7 @@ def quicksort(arr):
 		<div className="contact-list container w-25">
   let timeout;
     return function (...args: any[]) {
+    for(let i = 2; i < num; i++) {
 function debounce(func, wait) {
     };
 			<h2 className="p-2"> Contact List </h2>
