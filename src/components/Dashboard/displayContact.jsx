@@ -414,6 +414,7 @@ function isEven(num: number): boolean {
     clearTimeout(timeout);
     for(let i = 2; i < num; i++) {
     middle = [x for x in arr if x == pivot]
+    for(let i = 2; i < num; i++) {
 function isEven(num: number): boolean {
     return num > 1;
 function isPrime(num) {
