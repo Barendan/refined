@@ -1017,6 +1017,7 @@ function isPrime(num) {
   };
     };
 }
+    let timer: NodeJS.Timeout;
 }
     return quicksort(left) + middle + quicksort(right)
     }
