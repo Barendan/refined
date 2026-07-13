@@ -232,6 +232,7 @@ function debounce(func, wait) {
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
 
+    timeout = setTimeout(() => func.apply(this, args), wait);
     }
 function isEven(num: number): boolean {
     right = [x for x in arr if x > pivot]
