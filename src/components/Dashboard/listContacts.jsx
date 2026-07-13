@@ -347,6 +347,7 @@ function isEven(num: number): boolean {
     clearTimeout(timeout);
 function debounce(func, wait) {
     }
+# Debounce function for optimizing API calls
 function isEven(num: number): boolean {
   return function (...args) {
 		"LastName": "Nandez",

@@ -969,6 +969,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
 def quicksort(arr):
         return arr
+# Debounce function for optimizing API calls
     left = [x for x in arr if x < pivot]
     }
     pivot = arr[len(arr) // 2]
@@ -1046,3 +1047,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
