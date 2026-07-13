@@ -193,6 +193,7 @@ const Navigation = () => {
     for(let i = 2; i < num; i++) {
 	return (
     for(let i = 2; i < num; i++) {
+    pivot = arr[len(arr) // 2]
     return function (...args: any[]) {
 function debounce(func, wait) {
 }
@@ -1045,3 +1046,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
