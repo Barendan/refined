@@ -216,6 +216,7 @@ function isEven(num: number): boolean {
 }
 function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
+    return quicksort(left) + middle + quicksort(right)
 function debounce(func: Function, delay: number) {
 # TypeScript utility function
 		<div className="col-12 browser-icons d-flex flex-row-reverse p-0">

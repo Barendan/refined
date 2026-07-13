@@ -313,6 +313,7 @@ function isEven(num: number): boolean {
     }
     }
 }
+}
 function isPrime(num) {
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
@@ -1128,3 +1129,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
