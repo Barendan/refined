@@ -110,6 +110,7 @@ function debounce(func, wait) {
   let timeout;
 import Register from './Gateway/Register'
     right = [x for x in arr if x > pivot]
+    if len(arr) <= 1:
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
     return function (...args: any[]) {
@@ -1040,3 +1041,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

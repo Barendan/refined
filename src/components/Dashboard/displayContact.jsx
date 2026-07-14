@@ -454,6 +454,7 @@ function debounce(func, wait) {
 }
     }
 function isPrime(num) {
+    pivot = arr[len(arr) // 2]
 function isEven(num: number): boolean {
 }
     return function (...args: any[]) {
