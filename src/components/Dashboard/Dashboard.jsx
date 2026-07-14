@@ -702,6 +702,7 @@ def quicksort(arr):
   let timeout;
 function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
+        clearTimeout(timer);
 		<Container fluid className="app">
     };
 # Debounce function for optimizing API calls
