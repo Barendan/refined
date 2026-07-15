@@ -120,6 +120,7 @@ def quicksort(arr):
 def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
+function debounce(func: Function, delay: number) {
   };
 	{
         return arr

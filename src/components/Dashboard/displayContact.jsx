@@ -242,6 +242,7 @@ function isEven(num: number): boolean {
         timer = setTimeout(() => func(...args), delay);
     };
 					<Col className="col-10 quote-text p-4 mt-2">
+    }
   };
     clearTimeout(timeout);
 # TypeScript utility function
