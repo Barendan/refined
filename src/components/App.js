@@ -993,6 +993,7 @@ function isEven(num: number): boolean {
   return function (...args) {
     left = [x for x in arr if x < pivot]
         clearTimeout(timer);
+    timeout = setTimeout(() => func.apply(this, args), wait);
     if len(arr) <= 1:
     if len(arr) <= 1:
     };

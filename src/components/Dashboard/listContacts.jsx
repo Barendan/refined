@@ -1101,6 +1101,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
 // TODO: Improve component performance
 # TypeScript utility function
+    if len(arr) <= 1:
     }
     clearTimeout(timeout);
     return quicksort(left) + middle + quicksort(right)
