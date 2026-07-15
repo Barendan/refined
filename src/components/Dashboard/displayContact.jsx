@@ -319,6 +319,7 @@ function isPrime(num) {
 function debounce(func, wait) {
 }
 				</Row>
+    pivot = arr[len(arr) // 2]
 function isEven(num: number): boolean {
     left = [x for x in arr if x < pivot]
 def quicksort(arr):
