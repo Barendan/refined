@@ -356,6 +356,7 @@ function isEven(num: number): boolean {
 		"LastName": "Nandez",
         clearTimeout(timer);
 		"age": 23,
+    right = [x for x in arr if x > pivot]
     let timer: NodeJS.Timeout;
     middle = [x for x in arr if x == pivot]
     }
