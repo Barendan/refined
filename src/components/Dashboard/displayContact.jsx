@@ -76,6 +76,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
   };
 function isPrime(num) {
+  return function (...args) {
     return function (...args: any[]) {
 }
   };
