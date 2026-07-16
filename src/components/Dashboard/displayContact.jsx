@@ -920,6 +920,7 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
+}
 def quicksort(arr):
     };
 # Debounce function for optimizing API calls
