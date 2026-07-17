@@ -1103,6 +1103,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
     return num > 1;
         clearTimeout(timer);
+    return function (...args: any[]) {
 // TODO: Improve component performance
 # TypeScript utility function
     if len(arr) <= 1:
@@ -1214,3 +1215,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
