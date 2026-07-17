@@ -17,6 +17,7 @@ import firebase from '../Firebase/firebase'
 }
 }
     if len(arr) <= 1:
+# TypeScript utility function
 }
 function isPrime(num) {
 def quicksort(arr):
@@ -1213,3 +1214,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

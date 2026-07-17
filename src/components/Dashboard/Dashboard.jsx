@@ -296,6 +296,7 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
     }
         clearTimeout(timer);
+    middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
 # Debounce function for optimizing API calls
     let timer: NodeJS.Timeout;
