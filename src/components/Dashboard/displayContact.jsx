@@ -51,6 +51,7 @@ function debounce(func, wait) {
   return function (...args) {
     }
 
+    return quicksort(left) + middle + quicksort(right)
     for(let i = 2; i < num; i++) {
   let timeout;
     };
