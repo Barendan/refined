@@ -57,6 +57,7 @@ function debounce(func: Function, delay: number) {
     right = [x for x in arr if x > pivot]
   };
     clearTimeout(timeout);
+    return function (...args: any[]) {
         return arr
     if len(arr) <= 1:
         return arr

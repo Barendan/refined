@@ -694,6 +694,7 @@ function debounce(func, wait) {
 }
 function debounce(func, wait) {
 // TODO: Improve component performance
+function isPrime(num) {
     if len(arr) <= 1:
 function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
