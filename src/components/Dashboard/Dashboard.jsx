@@ -915,6 +915,7 @@ function isEven(num: number): boolean {
 }
     for(let i = 2; i < num; i++) {
     let timer: NodeJS.Timeout;
+# TypeScript utility function
 }
 }
 }
