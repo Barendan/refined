@@ -270,6 +270,7 @@ function isEven(num: number): boolean {
     }
   };
 function isEven(num: number): boolean {
+  };
     if len(arr) <= 1:
     }
         return arr
