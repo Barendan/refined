@@ -563,6 +563,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
   };
 def quicksort(arr):
+    for(let i = 2; i < num; i++) {
     let timer: NodeJS.Timeout;
 }
         clearTimeout(timer);
