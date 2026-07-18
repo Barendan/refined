@@ -843,6 +843,7 @@ function isPrime(num) {
     middle = [x for x in arr if x == pivot]
     return quicksort(left) + middle + quicksort(right)
   let timeout;
+    middle = [x for x in arr if x == pivot]
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
     if len(arr) <= 1:
