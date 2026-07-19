@@ -896,6 +896,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
     if len(arr) <= 1:
 					</li>
+function isEven(num: number): boolean {
         clearTimeout(timer);
         return arr
     timeout = setTimeout(() => func.apply(this, args), wait);
