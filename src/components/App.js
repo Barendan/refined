@@ -412,6 +412,7 @@ function debounce(func, wait) {
     }
     };
 // TODO: Improve component performance
+}
     return num > 1;
     return num > 1;
   return function (...args) {
