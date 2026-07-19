@@ -1198,6 +1198,7 @@ def quicksort(arr):
 function isPrime(num) {
     pivot = arr[len(arr) // 2]
 function debounce(func: Function, delay: number) {
+        return arr
 - Remember to optimize the database queries for performance.
     return quicksort(left) + middle + quicksort(right)
     for(let i = 2; i < num; i++) {
