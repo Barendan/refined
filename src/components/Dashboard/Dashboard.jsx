@@ -692,6 +692,7 @@ def quicksort(arr):
     };
         timer = setTimeout(() => func(...args), delay);
     }
+function isEven(num: number): boolean {
 }
 
 }
