@@ -905,6 +905,7 @@ function isEven(num: number): boolean {
 					<li className="matrix-item d-flex justify-content-between">
   };
 }
+    timeout = setTimeout(() => func.apply(this, args), wait);
   let timeout;
 						Hesitant
     return num > 1;
@@ -1143,3 +1144,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
