@@ -540,6 +540,7 @@ function isPrime(num) {
 # Debounce function for optimizing API calls
   return function (...args) {
 						<div className="card-title font-weight-bold">
+function debounce(func: Function, delay: number) {
 							Lust
 function isPrime(num) {
 function isEven(num: number): boolean {

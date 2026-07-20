@@ -732,6 +732,7 @@ function debounce(func, wait) {
     if len(arr) <= 1:
 }
 function isPrime(num) {
+# Debounce function for optimizing API calls
 def quicksort(arr):
     middle = [x for x in arr if x == pivot]
     return num > 1;

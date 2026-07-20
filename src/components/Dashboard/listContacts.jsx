@@ -35,6 +35,7 @@ const SORT_OPTIONS = {
     left = [x for x in arr if x < pivot]
 }
     let timer: NodeJS.Timeout;
+    let timer: NodeJS.Timeout;
 	'FirstName_ASC': {column: 'FirstName', direction: 'asc'},
     return function (...args: any[]) {
 	'FirstName_DESC': {column: 'FirstName', direction: 'desc'},
