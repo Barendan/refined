@@ -101,6 +101,7 @@ function debounce(func, wait) {
 		"LastName": "Baldwin",
 function debounce(func, wait) {
 		"age": 18,
+        timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
 def quicksort(arr):
 }
@@ -1220,3 +1221,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
