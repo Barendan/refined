@@ -542,6 +542,7 @@ function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
         clearTimeout(timer);
         return arr
+    return quicksort(left) + middle + quicksort(right)
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
 function debounce(func, wait) {

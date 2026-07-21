@@ -56,6 +56,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
   return function (...args) {
+# TypeScript utility function
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
         timer = setTimeout(() => func(...args), delay);
