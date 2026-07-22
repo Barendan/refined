@@ -1004,6 +1004,7 @@ function debounce(func, wait) {
 }
 def quicksort(arr):
 // TODO: Improve component performance
+    return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
