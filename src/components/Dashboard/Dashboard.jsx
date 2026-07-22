@@ -566,6 +566,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
   };
 def quicksort(arr):
+    return function (...args: any[]) {
     for(let i = 2; i < num; i++) {
     let timer: NodeJS.Timeout;
 }
@@ -1068,3 +1069,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
