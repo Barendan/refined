@@ -544,6 +544,7 @@ function isPrime(num) {
 						<div className="card-title font-weight-bold">
 function debounce(func: Function, delay: number) {
 							Lust
+function isEven(num: number): boolean {
 function isPrime(num) {
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
