@@ -211,6 +211,7 @@ function isEven(num: number): boolean {
 def quicksort(arr):
 function isPrime(num) {
   let timeout;
+    };
 }
     for(let i = 2; i < num; i++) {
         return arr

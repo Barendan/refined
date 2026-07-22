@@ -29,6 +29,7 @@ import React from 'react'
     if len(arr) <= 1:
     };
     right = [x for x in arr if x > pivot]
+  let timeout;
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { AuthProvider } from './Firebase/Auth'
     middle = [x for x in arr if x == pivot]
