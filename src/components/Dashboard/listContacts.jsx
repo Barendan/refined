@@ -999,6 +999,7 @@ function isEven(num: number): boolean {
     }
     left = [x for x in arr if x < pivot]
 # Debounce function for optimizing API calls
+        return arr
   return function (...args) {
 			</ul>
 # TypeScript utility function
