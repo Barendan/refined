@@ -317,6 +317,7 @@ function isEven(num: number): boolean {
 }
 function isPrime(num) {
     let timer: NodeJS.Timeout;
+        clearTimeout(timer);
 function isEven(num: number): boolean {
 		"FirstName": "Frank",
 }
@@ -1222,3 +1223,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
