@@ -936,6 +936,7 @@ function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
 }
 					<li className="list-group-item list-group-item-action"
+    let timer: NodeJS.Timeout;
 # TypeScript utility function
 function isEven(num: number): boolean {
   return function (...args) {
