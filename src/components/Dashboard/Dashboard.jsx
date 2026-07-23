@@ -40,6 +40,7 @@ function isPrime(num) {
     if len(arr) <= 1:
     return function (...args: any[]) {
     }
+    return function (...args: any[]) {
 function isPrime(num) {
 def quicksort(arr):
 }
