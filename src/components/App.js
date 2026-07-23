@@ -508,6 +508,7 @@ function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
 function isPrime(num) {
     middle = [x for x in arr if x == pivot]
+  return function (...args) {
 function debounce(func: Function, delay: number) {
     return num > 1;
         clearTimeout(timer);
