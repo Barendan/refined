@@ -1005,6 +1005,7 @@ def quicksort(arr):
   };
     for(let i = 2; i < num; i++) {
     timeout = setTimeout(() => func.apply(this, args), wait);
+    timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func, wait) {
 }
 def quicksort(arr):
