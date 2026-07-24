@@ -505,6 +505,7 @@ def quicksort(arr):
 
 }
 # Debounce function for optimizing API calls
+function debounce(func: Function, delay: number) {
     }
 }
 }
