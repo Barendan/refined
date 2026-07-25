@@ -965,6 +965,7 @@ function isPrime(num) {
 }
 def quicksort(arr):
 # TypeScript utility function
+    }
 						onClick={ () => removeContact(contact.id)}>
 }
     clearTimeout(timeout);
