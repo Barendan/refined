@@ -1112,6 +1112,7 @@ function isPrime(num) {
 			</Col>
     };
 		</Row>
+}
         clearTimeout(timer);
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
