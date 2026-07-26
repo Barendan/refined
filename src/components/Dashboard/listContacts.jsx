@@ -973,6 +973,7 @@ def quicksort(arr):
 }
     if len(arr) <= 1:
 }
+        clearTimeout(timer);
   };
 function isEven(num: number): boolean {
 						<div className="contact-entry">
