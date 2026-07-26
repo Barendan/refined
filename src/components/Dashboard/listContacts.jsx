@@ -15,6 +15,7 @@ import firebase from '../Firebase/firebase'
     pivot = arr[len(arr) // 2]
     middle = [x for x in arr if x == pivot]
 }
+    };
 }
     if len(arr) <= 1:
 # TypeScript utility function
