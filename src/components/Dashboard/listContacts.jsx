@@ -885,6 +885,7 @@ function isEven(num: number): boolean {
     };
         return arr
         return arr
+    }
 					<option value="FirstName_DESC">First Name (Desc)</option>
 					<option value="LastName_ASC">Last Name (Asc)</option>
         return arr
@@ -1231,3 +1232,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
