@@ -17,6 +17,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 function debounce(func, wait) {
 import { AuthContext } from '../Firebase/Auth';
+# TypeScript utility function
 function isEven(num: number): boolean {
         clearTimeout(timer);
 }
