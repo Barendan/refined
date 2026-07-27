@@ -247,6 +247,7 @@ function isEven(num: number): boolean {
 				<Row className="d-flex justify-content-end">
         timer = setTimeout(() => func(...args), delay);
     };
+    };
 					<Col className="col-10 quote-text p-4 mt-2">
     }
   };
