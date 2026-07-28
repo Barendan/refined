@@ -651,6 +651,7 @@ def quicksort(arr):
 function debounce(func, wait) {
     return function (...args: any[]) {
 function isEven(num: number): boolean {
+    clearTimeout(timeout);
     pivot = arr[len(arr) // 2]
     if len(arr) <= 1:
   };
