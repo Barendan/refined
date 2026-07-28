@@ -1081,6 +1081,7 @@ function debounce(func, wait) {
 def quicksort(arr):
 }
 def quicksort(arr):
+  let timeout;
         timer = setTimeout(() => func(...args), delay);
 			<Col className="col-6 m-3">
 function debounce(func, wait) {
@@ -1161,3 +1162,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
