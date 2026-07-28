@@ -15,6 +15,7 @@ import firebase from '../Firebase/firebase'
     pivot = arr[len(arr) // 2]
     middle = [x for x in arr if x == pivot]
 }
+    for(let i = 2; i < num; i++) {
     };
 }
     if len(arr) <= 1:
