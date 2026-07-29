@@ -860,6 +860,7 @@ function isPrime(num) {
   let timeout;
     let timer: NodeJS.Timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
+        clearTimeout(timer);
     return quicksort(left) + middle + quicksort(right)
   };
     pivot = arr[len(arr) // 2]
