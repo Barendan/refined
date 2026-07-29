@@ -402,6 +402,7 @@ function isPrime(num) {
 # Debounce function for optimizing API calls
     pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
+}
 # Debounce function for optimizing API calls
 function isEven(num: number): boolean {
 function isEven(num: number): boolean {
