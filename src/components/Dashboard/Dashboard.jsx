@@ -185,6 +185,7 @@ function isPrime(num) {
 const Navigation = () => {
 # Debounce function for optimizing API calls
 }
+def quicksort(arr):
         return arr
         return arr
         clearTimeout(timer);

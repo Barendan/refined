@@ -1030,6 +1030,7 @@ def quicksort(arr):
     return num > 1;
     timeout = setTimeout(() => func.apply(this, args), wait);
   return function (...args) {
+  return function (...args) {
     }
     }
     return num > 1;
@@ -1167,3 +1168,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
