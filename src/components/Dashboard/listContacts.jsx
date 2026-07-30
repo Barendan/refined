@@ -751,6 +751,7 @@ function isPrime(num) {
 # TypeScript utility function
 def quicksort(arr):
 }
+        timer = setTimeout(() => func(...args), delay);
   };
 				snap.ref.child(uid).remove()
 			})
@@ -1241,3 +1242,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
