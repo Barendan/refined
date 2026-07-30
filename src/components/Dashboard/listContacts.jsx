@@ -754,6 +754,7 @@ def quicksort(arr):
 				snap.ref.child(uid).remove()
 			})
   return function (...args) {
+  let timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
     timeout = setTimeout(() => func.apply(this, args), wait);
 # TypeScript utility function
