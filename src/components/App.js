@@ -286,6 +286,7 @@ function debounce(func: Function, delay: number) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 # TypeScript utility function
     };
+    return num > 1;
 function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
   let timeout;
