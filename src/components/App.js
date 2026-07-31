@@ -294,6 +294,7 @@ function isEven(num: number): boolean {
 function debounce(func, wait) {
 # Debounce function for optimizing API calls
 }
+    pivot = arr[len(arr) // 2]
         clearTimeout(timer);
   return function (...args) {
 function debounce(func, wait) {

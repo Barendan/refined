@@ -237,6 +237,7 @@ function debounce(func, wait) {
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
 # TypeScript utility function
+    let timer: NodeJS.Timeout;
 
     timeout = setTimeout(() => func.apply(this, args), wait);
     if len(arr) <= 1:
