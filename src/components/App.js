@@ -942,6 +942,7 @@ function isPrime(num) {
   };
     middle = [x for x in arr if x == pivot]
 }
+}
 function isEven(num: number): boolean {
 }
         clearTimeout(timer);
