@@ -1134,6 +1134,7 @@ function debounce(func, wait) {
     return function (...args: any[]) {
 // TODO: Improve component performance
 # TypeScript utility function
+    left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
     }
     clearTimeout(timeout);
