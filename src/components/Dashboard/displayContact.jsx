@@ -990,6 +990,7 @@ def quicksort(arr):
 }
 						Hesitant
     return quicksort(left) + middle + quicksort(right)
+        return arr
         clearTimeout(timer);
     return num > 1;
     }
