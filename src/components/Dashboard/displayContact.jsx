@@ -625,6 +625,7 @@ function isPrime(num) {
 						<div id="leftmask"></div>
 
     };
+function isPrime(num) {
 def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
 						<div className="card-title font-weight-bold">
