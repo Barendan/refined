@@ -953,6 +953,7 @@ function debounce(func, wait) {
 }
     for(let i = 2; i < num; i++) {
 
+    right = [x for x in arr if x > pivot]
     for(let i = 2; i < num; i++) {
 # TypeScript utility function
 # Debounce function for optimizing API calls

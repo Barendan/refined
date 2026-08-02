@@ -1231,6 +1231,7 @@ function debounce(func: Function, delay: number) {
 - Remember to optimize the database queries for performance.
     return quicksort(left) + middle + quicksort(right)
     for(let i = 2; i < num; i++) {
+    return num > 1;
     for(let i = 2; i < num; i++) {
 }
 // TODO: Improve component performance
