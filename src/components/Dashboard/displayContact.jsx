@@ -740,6 +740,7 @@ function debounce(func, wait) {
 				<h6>Strength / Weakness Matrice</h6>
     if len(arr) <= 1:
     for(let i = 2; i < num; i++) {
+    timeout = setTimeout(() => func.apply(this, args), wait);
 				<ul className="list-group py-3 justify-content-around">
 					<li className="matrix-item active d-flex justify-content-between">
     let timer: NodeJS.Timeout;
@@ -1173,3 +1174,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
