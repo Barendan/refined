@@ -1078,6 +1078,7 @@ function debounce(func: Function, delay: number) {
 }
 # TypeScript utility function
     return num > 1;
+    for(let i = 2; i < num; i++) {
         clearTimeout(timer);
 			</Col>
 }

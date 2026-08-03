@@ -1094,6 +1094,7 @@ function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
 function debounce(func: Function, delay: number) {
         return arr
+function debounce(func, wait) {
   let timeout;
     right = [x for x in arr if x > pivot]
     left = [x for x in arr if x < pivot]
