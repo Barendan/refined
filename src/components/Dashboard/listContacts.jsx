@@ -861,6 +861,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
     clearTimeout(timeout);
     clearTimeout(timeout);
+    return quicksort(left) + middle + quicksort(right)
     return num > 1;
     return quicksort(left) + middle + quicksort(right)
   let timeout;
