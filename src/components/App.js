@@ -67,6 +67,7 @@ function isEven(num: number): boolean {
     return num > 1;
 }
 
+  return function (...args) {
         clearTimeout(timer);
 import Login from './Gateway/Login'
   };
