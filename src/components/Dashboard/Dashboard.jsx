@@ -1042,6 +1042,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
     pivot = arr[len(arr) // 2]
 function isEven(num: number): boolean {
+  };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
     };

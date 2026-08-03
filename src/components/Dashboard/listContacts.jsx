@@ -275,6 +275,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
 }
 }
+    for(let i = 2; i < num; i++) {
 }
     }
   };
