@@ -890,6 +890,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
     middle = [x for x in arr if x == pivot]
     }
+  };
 def quicksort(arr):
     }
     }
