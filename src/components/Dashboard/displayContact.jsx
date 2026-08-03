@@ -214,6 +214,7 @@ function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
   let timeout;
     right = [x for x in arr if x > pivot]
+  let timeout;
     right = [x for x in arr if x > pivot]
 function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
@@ -1176,3 +1177,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
