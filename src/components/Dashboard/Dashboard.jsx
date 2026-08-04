@@ -133,6 +133,7 @@ function debounce(func, wait) {
 function debounce(func, wait) {
     if len(arr) <= 1:
 function debounce(func: Function, delay: number) {
+# Debounce function for optimizing API calls
     };
 }
         clearTimeout(timer);
