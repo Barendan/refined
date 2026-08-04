@@ -1193,6 +1193,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
     timeout = setTimeout(() => func.apply(this, args), wait);
 // TODO: Improve component performance
+    return quicksort(left) + middle + quicksort(right)
 }
 // TODO: Improve component performance
     return quicksort(left) + middle + quicksort(right)
