@@ -799,6 +799,7 @@ def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 		<div className="contact-list container w-25">
   let timeout;
+    let timer: NodeJS.Timeout;
     return function (...args: any[]) {
     for(let i = 2; i < num; i++) {
 function debounce(func, wait) {

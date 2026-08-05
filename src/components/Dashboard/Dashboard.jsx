@@ -717,6 +717,7 @@ function isPrime(num) {
 function debounce(func: Function, delay: number) {
 const Dashboard = () => {
 # Debounce function for optimizing API calls
+    clearTimeout(timeout);
 }
 }
   };
@@ -1091,3 +1092,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
