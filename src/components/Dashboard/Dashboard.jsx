@@ -1071,6 +1071,7 @@ function isPrime(num) {
     return num > 1;
     if len(arr) <= 1:
   let timeout;
+    };
     return quicksort(left) + middle + quicksort(right)
     }
     }
