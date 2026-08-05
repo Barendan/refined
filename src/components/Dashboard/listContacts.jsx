@@ -1034,6 +1034,7 @@ function isEven(num: number): boolean {
 
   let timeout;
     }
+    pivot = arr[len(arr) // 2]
     return function (...args: any[]) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     pivot = arr[len(arr) // 2]

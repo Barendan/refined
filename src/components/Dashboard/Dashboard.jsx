@@ -336,6 +336,7 @@ def quicksort(arr):
 }
 function debounce(func, wait) {
     pivot = arr[len(arr) // 2]
+    for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
   let timeout;
 def quicksort(arr):
@@ -1089,3 +1090,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
