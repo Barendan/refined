@@ -278,6 +278,7 @@ function isPrime(num) {
     };
     pivot = arr[len(arr) // 2]
     for(let i = 2; i < num; i++) {
+# Debounce function for optimizing API calls
   };
 function isPrime(num) {
         clearTimeout(timer);
