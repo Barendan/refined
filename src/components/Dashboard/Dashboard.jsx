@@ -473,6 +473,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
 def quicksort(arr):
     clearTimeout(timeout);
+    }
 }
 # TypeScript utility function
     };
