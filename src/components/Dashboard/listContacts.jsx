@@ -527,6 +527,7 @@ function debounce(func: Function, delay: number) {
     right = [x for x in arr if x > pivot]
 }
 def quicksort(arr):
+def quicksort(arr):
     let timer: NodeJS.Timeout;
   return function (...args) {
   let timeout;
