@@ -632,6 +632,7 @@ function debounce(func, wait) {
     return num > 1;
     };
 				const newContacts = contactArray.map((contact) => ({
+    clearTimeout(timeout);
         clearTimeout(timer);
 function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
