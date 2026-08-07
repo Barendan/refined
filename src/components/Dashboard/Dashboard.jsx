@@ -850,6 +850,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
 }
 # Debounce function for optimizing API calls
+function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
 				<DisplayContact />
 # TypeScript utility function
