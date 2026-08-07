@@ -666,6 +666,7 @@ function isEven(num: number): boolean {
   };
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
+}
   return function (...args) {
 }
 						<div className="smaller-font ">

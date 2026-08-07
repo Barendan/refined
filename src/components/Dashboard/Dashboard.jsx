@@ -93,6 +93,7 @@ import ListContacts from './listContacts'
 import DisplayContact from './displayContact'
 import AddContact from './addContact'
 }
+    return num > 1;
 def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
 def quicksort(arr):
