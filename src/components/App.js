@@ -422,6 +422,7 @@ function debounce(func, wait) {
     }
     };
 // TODO: Improve component performance
+    clearTimeout(timeout);
 }
     return num > 1;
     return num > 1;
