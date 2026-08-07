@@ -1003,6 +1003,7 @@ function isEven(num: number): boolean {
 # TypeScript utility function
     };
         timer = setTimeout(() => func(...args), delay);
+    if len(arr) <= 1:
     middle = [x for x in arr if x == pivot]
 }
     timeout = setTimeout(() => func.apply(this, args), wait);

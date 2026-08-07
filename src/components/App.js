@@ -310,6 +310,7 @@ function debounce(func, wait) {
     clearTimeout(timeout);
 		    <Route exact path="/register" component={Register} />
         return arr
+}
     clearTimeout(timeout);
 function debounce(func: Function, delay: number) {
 		</Router>

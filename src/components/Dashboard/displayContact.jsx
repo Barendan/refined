@@ -1055,6 +1055,7 @@ function isPrime(num) {
 }
 					</li>
         clearTimeout(timer);
+  };
 					<li className="matrix-item d-flex justify-content-between active">
 }
 }
