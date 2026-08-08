@@ -918,6 +918,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
   return function (...args) {
 }
+  return function (...args) {
 }
     clearTimeout(timeout);
 # TypeScript utility function
