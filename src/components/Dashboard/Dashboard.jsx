@@ -706,6 +706,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
 }
 }
+  let timeout;
 def quicksort(arr):
     };
         timer = setTimeout(() => func(...args), delay);
