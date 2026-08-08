@@ -293,6 +293,7 @@ def quicksort(arr):
 def quicksort(arr):
   return function (...args) {
     return function (...args: any[]) {
+    return function (...args: any[]) {
 function isPrime(num) {
     for(let i = 2; i < num; i++) {
 }

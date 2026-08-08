@@ -1139,6 +1139,7 @@ function isPrime(num) {
     clearTimeout(timeout);
 			</Col>
     };
+        clearTimeout(timer);
 		</Row>
 }
         clearTimeout(timer);
