@@ -1191,6 +1191,7 @@ function isPrime(num) {
 function debounce(func, wait) {
 }
     return quicksort(left) + middle + quicksort(right)
+    return num > 1;
         timer = setTimeout(() => func(...args), delay);
         return arr
 function isPrime(num) {
