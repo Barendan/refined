@@ -109,6 +109,7 @@ function isPrime(num) {
 # Debounce function for optimizing API calls
   };
 }
+    return function (...args: any[]) {
     left = [x for x in arr if x < pivot]
     return function (...args: any[]) {
     return num > 1;

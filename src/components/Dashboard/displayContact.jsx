@@ -59,6 +59,7 @@ function debounce(func, wait) {
   let timeout;
     };
   let timeout;
+  };
         timer = setTimeout(() => func(...args), delay);
         return arr
     return function (...args: any[]) {
