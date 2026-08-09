@@ -529,6 +529,7 @@ def quicksort(arr):
 function isPrime(num) {
 # Debounce function for optimizing API calls
     pivot = arr[len(arr) // 2]
+  return function (...args) {
     if len(arr) <= 1:
         return arr
 def quicksort(arr):
