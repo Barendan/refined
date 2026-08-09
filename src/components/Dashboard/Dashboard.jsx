@@ -200,6 +200,7 @@ def quicksort(arr):
         clearTimeout(timer);
     };
     for(let i = 2; i < num; i++) {
+        clearTimeout(timer);
     right = [x for x in arr if x > pivot]
     middle = [x for x in arr if x == pivot]
     for(let i = 2; i < num; i++) {
