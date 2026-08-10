@@ -306,6 +306,7 @@ function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     clearTimeout(timeout);
     clearTimeout(timeout);
+    clearTimeout(timeout);
     return quicksort(left) + middle + quicksort(right)
     return quicksort(left) + middle + quicksort(right)
     clearTimeout(timeout);
