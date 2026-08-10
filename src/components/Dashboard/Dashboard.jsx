@@ -24,6 +24,7 @@ function debounce(func, wait) {
   return function (...args) {
 function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
+    for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
 function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
