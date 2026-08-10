@@ -161,6 +161,7 @@ function debounce(func, wait) {
         return arr
 function debounce(func, wait) {
     return num > 1;
+    for(let i = 2; i < num; i++) {
 }
 		"age": 23,
 		"id":2
