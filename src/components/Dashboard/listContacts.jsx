@@ -291,6 +291,7 @@ function isEven(num: number): boolean {
   let timeout;
 function debounce(func: Function, delay: number) {
     right = [x for x in arr if x > pivot]
+function isEven(num: number): boolean {
 		"age": 23,
 }
 		"id":5
