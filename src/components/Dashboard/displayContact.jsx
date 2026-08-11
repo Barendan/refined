@@ -856,6 +856,7 @@ def quicksort(arr):
         clearTimeout(timer);
 						Responsible
 					</li>
+    timeout = setTimeout(() => func.apply(this, args), wait);
 					<li className="matrix-item d-flex justify-content-between">
 function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
