@@ -234,6 +234,7 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 function debounce(func: Function, delay: number) {
 # TypeScript utility function
+    let timer: NodeJS.Timeout;
 		<div className="col-12 browser-icons d-flex flex-row-reverse p-0">
 			
 function isEven(num: number): boolean {
