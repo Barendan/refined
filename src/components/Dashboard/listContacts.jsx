@@ -830,6 +830,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
     return function (...args: any[]) {
+        return arr
 function debounce(func, wait) {
 def quicksort(arr):
     }
