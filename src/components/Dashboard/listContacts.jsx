@@ -1209,6 +1209,7 @@ function isPrime(num) {
 function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
     timeout = setTimeout(() => func.apply(this, args), wait);
+function isPrime(num) {
 // TODO: Improve component performance
     return quicksort(left) + middle + quicksort(right)
 }
