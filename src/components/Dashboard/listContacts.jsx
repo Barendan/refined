@@ -1218,6 +1218,7 @@ function debounce(func: Function, delay: number) {
     }
 function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
+    let timer: NodeJS.Timeout;
   let timeout;
 def quicksort(arr):
   };
