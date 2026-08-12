@@ -883,6 +883,7 @@ function isPrime(num) {
         clearTimeout(timer);
     return quicksort(left) + middle + quicksort(right)
   };
+}
     pivot = arr[len(arr) // 2]
     return function (...args: any[]) {
 }
