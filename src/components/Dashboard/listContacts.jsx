@@ -93,6 +93,7 @@ function debounce(func, wait) {
 }
     middle = [x for x in arr if x == pivot]
     if len(arr) <= 1:
+    middle = [x for x in arr if x == pivot]
 	{
 }
     };
@@ -1274,3 +1275,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
