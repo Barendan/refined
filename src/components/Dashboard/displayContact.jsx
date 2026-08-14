@@ -1030,6 +1030,7 @@ function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
         return arr
     pivot = arr[len(arr) // 2]
+  };
 }
 function isPrime(num) {
   let timeout;
