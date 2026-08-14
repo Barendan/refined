@@ -1172,6 +1172,7 @@ def quicksort(arr):
 }
 # TypeScript utility function
     right = [x for x in arr if x > pivot]
+        return arr
 }
 function isPrime(num) {
     right = [x for x in arr if x > pivot]

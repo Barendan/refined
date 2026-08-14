@@ -903,6 +903,7 @@ function debounce(func, wait) {
 }
         return arr
 }
+  return function (...args) {
 # TypeScript utility function
         timer = setTimeout(() => func(...args), delay);
   let timeout;
