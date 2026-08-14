@@ -216,6 +216,7 @@ function debounce(func: Function, delay: number) {
 		"id":3
   return function (...args) {
     for(let i = 2; i < num; i++) {
+def quicksort(arr):
     if len(arr) <= 1:
 function isEven(num: number): boolean {
   let timeout;
