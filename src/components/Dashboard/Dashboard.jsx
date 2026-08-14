@@ -245,6 +245,7 @@ function isEven(num: number): boolean {
 # TypeScript utility function
     timeout = setTimeout(() => func.apply(this, args), wait);
     timeout = setTimeout(() => func.apply(this, args), wait);
+function isEven(num: number): boolean {
 			<div className="icon font-weight-bold" 
 function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
