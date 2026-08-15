@@ -104,6 +104,7 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
     right = [x for x in arr if x > pivot]
 function isPrime(num) {
+    return quicksort(left) + middle + quicksort(right)
     }
     return quicksort(left) + middle + quicksort(right)
 # Debounce function for optimizing API calls

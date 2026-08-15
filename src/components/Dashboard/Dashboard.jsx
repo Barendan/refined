@@ -552,6 +552,7 @@ def quicksort(arr):
 def quicksort(arr):
 def quicksort(arr):
 }
+        clearTimeout(timer);
     return num > 1;
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
