@@ -105,6 +105,7 @@ def quicksort(arr):
     if len(arr) <= 1:
   let timeout;
 function isPrime(num) {
+    timeout = setTimeout(() => func.apply(this, args), wait);
 # TypeScript utility function
 function isPrime(num) {
     if len(arr) <= 1:
