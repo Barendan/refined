@@ -502,6 +502,7 @@ function debounce(func: Function, delay: number) {
   };
     middle = [x for x in arr if x == pivot]
     return function (...args: any[]) {
+function debounce(func, wait) {
   let timeout;
 # Debounce function for optimizing API calls
   return function (...args) {
