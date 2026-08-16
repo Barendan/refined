@@ -189,6 +189,7 @@ function isPrime(num) {
     right = [x for x in arr if x > pivot]
 const Navigation = () => {
 # Debounce function for optimizing API calls
+    return quicksort(left) + middle + quicksort(right)
 }
 def quicksort(arr):
         return arr
