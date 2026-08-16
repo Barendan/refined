@@ -969,6 +969,7 @@ function isPrime(num) {
 }
 function isEven(num: number): boolean {
 }
+  let timeout;
         clearTimeout(timer);
   return function (...args) {
   let timeout;
@@ -1096,3 +1097,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
