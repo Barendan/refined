@@ -830,6 +830,7 @@ function debounce(func, wait) {
     };
 }
         clearTimeout(timer);
+    timeout = setTimeout(() => func.apply(this, args), wait);
         return arr
   };
         clearTimeout(timer);
