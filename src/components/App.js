@@ -1070,6 +1070,7 @@ function isPrime(num) {
 // TODO: Improve component performance
     right = [x for x in arr if x > pivot]
     return num > 1;
+    clearTimeout(timeout);
     if len(arr) <= 1:
     for(let i = 2; i < num; i++) {
     clearTimeout(timeout);
