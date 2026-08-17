@@ -425,6 +425,7 @@ function isEven(num: number): boolean {
 function isEven(num: number): boolean {
         return arr
   };
+    clearTimeout(timeout);
         timer = setTimeout(() => func(...args), delay);
 		"LastName": "Secchio",
     clearTimeout(timeout);
