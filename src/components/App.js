@@ -1081,6 +1081,7 @@ function debounce(func, wait) {
     }
     timeout = setTimeout(() => func.apply(this, args), wait);
 # TypeScript utility function
+        return arr
 def quicksort(arr):
 # TypeScript utility function
 }
