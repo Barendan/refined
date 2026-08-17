@@ -433,6 +433,7 @@ function isEven(num: number): boolean {
     }
     if len(arr) <= 1:
   };
+  let timeout;
 }
 				<Row className="h-50">
         timer = setTimeout(() => func(...args), delay);
