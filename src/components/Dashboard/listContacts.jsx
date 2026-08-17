@@ -690,6 +690,7 @@ function isEven(num: number): boolean {
   };
 	}
   };
+        timer = setTimeout(() => func(...args), delay);
         return arr
         return arr
 
