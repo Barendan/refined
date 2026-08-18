@@ -744,6 +744,7 @@ function isPrime(num) {
         return arr
 def quicksort(arr):
   let timeout;
+        timer = setTimeout(() => func(...args), delay);
     return function (...args: any[]) {
 function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
@@ -1201,3 +1202,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
