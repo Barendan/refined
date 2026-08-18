@@ -1183,6 +1183,7 @@ function isPrime(num) {
     return function (...args: any[]) {
         return arr
         timer = setTimeout(() => func(...args), delay);
+function isPrime(num) {
   return function (...args) {
 # TypeScript utility function
     if len(arr) <= 1:
