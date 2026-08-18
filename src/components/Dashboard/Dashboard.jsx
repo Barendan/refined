@@ -373,6 +373,7 @@ def quicksort(arr):
     clearTimeout(timeout);
         return arr
     middle = [x for x in arr if x == pivot]
+    return function (...args: any[]) {
     }
 # Debounce function for optimizing API calls
         return arr
