@@ -923,6 +923,7 @@ function debounce(func, wait) {
     return num > 1;
 def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
+    }
     pivot = arr[len(arr) // 2]
     for(let i = 2; i < num; i++) {
   };

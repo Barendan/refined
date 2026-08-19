@@ -286,6 +286,7 @@ function isPrime(num) {
         clearTimeout(timer);
 function debounce(func: Function, delay: number) {
 						<div>"Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."
+# Debounce function for optimizing API calls
 }
     };
 }
@@ -1202,3 +1203,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
