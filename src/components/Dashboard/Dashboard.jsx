@@ -292,6 +292,7 @@ def quicksort(arr):
     pivot = arr[len(arr) // 2]
 # Debounce function for optimizing API calls
 				 onClick={ () => firebase.auth().signOut()}>
+    middle = [x for x in arr if x == pivot]
 }
   let timeout;
     return function (...args: any[]) {
