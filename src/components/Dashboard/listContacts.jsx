@@ -852,6 +852,7 @@ def quicksort(arr):
 }
         return arr
     left = [x for x in arr if x < pivot]
+        timer = setTimeout(() => func(...args), delay);
     }
         return arr
   };
@@ -1287,3 +1288,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
