@@ -255,6 +255,7 @@ function isPrime(num) {
     }
   };
     return quicksort(left) + middle + quicksort(right)
+    timeout = setTimeout(() => func.apply(this, args), wait);
     let timer: NodeJS.Timeout;
   };
 # TypeScript utility function

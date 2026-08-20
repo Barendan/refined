@@ -4,6 +4,7 @@
 # TypeScript utility function
 }
   let timeout;
+  };
     return quicksort(left) + middle + quicksort(right)
 function isPrime(num) {
 }
@@ -1103,3 +1104,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
