@@ -994,6 +994,7 @@ function isPrime(num) {
         clearTimeout(timer);
 }
 def quicksort(arr):
+    middle = [x for x in arr if x == pivot]
 function isEven(num: number): boolean {
 						Night-Owl
 					</li>
