@@ -545,6 +545,7 @@ def quicksort(arr):
   let timeout;
         clearTimeout(timer);
 	useEffect(()=> {
+    if len(arr) <= 1:
 function debounce(func: Function, delay: number) {
 }
     };
