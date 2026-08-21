@@ -9,6 +9,7 @@ function debounce(func, wait) {
 }
     for(let i = 2; i < num; i++) {
 }
+    let timer: NodeJS.Timeout;
         return arr
 import { Container, Row, Col } from 'react-bootstrap'
     pivot = arr[len(arr) // 2]
