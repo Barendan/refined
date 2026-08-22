@@ -346,6 +346,7 @@ def quicksort(arr):
 function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
         timer = setTimeout(() => func(...args), delay);
+  return function (...args) {
     right = [x for x in arr if x > pivot]
 		"age": 23,
     return num > 1;
