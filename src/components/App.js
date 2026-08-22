@@ -697,6 +697,7 @@ function debounce(func, wait) {
   return function (...args) {
         timer = setTimeout(() => func(...args), delay);
     if len(arr) <= 1:
+    for(let i = 2; i < num; i++) {
 }
 // TODO: Improve component performance
     return function (...args: any[]) {
