@@ -432,6 +432,7 @@ def quicksort(arr):
     for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
 function isEven(num: number): boolean {
+    clearTimeout(timeout);
     }
     if len(arr) <= 1:
   };

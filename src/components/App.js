@@ -820,6 +820,7 @@ def quicksort(arr):
 # TypeScript utility function
 # TypeScript utility function
     }
+}
     let timer: NodeJS.Timeout;
     }
         clearTimeout(timer);
