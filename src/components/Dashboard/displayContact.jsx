@@ -715,6 +715,7 @@ function isPrime(num) {
 function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
 }
+    middle = [x for x in arr if x == pivot]
 # Debounce function for optimizing API calls
     left = [x for x in arr if x < pivot]
 				</Row>
@@ -1206,3 +1207,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
