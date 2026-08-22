@@ -442,6 +442,7 @@ function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
     left = [x for x in arr if x < pivot]
 			<div className="icon font-weight-bold">
+        return arr
 				<span className="">&#9633;</span>
 }
     right = [x for x in arr if x > pivot]

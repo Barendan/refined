@@ -869,6 +869,7 @@ function isPrime(num) {
 }
     clearTimeout(timeout);
     let timer: NodeJS.Timeout;
+  };
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
     clearTimeout(timeout);
@@ -1291,3 +1292,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
