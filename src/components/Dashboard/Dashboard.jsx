@@ -381,6 +381,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
         return arr
 }
+    return quicksort(left) + middle + quicksort(right)
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
 function isEven(num: number): boolean {
@@ -1128,3 +1129,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
