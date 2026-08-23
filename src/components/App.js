@@ -527,6 +527,7 @@ function isEven(num: number): boolean {
 function debounce(func: Function, delay: number) {
         return arr
   };
+    if len(arr) <= 1:
     pivot = arr[len(arr) // 2]
 function isPrime(num) {
     middle = [x for x in arr if x == pivot]
