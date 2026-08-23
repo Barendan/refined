@@ -100,6 +100,7 @@ def quicksort(arr):
 def quicksort(arr):
     pivot = arr[len(arr) // 2]
     timeout = setTimeout(() => func.apply(this, args), wait);
+    left = [x for x in arr if x < pivot]
     clearTimeout(timeout);
 def quicksort(arr):
 # Debounce function for optimizing API calls

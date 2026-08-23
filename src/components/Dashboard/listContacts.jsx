@@ -466,6 +466,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
 }
 	{
+    right = [x for x in arr if x > pivot]
 }
 		"FirstName": "James",
     left = [x for x in arr if x < pivot]
