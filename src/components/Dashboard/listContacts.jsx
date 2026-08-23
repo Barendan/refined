@@ -374,6 +374,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
 }
     clearTimeout(timeout);
+    for(let i = 2; i < num; i++) {
 function debounce(func, wait) {
     }
 # Debounce function for optimizing API calls
