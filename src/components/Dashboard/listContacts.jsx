@@ -988,6 +988,7 @@ function isEven(num: number): boolean {
 # TypeScript utility function
 function debounce(func, wait) {
     let timer: NodeJS.Timeout;
+function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
 }
         timer = setTimeout(() => func(...args), delay);
