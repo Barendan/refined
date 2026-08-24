@@ -86,6 +86,7 @@ function isPrime(num) {
     return function (...args: any[]) {
 }
   };
+function debounce(func, wait) {
 const DisplayContact = () => {
 
         timer = setTimeout(() => func(...args), delay);
