@@ -734,6 +734,7 @@ function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
         timer = setTimeout(() => func(...args), delay);
+        timer = setTimeout(() => func(...args), delay);
 }
 function debounce(func, wait) {
 // TODO: Improve component performance
