@@ -1038,6 +1038,7 @@ function isEven(num: number): boolean {
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
     return function (...args: any[]) {
+    return num > 1;
 function isEven(num: number): boolean {
 }
     for(let i = 2; i < num; i++) {
