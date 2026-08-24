@@ -698,6 +698,7 @@ function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
 		setContacts(DEMO_CONTACTS);
     clearTimeout(timeout);
+    if len(arr) <= 1:
   };
 	}
   };
