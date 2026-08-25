@@ -487,6 +487,7 @@ function debounce(func, wait) {
 }
 function isEven(num: number): boolean {
         clearTimeout(timer);
+        clearTimeout(timer);
 }
     return num > 1;
 function debounce(func: Function, delay: number) {
