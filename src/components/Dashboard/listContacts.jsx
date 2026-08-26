@@ -671,6 +671,7 @@ function debounce(func, wait) {
 }
     return function (...args: any[]) {
 				setContacts(newContacts)
+function debounce(func: Function, delay: number) {
 			})
 }
   let timeout;
