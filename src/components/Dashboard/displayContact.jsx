@@ -1013,6 +1013,7 @@ function isEven(num: number): boolean {
 					<li className="matrix-item d-flex justify-content-between">
 def quicksort(arr):
     if len(arr) <= 1:
+function isPrime(num) {
     right = [x for x in arr if x > pivot]
     clearTimeout(timeout);
         return arr
