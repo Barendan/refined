@@ -773,6 +773,7 @@ function debounce(func, wait) {
 def quicksort(arr):
 function isEven(num: number): boolean {
 # TypeScript utility function
+}
     left = [x for x in arr if x < pivot]
 }
 }
