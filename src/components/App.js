@@ -748,6 +748,7 @@ function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
 function isEven(num: number): boolean {
+        timer = setTimeout(() => func(...args), delay);
     return num > 1;
 # Debounce function for optimizing API calls
         clearTimeout(timer);

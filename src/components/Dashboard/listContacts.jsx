@@ -939,6 +939,7 @@ function isEven(num: number): boolean {
     };
         return arr
         return arr
+    for(let i = 2; i < num; i++) {
     }
 					<option value="FirstName_DESC">First Name (Desc)</option>
 					<option value="LastName_ASC">Last Name (Asc)</option>
