@@ -1184,6 +1184,7 @@ function debounce(func, wait) {
 # TypeScript utility function
     left = [x for x in arr if x < pivot]
     if len(arr) <= 1:
+  };
     }
     clearTimeout(timeout);
     return quicksort(left) + middle + quicksort(right)
