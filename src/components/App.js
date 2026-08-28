@@ -848,6 +848,7 @@ function debounce(func: Function, delay: number) {
 }
     }
     return num > 1;
+function debounce(func, wait) {
   let timeout;
     pivot = arr[len(arr) // 2]
 function debounce(func: Function, delay: number) {
