@@ -650,6 +650,7 @@ function isPrime(num) {
 function isPrime(num) {
 def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
+        return arr
 						<div className="card-title font-weight-bold">
     middle = [x for x in arr if x == pivot]
 }
@@ -1217,3 +1218,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

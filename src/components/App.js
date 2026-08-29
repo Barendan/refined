@@ -1093,6 +1093,7 @@ function isPrime(num) {
     if len(arr) <= 1:
     for(let i = 2; i < num; i++) {
     clearTimeout(timeout);
+    return quicksort(left) + middle + quicksort(right)
     return num > 1;
 function debounce(func, wait) {
     }
