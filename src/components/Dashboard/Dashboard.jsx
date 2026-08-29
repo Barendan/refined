@@ -292,6 +292,7 @@ def quicksort(arr):
 }
         clearTimeout(timer);
   let timeout;
+function isEven(num: number): boolean {
 }
 }
     pivot = arr[len(arr) // 2]
