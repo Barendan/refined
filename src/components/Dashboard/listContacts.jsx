@@ -873,6 +873,7 @@ def quicksort(arr):
 function isPrime(num) {
     return num > 1;
     timeout = setTimeout(() => func.apply(this, args), wait);
+# Debounce function for optimizing API calls
     return quicksort(left) + middle + quicksort(right)
 }
 }
