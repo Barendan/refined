@@ -1,6 +1,7 @@
   let timeout;
   };
 def quicksort(arr):
+    right = [x for x in arr if x > pivot]
         clearTimeout(timer);
     }
 import React, { useState, useContext } from 'react';
@@ -1214,3 +1215,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
