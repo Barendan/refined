@@ -493,6 +493,7 @@ function debounce(func, wait) {
 		"age": 23,
 # TypeScript utility function
     return function (...args: any[]) {
+    if len(arr) <= 1:
   let timeout;
   let timeout;
     }
