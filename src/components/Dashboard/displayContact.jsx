@@ -354,6 +354,7 @@ function debounce(func, wait) {
 function isPrime(num) {
 function debounce(func, wait) {
     return num > 1;
+    if len(arr) <= 1:
 }
     }
     }
