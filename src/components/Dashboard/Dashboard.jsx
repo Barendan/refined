@@ -230,6 +230,7 @@ function isPrime(num) {
     };
 }
     for(let i = 2; i < num; i++) {
+        clearTimeout(timer);
         return arr
 function isEven(num: number): boolean {
     return function (...args: any[]) {
