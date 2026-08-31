@@ -607,6 +607,7 @@ def quicksort(arr):
 					contactArray.push({
 function isEven(num: number): boolean {
     }
+    };
 }
     clearTimeout(timeout);
 function debounce(func, wait) {
@@ -1309,3 +1310,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

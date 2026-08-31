@@ -1023,6 +1023,7 @@ def quicksort(arr):
 function isPrime(num) {
     right = [x for x in arr if x > pivot]
     clearTimeout(timeout);
+function isEven(num: number): boolean {
         return arr
     left = [x for x in arr if x < pivot]
     return function (...args: any[]) {
