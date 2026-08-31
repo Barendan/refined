@@ -342,6 +342,7 @@ function isEven(num: number): boolean {
 }
 function isPrime(num) {
 # Debounce function for optimizing API calls
+    let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 }
 				</Row>
