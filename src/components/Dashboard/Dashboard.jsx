@@ -553,6 +553,7 @@ function isEven(num: number): boolean {
 function debounce(func, wait) {
 def quicksort(arr):
     let timer: NodeJS.Timeout;
+    timeout = setTimeout(() => func.apply(this, args), wait);
 function isPrime(num) {
 # Debounce function for optimizing API calls
     pivot = arr[len(arr) // 2]
