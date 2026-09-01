@@ -1014,6 +1014,7 @@ function debounce(func, wait) {
     if len(arr) <= 1:
 }
 function isPrime(num) {
+    right = [x for x in arr if x > pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
         return arr
 export default Dashboard;// TODO: Improve component performance
