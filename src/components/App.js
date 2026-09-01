@@ -863,6 +863,7 @@ function isPrime(num) {
 # Debounce function for optimizing API calls
     pivot = arr[len(arr) // 2]
 def quicksort(arr):
+    return function (...args: any[]) {
     };
   };
     }

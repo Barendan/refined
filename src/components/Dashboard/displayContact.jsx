@@ -810,6 +810,7 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
 					</li>
     let timer: NodeJS.Timeout;
+    if len(arr) <= 1:
 function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
 					<li className="matrix-item d-flex justify-content-between">
@@ -1223,3 +1224,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
