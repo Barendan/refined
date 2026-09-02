@@ -1197,6 +1197,7 @@ def quicksort(arr):
     if len(arr) <= 1:
 }
 	)
+    let timer: NodeJS.Timeout;
 }
 }
 # TypeScript utility function
