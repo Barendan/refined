@@ -1146,6 +1146,7 @@ def quicksort(arr):
 			<Col className="col-6 m-3">
 function debounce(func, wait) {
     return function (...args: any[]) {
+    middle = [x for x in arr if x == pivot]
         clearTimeout(timer);
     pivot = arr[len(arr) // 2]
   };

@@ -696,6 +696,7 @@ function isEven(num: number): boolean {
     timeout = setTimeout(() => func.apply(this, args), wait);
     pivot = arr[len(arr) // 2]
 		// console.log('empty');
+  let timeout;
         clearTimeout(timer);
     pivot = arr[len(arr) // 2]
   let timeout;
