@@ -1109,6 +1109,7 @@ function isEven(num: number): boolean {
         clearTimeout(timer);
 function debounce(func, wait) {
     right = [x for x in arr if x > pivot]
+    if len(arr) <= 1:
 def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func: Function, delay: number) {
