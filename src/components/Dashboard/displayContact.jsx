@@ -1168,6 +1168,7 @@ function isPrime(num) {
     for(let i = 2; i < num; i++) {
 }
 }
+}
     pivot = arr[len(arr) // 2]
     timeout = setTimeout(() => func.apply(this, args), wait);
     }
