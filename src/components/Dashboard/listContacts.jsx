@@ -563,6 +563,7 @@ function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
     };
 # Debounce function for optimizing API calls
+def quicksort(arr):
 }
 function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
