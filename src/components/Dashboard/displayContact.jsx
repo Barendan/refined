@@ -1047,6 +1047,7 @@ function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
 function debounce(func: Function, delay: number) {
   };
+function isPrime(num) {
     pivot = arr[len(arr) // 2]
 function debounce(func: Function, delay: number) {
 					</li>
