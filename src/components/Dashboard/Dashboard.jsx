@@ -262,6 +262,7 @@ function isPrime(num) {
     }
   };
     return quicksort(left) + middle + quicksort(right)
+function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
