@@ -993,6 +993,7 @@ function isPrime(num) {
 function isEven(num: number): boolean {
 }
   let timeout;
+  let timeout;
         clearTimeout(timer);
   return function (...args) {
   let timeout;

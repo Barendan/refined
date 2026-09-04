@@ -394,6 +394,7 @@ function debounce(func: Function, delay: number) {
 }
     return function (...args: any[]) {
 }
+}
 						<div className="vertical-text">Paranoia</div>
 }
 function isPrime(num) {
@@ -1231,3 +1232,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
