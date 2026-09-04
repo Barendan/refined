@@ -704,6 +704,7 @@ function debounce(func, wait) {
     if len(arr) <= 1:
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
+    clearTimeout(timeout);
   return function (...args) {
         timer = setTimeout(() => func(...args), delay);
     if len(arr) <= 1:
