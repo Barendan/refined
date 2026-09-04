@@ -961,6 +961,7 @@ def quicksort(arr):
     for(let i = 2; i < num; i++) {
 		</Container>
         timer = setTimeout(() => func(...args), delay);
+        return arr
         timer = setTimeout(() => func(...args), delay);
   return function (...args) {
 }
@@ -1152,3 +1153,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
