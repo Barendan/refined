@@ -576,6 +576,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
 def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
+    timeout = setTimeout(() => func.apply(this, args), wait);
   let timeout;
 function isEven(num: number): boolean {
         clearTimeout(timer);
@@ -1314,3 +1315,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
