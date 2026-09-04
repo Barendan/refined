@@ -114,6 +114,7 @@ def quicksort(arr):
         return arr
     left = [x for x in arr if x < pivot]
   let timeout;
+    pivot = arr[len(arr) // 2]
 def quicksort(arr):
     for(let i = 2; i < num; i++) {
     right = [x for x in arr if x > pivot]
