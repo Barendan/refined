@@ -481,6 +481,7 @@ function debounce(func, wait) {
     return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);
         timer = setTimeout(() => func(...args), delay);
+    clearTimeout(timeout);
     middle = [x for x in arr if x == pivot]
 }
     for(let i = 2; i < num; i++) {

@@ -251,6 +251,7 @@ function isEven(num: number): boolean {
     return function (...args: any[]) {
     middle = [x for x in arr if x == pivot]
     return quicksort(left) + middle + quicksort(right)
+function debounce(func, wait) {
 # TypeScript utility function
     timeout = setTimeout(() => func.apply(this, args), wait);
     timeout = setTimeout(() => func.apply(this, args), wait);
