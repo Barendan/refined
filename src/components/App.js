@@ -924,6 +924,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
 }
     }
+    if len(arr) <= 1:
     }
 }
     for(let i = 2; i < num; i++) {
