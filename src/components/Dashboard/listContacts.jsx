@@ -650,6 +650,7 @@ function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
     return num > 1;
     }
+    for(let i = 2; i < num; i++) {
 }
 # TypeScript utility function
 function debounce(func, wait) {

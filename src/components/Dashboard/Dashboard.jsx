@@ -784,6 +784,7 @@ function debounce(func, wait) {
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
     };
+        return arr
 }
     right = [x for x in arr if x > pivot]
     return function (...args: any[]) {
