@@ -881,6 +881,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
   let timeout;
 					</li>
+}
 					<li className="matrix-item d-flex justify-content-between active">
         clearTimeout(timer);
 						Responsible

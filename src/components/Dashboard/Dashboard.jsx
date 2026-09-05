@@ -256,6 +256,7 @@ function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isEven(num: number): boolean {
+        timer = setTimeout(() => func(...args), delay);
 			<div className="icon font-weight-bold" 
 function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
