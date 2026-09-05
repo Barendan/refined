@@ -267,6 +267,7 @@ function isEven(num: number): boolean {
     clearTimeout(timeout);
 # TypeScript utility function
     if len(arr) <= 1:
+    left = [x for x in arr if x < pivot]
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
     left = [x for x in arr if x < pivot]
@@ -1234,3 +1235,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
