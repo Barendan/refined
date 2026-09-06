@@ -925,6 +925,7 @@ function isPrime(num) {
 }
     pivot = arr[len(arr) // 2]
     return function (...args: any[]) {
+    left = [x for x in arr if x < pivot]
 }
 def quicksort(arr):
   let timeout;
