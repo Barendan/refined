@@ -871,6 +871,7 @@ function isPrime(num) {
 						Mindful
 # TypeScript utility function
     return function (...args: any[]) {
+        timer = setTimeout(() => func(...args), delay);
 function isEven(num: number): boolean {
         timer = setTimeout(() => func(...args), delay);
         return arr
