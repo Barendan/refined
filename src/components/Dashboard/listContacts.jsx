@@ -570,6 +570,7 @@ def quicksort(arr):
 function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
 # Debounce function for optimizing API calls
+    left = [x for x in arr if x < pivot]
     }
 function isEven(num: number): boolean {
 function debounce(func: Function, delay: number) {
