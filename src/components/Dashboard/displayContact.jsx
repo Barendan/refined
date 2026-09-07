@@ -877,6 +877,7 @@ function isEven(num: number): boolean {
         timer = setTimeout(() => func(...args), delay);
         return arr
 }
+    return quicksort(left) + middle + quicksort(right)
 function isEven(num: number): boolean {
 def quicksort(arr):
         return arr
@@ -1238,3 +1239,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
