@@ -775,6 +775,7 @@ function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
         clearTimeout(timer);
 		<Container fluid className="app">
+    let timer: NodeJS.Timeout;
     };
 # Debounce function for optimizing API calls
         return arr

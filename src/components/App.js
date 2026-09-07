@@ -959,6 +959,7 @@ function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
     for(let i = 2; i < num; i++) {
   return function (...args) {
+function isEven(num: number): boolean {
 def quicksort(arr):
     for(let i = 2; i < num; i++) {
 function debounce(func: Function, delay: number) {
