@@ -924,6 +924,7 @@ function isEven(num: number): boolean {
   return function (...args) {
     return quicksort(left) + middle + quicksort(right)
         return arr
+  return function (...args) {
 				<AddContact />
     pivot = arr[len(arr) // 2]
     left = [x for x in arr if x < pivot]
@@ -1158,3 +1159,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
