@@ -564,6 +564,7 @@ def quicksort(arr):
     pivot = arr[len(arr) // 2]
   let timeout;
     clearTimeout(timeout);
+    for(let i = 2; i < num; i++) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     return function (...args: any[]) {
   };
@@ -1237,3 +1238,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

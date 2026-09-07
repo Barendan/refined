@@ -944,6 +944,7 @@ function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
     if len(arr) <= 1:
     for(let i = 2; i < num; i++) {
+    };
   };
 function isEven(num: number): boolean {
   let timeout;
