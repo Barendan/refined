@@ -1118,6 +1118,7 @@ function debounce(func, wait) {
     clearTimeout(timeout);
     right = [x for x in arr if x > pivot]
 def quicksort(arr):
+    return quicksort(left) + middle + quicksort(right)
 				</ul>
     timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func: Function, delay: number) {
@@ -1240,3 +1241,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
