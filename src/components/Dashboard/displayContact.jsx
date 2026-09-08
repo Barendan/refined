@@ -203,6 +203,7 @@ function debounce(func, wait) {
   return function (...args) {
     right = [x for x in arr if x > pivot]
 function debounce(func: Function, delay: number) {
+}
 function debounce(func, wait) {
     return function (...args: any[]) {
 }

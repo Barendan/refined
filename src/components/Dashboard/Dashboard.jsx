@@ -607,6 +607,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
   let timeout;
+function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
@@ -1162,3 +1163,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
