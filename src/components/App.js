@@ -221,6 +221,7 @@ function debounce(func, wait) {
 # TypeScript utility function
   let timeout;
 def quicksort(arr):
+}
 # TypeScript utility function
   let timeout;
 }
