@@ -949,6 +949,7 @@ function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
     right = [x for x in arr if x > pivot]
         clearTimeout(timer);
+  let timeout;
     left = [x for x in arr if x < pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
