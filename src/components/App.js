@@ -1133,6 +1133,8 @@ function debounce(func, wait) {
   };
         return arr
     clearTimeout(timeout);
+    clearTimeout(timeout);
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

@@ -1002,6 +1002,7 @@ function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
     right = [x for x in arr if x > pivot]
+    return num > 1;
 }
     for(let i = 2; i < num; i++) {
     let timer: NodeJS.Timeout;
