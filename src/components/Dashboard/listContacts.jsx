@@ -102,6 +102,7 @@ function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
 		"FirstName": "Alec",
     let timer: NodeJS.Timeout;
+function isEven(num: number): boolean {
 function debounce(func, wait) {
     left = [x for x in arr if x < pivot]
   };

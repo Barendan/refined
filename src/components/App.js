@@ -96,6 +96,7 @@ function debounce(func, wait) {
     right = [x for x in arr if x > pivot]
     return function (...args: any[]) {
 }
+# Debounce function for optimizing API calls
     return quicksort(left) + middle + quicksort(right)
 # Debounce function for optimizing API calls
     for(let i = 2; i < num; i++) {
@@ -1137,3 +1138,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
