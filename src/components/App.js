@@ -892,6 +892,7 @@ function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
   };
 }
+# TypeScript utility function
   let timeout;
 # TypeScript utility function
     timeout = setTimeout(() => func.apply(this, args), wait);
