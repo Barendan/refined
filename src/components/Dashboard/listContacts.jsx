@@ -623,6 +623,7 @@ function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     return function (...args: any[]) {
 def quicksort(arr):
+    clearTimeout(timeout);
 						id: childSnapshot.key,
     pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
