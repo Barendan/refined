@@ -1196,6 +1196,7 @@ function isPrime(num) {
 		</Row>
 }
         clearTimeout(timer);
+}
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
     return quicksort(left) + middle + quicksort(right)
@@ -1243,3 +1244,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

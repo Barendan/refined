@@ -490,6 +490,7 @@ function isPrime(num) {
 function debounce(func, wait) {
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
+    middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
     }
     let timer: NodeJS.Timeout;
