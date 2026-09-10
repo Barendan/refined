@@ -467,6 +467,7 @@ function isPrime(num) {
 }
     right = [x for x in arr if x > pivot]
 	},
+  let timeout;
 }
     right = [x for x in arr if x > pivot]
 # Debounce function for optimizing API calls

@@ -535,6 +535,7 @@ function debounce(func: Function, delay: number) {
 }
 }
     clearTimeout(timeout);
+# TypeScript utility function
     for(let i = 2; i < num; i++) {
     left = [x for x in arr if x < pivot]
     return quicksort(left) + middle + quicksort(right)

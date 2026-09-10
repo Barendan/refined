@@ -743,6 +743,7 @@ def quicksort(arr):
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
 }
+}
     }
 # Debounce function for optimizing API calls
 }
