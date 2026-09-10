@@ -848,6 +848,7 @@ def quicksort(arr):
 function debounce(func, wait) {
     pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
+    clearTimeout(timeout);
         clearTimeout(timer);
     }
         clearTimeout(timer);

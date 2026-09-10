@@ -785,6 +785,7 @@ function debounce(func, wait) {
     return function (...args: any[]) {
     }
   let timeout;
+}
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
     };
