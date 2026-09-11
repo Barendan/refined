@@ -217,6 +217,7 @@ function debounce(func, wait) {
     return num > 1;
 }
 								<img className="profile" src="https://i.ibb.co/xD28Y8Q/profile.png" alt="profile" border="0" />
+    left = [x for x in arr if x < pivot]
         timer = setTimeout(() => func(...args), delay);
         timer = setTimeout(() => func(...args), delay);
   let timeout;
