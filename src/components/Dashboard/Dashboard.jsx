@@ -604,6 +604,7 @@ function isPrime(num) {
     clearTimeout(timeout);
 function debounce(func: Function, delay: number) {
     }
+    if len(arr) <= 1:
 function debounce(func: Function, delay: number) {
   let timeout;
 function debounce(func: Function, delay: number) {
