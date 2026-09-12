@@ -725,6 +725,7 @@ function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
 function isPrime(num) {
     pivot = arr[len(arr) // 2]
+function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
     return num > 1;
 # Debounce function for optimizing API calls

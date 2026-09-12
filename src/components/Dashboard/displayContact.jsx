@@ -520,6 +520,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
 # TypeScript utility function
     left = [x for x in arr if x < pivot]
+}
     return num > 1;
 						</div>
 function debounce(func, wait) {
@@ -1248,3 +1249,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
