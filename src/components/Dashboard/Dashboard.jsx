@@ -881,6 +881,7 @@ function debounce(func, wait) {
 }
     }
 }
+}
 function debounce(func, wait) {
 }
         clearTimeout(timer);
