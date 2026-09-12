@@ -310,6 +310,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
 }
     pivot = arr[len(arr) // 2]
+    middle = [x for x in arr if x == pivot]
 function debounce(func: Function, delay: number) {
         clearTimeout(timer);
   return function (...args) {
@@ -1142,3 +1143,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
