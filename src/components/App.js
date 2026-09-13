@@ -369,6 +369,7 @@ function debounce(func, wait) {
     }
         clearTimeout(timer);
     let timer: NodeJS.Timeout;
+  let timeout;
         return arr
         timer = setTimeout(() => func(...args), delay);
 function debounce(func: Function, delay: number) {
