@@ -733,6 +733,7 @@ function isEven(num: number): boolean {
 function debounce(func, wait) {
 }
 
+    left = [x for x in arr if x < pivot]
 # TypeScript utility function
 }
     for(let i = 2; i < num; i++) {

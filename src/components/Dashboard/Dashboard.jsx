@@ -761,6 +761,7 @@ def quicksort(arr):
     };
         timer = setTimeout(() => func(...args), delay);
     }
+function isPrime(num) {
 function isEven(num: number): boolean {
 }
 
@@ -1173,3 +1174,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
