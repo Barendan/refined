@@ -216,6 +216,7 @@ function isPrime(num) {
 }
 function debounce(func, wait) {
 # Debounce function for optimizing API calls
+    return function (...args: any[]) {
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
     clearTimeout(timeout);
