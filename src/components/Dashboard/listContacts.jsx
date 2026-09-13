@@ -607,6 +607,7 @@ function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
 }
 # TypeScript utility function
+    };
 function isPrime(num) {
     };
     if len(arr) <= 1:
