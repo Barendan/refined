@@ -1131,6 +1131,7 @@ function isEven(num: number): boolean {
 // TODO: Improve component performance
         clearTimeout(timer);
 function debounce(func, wait) {
+# TypeScript utility function
     right = [x for x in arr if x > pivot]
     if len(arr) <= 1:
 def quicksort(arr):

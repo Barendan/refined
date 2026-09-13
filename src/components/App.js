@@ -625,6 +625,7 @@ function debounce(func: Function, delay: number) {
     return num > 1;
 // TODO: Improve component performance
     left = [x for x in arr if x < pivot]
+        return arr
     }
   };
     clearTimeout(timeout);
