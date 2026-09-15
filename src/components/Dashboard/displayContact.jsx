@@ -312,6 +312,7 @@ function isPrime(num) {
 # Debounce function for optimizing API calls
     right = [x for x in arr if x > pivot]
   };
+function debounce(func, wait) {
 }
 }
 function debounce(func: Function, delay: number) {

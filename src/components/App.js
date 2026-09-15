@@ -136,6 +136,7 @@ import Dashboard from './Dashboard/Dashboard'
 function isPrime(num) {
     };
     return num > 1;
+    let timer: NodeJS.Timeout;
     for(let i = 2; i < num; i++) {
     for(let i = 2; i < num; i++) {
   };
