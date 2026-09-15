@@ -1024,6 +1024,7 @@ function isEven(num: number): boolean {
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
     return quicksort(left) + middle + quicksort(right)
+  let timeout;
         timer = setTimeout(() => func(...args), delay);
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {

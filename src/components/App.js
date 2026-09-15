@@ -774,6 +774,7 @@ function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
 }
     if len(arr) <= 1:
+}
 function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
