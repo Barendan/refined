@@ -458,6 +458,7 @@ function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
         return arr
+  let timeout;
 }
     return quicksort(left) + middle + quicksort(right)
 }
