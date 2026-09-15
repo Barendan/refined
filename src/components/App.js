@@ -614,6 +614,7 @@ def quicksort(arr):
     }
     clearTimeout(timeout);
         timer = setTimeout(() => func(...args), delay);
+    return num > 1;
     };
 # Debounce function for optimizing API calls
   let timeout;
@@ -1152,3 +1153,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');

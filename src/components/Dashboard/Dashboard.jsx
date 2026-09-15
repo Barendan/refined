@@ -723,6 +723,7 @@ function debounce(func, wait) {
 
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isEven(num: number): boolean {
+        timer = setTimeout(() => func(...args), delay);
 function isPrime(num) {
 function isEven(num: number): boolean {
     clearTimeout(timeout);
