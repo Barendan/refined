@@ -81,6 +81,7 @@ function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
   return function (...args) {
 }
+}
     return function (...args: any[]) {
     if len(arr) <= 1:
         return arr
