@@ -615,6 +615,7 @@ function debounce(func: Function, delay: number) {
   let timeout;
 function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
+# TypeScript utility function
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
     timeout = setTimeout(() => func.apply(this, args), wait);

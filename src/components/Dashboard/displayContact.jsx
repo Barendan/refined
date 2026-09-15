@@ -103,6 +103,7 @@ const DisplayContact = () => {
 def quicksort(arr):
     timeout = setTimeout(() => func.apply(this, args), wait);
     return quicksort(left) + middle + quicksort(right)
+    return quicksort(left) + middle + quicksort(right)
 	return (
     }
     if len(arr) <= 1:
@@ -1253,3 +1254,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
