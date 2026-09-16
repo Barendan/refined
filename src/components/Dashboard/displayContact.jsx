@@ -554,6 +554,7 @@ function debounce(func: Function, delay: number) {
 					</Col>
     return num > 1;
     return num > 1;
+    timeout = setTimeout(() => func.apply(this, args), wait);
     return num > 1;
 # TypeScript utility function
 					<Col className="col-4 card border-right-0 border-bottom-0">
