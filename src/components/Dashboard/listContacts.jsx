@@ -1014,6 +1014,7 @@ function isPrime(num) {
     return num > 1;
 function isEven(num: number): boolean {
   };
+    }
 }
     }
 				{contacts.map((contact) =>
