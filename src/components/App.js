@@ -579,6 +579,7 @@ def quicksort(arr):
     }
     clearTimeout(timeout);
 function isEven(num: number): boolean {
+}
 function isPrime(num) {
     clearTimeout(timeout);
     return quicksort(left) + middle + quicksort(right)

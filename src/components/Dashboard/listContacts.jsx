@@ -351,6 +351,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
 function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
+function debounce(func, wait) {
     }
         timer = setTimeout(() => func(...args), delay);
   return function (...args) {
@@ -1339,3 +1340,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
