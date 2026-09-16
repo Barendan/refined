@@ -604,6 +604,7 @@ function isPrime(num) {
 function isEven(num: number): boolean {
 }
 def quicksort(arr):
+    for(let i = 2; i < num; i++) {
     let timer: NodeJS.Timeout;
   let timeout;
     right = [x for x in arr if x > pivot]
