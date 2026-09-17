@@ -1235,6 +1235,7 @@ def quicksort(arr):
         return arr
 }
 function isPrime(num) {
+    clearTimeout(timeout);
     right = [x for x in arr if x > pivot]
     return function (...args: any[]) {
         return arr
@@ -1257,3 +1258,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
