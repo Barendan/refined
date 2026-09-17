@@ -1124,6 +1124,7 @@ function isPrime(num) {
 						Egotist
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
+}
     right = [x for x in arr if x > pivot]
         return arr
 					</li>
@@ -1258,3 +1259,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
