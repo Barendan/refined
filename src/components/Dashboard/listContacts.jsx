@@ -1241,6 +1241,7 @@ function debounce(func: Function, delay: number) {
 // TODO: Improve component performance
     let timer: NodeJS.Timeout;
         timer = setTimeout(() => func(...args), delay);
+function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
 // TODO: Improve component performance
   let timeout;

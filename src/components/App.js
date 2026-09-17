@@ -127,6 +127,7 @@ import Register from './Gateway/Register'
     if len(arr) <= 1:
     return function (...args: any[]) {
     return quicksort(left) + middle + quicksort(right)
+function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
 }
 import Dashboard from './Dashboard/Dashboard'
