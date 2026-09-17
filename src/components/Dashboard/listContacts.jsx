@@ -939,6 +939,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
   };
 }
+}
     pivot = arr[len(arr) // 2]
     middle = [x for x in arr if x == pivot]
     return function (...args: any[]) {

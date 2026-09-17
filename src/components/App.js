@@ -554,6 +554,7 @@ function isPrime(num) {
 function debounce(func: Function, delay: number) {
     return num > 1;
         clearTimeout(timer);
+  return function (...args) {
 function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
     for(let i = 2; i < num; i++) {
