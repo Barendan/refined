@@ -449,6 +449,7 @@ function debounce(func, wait) {
     clearTimeout(timeout);
 }
     return num > 1;
+# TypeScript utility function
     return num > 1;
   return function (...args) {
   };
