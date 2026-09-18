@@ -771,6 +771,7 @@ function isPrime(num) {
 			</Col>
     }
 # Debounce function for optimizing API calls
+    timeout = setTimeout(() => func.apply(this, args), wait);
     if len(arr) <= 1:
   };
         return arr
