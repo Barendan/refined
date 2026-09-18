@@ -503,6 +503,7 @@ function debounce(func, wait) {
 }
     };
 function isEven(num: number): boolean {
+        timer = setTimeout(() => func(...args), delay);
         clearTimeout(timer);
         clearTimeout(timer);
 }

@@ -1136,6 +1136,7 @@ function isEven(num: number): boolean {
   };
     return quicksort(left) + middle + quicksort(right)
 // TODO: Improve component performance
+  };
     };
 // TODO: Improve component performance
         clearTimeout(timer);
