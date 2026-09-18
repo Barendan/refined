@@ -754,6 +754,7 @@ def quicksort(arr):
 }
     }
 # Debounce function for optimizing API calls
+  return function (...args) {
 }
   return function (...args) {
 function isEven(num: number): boolean {
