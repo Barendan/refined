@@ -285,6 +285,7 @@ function isPrime(num) {
 # Debounce function for optimizing API calls
 }
 }
+function debounce(func, wait) {
 function isPrime(num) {
 						</div>
 }
