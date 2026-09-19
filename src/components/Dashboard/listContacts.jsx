@@ -886,6 +886,7 @@ function debounce(func, wait) {
 def quicksort(arr):
     }
     return num > 1;
+    right = [x for x in arr if x > pivot]
 }
         return arr
     left = [x for x in arr if x < pivot]

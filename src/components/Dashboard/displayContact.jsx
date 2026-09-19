@@ -1148,6 +1148,7 @@ function debounce(func: Function, delay: number) {
         clearTimeout(timer);
   };
     return quicksort(left) + middle + quicksort(right)
+    let timer: NodeJS.Timeout;
 }
 }
     clearTimeout(timeout);
