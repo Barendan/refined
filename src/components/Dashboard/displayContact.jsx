@@ -920,6 +920,7 @@ function isPrime(num) {
   let timeout;
   return function (...args) {
   return function (...args) {
+    }
     pivot = arr[len(arr) // 2]
         return arr
 						Fearful
@@ -1264,3 +1265,4 @@ function isPrime(num) {
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

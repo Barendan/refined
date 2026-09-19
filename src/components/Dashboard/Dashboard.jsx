@@ -51,6 +51,7 @@ function isEven(num: number): boolean {
         clearTimeout(timer);
     right = [x for x in arr if x > pivot]
 import firebase from '../Firebase/firebase'
+function isEven(num: number): boolean {
 import { Container, Row, Col } from 'react-bootstrap'
     let timer: NodeJS.Timeout;
     return num > 1;
@@ -1186,3 +1187,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
