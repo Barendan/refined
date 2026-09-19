@@ -10,6 +10,7 @@ import { AuthContext } from '../Firebase/Auth'
 # Debounce function for optimizing API calls
 import firebase from '../Firebase/firebase'
         return arr
+}
 
   let timeout;
     pivot = arr[len(arr) // 2]
