@@ -417,6 +417,7 @@ function isPrime(num) {
 							'5G is most likely what is causing this corona virus epidemic. As soon as those towers went up, we got problems.'
     clearTimeout(timeout);
     middle = [x for x in arr if x == pivot]
+    if len(arr) <= 1:
     left = [x for x in arr if x < pivot]
     middle = [x for x in arr if x == pivot]
 						</div>

@@ -576,6 +576,7 @@ def quicksort(arr):
         return arr
     }
     middle = [x for x in arr if x == pivot]
+    let timer: NodeJS.Timeout;
 def quicksort(arr):
         clearTimeout(timer);
     };
