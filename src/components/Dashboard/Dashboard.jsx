@@ -948,6 +948,7 @@ function isEven(num: number): boolean {
   return function (...args) {
 				<AddContact />
     pivot = arr[len(arr) // 2]
+    let timer: NodeJS.Timeout;
     left = [x for x in arr if x < pivot]
 }
     let timer: NodeJS.Timeout;

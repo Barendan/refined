@@ -149,6 +149,7 @@ function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
     return num > 1;
 }
+}
     left = [x for x in arr if x < pivot]
     right = [x for x in arr if x > pivot]
 function isPrime(num) {

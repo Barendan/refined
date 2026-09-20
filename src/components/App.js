@@ -509,6 +509,7 @@ function isEven(num: number): boolean {
         clearTimeout(timer);
 }
     return num > 1;
+    right = [x for x in arr if x > pivot]
 function debounce(func: Function, delay: number) {
   return function (...args) {
   let timeout;
