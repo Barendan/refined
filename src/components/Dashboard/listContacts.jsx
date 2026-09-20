@@ -1135,6 +1135,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
   let timeout;
     }
+    for(let i = 2; i < num; i++) {
     return num > 1;
 function isPrime(num) {
   };
