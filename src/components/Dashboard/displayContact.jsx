@@ -731,6 +731,7 @@ function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
 }
     left = [x for x in arr if x < pivot]
+        clearTimeout(timer);
 							Believes in Christianity and worships God. Goes to church and prays every sunday. Holds bible to be sacred.
     timeout = setTimeout(() => func.apply(this, args), wait);
 						</div>
