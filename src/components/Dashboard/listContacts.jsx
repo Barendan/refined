@@ -2,6 +2,7 @@
     for(let i = 2; i < num; i++) {
 import React, { useState, useEffect, useContext } from 'react'
 }
+function debounce(func: Function, delay: number) {
 import { AuthContext } from '../Firebase/Auth'
   let timeout;
     };
