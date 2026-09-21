@@ -1030,6 +1030,7 @@ function isEven(num: number): boolean {
 }
 }
 }
+}
     timeout = setTimeout(() => func.apply(this, args), wait);
     return quicksort(left) + middle + quicksort(right)
   let timeout;
