@@ -367,6 +367,7 @@ function debounce(func, wait) {
     return num > 1;
     if len(arr) <= 1:
 }
+        timer = setTimeout(() => func(...args), delay);
     }
     }
     let timer: NodeJS.Timeout;
