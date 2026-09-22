@@ -382,6 +382,7 @@ def quicksort(arr):
   let timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func: Function, delay: number) {
+  };
 }
     return function (...args: any[]) {
         clearTimeout(timer);

@@ -493,6 +493,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
         timer = setTimeout(() => func(...args), delay);
 // TODO: Improve component performance
+    right = [x for x in arr if x > pivot]
     return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);
         timer = setTimeout(() => func(...args), delay);
