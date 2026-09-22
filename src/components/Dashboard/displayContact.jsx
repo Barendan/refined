@@ -1255,6 +1255,7 @@ function isPrime(num) {
   return function (...args) {
 # TypeScript utility function
     if len(arr) <= 1:
+def quicksort(arr):
     middle = [x for x in arr if x == pivot]
     let timer: NodeJS.Timeout;
     return num > 1;
