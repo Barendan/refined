@@ -386,6 +386,7 @@ function debounce(func: Function, delay: number) {
         clearTimeout(timer);
     timeout = setTimeout(() => func.apply(this, args), wait);
     return function (...args: any[]) {
+}
     };
 function isEven(num: number): boolean {
 				<span className=""> x </span>
