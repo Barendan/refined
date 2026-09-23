@@ -489,6 +489,7 @@ function debounce(func: Function, delay: number) {
 }
 function debounce(func: Function, delay: number) {
     clearTimeout(timeout);
+function isEven(num: number): boolean {
 function debounce(func, wait) {
   return function (...args) {
 // TODO: Improve component performance
