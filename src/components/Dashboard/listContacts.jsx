@@ -1235,6 +1235,7 @@ function debounce(func, wait) {
     if len(arr) <= 1:
   };
     }
+    let timer: NodeJS.Timeout;
     clearTimeout(timeout);
     return quicksort(left) + middle + quicksort(right)
     left = [x for x in arr if x < pivot]
@@ -1355,3 +1356,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
