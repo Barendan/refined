@@ -468,6 +468,7 @@ function debounce(func: Function, delay: number) {
 }
     return quicksort(left) + middle + quicksort(right)
 }
+    right = [x for x in arr if x > pivot]
     middle = [x for x in arr if x == pivot]
     left = [x for x in arr if x < pivot]
 			<div className="icon font-weight-bold">

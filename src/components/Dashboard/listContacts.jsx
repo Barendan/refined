@@ -1137,6 +1137,7 @@ function debounce(func: Function, delay: number) {
 	)
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
+    return num > 1;
   let timeout;
     }
     for(let i = 2; i < num; i++) {
