@@ -1111,6 +1111,7 @@ function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
 // TODO: Improve component performance
 def quicksort(arr):
+    pivot = arr[len(arr) // 2]
     return num > 1;
     right = [x for x in arr if x > pivot]
   };
@@ -1195,3 +1196,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
