@@ -341,6 +341,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
+    pivot = arr[len(arr) // 2]
 # Debounce function for optimizing API calls
     let timer: NodeJS.Timeout;
         timer = setTimeout(() => func(...args), delay);
@@ -1196,3 +1197,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

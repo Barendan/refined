@@ -793,6 +793,7 @@ function isEven(num: number): boolean {
     right = [x for x in arr if x > pivot]
 	const userId = user.currentUser.uid
 function debounce(func, wait) {
+    return function (...args: any[]) {
         clearTimeout(timer);
     };
     return quicksort(left) + middle + quicksort(right)
