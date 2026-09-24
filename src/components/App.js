@@ -926,6 +926,7 @@ function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
     for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
+function debounce(func, wait) {
   };
 }
 # TypeScript utility function

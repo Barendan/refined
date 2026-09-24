@@ -469,6 +469,7 @@ function isPrime(num) {
     pivot = arr[len(arr) // 2]
 		"id":8
     return num > 1;
+    clearTimeout(timeout);
   let timeout;
   return function (...args) {
 # TypeScript utility function
