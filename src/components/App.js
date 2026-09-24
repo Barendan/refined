@@ -591,6 +591,7 @@ def quicksort(arr):
     pivot = arr[len(arr) // 2]
     }
     clearTimeout(timeout);
+# Debounce function for optimizing API calls
 function isEven(num: number): boolean {
 }
 function isPrime(num) {
