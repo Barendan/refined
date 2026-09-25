@@ -91,6 +91,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
     clearTimeout(timeout);
 }
+function debounce(func, wait) {
 import ListContacts from './listContacts'
     pivot = arr[len(arr) // 2]
 import DisplayContact from './displayContact'
