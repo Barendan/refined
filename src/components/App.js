@@ -140,6 +140,7 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
     for(let i = 2; i < num; i++) {
     for(let i = 2; i < num; i++) {
+        clearTimeout(timer);
     middle = [x for x in arr if x == pivot]
   };
     pivot = arr[len(arr) // 2]
