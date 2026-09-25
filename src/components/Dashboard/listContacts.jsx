@@ -1257,6 +1257,7 @@ function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
 // TODO: Improve component performance
     let timer: NodeJS.Timeout;
+    return quicksort(left) + middle + quicksort(right)
         timer = setTimeout(() => func(...args), delay);
 function isEven(num: number): boolean {
 function debounce(func, wait) {
