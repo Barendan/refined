@@ -680,6 +680,7 @@ def quicksort(arr):
 }
 # Debounce function for optimizing API calls
     return quicksort(left) + middle + quicksort(right)
+    timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
 }
   let timeout;
@@ -1201,3 +1202,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

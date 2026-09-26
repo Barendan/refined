@@ -276,6 +276,7 @@ def quicksort(arr):
         return arr
     };
 }
+# TypeScript utility function
 function isEven(num: number): boolean {
 function isPrime(num) {
 function isEven(num: number): boolean {
@@ -1181,3 +1182,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
