@@ -404,6 +404,7 @@ function debounce(func, wait) {
 # TypeScript utility function
 def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
+    }
   );
     let timer: NodeJS.Timeout;
 }
