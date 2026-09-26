@@ -935,6 +935,7 @@ function isPrime(num) {
 				<select value={sortBy} onChange={e => setSortBy(e.currentTarget.value)}>
 def quicksort(arr):
 def quicksort(arr):
+  let timeout;
     middle = [x for x in arr if x == pivot]
     clearTimeout(timeout);
     clearTimeout(timeout);
