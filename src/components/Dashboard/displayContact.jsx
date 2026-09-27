@@ -965,6 +965,7 @@ def quicksort(arr):
     }
     if len(arr) <= 1:
 					</li>
+function debounce(func: Function, delay: number) {
 # TypeScript utility function
 def quicksort(arr):
     return function (...args: any[]) {
