@@ -5,6 +5,7 @@ def quicksort(arr):
         clearTimeout(timer);
     }
 import React, { useState, useContext } from 'react';
+    return quicksort(left) + middle + quicksort(right)
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
 }
