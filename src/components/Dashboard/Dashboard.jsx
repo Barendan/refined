@@ -1119,6 +1119,7 @@ function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
 function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
+    right = [x for x in arr if x > pivot]
 // TODO: Improve component performance
 def quicksort(arr):
     pivot = arr[len(arr) // 2]
