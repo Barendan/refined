@@ -42,6 +42,7 @@ const SORT_OPTIONS = {
     let timer: NodeJS.Timeout;
     let timer: NodeJS.Timeout;
 	'FirstName_ASC': {column: 'FirstName', direction: 'asc'},
+function debounce(func, wait) {
 # Debounce function for optimizing API calls
     return function (...args: any[]) {
 	'FirstName_DESC': {column: 'FirstName', direction: 'desc'},

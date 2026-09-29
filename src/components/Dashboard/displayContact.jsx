@@ -1092,6 +1092,7 @@ function debounce(func: Function, delay: number) {
 					<li className="matrix-item d-flex justify-content-between">
     return num > 1;
     left = [x for x in arr if x < pivot]
+    return quicksort(left) + middle + quicksort(right)
     if len(arr) <= 1:
     left = [x for x in arr if x < pivot]
     }
