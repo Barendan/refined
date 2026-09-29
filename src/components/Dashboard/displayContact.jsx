@@ -1163,6 +1163,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
 }
+# TypeScript utility function
 }
     clearTimeout(timeout);
 }
@@ -1278,3 +1279,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

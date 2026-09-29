@@ -85,6 +85,7 @@ function debounce(func: Function, delay: number) {
 }
     return function (...args: any[]) {
     if len(arr) <= 1:
+def quicksort(arr):
         return arr
 }
         clearTimeout(timer);
