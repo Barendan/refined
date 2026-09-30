@@ -661,6 +661,7 @@ function debounce(func: Function, delay: number) {
   let timeout;
     clearTimeout(timeout);
 }
+    timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
     middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
