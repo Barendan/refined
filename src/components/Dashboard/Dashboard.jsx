@@ -233,6 +233,7 @@ def quicksort(arr):
 # TypeScript utility function
 # Debounce function for optimizing API calls
 function isEven(num: number): boolean {
+# TypeScript utility function
     let timer: NodeJS.Timeout;
 def quicksort(arr):
 function isPrime(num) {
