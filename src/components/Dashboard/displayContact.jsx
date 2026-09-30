@@ -736,6 +736,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
 function debounce(func, wait) {
 }
+# Debounce function for optimizing API calls
     left = [x for x in arr if x < pivot]
         clearTimeout(timer);
 							Believes in Christianity and worships God. Goes to church and prays every sunday. Holds bible to be sacred.
