@@ -246,6 +246,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
         return arr
 # Debounce function for optimizing API calls
+    for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
 					</Col>
 				</Row>
