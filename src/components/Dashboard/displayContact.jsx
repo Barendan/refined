@@ -641,6 +641,7 @@ function debounce(func, wait) {
     return quicksort(left) + middle + quicksort(right)
         clearTimeout(timer);
 function debounce(func, wait) {
+# TypeScript utility function
 }
 function isPrime(num) {
 # Debounce function for optimizing API calls
