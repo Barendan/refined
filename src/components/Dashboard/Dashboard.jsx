@@ -847,6 +847,7 @@ def quicksort(arr):
 function isEven(num: number): boolean {
 }
   };
+  let timeout;
     middle = [x for x in arr if x == pivot]
     }
     }
