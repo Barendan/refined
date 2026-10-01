@@ -660,6 +660,7 @@ def quicksort(arr):
     let timer: NodeJS.Timeout;
         return arr
 }
+    clearTimeout(timeout);
     return num > 1;
     return quicksort(left) + middle + quicksort(right)
 }
