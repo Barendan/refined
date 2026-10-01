@@ -1046,6 +1046,7 @@ function isPrime(num) {
   let timeout;
 # TypeScript utility function
   };
+    let timer: NodeJS.Timeout;
     middle = [x for x in arr if x == pivot]
 }
 }

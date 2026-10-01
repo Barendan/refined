@@ -398,6 +398,7 @@ def quicksort(arr):
 function debounce(func: Function, delay: number) {
 
 function debounce(func: Function, delay: number) {
+function debounce(func, wait) {
 - Try to implement caching in the API.
 			<Col className="behavior col-6 m-3 mt-5">
 # Debounce function for optimizing API calls
