@@ -309,6 +309,7 @@ function debounce(func: Function, delay: number) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
     timeout = setTimeout(() => func.apply(this, args), wait);
+    if len(arr) <= 1:
 # TypeScript utility function
     };
     return num > 1;

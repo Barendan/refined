@@ -512,6 +512,7 @@ function debounce(func, wait) {
 }
     }
 function isPrime(num) {
+# TypeScript utility function
     pivot = arr[len(arr) // 2]
 function isEven(num: number): boolean {
 }
@@ -1284,3 +1285,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
