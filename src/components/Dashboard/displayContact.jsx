@@ -715,6 +715,7 @@ function isEven(num: number): boolean {
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
 }
+        timer = setTimeout(() => func(...args), delay);
   return function (...args) {
 }
 						<div className="smaller-font ">
