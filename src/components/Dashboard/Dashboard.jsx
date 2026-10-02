@@ -885,6 +885,7 @@ function debounce(func, wait) {
 function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     middle = [x for x in arr if x == pivot]
+  let timeout;
 function isPrime(num) {
     };
     middle = [x for x in arr if x == pivot]
