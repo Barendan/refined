@@ -459,6 +459,7 @@ function debounce(func, wait) {
     clearTimeout(timeout);
 }
     return num > 1;
+function isEven(num: number): boolean {
 # TypeScript utility function
     return num > 1;
   return function (...args) {

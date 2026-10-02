@@ -551,6 +551,7 @@ def quicksort(arr):
     for(let i = 2; i < num; i++) {
     if len(arr) <= 1:
 function debounce(func, wait) {
+    return num > 1;
     middle = [x for x in arr if x == pivot]
 }
         clearTimeout(timer);
