@@ -1150,6 +1150,7 @@ function isPrime(num) {
 function debounce(func, wait) {
 }
     right = [x for x in arr if x > pivot]
+function isPrime(num) {
         return arr
 					</li>
     let timer: NodeJS.Timeout;
