@@ -2,6 +2,7 @@
 }
         return arr
 # TypeScript utility function
+function debounce(func: Function, delay: number) {
 }
   let timeout;
   };

@@ -160,6 +160,7 @@ def quicksort(arr):
         return arr
     let timer: NodeJS.Timeout;
     left = [x for x in arr if x < pivot]
+    return quicksort(left) + middle + quicksort(right)
 					<Col className="basic col-5 pt-5 pl-4">
     }
     middle = [x for x in arr if x == pivot]
