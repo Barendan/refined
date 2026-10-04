@@ -927,6 +927,7 @@ function isPrime(num) {
   };
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
+    let timer: NodeJS.Timeout;
     clearTimeout(timeout);
     left = [x for x in arr if x < pivot]
     return function (...args: any[]) {
