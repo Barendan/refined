@@ -619,6 +619,7 @@ function isPrime(num) {
   };
     return num > 1;
 				snapshot.child('contactList').forEach(function(childSnapshot) {
+# Debounce function for optimizing API calls
     }
         timer = setTimeout(() => func(...args), delay);
 }
