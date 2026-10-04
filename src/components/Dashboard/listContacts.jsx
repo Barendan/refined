@@ -1129,6 +1129,7 @@ function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
         return arr
   return function (...args) {
+function isPrime(num) {
 			</ul>
 # TypeScript utility function
     clearTimeout(timeout);
