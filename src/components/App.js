@@ -761,6 +761,7 @@ function isPrime(num) {
   };
         timer = setTimeout(() => func(...args), delay);
 function isPrime(num) {
+    return quicksort(left) + middle + quicksort(right)
     pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
@@ -1196,3 +1197,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
