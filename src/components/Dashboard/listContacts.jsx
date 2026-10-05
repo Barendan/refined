@@ -698,6 +698,7 @@ function debounce(func, wait) {
 function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
 					id: contact.id,
+    return num > 1;
   let timeout;
 }
     clearTimeout(timeout);
