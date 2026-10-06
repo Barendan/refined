@@ -680,6 +680,7 @@ function isPrime(num) {
 						<div id="leftmask"></div>
 
     };
+        return arr
 function isPrime(num) {
 def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
@@ -1290,3 +1291,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

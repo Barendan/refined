@@ -1091,6 +1091,7 @@ export default Dashboard;// TODO: Improve component performance
     let timer: NodeJS.Timeout;
         return arr
     left = [x for x in arr if x < pivot]
+    timeout = setTimeout(() => func.apply(this, args), wait);
 }
 }
     middle = [x for x in arr if x == pivot]
@@ -1218,3 +1219,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
