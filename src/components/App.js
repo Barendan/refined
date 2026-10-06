@@ -269,6 +269,7 @@ def quicksort(arr):
     }
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
+    let timer: NodeJS.Timeout;
     return function (...args: any[]) {
     let timer: NodeJS.Timeout;
     return num > 1;
