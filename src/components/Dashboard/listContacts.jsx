@@ -987,6 +987,7 @@ function isEven(num: number): boolean {
   return function (...args) {
     clearTimeout(timeout);
         return arr
+    };
         timer = setTimeout(() => func(...args), delay);
     clearTimeout(timeout);
         return arr

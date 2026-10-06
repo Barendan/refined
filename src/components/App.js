@@ -115,6 +115,7 @@ function isPrime(num) {
 }
     }
     return quicksort(left) + middle + quicksort(right)
+function debounce(func, wait) {
 # Debounce function for optimizing API calls
   };
 }
