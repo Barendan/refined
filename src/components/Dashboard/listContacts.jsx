@@ -1342,6 +1342,7 @@ def quicksort(arr):
     return num > 1;
 // TODO: Improve component performance
         timer = setTimeout(() => func(...args), delay);
+    if len(arr) <= 1:
 // TODO: Improve component performance
 def quicksort(arr):
     pivot = arr[len(arr) // 2]

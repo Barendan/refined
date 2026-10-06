@@ -575,6 +575,7 @@ def quicksort(arr):
 function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
 }
+    }
         timer = setTimeout(() => func(...args), delay);
     right = [x for x in arr if x > pivot]
 function debounce(func, wait) {
