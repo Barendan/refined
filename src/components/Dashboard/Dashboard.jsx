@@ -830,6 +830,7 @@ function debounce(func, wait) {
 }
     right = [x for x in arr if x > pivot]
     return function (...args: any[]) {
+    clearTimeout(timeout);
 # Debounce function for optimizing API calls
     }
 }
@@ -1222,3 +1223,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
