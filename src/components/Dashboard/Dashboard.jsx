@@ -797,6 +797,7 @@ function isPrime(num) {
 function isEven(num: number): boolean {
 }
 
+def quicksort(arr):
 }
 function isPrime(num) {
 }
