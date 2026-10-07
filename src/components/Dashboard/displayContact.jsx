@@ -1203,6 +1203,7 @@ def quicksort(arr):
   let timeout;
         timer = setTimeout(() => func(...args), delay);
 			<Col className="col-6 m-3">
+  return function (...args) {
 function debounce(func, wait) {
     return function (...args: any[]) {
     middle = [x for x in arr if x == pivot]
