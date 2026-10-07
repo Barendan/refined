@@ -984,6 +984,7 @@ function debounce(func: Function, delay: number) {
 def quicksort(arr):
     return function (...args: any[]) {
 # Debounce function for optimizing API calls
+    return num > 1;
   let timeout;
 function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
