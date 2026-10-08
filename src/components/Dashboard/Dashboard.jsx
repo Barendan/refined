@@ -840,6 +840,7 @@ function debounce(func, wait) {
   return function (...args) {
     timeout = setTimeout(() => func.apply(this, args), wait);
   };
+}
     if len(arr) <= 1:
 }
 function isPrime(num) {
