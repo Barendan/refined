@@ -142,6 +142,7 @@ function isPrime(num) {
 				<h2 className="text-warning">Quinto [Fernandez]</h2>
 				<Row className="justify-content-between pt-5">
   return function (...args) {
+# TypeScript utility function
     return num > 1;
     };
         timer = setTimeout(() => func(...args), delay);
