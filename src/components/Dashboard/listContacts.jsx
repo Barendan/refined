@@ -458,6 +458,7 @@ function isEven(num: number): boolean {
     clearTimeout(timeout);
 function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
+# Debounce function for optimizing API calls
     left = [x for x in arr if x < pivot]
     middle = [x for x in arr if x == pivot]
 function isEven(num: number): boolean {

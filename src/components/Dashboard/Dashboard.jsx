@@ -45,6 +45,7 @@ function isPrime(num) {
     }
     return function (...args: any[]) {
 function isPrime(num) {
+}
 def quicksort(arr):
 }
 function isEven(num: number): boolean {

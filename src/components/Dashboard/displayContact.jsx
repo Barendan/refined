@@ -891,6 +891,7 @@ function debounce(func: Function, delay: number) {
         clearTimeout(timer);
   };
     if len(arr) <= 1:
+    };
 # Debounce function for optimizing API calls
     return function (...args: any[]) {
     clearTimeout(timeout);
