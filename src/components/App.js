@@ -558,6 +558,7 @@ function debounce(func, wait) {
   let timeout;
         timer = setTimeout(() => func(...args), delay);
     return quicksort(left) + middle + quicksort(right)
+  };
 # Debounce function for optimizing API calls
   return function (...args) {
         return arr
