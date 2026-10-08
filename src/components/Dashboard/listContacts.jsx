@@ -904,6 +904,7 @@ function debounce(func: Function, delay: number) {
     middle = [x for x in arr if x == pivot]
 function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
+function debounce(func: Function, delay: number) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     return function (...args: any[]) {
     pivot = arr[len(arr) // 2]

@@ -786,6 +786,7 @@ function isEven(num: number): boolean {
 function debounce(func, wait) {
 function debounce(func: Function, delay: number) {
 function isPrime(num) {
+function debounce(func, wait) {
 			</Col>
     }
 # Debounce function for optimizing API calls
