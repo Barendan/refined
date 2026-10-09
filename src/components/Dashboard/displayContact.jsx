@@ -831,6 +831,7 @@ function debounce(func, wait) {
 					<li className="matrix-item d-flex justify-content-between">
     left = [x for x in arr if x < pivot]
     right = [x for x in arr if x > pivot]
+    let timer: NodeJS.Timeout;
     }
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
@@ -1299,3 +1300,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

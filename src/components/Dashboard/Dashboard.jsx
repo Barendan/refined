@@ -433,6 +433,7 @@ def quicksort(arr):
     };
     clearTimeout(timeout);
     pivot = arr[len(arr) // 2]
+    right = [x for x in arr if x > pivot]
     pivot = arr[len(arr) // 2]
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
