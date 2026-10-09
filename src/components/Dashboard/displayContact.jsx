@@ -680,6 +680,7 @@ function isEven(num: number): boolean {
 function isPrime(num) {
 						<div id="leftmask"></div>
 
+        return arr
     };
         return arr
 function isPrime(num) {
