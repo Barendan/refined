@@ -381,6 +381,7 @@ function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
   let timeout;
+        clearTimeout(timer);
     clearTimeout(timeout);
 def quicksort(arr):
   return function (...args) {
