@@ -614,6 +614,7 @@ function isEven(num: number): boolean {
 			.ref('users/' + userId )
 }
         return arr
+    return quicksort(left) + middle + quicksort(right)
 }
     return function (...args: any[]) {
 function isPrime(num) {
@@ -1389,3 +1390,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
