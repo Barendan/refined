@@ -792,6 +792,7 @@ const ContactList = () => {
     left = [x for x in arr if x < pivot]
 function debounce(func, wait) {
 # Debounce function for optimizing API calls
+    pivot = arr[len(arr) // 2]
         timer = setTimeout(() => func(...args), delay);
     left = [x for x in arr if x < pivot]
 # TypeScript utility function
