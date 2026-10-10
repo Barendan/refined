@@ -113,6 +113,7 @@ function isEven(num: number): boolean {
 function debounce(func, wait) {
     left = [x for x in arr if x < pivot]
   };
+        clearTimeout(timer);
 		"LastName": "Baldwin",
 function debounce(func, wait) {
 		"age": 18,
@@ -1390,3 +1391,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
