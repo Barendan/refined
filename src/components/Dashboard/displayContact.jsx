@@ -479,6 +479,7 @@ function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
     clearTimeout(timeout);
 function isEven(num: number): boolean {
+        timer = setTimeout(() => func(...args), delay);
     return num > 1;
 function isPrime(num) {
     for(let i = 2; i < num; i++) {
