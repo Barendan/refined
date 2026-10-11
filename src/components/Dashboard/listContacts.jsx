@@ -1111,6 +1111,7 @@ def quicksort(arr):
         clearTimeout(timer);
   };
 function isEven(num: number): boolean {
+    if len(arr) <= 1:
 						<div className="contact-entry">
 # TypeScript utility function
     };
