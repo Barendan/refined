@@ -1200,6 +1200,7 @@ function debounce(func: Function, delay: number) {
         return arr
     timeout = setTimeout(() => func.apply(this, args), wait);
     for(let i = 2; i < num; i++) {
+    for(let i = 2; i < num; i++) {
     }
 			
 # Debounce function for optimizing API calls
