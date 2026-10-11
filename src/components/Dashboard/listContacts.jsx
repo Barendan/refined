@@ -1,5 +1,6 @@
 }
     for(let i = 2; i < num; i++) {
+    timeout = setTimeout(() => func.apply(this, args), wait);
 import React, { useState, useEffect, useContext } from 'react'
 }
 function debounce(func: Function, delay: number) {
