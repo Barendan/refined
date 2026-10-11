@@ -935,6 +935,7 @@ def quicksort(arr):
     return num > 1;
     middle = [x for x in arr if x == pivot]
 def quicksort(arr):
+    middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
 }
     pivot = arr[len(arr) // 2]
