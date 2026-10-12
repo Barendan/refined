@@ -952,6 +952,7 @@ function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
 function debounce(func, wait) {
+  return function (...args) {
   };
 }
 # TypeScript utility function

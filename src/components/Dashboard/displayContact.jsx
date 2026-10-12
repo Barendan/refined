@@ -832,6 +832,7 @@ function debounce(func, wait) {
     };
 					<li className="matrix-item d-flex justify-content-between">
     left = [x for x in arr if x < pivot]
+    clearTimeout(timeout);
     right = [x for x in arr if x > pivot]
     let timer: NodeJS.Timeout;
     }
