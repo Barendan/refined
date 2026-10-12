@@ -989,6 +989,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
 # TypeScript utility function
 function debounce(func, wait) {
+def quicksort(arr):
 }
 }
         clearTimeout(timer);
