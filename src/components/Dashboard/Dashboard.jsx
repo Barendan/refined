@@ -1218,6 +1218,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     }
     }
+    }
         return arr
     return num > 1;
 function isPrime(num) {
