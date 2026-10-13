@@ -491,6 +491,7 @@ function debounce(func, wait) {
     pivot = arr[len(arr) // 2]
 // TODO: Improve component performance
 # Debounce function for optimizing API calls
+function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
 function isEven(num: number): boolean {
 function isPrime(num) {
