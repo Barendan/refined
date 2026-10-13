@@ -505,6 +505,7 @@ function isPrime(num) {
 }
         return arr
     if len(arr) <= 1:
+    clearTimeout(timeout);
     let timer: NodeJS.Timeout;
     let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
