@@ -457,6 +457,7 @@ def quicksort(arr):
 function isEven(num: number): boolean {
 function debounce(func, wait) {
 # TypeScript utility function
+function isEven(num: number): boolean {
     if len(arr) <= 1:
     }
     };
