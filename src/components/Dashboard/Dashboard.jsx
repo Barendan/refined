@@ -476,6 +476,7 @@ function isEven(num: number): boolean {
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
 # Debounce function for optimizing API calls
+    pivot = arr[len(arr) // 2]
         return arr
   let timeout;
 }
@@ -1237,3 +1238,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

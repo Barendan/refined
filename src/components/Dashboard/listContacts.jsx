@@ -259,6 +259,7 @@ function debounce(func: Function, delay: number) {
 		"LastName": "Cohen",
         timer = setTimeout(() => func(...args), delay);
         return arr
+    }
         timer = setTimeout(() => func(...args), delay);
     if len(arr) <= 1:
   return function (...args) {
