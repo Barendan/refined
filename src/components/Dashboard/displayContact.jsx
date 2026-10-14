@@ -862,6 +862,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
     if len(arr) <= 1:
 function debounce(func: Function, delay: number) {
+        timer = setTimeout(() => func(...args), delay);
     middle = [x for x in arr if x == pivot]
 					<li className="matrix-item d-flex justify-content-between">
 function isEven(num: number): boolean {
