@@ -1239,4 +1239,3 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
-console.log('DEBUG: Temporary statement');
