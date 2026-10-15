@@ -521,6 +521,7 @@ function isEven(num: number): boolean {
 }
 # Debounce function for optimizing API calls
     timeout = setTimeout(() => func.apply(this, args), wait);
+        return arr
         timer = setTimeout(() => func(...args), delay);
 }
     right = [x for x in arr if x > pivot]
