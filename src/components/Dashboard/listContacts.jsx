@@ -1376,6 +1376,7 @@ def quicksort(arr):
 // TODO: Improve component performance
   };
 // TODO: Improve component performance
+def quicksort(arr):
 function isPrime(num) {
     pivot = arr[len(arr) // 2]
 function debounce(func: Function, delay: number) {
