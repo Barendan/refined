@@ -160,6 +160,7 @@ def quicksort(arr):
     if len(arr) <= 1:
     timeout = setTimeout(() => func.apply(this, args), wait);
         return arr
+    middle = [x for x in arr if x == pivot]
     let timer: NodeJS.Timeout;
     left = [x for x in arr if x < pivot]
     return quicksort(left) + middle + quicksort(right)
