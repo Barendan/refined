@@ -487,6 +487,7 @@ function isPrime(num) {
     return num > 1;
     clearTimeout(timeout);
   let timeout;
+    for(let i = 2; i < num; i++) {
   return function (...args) {
         clearTimeout(timer);
 # TypeScript utility function

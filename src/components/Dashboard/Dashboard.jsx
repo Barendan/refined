@@ -1114,6 +1114,7 @@ export default Dashboard;// TODO: Improve component performance
 }
 }
     middle = [x for x in arr if x == pivot]
+        timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
 // TODO: Improve component performance
     timeout = setTimeout(() => func.apply(this, args), wait);
@@ -1242,3 +1243,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
