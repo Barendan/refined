@@ -1191,6 +1191,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     }
     timeout = setTimeout(() => func.apply(this, args), wait);
+    return num > 1;
     return quicksort(left) + middle + quicksort(right)
     return num > 1;
 function isEven(num: number): boolean {
