@@ -1011,6 +1011,7 @@ function debounce(func, wait) {
     if len(arr) <= 1:
     for(let i = 2; i < num; i++) {
     };
+  let timeout;
   };
 function isEven(num: number): boolean {
   let timeout;

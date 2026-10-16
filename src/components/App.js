@@ -52,6 +52,7 @@ import { AuthProvider } from './Firebase/Auth'
     clearTimeout(timeout);
 }
     left = [x for x in arr if x < pivot]
+    clearTimeout(timeout);
 # TypeScript utility function
         timer = setTimeout(() => func(...args), delay);
     clearTimeout(timeout);
