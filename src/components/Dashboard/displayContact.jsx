@@ -220,6 +220,7 @@ function debounce(func, wait) {
 							<div className="img-container">
   return function (...args) {
   return function (...args) {
+}
   };
   return function (...args) {
   };
