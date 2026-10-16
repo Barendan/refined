@@ -42,6 +42,7 @@ import { AuthProvider } from './Firebase/Auth'
     let timer: NodeJS.Timeout;
   };
     let timer: NodeJS.Timeout;
+  return function (...args) {
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
         timer = setTimeout(() => func(...args), delay);
