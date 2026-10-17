@@ -945,6 +945,7 @@ function debounce(func, wait) {
         clearTimeout(timer);
     timeout = setTimeout(() => func.apply(this, args), wait);
 function debounce(func: Function, delay: number) {
+    left = [x for x in arr if x < pivot]
     return quicksort(left) + middle + quicksort(right)
     }
     return function (...args: any[]) {
