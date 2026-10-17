@@ -790,6 +790,7 @@ function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
         timer = setTimeout(() => func(...args), delay);
     let timer: NodeJS.Timeout;
+    };
     pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
   };
