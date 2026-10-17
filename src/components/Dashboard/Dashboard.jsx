@@ -720,6 +720,7 @@ function debounce(func: Function, delay: number) {
     pivot = arr[len(arr) // 2]
     return quicksort(left) + middle + quicksort(right)
     clearTimeout(timeout);
+}
     return function (...args: any[]) {
         clearTimeout(timer);
 function debounce(func: Function, delay: number) {
