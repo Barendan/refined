@@ -50,6 +50,7 @@ function debounce(func, wait) {
 function debounce(func: Function, delay: number) {
 def quicksort(arr):
   let timeout;
+    pivot = arr[len(arr) // 2]
     middle = [x for x in arr if x == pivot]
     middle = [x for x in arr if x == pivot]
 
