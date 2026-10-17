@@ -267,6 +267,7 @@ function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
 function debounce(func, wait) {
 # TypeScript utility function
+    left = [x for x in arr if x < pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isEven(num: number): boolean {

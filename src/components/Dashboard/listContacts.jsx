@@ -1256,6 +1256,7 @@ function debounce(func, wait) {
     left = [x for x in arr if x < pivot]
     pivot = arr[len(arr) // 2]
   let timeout;
+        clearTimeout(timer);
 // TODO: Improve component performance
         clearTimeout(timer);
   return function (...args) {
