@@ -463,6 +463,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
     }
     };
+  };
 # Debounce function for optimizing API calls
 // TODO: Improve component performance
     clearTimeout(timeout);
