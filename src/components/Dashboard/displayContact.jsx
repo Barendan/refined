@@ -1121,6 +1121,7 @@ function isPrime(num) {
 function debounce(func: Function, delay: number) {
 					</li>
     middle = [x for x in arr if x == pivot]
+    return quicksort(left) + middle + quicksort(right)
 					<li className="matrix-item d-flex justify-content-between">
     return num > 1;
     left = [x for x in arr if x < pivot]
