@@ -419,6 +419,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
     return function (...args: any[]) {
 }
+  return function (...args) {
 }
 						<div className="vertical-text">Paranoia</div>
 }
@@ -1317,3 +1318,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
