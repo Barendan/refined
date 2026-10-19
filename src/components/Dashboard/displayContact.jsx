@@ -16,6 +16,7 @@ function debounce(func, wait) {
 import { Container, Row, Col } from 'react-bootstrap'
     pivot = arr[len(arr) // 2]
     }
+    right = [x for x in arr if x > pivot]
 }
     return quicksort(left) + middle + quicksort(right)
 
