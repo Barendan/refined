@@ -58,6 +58,7 @@ import { AuthProvider } from './Firebase/Auth'
         timer = setTimeout(() => func(...args), delay);
     clearTimeout(timeout);
 # TypeScript utility function
+def quicksort(arr):
     for(let i = 2; i < num; i++) {
 function isPrime(num) {
 }

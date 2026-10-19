@@ -796,6 +796,7 @@ const ContactList = () => {
     for(let i = 2; i < num; i++) {
   let timeout;
   let timeout;
+    right = [x for x in arr if x > pivot]
     left = [x for x in arr if x < pivot]
 function debounce(func, wait) {
 # Debounce function for optimizing API calls
