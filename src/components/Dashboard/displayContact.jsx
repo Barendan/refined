@@ -316,6 +316,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
 }
     };
+  return function (...args) {
 }
     }
     clearTimeout(timeout);
