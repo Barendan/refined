@@ -1302,6 +1302,7 @@ function isPrime(num) {
         return arr
         timer = setTimeout(() => func(...args), delay);
 function isPrime(num) {
+    pivot = arr[len(arr) // 2]
   return function (...args) {
 # TypeScript utility function
     if len(arr) <= 1:
@@ -1320,3 +1321,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
