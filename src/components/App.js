@@ -789,6 +789,7 @@ function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
     left = [x for x in arr if x < pivot]
 function debounce(func, wait) {
+    for(let i = 2; i < num; i++) {
         return arr
     middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
