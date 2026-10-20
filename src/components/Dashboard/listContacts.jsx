@@ -838,6 +838,7 @@ function debounce(func: Function, delay: number) {
     left = [x for x in arr if x < pivot]
 }
         timer = setTimeout(() => func(...args), delay);
+function debounce(func, wait) {
     return num > 1;
     if len(arr) <= 1:
         timer = setTimeout(() => func(...args), delay);
