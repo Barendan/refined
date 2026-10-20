@@ -1148,6 +1148,7 @@ function debounce(func, wait) {
     if len(arr) <= 1:
 }
     }
+    middle = [x for x in arr if x == pivot]
 # Debounce function for optimizing API calls
   return function (...args) {
 # Debounce function for optimizing API calls
@@ -1321,3 +1322,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
