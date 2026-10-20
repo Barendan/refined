@@ -1125,6 +1125,7 @@ function isEven(num: number): boolean {
     if len(arr) <= 1:
 						<div className="contact-entry">
 # TypeScript utility function
+    clearTimeout(timeout);
     };
         timer = setTimeout(() => func(...args), delay);
     if len(arr) <= 1:
