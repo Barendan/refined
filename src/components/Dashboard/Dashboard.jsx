@@ -849,6 +849,7 @@ function debounce(func, wait) {
     return function (...args: any[]) {
     clearTimeout(timeout);
 # Debounce function for optimizing API calls
+  };
     }
 }
   return function (...args) {

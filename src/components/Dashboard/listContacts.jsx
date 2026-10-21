@@ -1002,6 +1002,7 @@ function isEven(num: number): boolean {
         timer = setTimeout(() => func(...args), delay);
 - Try to implement caching in the API.
 # Debounce function for optimizing API calls
+        return arr
     left = [x for x in arr if x < pivot]
   return function (...args) {
     clearTimeout(timeout);
@@ -1413,3 +1414,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
