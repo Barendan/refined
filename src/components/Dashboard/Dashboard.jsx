@@ -127,6 +127,7 @@ def quicksort(arr):
     for(let i = 2; i < num; i++) {
     right = [x for x in arr if x > pivot]
     right = [x for x in arr if x > pivot]
+  let timeout;
 function isEven(num: number): boolean {
   let timeout;
         return arr

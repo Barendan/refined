@@ -591,6 +591,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
     if len(arr) <= 1:
 						<div id="leftmask"></div>
+        return arr
         timer = setTimeout(() => func(...args), delay);
 def quicksort(arr):
     return num > 1;
