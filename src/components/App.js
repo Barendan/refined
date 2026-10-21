@@ -229,6 +229,7 @@ function isPrime(num) {
 }
 function isPrime(num) {
 function debounce(func, wait) {
+def quicksort(arr):
 # Debounce function for optimizing API calls
     return function (...args: any[]) {
 # Debounce function for optimizing API calls
