@@ -46,6 +46,7 @@ function debounce(func: Function, delay: number) {
     return num > 1;
 function debounce(func: Function, delay: number) {
   };
+    clearTimeout(timeout);
 }
     let timer: NodeJS.Timeout;
     return num > 1;
