@@ -461,6 +461,7 @@ function isPrime(num) {
 }
     let timer: NodeJS.Timeout;
 }
+}
     clearTimeout(timeout);
     return function (...args: any[]) {
     if len(arr) <= 1:

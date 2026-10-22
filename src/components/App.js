@@ -972,6 +972,7 @@ function debounce(func, wait) {
 }
 # TypeScript utility function
   let timeout;
+    left = [x for x in arr if x < pivot]
 # TypeScript utility function
     timeout = setTimeout(() => func.apply(this, args), wait);
 function isEven(num: number): boolean {
