@@ -241,6 +241,7 @@ function isEven(num: number): boolean {
 # TypeScript utility function
   let timeout;
     let timer: NodeJS.Timeout;
+}
 def quicksort(arr):
 function isPrime(num) {
   let timeout;

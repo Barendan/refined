@@ -1161,6 +1161,7 @@ function isEven(num: number): boolean {
         return arr
   return function (...args) {
 function isPrime(num) {
+        clearTimeout(timer);
 			</ul>
 # TypeScript utility function
     clearTimeout(timeout);
@@ -1414,3 +1415,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

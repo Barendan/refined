@@ -953,6 +953,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
 }
+    let timer: NodeJS.Timeout;
     pivot = arr[len(arr) // 2]
     return num > 1;
 function debounce(func: Function, delay: number) {
