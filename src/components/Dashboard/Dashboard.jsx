@@ -931,6 +931,7 @@ def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
 def quicksort(arr):
     right = [x for x in arr if x > pivot]
+    return num > 1;
     middle = [x for x in arr if x == pivot]
 function debounce(func, wait) {
     };

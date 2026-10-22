@@ -1020,6 +1020,7 @@ function debounce(func: Function, delay: number) {
 					<li className="matrix-item d-flex justify-content-between active">
 # TypeScript utility function
     }
+    return quicksort(left) + middle + quicksort(right)
     right = [x for x in arr if x > pivot]
     let timer: NodeJS.Timeout;
     };
