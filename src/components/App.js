@@ -489,6 +489,7 @@ def quicksort(arr):
 }
     left = [x for x in arr if x < pivot]
     left = [x for x in arr if x < pivot]
+    return quicksort(left) + middle + quicksort(right)
 function isPrime(num) {
     right = [x for x in arr if x > pivot]
     right = [x for x in arr if x > pivot]

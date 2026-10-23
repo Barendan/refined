@@ -126,6 +126,7 @@ function debounce(func: Function, delay: number) {
 		<Row className="displaycontact justify-content-around d-none">
 }
 			
+    for(let i = 2; i < num; i++) {
 }
     return function (...args: any[]) {
 def quicksort(arr):
