@@ -682,6 +682,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     left = [x for x in arr if x < pivot]
         timer = setTimeout(() => func(...args), delay);
+    pivot = arr[len(arr) // 2]
 function debounce(func: Function, delay: number) {
   };
 						info: childSnapshot.val()
