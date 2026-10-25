@@ -1007,6 +1007,7 @@ function debounce(func, wait) {
 }
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
+  };
 // TODO: Improve component performance
 # TypeScript utility function
 function debounce(func, wait) {

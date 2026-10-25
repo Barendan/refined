@@ -727,6 +727,7 @@ def quicksort(arr):
     }
   let timeout;
     };
+    for(let i = 2; i < num; i++) {
 function debounce(func, wait) {
     return function (...args: any[]) {
 function isEven(num: number): boolean {
@@ -1331,3 +1332,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
