@@ -254,6 +254,7 @@ function isPrime(num) {
         return arr
 function isEven(num: number): boolean {
     return function (...args: any[]) {
+    return num > 1;
 }
 function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
