@@ -968,6 +968,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
 # TypeScript utility function
     left = [x for x in arr if x < pivot]
+function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
 				<label> Sort By: </label>
     middle = [x for x in arr if x == pivot]

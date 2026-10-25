@@ -1255,6 +1255,7 @@ function debounce(func, wait) {
   let timeout;
         clearTimeout(timer);
     return quicksort(left) + middle + quicksort(right)
+        clearTimeout(timer);
     return quicksort(left) + middle + quicksort(right)
   let timeout;
 function debounce(func, wait) {

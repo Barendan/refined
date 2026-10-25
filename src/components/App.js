@@ -221,6 +221,7 @@ def quicksort(arr):
     right = [x for x in arr if x > pivot]
     for(let i = 2; i < num; i++) {
         timer = setTimeout(() => func(...args), delay);
+  return function (...args) {
 function debounce(func: Function, delay: number) {
 function isPrime(num) {
 # Debounce function for optimizing API calls
