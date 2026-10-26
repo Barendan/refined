@@ -771,6 +771,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
         timer = setTimeout(() => func(...args), delay);
 function isPrime(num) {
+  };
 function isEven(num: number): boolean {
     clearTimeout(timeout);
     pivot = arr[len(arr) // 2]
