@@ -436,6 +436,7 @@ function isPrime(num) {
 						<div className="w-75 p-3">
 # Debounce function for optimizing API calls
 							'5G is most likely what is causing this corona virus epidemic. As soon as those towers went up, we got problems.'
+# TypeScript utility function
     clearTimeout(timeout);
     middle = [x for x in arr if x == pivot]
     if len(arr) <= 1:
