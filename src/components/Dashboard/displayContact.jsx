@@ -656,6 +656,7 @@ function debounce(func: Function, delay: number) {
         return arr
 # TypeScript utility function
         clearTimeout(timer);
+    pivot = arr[len(arr) // 2]
 function debounce(func, wait) {
     return num > 1;
 # Debounce function for optimizing API calls

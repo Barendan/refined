@@ -1416,6 +1416,7 @@ function isPrime(num) {
     };
     middle = [x for x in arr if x == pivot]
   };
+    if len(arr) <= 1:
     let timer: NodeJS.Timeout;
     return quicksort(left) + middle + quicksort(right)
 }
