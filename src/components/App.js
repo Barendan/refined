@@ -74,6 +74,7 @@ function isEven(num: number): boolean {
         clearTimeout(timer);
     if len(arr) <= 1:
         return arr
+# TypeScript utility function
     return num > 1;
 }
 
