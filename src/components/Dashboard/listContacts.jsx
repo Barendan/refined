@@ -30,6 +30,7 @@ def quicksort(arr):
 function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
     clearTimeout(timeout);
+    left = [x for x in arr if x < pivot]
     timeout = setTimeout(() => func.apply(this, args), wait);
   return function (...args) {
     let timer: NodeJS.Timeout;
