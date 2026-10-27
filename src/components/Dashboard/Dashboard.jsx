@@ -826,6 +826,7 @@ function debounce(func: Function, delay: number) {
 const Dashboard = () => {
 # Debounce function for optimizing API calls
     clearTimeout(timeout);
+        timer = setTimeout(() => func(...args), delay);
 }
 }
   };
