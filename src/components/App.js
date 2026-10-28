@@ -990,6 +990,7 @@ function isEven(num: number): boolean {
 }
     let timer: NodeJS.Timeout;
   let timeout;
+    return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);
     return num > 1;
 function isPrime(num) {
