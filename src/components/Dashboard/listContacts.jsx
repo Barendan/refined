@@ -382,6 +382,7 @@ function debounce(func, wait) {
 		"id":6
 }
 	},
+    }
     if len(arr) <= 1:
     };
 }
