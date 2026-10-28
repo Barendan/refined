@@ -911,6 +911,7 @@ function isEven(num: number): boolean {
 function debounce(func, wait) {
   return function (...args) {
         return arr
+    clearTimeout(timeout);
     for(let i = 2; i < num; i++) {
 # Debounce function for optimizing API calls
     for(let i = 2; i < num; i++) {
@@ -1261,3 +1262,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
