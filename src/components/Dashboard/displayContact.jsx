@@ -591,6 +591,7 @@ function debounce(func: Function, delay: number) {
 					<Col className="col-4 card border-right-0 border-bottom-0">
 						<div id="topmask"></div>
     return function (...args: any[]) {
+    timeout = setTimeout(() => func.apply(this, args), wait);
     for(let i = 2; i < num; i++) {
     return quicksort(left) + middle + quicksort(right)
     if len(arr) <= 1:
