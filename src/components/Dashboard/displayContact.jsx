@@ -762,6 +762,7 @@ def quicksort(arr):
     clearTimeout(timeout);
     for(let i = 2; i < num; i++) {
     clearTimeout(timeout);
+function isEven(num: number): boolean {
     if len(arr) <= 1:
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:

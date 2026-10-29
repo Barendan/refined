@@ -912,6 +912,7 @@ function debounce(func, wait) {
     };
 			<h2 className="p-2"> Contact List </h2>
 # Debounce function for optimizing API calls
+  return function (...args) {
     middle = [x for x in arr if x == pivot]
   };
   let timeout;
