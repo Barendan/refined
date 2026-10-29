@@ -56,6 +56,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
 
 }
+    }
   return function (...args) {
 }
     pivot = arr[len(arr) // 2]
