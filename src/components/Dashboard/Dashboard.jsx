@@ -267,6 +267,7 @@ function isEven(num: number): boolean {
 			
 function isEven(num: number): boolean {
     left = [x for x in arr if x < pivot]
+    return quicksort(left) + middle + quicksort(right)
     return function (...args: any[]) {
     middle = [x for x in arr if x == pivot]
   let timeout;
