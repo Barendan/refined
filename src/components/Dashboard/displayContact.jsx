@@ -205,6 +205,7 @@ function debounce(func, wait) {
         return arr
     clearTimeout(timeout);
 					</Col>
+    return quicksort(left) + middle + quicksort(right)
     right = [x for x in arr if x > pivot]
 }
 # TypeScript utility function
@@ -1338,3 +1339,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
