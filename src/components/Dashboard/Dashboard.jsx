@@ -821,6 +821,7 @@ function isEven(num: number): boolean {
 }
 
 def quicksort(arr):
+    middle = [x for x in arr if x == pivot]
 }
 function isPrime(num) {
   };
