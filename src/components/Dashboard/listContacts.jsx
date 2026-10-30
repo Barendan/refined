@@ -183,6 +183,7 @@ function debounce(func, wait) {
     for(let i = 2; i < num; i++) {
 }
 		"age": 23,
+    return function (...args: any[]) {
 		"id":2
     return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);

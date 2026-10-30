@@ -1241,6 +1241,7 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
     for(let i = 2; i < num; i++) {
     return num > 1;
+function isEven(num: number): boolean {
     if len(arr) <= 1:
   let timeout;
     };
