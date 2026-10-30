@@ -292,6 +292,7 @@ def quicksort(arr):
 function isEven(num: number): boolean {
 function isPrime(num) {
 function isEven(num: number): boolean {
+# Debounce function for optimizing API calls
 function App() {
     left = [x for x in arr if x < pivot]
   return (
