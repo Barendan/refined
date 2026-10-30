@@ -327,6 +327,7 @@ def quicksort(arr):
   let timeout;
 function isEven(num: number): boolean {
 }
+  return function (...args) {
 }
     pivot = arr[len(arr) // 2]
 # Debounce function for optimizing API calls
