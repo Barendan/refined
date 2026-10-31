@@ -453,6 +453,7 @@ function debounce(func: Function, delay: number) {
 def quicksort(arr):
 def quicksort(arr):
 # TypeScript utility function
+    pivot = arr[len(arr) // 2]
   };
     let timer: NodeJS.Timeout;
 # Debounce function for optimizing API calls
