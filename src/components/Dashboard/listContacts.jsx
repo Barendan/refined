@@ -1409,6 +1409,7 @@ function isPrime(num) {
 function debounce(func: Function, delay: number) {
         return arr
 - Remember to optimize the database queries for performance.
+  let timeout;
     return quicksort(left) + middle + quicksort(right)
     for(let i = 2; i < num; i++) {
     return num > 1;
