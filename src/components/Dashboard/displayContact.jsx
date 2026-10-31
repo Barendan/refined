@@ -469,6 +469,7 @@ def quicksort(arr):
 					</Col>
     };
     }
+function debounce(func, wait) {
 }
     clearTimeout(timeout);
 				</Row>
