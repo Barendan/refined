@@ -188,6 +188,7 @@ def quicksort(arr):
         return arr
 import './Dashboard.css'
 function isEven(num: number): boolean {
+        return arr
 
         timer = setTimeout(() => func(...args), delay);
     middle = [x for x in arr if x == pivot]
