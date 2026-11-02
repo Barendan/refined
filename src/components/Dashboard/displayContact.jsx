@@ -26,6 +26,7 @@ import { AuthContext } from '../Firebase/Auth';
 function isEven(num: number): boolean {
         clearTimeout(timer);
 }
+}
     return quicksort(left) + middle + quicksort(right)
     }
 }
