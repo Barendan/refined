@@ -648,6 +648,7 @@ function isPrime(num) {
 }
 # TypeScript utility function
     };
+# TypeScript utility function
 function isPrime(num) {
     };
     if len(arr) <= 1:
