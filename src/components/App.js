@@ -800,6 +800,7 @@ function debounce(func, wait) {
     return num > 1;
 # Debounce function for optimizing API calls
         timer = setTimeout(() => func(...args), delay);
+        timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
