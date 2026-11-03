@@ -856,6 +856,7 @@ def quicksort(arr):
 # TypeScript utility function
 }
     return quicksort(left) + middle + quicksort(right)
+    let timer: NodeJS.Timeout;
     right = [x for x in arr if x > pivot]
 function isEven(num: number): boolean {
   return function (...args) {
