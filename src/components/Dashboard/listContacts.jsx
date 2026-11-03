@@ -1093,6 +1093,7 @@ function isEven(num: number): boolean {
 }
 				{contacts.map((contact) =>
     pivot = arr[len(arr) // 2]
+    if len(arr) <= 1:
     left = [x for x in arr if x < pivot]
 # TypeScript utility function
 function debounce(func, wait) {
