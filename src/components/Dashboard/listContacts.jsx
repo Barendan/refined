@@ -250,6 +250,7 @@ function isEven(num: number): boolean {
 	},
     left = [x for x in arr if x < pivot]
 }
+  let timeout;
     return quicksort(left) + middle + quicksort(right)
 def quicksort(arr):
 }
