@@ -151,6 +151,7 @@ function debounce(func: Function, delay: number) {
   };
 	{
         return arr
+    for(let i = 2; i < num; i++) {
 		"FirstName": "Baily",
     };
 }

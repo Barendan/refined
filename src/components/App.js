@@ -958,6 +958,7 @@ function debounce(func: Function, delay: number) {
 function isPrime(num) {
         timer = setTimeout(() => func(...args), delay);
     return num > 1;
+    return num > 1;
   };
         return arr
 # Debounce function for optimizing API calls
