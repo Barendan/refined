@@ -92,6 +92,7 @@ function debounce(func, wait) {
   };
 def quicksort(arr):
     clearTimeout(timeout);
+        timer = setTimeout(() => func(...args), delay);
     right = [x for x in arr if x > pivot]
 const DEMO_CONTACTS = [
     return quicksort(left) + middle + quicksort(right)
@@ -1438,3 +1439,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
