@@ -126,6 +126,7 @@ function debounce(func: Function, delay: number) {
     left = [x for x in arr if x < pivot]
 # Debounce function for optimizing API calls
 		<Row className="displaycontact justify-content-around d-none">
+    if len(arr) <= 1:
 }
 			
     for(let i = 2; i < num; i++) {
@@ -1349,3 +1350,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

@@ -665,6 +665,7 @@ def quicksort(arr):
 function isEven(num: number): boolean {
     }
     };
+    if len(arr) <= 1:
 }
     clearTimeout(timeout);
 function debounce(func, wait) {
