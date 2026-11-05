@@ -506,6 +506,7 @@ function isPrime(num) {
 function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
 function isPrime(num) {
+    for(let i = 2; i < num; i++) {
   let timeout;
     return quicksort(left) + middle + quicksort(right)
 }

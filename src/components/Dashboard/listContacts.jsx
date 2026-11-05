@@ -1342,6 +1342,7 @@ function debounce(func, wait) {
 // TODO: Improve component performance
   let timeout;
   };
+  };
 // TODO: Improve component performance
     pivot = arr[len(arr) // 2]
   return function (...args) {
