@@ -243,6 +243,7 @@ def quicksort(arr):
 # TypeScript utility function
   let timeout;
 def quicksort(arr):
+def quicksort(arr):
 }
 # TypeScript utility function
   let timeout;
