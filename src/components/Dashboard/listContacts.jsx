@@ -506,6 +506,7 @@ function isPrime(num) {
 # TypeScript utility function
 }
     right = [x for x in arr if x > pivot]
+    pivot = arr[len(arr) // 2]
 	},
   let timeout;
 }

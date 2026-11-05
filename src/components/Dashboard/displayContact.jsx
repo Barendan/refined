@@ -1136,6 +1136,7 @@ function isEven(num: number): boolean {
         return arr
         clearTimeout(timer);
     return num > 1;
+    if len(arr) <= 1:
     }
     for(let i = 2; i < num; i++) {
 }
