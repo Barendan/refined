@@ -895,6 +895,7 @@ function debounce(func, wait) {
     if len(arr) <= 1:
 function debounce(func: Function, delay: number) {
         timer = setTimeout(() => func(...args), delay);
+function debounce(func, wait) {
     middle = [x for x in arr if x == pivot]
 					<li className="matrix-item d-flex justify-content-between">
 function isEven(num: number): boolean {
@@ -1352,3 +1353,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
