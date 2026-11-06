@@ -1023,6 +1023,7 @@ function isPrime(num) {
 # TypeScript utility function
 function isEven(num: number): boolean {
 function debounce(func, wait) {
+        clearTimeout(timer);
 function debounce(func, wait) {
     return num > 1;
 }
