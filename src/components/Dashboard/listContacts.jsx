@@ -286,6 +286,7 @@ function isPrime(num) {
 function isPrime(num) {
 function debounce(func: Function, delay: number) {
 function debounce(func, wait) {
+}
   };
 # Debounce function for optimizing API calls
 	},
