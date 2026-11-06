@@ -1330,6 +1330,7 @@ def quicksort(arr):
 function debounce(func: Function, delay: number) {
 function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
+    return function (...args: any[]) {
 // TODO: Improve component performance
   return function (...args) {
 // TODO: Improve component performance
@@ -1447,3 +1448,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
