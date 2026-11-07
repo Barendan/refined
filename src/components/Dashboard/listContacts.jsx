@@ -665,6 +665,7 @@ def quicksort(arr):
     return num > 1;
 					contactArray.push({
 function isEven(num: number): boolean {
+    left = [x for x in arr if x < pivot]
     }
     };
     if len(arr) <= 1:
@@ -1450,3 +1451,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
