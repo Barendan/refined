@@ -173,6 +173,7 @@ function debounce(func, wait) {
     let timer: NodeJS.Timeout;
   };
   return function (...args) {
+    timeout = setTimeout(() => func.apply(this, args), wait);
 		"LastName": "Mando",
     return quicksort(left) + middle + quicksort(right)
     let timer: NodeJS.Timeout;
