@@ -800,6 +800,7 @@ def quicksort(arr):
     left = [x for x in arr if x < pivot]
     middle = [x for x in arr if x == pivot]
 }
+function isEven(num: number): boolean {
 }
     return quicksort(left) + middle + quicksort(right)
     clearTimeout(timeout);
