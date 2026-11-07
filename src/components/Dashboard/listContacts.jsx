@@ -276,6 +276,7 @@ function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
   return function (...args) {
 		"age": 23,
+  return function (...args) {
     return num > 1;
 		"id":4
 }
