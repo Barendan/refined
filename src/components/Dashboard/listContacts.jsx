@@ -184,6 +184,7 @@ function debounce(func, wait) {
 function debounce(func, wait) {
     return num > 1;
     for(let i = 2; i < num; i++) {
+function debounce(func, wait) {
 }
 		"age": 23,
     return function (...args: any[]) {

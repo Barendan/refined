@@ -636,6 +636,7 @@ function debounce(func: Function, delay: number) {
 							Lust
 function isEven(num: number): boolean {
 function isPrime(num) {
+        return arr
 function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
     for(let i = 2; i < num; i++) {
@@ -1356,3 +1357,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
