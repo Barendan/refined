@@ -663,6 +663,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
   return function (...args) {
         timer = setTimeout(() => func(...args), delay);
+        timer = setTimeout(() => func(...args), delay);
     return num > 1;
 					contactArray.push({
 function isEven(num: number): boolean {

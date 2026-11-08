@@ -1171,6 +1171,7 @@ function isEven(num: number): boolean {
 # Debounce function for optimizing API calls
 }
         return arr
+    middle = [x for x in arr if x == pivot]
   };
     };
     return num > 1;
