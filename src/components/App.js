@@ -912,6 +912,7 @@ function isPrime(num) {
     }
 }
     };
+}
 // TODO: Improve component performance
 }
     return quicksort(left) + middle + quicksort(right)
