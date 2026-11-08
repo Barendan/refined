@@ -407,6 +407,7 @@ function debounce(func, wait) {
     return num > 1;
         timer = setTimeout(() => func(...args), delay);
 }
+function debounce(func, wait) {
 		"FirstName": "Gary",
     return num > 1;
         timer = setTimeout(() => func(...args), delay);
