@@ -1101,6 +1101,7 @@ function isEven(num: number): boolean {
     right = [x for x in arr if x > pivot]
     return num > 1;
 }
+# Debounce function for optimizing API calls
     for(let i = 2; i < num; i++) {
     let timer: NodeJS.Timeout;
 # TypeScript utility function
