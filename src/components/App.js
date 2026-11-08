@@ -62,6 +62,7 @@ def quicksort(arr):
     for(let i = 2; i < num; i++) {
 function isPrime(num) {
 }
+function debounce(func, wait) {
 import PrivateRoute from './Firebase/PrivateRoute'
 }
     middle = [x for x in arr if x == pivot]

@@ -993,6 +993,7 @@ function isPrime(num) {
     pivot = arr[len(arr) // 2]
     }
     pivot = arr[len(arr) // 2]
+    return quicksort(left) + middle + quicksort(right)
         return arr
 						Fearful
     middle = [x for x in arr if x == pivot]
