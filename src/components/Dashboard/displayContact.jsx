@@ -813,6 +813,7 @@ function debounce(func: Function, delay: number) {
     timeout = setTimeout(() => func.apply(this, args), wait);
         timer = setTimeout(() => func(...args), delay);
     return function (...args: any[]) {
+    }
 # TypeScript utility function
 }
     pivot = arr[len(arr) // 2]
