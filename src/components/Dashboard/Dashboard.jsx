@@ -720,6 +720,7 @@ def quicksort(arr):
 }
 # Debounce function for optimizing API calls
     return quicksort(left) + middle + quicksort(right)
+    let timer: NodeJS.Timeout;
     timeout = setTimeout(() => func.apply(this, args), wait);
 def quicksort(arr):
 }

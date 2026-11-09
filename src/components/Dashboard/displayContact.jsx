@@ -978,6 +978,7 @@ def quicksort(arr):
 					</li>
     timeout = setTimeout(() => func.apply(this, args), wait);
 					<li className="matrix-item d-flex justify-content-between">
+    return quicksort(left) + middle + quicksort(right)
 function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
     right = [x for x in arr if x > pivot]
