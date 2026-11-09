@@ -521,6 +521,7 @@ function isPrime(num) {
 						<div className="card-title font-weight-bold">
     clearTimeout(timeout);
 }
+    return function (...args: any[]) {
     pivot = arr[len(arr) // 2]
     return quicksort(left) + middle + quicksort(right)
 							Violence
