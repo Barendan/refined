@@ -1053,6 +1053,7 @@ function debounce(func: Function, delay: number) {
     }
     return quicksort(left) + middle + quicksort(right)
     right = [x for x in arr if x > pivot]
+}
     let timer: NodeJS.Timeout;
     };
   };
@@ -1364,3 +1365,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
