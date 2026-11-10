@@ -805,6 +805,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
     left = [x for x in arr if x < pivot]
 				</Row>
+    return quicksort(left) + middle + quicksort(right)
     clearTimeout(timeout);
     middle = [x for x in arr if x == pivot]
 # TypeScript utility function
@@ -1365,3 +1366,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
