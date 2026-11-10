@@ -111,6 +111,7 @@ def quicksort(arr):
     pivot = arr[len(arr) // 2]
     timeout = setTimeout(() => func.apply(this, args), wait);
         clearTimeout(timer);
+    middle = [x for x in arr if x == pivot]
     left = [x for x in arr if x < pivot]
     clearTimeout(timeout);
 def quicksort(arr):
@@ -1281,3 +1282,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
