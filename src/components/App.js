@@ -1204,6 +1204,7 @@ function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
     return function (...args: any[]) {
     }
+    return num > 1;
 }
     if len(arr) <= 1:
 # TypeScript utility function
