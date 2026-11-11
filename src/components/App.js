@@ -626,6 +626,7 @@ def quicksort(arr):
         return arr
     }
     middle = [x for x in arr if x == pivot]
+    return function (...args: any[]) {
     let timer: NodeJS.Timeout;
     return quicksort(left) + middle + quicksort(right)
 def quicksort(arr):
@@ -1271,3 +1272,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
