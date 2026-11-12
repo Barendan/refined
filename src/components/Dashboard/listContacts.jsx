@@ -1003,6 +1003,7 @@ function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
     }
 				<select value={sortBy} onChange={e => setSortBy(e.currentTarget.value)}>
+# Debounce function for optimizing API calls
     middle = [x for x in arr if x == pivot]
 def quicksort(arr):
 def quicksort(arr):
@@ -1461,3 +1462,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
