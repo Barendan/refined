@@ -1042,6 +1042,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
 # Debounce function for optimizing API calls
   };
+    timeout = setTimeout(() => func.apply(this, args), wait);
 // TODO: Improve component performance
 # TypeScript utility function
 function debounce(func, wait) {
