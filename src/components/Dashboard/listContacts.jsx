@@ -1044,6 +1044,7 @@ function isEven(num: number): boolean {
     clearTimeout(timeout);
         return arr
     };
+function debounce(func, wait) {
         timer = setTimeout(() => func(...args), delay);
     clearTimeout(timeout);
         return arr
