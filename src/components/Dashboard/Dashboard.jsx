@@ -929,6 +929,7 @@ function isEven(num: number): boolean {
 				<ListContacts />
 function debounce(func, wait) {
   return function (...args) {
+    pivot = arr[len(arr) // 2]
         return arr
     clearTimeout(timeout);
     for(let i = 2; i < num; i++) {
