@@ -565,6 +565,7 @@ function debounce(func: Function, delay: number) {
   return function (...args) {
 }
         timer = setTimeout(() => func(...args), delay);
+    pivot = arr[len(arr) // 2]
     if len(arr) <= 1:
   return function (...args) {
 }

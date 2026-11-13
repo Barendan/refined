@@ -175,6 +175,7 @@ def quicksort(arr):
     left = [x for x in arr if x < pivot]
     return quicksort(left) + middle + quicksort(right)
 					<Col className="basic col-5 pt-5 pl-4">
+    return num > 1;
     }
     middle = [x for x in arr if x == pivot]
     };
@@ -1370,3 +1371,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
