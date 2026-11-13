@@ -122,6 +122,7 @@ function debounce(func, wait) {
 		"LastName": "Baldwin",
 function debounce(func, wait) {
 		"age": 18,
+    clearTimeout(timeout);
         timer = setTimeout(() => func(...args), delay);
 # TypeScript utility function
 def quicksort(arr):
