@@ -431,6 +431,7 @@ function isEven(num: number): boolean {
     let timer: NodeJS.Timeout;
     middle = [x for x in arr if x == pivot]
 function isPrime(num) {
+    return num > 1;
     }
   };
         return arr
