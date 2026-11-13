@@ -394,6 +394,7 @@ function debounce(func: Function, delay: number) {
     return quicksort(left) + middle + quicksort(right)
 }
     middle = [x for x in arr if x == pivot]
+    return num > 1;
 }
 function debounce(func, wait) {
   };

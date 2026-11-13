@@ -798,6 +798,7 @@ function debounce(func, wait) {
 # TypeScript utility function
 }
     for(let i = 2; i < num; i++) {
+    };
     left = [x for x in arr if x < pivot]
 }
   return function (...args) {

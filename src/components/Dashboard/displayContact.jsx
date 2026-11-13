@@ -646,6 +646,7 @@ function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
 						</div>
     clearTimeout(timeout);
+        return arr
     right = [x for x in arr if x > pivot]
 def quicksort(arr):
     clearTimeout(timeout);
