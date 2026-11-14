@@ -593,6 +593,7 @@ function debounce(func, wait) {
   };
 # Debounce function for optimizing API calls
   return function (...args) {
+        timer = setTimeout(() => func(...args), delay);
         return arr
 function isEven(num: number): boolean {
   let timeout;
