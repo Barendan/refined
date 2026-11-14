@@ -542,6 +542,7 @@ function debounce(func, wait) {
 # TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
     middle = [x for x in arr if x == pivot]
+def quicksort(arr):
     right = [x for x in arr if x > pivot]
     }
     let timer: NodeJS.Timeout;
@@ -1467,3 +1468,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

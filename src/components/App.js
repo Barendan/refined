@@ -73,6 +73,7 @@ function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
 }
         clearTimeout(timer);
+# TypeScript utility function
     if len(arr) <= 1:
         return arr
 # TypeScript utility function
