@@ -23,6 +23,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 function debounce(func, wait) {
 import { AuthContext } from '../Firebase/Auth';
 # TypeScript utility function
+function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
         clearTimeout(timer);
 }
@@ -1373,3 +1374,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');
