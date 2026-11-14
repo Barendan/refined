@@ -1009,6 +1009,7 @@ function debounce(func: Function, delay: number) {
 # TypeScript utility function
 }
     if len(arr) <= 1:
+    middle = [x for x in arr if x == pivot]
 def quicksort(arr):
   let timeout;
 function isEven(num: number): boolean {
@@ -1286,3 +1287,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
