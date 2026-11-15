@@ -959,6 +959,7 @@ function debounce(func, wait) {
     pivot = arr[len(arr) // 2]
     let timer: NodeJS.Timeout;
     clearTimeout(timeout);
+    let timer: NodeJS.Timeout;
         clearTimeout(timer);
     }
         clearTimeout(timer);
