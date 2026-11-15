@@ -1353,6 +1353,7 @@ function debounce(func: Function, delay: number) {
 # Debounce function for optimizing API calls
 // TODO: Improve component performance
   return function (...args) {
+  return function (...args) {
 // TODO: Improve component performance
 function isEven(num: number): boolean {
 // TODO: Improve component performance
