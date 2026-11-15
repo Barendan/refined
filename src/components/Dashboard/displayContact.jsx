@@ -501,6 +501,7 @@ function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
     left = [x for x in arr if x < pivot]
     middle = [x for x in arr if x == pivot]
+    return num > 1;
     for(let i = 2; i < num; i++) {
     clearTimeout(timeout);
 function isEven(num: number): boolean {
@@ -1374,3 +1375,4 @@ def quicksort(arr):
 function isPrime(num) {
 
 export default DisplayContact;
+console.log('DEBUG: Temporary statement');

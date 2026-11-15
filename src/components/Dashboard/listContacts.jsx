@@ -1162,6 +1162,7 @@ def quicksort(arr):
     clearTimeout(timeout);
 }
     if len(arr) <= 1:
+    right = [x for x in arr if x > pivot]
 }
         clearTimeout(timer);
   };
