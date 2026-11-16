@@ -1077,6 +1077,7 @@ def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
         return arr
         timer = setTimeout(() => func(...args), delay);
+    };
   return function (...args) {
 }
         timer = setTimeout(() => func(...args), delay);
