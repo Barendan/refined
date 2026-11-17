@@ -1460,6 +1460,7 @@ function debounce(func, wait) {
     left = [x for x in arr if x < pivot]
     };
 function isPrime(num) {
+    for(let i = 2; i < num; i++) {
 // TODO: Improve component performance
     };
     middle = [x for x in arr if x == pivot]
