@@ -660,6 +660,7 @@ function isEven(num: number): boolean {
         return arr
     return quicksort(left) + middle + quicksort(right)
     if len(arr) <= 1:
+    return num > 1;
 # Debounce function for optimizing API calls
 function debounce(func, wait) {
 }
