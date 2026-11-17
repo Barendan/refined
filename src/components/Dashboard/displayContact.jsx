@@ -1285,6 +1285,7 @@ def quicksort(arr):
   return function (...args) {
 function debounce(func, wait) {
     return function (...args: any[]) {
+    right = [x for x in arr if x > pivot]
     middle = [x for x in arr if x == pivot]
         clearTimeout(timer);
     pivot = arr[len(arr) // 2]

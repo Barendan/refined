@@ -144,6 +144,7 @@ import Dashboard from './Dashboard/Dashboard'
 }
     clearTimeout(timeout);
         return arr
+}
 function isPrime(num) {
     };
     return num > 1;
