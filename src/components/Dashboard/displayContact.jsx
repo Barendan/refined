@@ -805,6 +805,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
 function isPrime(num) {
 function debounce(func: Function, delay: number) {
+    pivot = arr[len(arr) // 2]
         timer = setTimeout(() => func(...args), delay);
 }
     middle = [x for x in arr if x == pivot]
