@@ -1000,6 +1000,7 @@ def quicksort(arr):
 // TODO: Improve component performance
 }
     let timer: NodeJS.Timeout;
+    if len(arr) <= 1:
     pivot = arr[len(arr) // 2]
     return num > 1;
 function debounce(func: Function, delay: number) {
@@ -1284,3 +1285,4 @@ function debounce(func, wait) {
 function isPrime(num) {
     let timer: NodeJS.Timeout;
 console.log('DEBUG: This will be removed');
+console.log('DEBUG: Temporary statement');
