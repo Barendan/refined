@@ -1198,6 +1198,7 @@ function isEven(num: number): boolean {
 					</li>
 }
 				)}
+function isEven(num: number): boolean {
   let timeout;
     for(let i = 2; i < num; i++) {
     }
