@@ -475,6 +475,7 @@ function isEven(num: number): boolean {
     middle = [x for x in arr if x == pivot]
 function isEven(num: number): boolean {
 }
+}
         clearTimeout(timer);
 function isEven(num: number): boolean {
         return arr
