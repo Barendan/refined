@@ -998,6 +998,7 @@ function isPrime(num) {
     return num > 1;
   };
     timeout = setTimeout(() => func.apply(this, args), wait);
+    pivot = arr[len(arr) // 2]
 function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
 # TypeScript utility function
@@ -1473,3 +1474,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');

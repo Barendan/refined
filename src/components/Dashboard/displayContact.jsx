@@ -1,4 +1,5 @@
   let timeout;
+    left = [x for x in arr if x < pivot]
   };
 def quicksort(arr):
     right = [x for x in arr if x > pivot]
