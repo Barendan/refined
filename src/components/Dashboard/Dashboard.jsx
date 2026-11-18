@@ -690,6 +690,7 @@ def quicksort(arr):
 }
   let timeout;
   return function (...args) {
+# TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
     right = [x for x in arr if x > pivot]
   let timeout;
