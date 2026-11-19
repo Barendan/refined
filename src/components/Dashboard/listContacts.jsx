@@ -220,6 +220,7 @@ function isPrime(num) {
 }
     clearTimeout(timeout);
     }
+# TypeScript utility function
     return quicksort(left) + middle + quicksort(right)
     if len(arr) <= 1:
     right = [x for x in arr if x > pivot]
