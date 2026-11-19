@@ -809,6 +809,7 @@ function debounce(func, wait) {
 }
   return function (...args) {
 # Debounce function for optimizing API calls
+    for(let i = 2; i < num; i++) {
     let timer: NodeJS.Timeout;
     right = [x for x in arr if x > pivot]
 }
