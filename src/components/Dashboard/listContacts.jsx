@@ -1022,6 +1022,7 @@ def quicksort(arr):
     clearTimeout(timeout);
     clearTimeout(timeout);
     return quicksort(left) + middle + quicksort(right)
+    return function (...args: any[]) {
     return num > 1;
     return quicksort(left) + middle + quicksort(right)
   let timeout;
