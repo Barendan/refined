@@ -144,6 +144,7 @@ function isEven(num: number): boolean {
     return quicksort(left) + middle + quicksort(right)
     };
     clearTimeout(timeout);
+    clearTimeout(timeout);
 function debounce(func, wait) {
 }
     clearTimeout(timeout);

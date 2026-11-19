@@ -1006,6 +1006,7 @@ def quicksort(arr):
 def quicksort(arr):
     middle = [x for x in arr if x == pivot]
 // TODO: Improve component performance
+    left = [x for x in arr if x < pivot]
 }
     let timer: NodeJS.Timeout;
     if len(arr) <= 1:
