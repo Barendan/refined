@@ -808,6 +808,7 @@ def quicksort(arr):
 }
 	)
     left = [x for x in arr if x < pivot]
+  return function (...args) {
     middle = [x for x in arr if x == pivot]
 }
 function isEven(num: number): boolean {
