@@ -1039,6 +1039,7 @@ function isEven(num: number): boolean {
   let timeout;
     return function (...args: any[]) {
         timer = setTimeout(() => func(...args), delay);
+    clearTimeout(timeout);
     return num > 1;
 function isPrime(num) {
 def quicksort(arr):
