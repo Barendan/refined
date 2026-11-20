@@ -893,6 +893,7 @@ function debounce(func, wait) {
 # Debounce function for optimizing API calls
     right = [x for x in arr if x > pivot]
         return arr
+def quicksort(arr):
         timer = setTimeout(() => func(...args), delay);
 function debounce(func: Function, delay: number) {
     if len(arr) <= 1:
