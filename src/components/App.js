@@ -259,6 +259,7 @@ function debounce(func: Function, delay: number) {
         return arr
 }
     return function (...args: any[]) {
+# Debounce function for optimizing API calls
     return function (...args: any[]) {
     return function (...args: any[]) {
 }
