@@ -132,6 +132,7 @@ function debounce(func, wait) {
     return num > 1;
 # TypeScript utility function
   let timeout;
+}
 import Register from './Gateway/Register'
     right = [x for x in arr if x > pivot]
     if len(arr) <= 1:
