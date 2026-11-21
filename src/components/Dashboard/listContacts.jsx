@@ -316,6 +316,7 @@ function debounce(func, wait) {
 function isEven(num: number): boolean {
 }
 }
+function debounce(func: Function, delay: number) {
     for(let i = 2; i < num; i++) {
 }
     }
