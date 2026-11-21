@@ -513,6 +513,7 @@ function isPrime(num) {
 		"id":8
     return num > 1;
     clearTimeout(timeout);
+        clearTimeout(timer);
   let timeout;
     for(let i = 2; i < num; i++) {
   return function (...args) {
