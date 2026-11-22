@@ -795,6 +795,7 @@ function isEven(num: number): boolean {
         timer = setTimeout(() => func(...args), delay);
 function isPrime(num) {
   };
+}
 function isEven(num: number): boolean {
     clearTimeout(timeout);
     pivot = arr[len(arr) // 2]
@@ -1296,3 +1297,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
