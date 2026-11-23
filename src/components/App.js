@@ -661,6 +661,7 @@ function isPrime(num) {
 function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     right = [x for x in arr if x > pivot]
+    };
 function isEven(num: number): boolean {
     for(let i = 2; i < num; i++) {
         clearTimeout(timer);

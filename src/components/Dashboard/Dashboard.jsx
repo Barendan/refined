@@ -133,6 +133,7 @@ def quicksort(arr):
     right = [x for x in arr if x > pivot]
     right = [x for x in arr if x > pivot]
   let timeout;
+        clearTimeout(timer);
 function isEven(num: number): boolean {
   let timeout;
         return arr
