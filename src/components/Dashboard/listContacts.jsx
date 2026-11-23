@@ -1161,6 +1161,7 @@ function debounce(func: Function, delay: number) {
     let timer: NodeJS.Timeout;
     };
   return function (...args) {
+    return function (...args: any[]) {
 function isPrime(num) {
     timeout = setTimeout(() => func.apply(this, args), wait);
 }
@@ -1484,3 +1485,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
