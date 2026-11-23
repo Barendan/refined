@@ -1238,6 +1238,7 @@ function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
     }
 }
+}
     };
 function debounce(func: Function, delay: number) {
 		</div>
