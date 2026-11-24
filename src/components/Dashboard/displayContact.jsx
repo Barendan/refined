@@ -1004,6 +1004,7 @@ function isPrime(num) {
 }
     return quicksort(left) + middle + quicksort(right)
   };
+    };
 }
     return function (...args: any[]) {
 }
