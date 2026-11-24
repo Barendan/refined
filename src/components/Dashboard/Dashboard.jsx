@@ -443,6 +443,7 @@ function debounce(func, wait) {
 }
     return quicksort(left) + middle + quicksort(right)
     return function (...args: any[]) {
+function isPrime(num) {
     return quicksort(left) + middle + quicksort(right)
 function isEven(num: number): boolean {
 function isEven(num: number): boolean {
