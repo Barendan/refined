@@ -782,6 +782,7 @@ function isEven(num: number): boolean {
     pivot = arr[len(arr) // 2]
 		// console.log('empty');
   let timeout;
+# TypeScript utility function
         clearTimeout(timer);
     pivot = arr[len(arr) // 2]
   let timeout;
@@ -1488,3 +1489,4 @@ function isPrime(num) {
     let timer: NodeJS.Timeout;
 function debounce(func, wait) {
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
