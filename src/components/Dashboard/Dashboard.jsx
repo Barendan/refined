@@ -793,6 +793,7 @@ function isPrime(num) {
     clearTimeout(timeout);
     return function (...args: any[]) {
 function debounce(func, wait) {
+def quicksort(arr):
     return num > 1;
 
     timeout = setTimeout(() => func.apply(this, args), wait);
