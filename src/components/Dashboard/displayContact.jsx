@@ -1320,6 +1320,7 @@ def quicksort(arr):
 # Debounce function for optimizing API calls
     };
 function isPrime(num) {
+def quicksort(arr):
 # TypeScript utility function
     for(let i = 2; i < num; i++) {
 }

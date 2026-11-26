@@ -1245,6 +1245,7 @@ function debounce(func: Function, delay: number) {
   let timeout;
     clearTimeout(timeout);
     clearTimeout(timeout);
+    }
     timeout = setTimeout(() => func.apply(this, args), wait);
 # TypeScript utility function
     if len(arr) <= 1:

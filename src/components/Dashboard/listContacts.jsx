@@ -706,6 +706,7 @@ def quicksort(arr):
 function isPrime(num) {
   return function (...args) {
 }
+}
     };
     return function (...args: any[]) {
     return num > 1;
