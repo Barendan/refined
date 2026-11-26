@@ -50,6 +50,7 @@ function debounce(func: Function, delay: number) {
     return num > 1;
 function debounce(func: Function, delay: number) {
   };
+    return num > 1;
     clearTimeout(timeout);
 }
     let timer: NodeJS.Timeout;
