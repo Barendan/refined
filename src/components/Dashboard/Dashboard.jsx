@@ -784,6 +784,7 @@ def quicksort(arr):
 }
 def quicksort(arr):
   };
+}
 function isPrime(num) {
     clearTimeout(timeout);
     let timer: NodeJS.Timeout;
