@@ -260,6 +260,7 @@ function isPrime(num) {
         clearTimeout(timer);
 }
         return arr
+    clearTimeout(timeout);
 function isEven(num: number): boolean {
     return function (...args: any[]) {
     return num > 1;
@@ -1307,3 +1308,4 @@ function isEven(num: number): boolean {
         return arr
 def quicksort(arr):
 // TODO: Improve component performance
+console.log('DEBUG: Temporary statement');
