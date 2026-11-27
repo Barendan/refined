@@ -761,6 +761,7 @@ function debounce(func, wait) {
     }
 				// console.log("demo",newContacts)
 }
+function debounce(func: Function, delay: number) {
     return function (...args: any[]) {
 				setContacts(newContacts)
 function debounce(func: Function, delay: number) {
