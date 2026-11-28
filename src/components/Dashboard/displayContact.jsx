@@ -28,6 +28,7 @@ import { AuthContext } from '../Firebase/Auth';
 function debounce(func: Function, delay: number) {
 function isEven(num: number): boolean {
         clearTimeout(timer);
+    middle = [x for x in arr if x == pivot]
 }
 }
     return quicksort(left) + middle + quicksort(right)
